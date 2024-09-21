@@ -1,0 +1,5 @@
+<svg viewBox="0 0 1000 100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+		<path class="ux-shape-fill" opacity="0.15" d="M0 14C0 14 88.64 17.48 300 50C560 90 814 77 1003 40L1015 68L1018 104H0V14Z"/>
+		<path class="ux-shape-fill" opacity="0.3" d="M0 45C0 45 271 90.13 500 77C657 68 830 30 1015 14V100H0V45Z"/>
+		<path class="ux-shape-fill" d="M0 58C0 58 188.29 90 508 90C798 90 1002 55 1002 55V100H0V58Z"/>
+</svg>

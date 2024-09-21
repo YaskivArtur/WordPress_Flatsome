@@ -1,0 +1,19 @@
+{
+  "name": "flatsome/uxbuilder",
+  "category": "common",
+  "supports": {
+    "html": true,
+    "align": false,
+    "inserter": false,
+    "reusable": false,
+    "className": false,
+    "customClassName": false,
+    "defaultStylePicker": false
+  },
+  "attributes": {
+    "content": {
+      "type": "string",
+      "source": "html"
+    }
+  }
+}

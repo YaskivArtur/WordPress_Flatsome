@@ -1,0 +1,1813 @@
+# Copyright (C) 2023 UX-Themes
+# This file is distributed under the https://themeforest.net/licenses.
+msgid ""
+msgstr ""
+"Project-Id-Version: l10n-flatsome\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/flatsome\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-08-06T17:28:08+00:00\n"
+"PO-Revision-Date: 2023-08-06 17:53\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: flatsome\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Crowdin-Project: l10n-flatsome\n"
+"X-Crowdin-Project-ID: 561865\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: /master/flatsome/languages/flatsome.pot\n"
+"X-Crowdin-File-ID: 2957\n"
+"Language: ar_SA\n"
+
+#. Theme Name of the theme
+#: inc/admin/admin-notice.php:77
+msgid "Flatsome"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://flatsome.uxthemes.com"
+msgstr ""
+
+#. Description of the theme
+msgid "Multi-Purpose Responsive WooCommerce Theme"
+msgstr ""
+
+#. Author of the theme
+msgid "UX-Themes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://uxthemes.com"
+msgstr ""
+
+#: 404.php:23
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "لا يمكن العثور على الصفحة."
+
+#: 404.php:26
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "يبدو أنه لم يتم العثور على أي شيء في هذا الموقع. ربما جرب أحد الروابط أدناه أو ابحث؟"
+
+#. translators: %1$s: Comment count, %2$s: Comment title
+#: comments.php:34
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "لا توجد تعليقات على &ldquo;%2$s&rdquo;"
+msgstr[1] "تعليق واحد على &ldquo;%2$s&rdquo;"
+msgstr[2] "تعليقان اثنان على &ldquo;%2$s&rdquo;"
+msgstr[3] "%1$s تعليقات على &ldquo;%2$s&rdquo;"
+msgstr[4] "%1$s تعليق على &ldquo;%2$s&rdquo;"
+msgstr[5] "%1$s فكرة بخصوص &ldquo;%2$s&rdquo;"
+
+#: comments.php:49
+msgid "Comment navigation"
+msgstr "تصفّح التعليقات"
+
+#: comments.php:51
+msgid "Older Comments"
+msgstr "التعليقات الأقدم"
+
+#: comments.php:52
+msgid "Newer Comments"
+msgstr "التعليقات الأحدث"
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "تخطي للمحتوى"
+
+#: image.php:27
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "تتم النشر في <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> على <a href=\"%3$s\" title=\"الرابط الى لعرض الصورة بالحجم الكامل\">%4$s &times; %5$s</a> في <a href=\"%6$s\" title=\"الرجوع الى %7$s\" rel=\"gallery\">%8$s</a>"
+
+#: image.php:39
+#: image.php:109
+#: inc/structure/structure-posts.php:168
+#: inc/structure/structure-posts.php:197
+msgid "Edit"
+msgstr "تحرير"
+
+#: image.php:101
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"أنشر تعليق\">أنشر تعليق</a> أو أترك تعقيب: <a class=\"trackback-link\" href=\"%s\" title=\"رابط التعقيب للمنشور الخاص بك\" rel=\"trackback\">رابط التعقيب</a>."
+
+#: image.php:103
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "التعليقات مغلقة ولكن تستطيع ترك تعقيب: <a class=\"trackback-link\" href=\"%s\" title=\"رابط الـ URL لتعقيب منشورك\" rel=\"trackback\">رابط الـ URL للتعقيب</a>."
+
+#: image.php:105
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "تعقيبات معلقة ولكن تستطيع <a class=\"comment-link\" href=\"#respond\" title=\"أنشر تعليق\">نشر تعليق</a>."
+
+#: image.php:107
+msgid "Both comments and trackbacks are currently closed."
+msgstr "كل من التعليقات والتعقيبات مغلقة حالياً."
+
+#: image.php:114
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=“meta-nav”>&rarr;</span> السابق"
+
+#: image.php:115
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "التالي <span class=\"meta-nav\">&larr;</span>"
+
+#: inc/admin/admin-bar.php:82
+msgid "Activate Theme"
+msgstr "تفعيل الثيم"
+
+#: inc/admin/admin-notice.php:21
+msgid "<a href=\"%s\">Please enter your purchase code</a> to activate Flatsome and get one-click updates."
+msgstr "<a href=\"%s\">الرجاء إدخال رمز الشراء</a> لتفعيل Flatsome والحصول على تحديثات بنقرة واحدة."
+
+#: inc/admin/admin-notice.php:32
+msgid "Flatsome issues"
+msgstr "مشكلات Flatsome"
+
+#: inc/admin/admin-notice.php:38
+#: inc/functions/function-site-health.php:74
+msgid "Manage registration"
+msgstr "إدارة التسجيل"
+
+#: inc/admin/admin-notice.php:43
+#: inc/functions/function-site-health.php:79
+#: template-parts/admin/envato/register-form.php:105
+msgid "Manage your licenses"
+msgstr "إدارة الرخص الخاصة بك"
+
+#. translators: %1$s: Theme name, %2$s: The URL to the status page.
+#: inc/admin/admin-notice.php:81
+msgid "<strong>Your theme (%1$s) contains outdated copies of some Flatsome template files.</strong> These files may need updating to ensure they are compatible with the current version of Flatsome. Suggestions:"
+msgstr "<strong>التيم (%1$s) الخاص بك يحتوي على نسخ غير محدثة لبعض ملفات قالب Flatsome.</strong> ربما تحتاج هذه الملفات للتحديث ليتحقق توافقها مع النسخة الحالية من Flatsome. الاقتراحات:"
+
+#: inc/admin/admin-notice.php:84
+msgid "If you copied over a template file to change something, then you will need to copy the new version of the template and apply your changes again."
+msgstr "إذا قمت بنسخ مِلَفّ القالب لتغيير شيء ما حينها ستحتاج لنسخ الإصدار الجديد من القالب وتطبيق التغيرات الخاصة بك مرة أخرى."
+
+#: inc/admin/admin-notice.php:85
+msgid "If you are unfamiliar with code/templates and resolving potential conflicts, reach out to a developer for assistance."
+msgstr "إذا كنت غير معتاد على الشفرة البرمجية / القوالب لحل التعارضات المحتملة فتواصل مع المطور للمساعدة."
+
+#: inc/admin/admin-notice.php:88
+msgid "Learn more about templates"
+msgstr "أعرف المزيد عن القوالب"
+
+#: inc/admin/admin-notice.php:91
+msgid "View affected templates"
+msgstr "عرض القوالب المتأثرة"
+
+#: inc/admin/advanced/functions/functions.facebook.php:162
+msgid "Connect Instagram Business accounts"
+msgstr "أربط حسابات انستغرام التجارية"
+
+#: inc/admin/advanced/functions/functions.facebook.php:169
+#: inc/admin/advanced/functions/functions.facebook.php:178
+msgid "Okay"
+msgstr "حسناً"
+
+#: inc/admin/advanced/functions/functions.facebook.php:174
+msgid "No associated Instagram Business account was found for your Facebook user."
+msgstr "لم يتم العثور على حساب انستغرام تجاري مرتبط مع حساب فيسبوك الخاص بك."
+
+#: inc/admin/advanced/functions/functions.facebook.php:229
+msgid "Cancel"
+msgstr "الغاء"
+
+#: inc/admin/advanced/functions/functions.facebook.php:232
+msgid "Connect"
+msgstr "اتصال"
+
+#: inc/admin/backend/menu/class-menu.php:91
+msgid "Flatsome menu item options"
+msgstr "خيارات عنصر قائمة Flatsome"
+
+#: inc/admin/backend/menu/class-menu.php:95
+msgid "Menu dropdown"
+msgstr "القائمة المنسدلة"
+
+#: inc/admin/backend/menu/class-menu.php:98
+msgid "Design"
+msgstr "التصميم"
+
+#: inc/admin/backend/menu/class-menu.php:100
+msgid "Default"
+msgstr "الافتراضي"
+
+#: inc/admin/backend/menu/class-menu.php:101
+msgid "Default (custom size)"
+msgstr "الافتراضي (حجم مخصص)"
+
+#: inc/admin/backend/menu/class-menu.php:102
+msgid "Container width"
+msgstr "عرض الحاوية"
+
+#: inc/admin/backend/menu/class-menu.php:103
+msgid "Full width"
+msgstr "العرض الكامل"
+
+#: inc/admin/backend/menu/class-menu.php:106
+msgid "Select dropdown design."
+msgstr "اختيار تصميم الانسدال."
+
+#: inc/admin/backend/menu/class-menu.php:110
+#: inc/admin/backend/menu/class-menu.php:161
+#: inc/admin/options/header/options-header-nav-vertical.php:55
+#: inc/admin/options/header/options-header-nav-vertical.php:146
+msgid "Width"
+msgstr "العرض"
+
+#: inc/admin/backend/menu/class-menu.php:116
+msgid "Height (optional)"
+msgstr "الارتفاع (اختياري)"
+
+#: inc/admin/backend/menu/class-menu.php:122
+#: inc/widgets/widget-blocks.php:88
+msgid "UX Block"
+msgstr "بنى UX"
+
+#: inc/admin/backend/menu/class-menu.php:134
+msgid "Reveal"
+msgstr "تجلي"
+
+#: inc/admin/backend/menu/class-menu.php:136
+msgid "On hover"
+msgstr "عند التحويم"
+
+#: inc/admin/backend/menu/class-menu.php:137
+msgid "On click"
+msgstr "عند النقر"
+
+#: inc/admin/backend/menu/class-menu.php:143
+msgid "Menu icon"
+msgstr "أيقونة القائمة"
+
+#: inc/admin/backend/menu/class-menu.php:146
+msgid "Icon type"
+msgstr "نوع الأيقونة"
+
+#: inc/admin/backend/menu/class-menu.php:148
+msgid "Media library"
+msgstr "مكتبة الوسائط"
+
+#: inc/admin/backend/menu/class-menu.php:149
+msgid "Custom content"
+msgstr "محتوى مخصص"
+
+#: inc/admin/backend/menu/class-menu.php:165
+#: inc/admin/options/header/options-header-nav-vertical.php:41
+msgid "Height"
+msgstr "الارتفاع"
+
+#: inc/admin/backend/menu/class-menu.php:168
+msgid "Icons default (empty) to 20x20."
+msgstr "الأيقونات الافتراضية (فارغة) إلى 20x20."
+
+#: inc/admin/backend/menu/class-menu.php:173
+msgid "Markup"
+msgstr "الترميز"
+
+#: inc/admin/backend/menu/class-menu.php:176
+msgid "Add any HTML, SVG or shortcode here."
+msgstr "إضافة أي صيغة HTML أو SVG أو شفرة مختصرة هنا."
+
+#: inc/admin/backend/menu/class-menu.php:247
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:222
+msgid "Select image"
+msgstr "اختر صورة"
+
+#: inc/admin/backend/menu/class-menu.php:252
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:223
+msgid "Remove"
+msgstr "إزالة"
+
+#: inc/admin/classes/class-status.php:548
+#: inc/admin/classes/class-status.php:576
+msgid "Theme"
+msgstr "الثيم"
+
+#: inc/admin/classes/class-status.php:549
+#: inc/admin/classes/class-status.php:689
+msgid "WordPress environment"
+msgstr "بيئة WordPress"
+
+#: inc/admin/classes/class-status.php:550
+#: inc/admin/classes/class-status.php:801
+msgid "Server environment"
+msgstr "بيئة الخادم"
+
+#: inc/admin/classes/class-status.php:551
+#: inc/admin/classes/class-status.php:883
+#: inc/functions/function-site-health.php:31
+#: inc/functions/function-site-health.php:52
+msgid "Security"
+msgstr "الأمان"
+
+#: inc/admin/classes/class-status.php:552
+#: inc/admin/classes/class-status.php:939
+msgid "Database"
+msgstr "قاعدة البيانات"
+
+#: inc/admin/classes/class-status.php:553
+#: inc/admin/classes/class-status.php:977
+msgid "Templates"
+msgstr "القوالب"
+
+#: inc/admin/classes/class-status.php:557
+msgid "More details"
+msgstr "المزيد من التفاصيل"
+
+#: inc/admin/classes/class-status.php:582
+msgid "Name"
+msgstr "الاسم"
+
+#: inc/admin/classes/class-status.php:584
+msgid "The name of the current active theme."
+msgstr "الاسم للثيم المفعل حالياً."
+
+#: inc/admin/classes/class-status.php:589
+msgid "Version"
+msgstr "الإصدار"
+
+#: inc/admin/classes/class-status.php:591
+msgid "The version of the current active theme."
+msgstr "الإصدارللثيم المفعل حالياً."
+
+#: inc/admin/classes/class-status.php:596
+msgid "Author URL"
+msgstr "رابط المؤلف"
+
+#: inc/admin/classes/class-status.php:598
+msgid "The theme developers URL."
+msgstr "رابط مطوري الثيم."
+
+#: inc/admin/classes/class-status.php:603
+msgid "Registered"
+msgstr "مسجل"
+
+#: inc/admin/classes/class-status.php:605
+msgid "Displays whether or not the theme is registered."
+msgstr "عرض فيما إذا كان الثيم مسجل أم لا."
+
+#: inc/admin/classes/class-status.php:612
+#: inc/functions/function-site-health.php:28
+msgid "You should register Flatsome with a purchase code"
+msgstr "يجب عليك تسجيل Flatsome برمز الشراء"
+
+#: inc/admin/classes/class-status.php:618
+msgid "Child theme"
+msgstr "الثيم الفرعي"
+
+#: inc/admin/classes/class-status.php:620
+msgid "Displays whether or not the current active theme is a child theme."
+msgstr "يعرض فيما إذا كان الثيم المفعل حالياً هو ثيم فرعي أم لا."
+
+#. translators: %s: Docs link.
+#: inc/admin/classes/class-status.php:628
+msgid "If you are modifying Flatsome on the parent theme we recommend using a child theme. See: <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">How to create a child theme</a>"
+msgstr "إذا كنت تعدل على Flatsome من الثيم الأصل فنحن نفضل استخدام الثيم الفرعي. أنظر: <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">كيف تنشئ ثيم فرعي</a>"
+
+#: inc/admin/classes/class-status.php:634
+msgid "Release channel"
+msgstr "قناة الإصدار"
+
+#: inc/admin/classes/class-status.php:636
+msgid "Which updates to receive on this site."
+msgstr "ما التحديثات التي يتلقاها هذا الموقع."
+
+#: inc/admin/classes/class-status.php:650
+msgid "Parent theme name"
+msgstr "اسم الموضوع الرئيسي"
+
+#: inc/admin/classes/class-status.php:652
+msgid "The name of the parent theme."
+msgstr "اسم الموضوع الرئيسي."
+
+#: inc/admin/classes/class-status.php:657
+msgid "Parent theme version"
+msgstr "إصدار سمة الأصل"
+
+#: inc/admin/classes/class-status.php:659
+msgid "The installed version of the parent theme."
+msgstr "النسخة المثبتة من الموضوع الرئيسي."
+
+#: inc/admin/classes/class-status.php:664
+msgid "Parent theme author URL"
+msgstr "URL كاتب الموضوع الرئيسي"
+
+#: inc/admin/classes/class-status.php:666
+msgid "The parent theme developers URL."
+msgstr "عنوان URL لمطوري الموضوع الرئيسي."
+
+#: inc/admin/classes/class-status.php:695
+msgid "WordPress version"
+msgstr "إصدار WordPress"
+
+#: inc/admin/classes/class-status.php:697
+msgid "The installed WordPress version (indicates the fulfillment of the minimum required version)."
+msgstr "إصدار WordPress المثبت (يشير إلى استيفاء الحد الأدنى من الإصدار المطلوب)."
+
+#. translators: %s: The minimum required WP version number.
+#: inc/admin/classes/class-status.php:706
+msgid "The theme requires WordPress version %s or above."
+msgstr "الثيم يتطلب الإصدار %s من WordPress أو أعلى."
+
+#: inc/admin/classes/class-status.php:718
+msgid "WooCommerce version"
+msgstr "إصدار WooCommerce"
+
+#: inc/admin/classes/class-status.php:720
+msgid "The installed WooCommerce version (indicates the fulfillment of the minimum required version)."
+msgstr "إصدار WooCommerce المثبت (يشير إلى استيفاء الحد الأدنى من الإصدار المطلوب)."
+
+#. translators: %s: The minimum required WC version number.
+#: inc/admin/classes/class-status.php:729
+msgid "The theme requires WooCommerce version %s or above."
+msgstr "الثيم يتطلب الإصدار %s من WooCommerce أو أعلى."
+
+#: inc/admin/classes/class-status.php:741
+msgid "WordPress memory limit"
+msgstr "حد الذاكرة للـ WordPress"
+
+#: inc/admin/classes/class-status.php:743
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr "الحد الأقصى لكمية الذاكرة (RAM) التي يمكن لموقعك استخدامها في وقت واحد."
+
+#. translators: %1$s: Memory limit, %2$s: Docs link.
+#: inc/admin/classes/class-status.php:750
+msgid "%1$s - We recommend setting memory to at least 256MB. See: %2$s"
+msgstr "%1$s - نحن نوصي بضبط الذاكرة لتكون في الأقل 256 ميغابايت. انظر: %2$s"
+
+#. translators: %1$s: Memory limit, %2$s: Docs link.
+#: inc/admin/classes/class-status.php:750
+msgid "Increasing memory allocated to PHP"
+msgstr "زيادة الذاكرة المخصصة لـ PHP"
+
+#: inc/admin/classes/class-status.php:757
+msgid "WordPress image sizes"
+msgstr "أحجام الصورة في WordPress"
+
+#: inc/admin/classes/class-status.php:759
+msgid "The image sizes that are registered on this site."
+msgstr "أحجام الصورة المسجلة بهذا الموقع."
+
+#: inc/admin/classes/class-status.php:807
+msgid "Server info"
+msgstr "معلومات الخادم"
+
+#: inc/admin/classes/class-status.php:808
+msgid "Information about the web server that is currently hosting your site."
+msgstr "معلومات عن خادم الويب الذي يستضيف موقعك حاليا."
+
+#: inc/admin/classes/class-status.php:812
+msgid "PHP version"
+msgstr "إصدار PHP"
+
+#: inc/admin/classes/class-status.php:814
+msgid "The version of PHP installed on your hosting server."
+msgstr "إصدار PHP المثبت على خادم الاستضافة الخاص بك."
+
+#. translators: %s: The recommended PHP version number.
+#: inc/admin/classes/class-status.php:826
+msgid "We recommend using PHP version %s or above for greater performance and security."
+msgstr "نحن نوصي باستخدام الإصدار %s من الـ PHP أو أعلى للأمان ولأداء أكبر."
+
+#: inc/admin/classes/class-status.php:837
+msgid "PHP post max size"
+msgstr "الحجم الأقصى لـ PHP POST"
+
+#: inc/admin/classes/class-status.php:839
+msgid "The largest filesize that can be contained in one post."
+msgstr "أكبر حجم ملف يمكن احتواؤه في وظيفة واحدة."
+
+#: inc/admin/classes/class-status.php:844
+msgid "PHP time limit"
+msgstr "المهلة المحددة لـ PHP"
+
+#: inc/admin/classes/class-status.php:846
+msgid "The amount of time (in seconds) that your site will spend on a single operation before timing out (to avoid server lockups)."
+msgstr "مقدار الزمن (بالثواني) الذي تستغرقه عملية منفردة في موقعك قبل انقضاء التوقيت (لتفادي شل الخادم)."
+
+#: inc/admin/classes/class-status.php:851
+msgid "PHP max input variables"
+msgstr "الحد الأعلى لإدخال المتغيرات في الـ PHP"
+
+#: inc/admin/classes/class-status.php:853
+msgid "The maximum number of variables your server can use for a single function to avoid overloads."
+msgstr "الحد الأقصى لعدد المتغيرات التي يمكن للخادم استخدامها لدالة واحدة لتجنب التحميل الزائد."
+
+#: inc/admin/classes/class-status.php:859
+msgid "Max upload size"
+msgstr "حجم التحميل الأقصى"
+
+#: inc/admin/classes/class-status.php:861
+msgid "The largest filesize that can be uploaded to your WordPress installation."
+msgstr "أكبر حجم للملف يمكن تحميله إلى تثبيت WordPress الخاص بك."
+
+#: inc/admin/classes/class-status.php:889
+msgid "Secure connection (HTTPS)"
+msgstr "اتصال آمن (HTTPS)"
+
+#: inc/admin/classes/class-status.php:891
+msgid "Is the connection to your site secure?"
+msgstr "هل الاتصال بموقعك آمن؟"
+
+#. translators: %s: Docs link.
+#: inc/admin/classes/class-status.php:900
+msgid "Your site is not using HTTPS. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about HTTPS and SSL Certificates</a>."
+msgstr "موقعك لا يستخدم HTTPS. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">تعلم المزيد عن HTTPS وشهادات الـ SSL</a>."
+
+#: inc/admin/classes/class-status.php:907
+msgid "Hide errors from visitors"
+msgstr "إخفاء الأخطاء عن الزوار"
+
+#: inc/admin/classes/class-status.php:909
+msgid "Error messages can contain sensitive information about your site environment. These should be hidden from untrusted visitors."
+msgstr "رسائل الخطأ يمكن أن تحتوي على معلومات حساسة عن بيئة الموقع الخاص بك. لذا يجب إخفائها عن الزوار غير الموثوقين."
+
+#: inc/admin/classes/class-status.php:916
+msgid "Error messages should not be shown to visitors."
+msgstr "لا ينبغي أن تظهر رسائل الخطأ للزوار."
+
+#: inc/admin/classes/class-status.php:945
+msgid "Flatsome database version"
+msgstr "إصدار قاعدة بيانات Flatsome"
+
+#: inc/admin/classes/class-status.php:947
+msgid "The database version for Flatsome. This should be the same as the parent theme version."
+msgstr "إصدار قاعدة البيانات لـ Flatsome. يجب أن يكون نفس إصدار الثيم الأصل."
+
+#: inc/admin/classes/class-status.php:954
+msgid "This should be the same as the parent theme version."
+msgstr "يجب أن يكون هذا نفس إصدار الثيم الأصل."
+
+#: inc/admin/classes/class-status.php:983
+msgid "Overrides"
+msgstr "التجاوزات"
+
+#: inc/admin/classes/class-status.php:984
+msgid "This section shows any files that are overriding the default Flatsome templates."
+msgstr "يظهر هذا القسم أي ملفات تطغى على قوالب Flatsome الافتراضية."
+
+#. translators: %1$s: Template name, %2$s: Template version, %3$s: Core version.
+#: inc/admin/classes/class-status.php:997
+msgid "%1$s version %2$s is out of date. The core version is %3$s"
+msgstr "إصدار %1$s هو %2$s وهو منتهي الصلاحية. الإصدار الأساسي هو %3$s"
+
+#: inc/admin/envato_setup/envato_setup.php:2010
+msgid "Register Theme"
+msgstr "تسجيل الثيم"
+
+#: inc/admin/envato_setup/envato_setup.php:2031
+msgid "Continue"
+msgstr "استمرار"
+
+#: inc/admin/envato_setup/envato_setup.php:2032
+msgid "Unregister"
+msgstr "غير مسجل"
+
+#: inc/admin/envato_setup/envato_setup.php:2034
+msgid "Register"
+msgstr "تسجيل"
+
+#: inc/admin/gutenberg/class-gutenberg.php:109
+msgid "Edit with UX Builder"
+msgstr "تحرير بواسطة الباني UX"
+
+#: inc/admin/options/blog/options-blog-single.php:85
+msgid "Featured image"
+msgstr "الصورة البارزة"
+
+#: inc/admin/options/blog/options-blog-single.php:101
+msgid "Share icons"
+msgstr "أيقونات المشاركة"
+
+#: inc/admin/options/blog/options-blog-single.php:109
+msgid "Meta"
+msgstr "المعلومات الوصفية"
+
+#: inc/admin/options/blog/options-blog-single.php:117
+msgid "Blog author box"
+msgstr "صندوق المؤلف في المدونة"
+
+#: inc/admin/options/blog/options-blog-single.php:125
+msgid "Next/Prev navigation"
+msgstr "التنقل عبر السابق / التالي"
+
+#: inc/admin/options/blog/options-blog-single.php:133
+msgid "HTML after blog posts"
+msgstr "صيغة HTML بعد منشورات المدونة"
+
+#: inc/admin/options/header/options-header-logo.php:106
+msgid "Logo link"
+msgstr "وصلة الشعار"
+
+#: inc/admin/options/header/options-header-logo.php:107
+msgid "Custom logo link (defaults to home page link if empty)."
+msgstr "وصلة شعار مخصصة (الافتراضي هي وصلة للصفحة الرئيسة إذا كانت خالية)."
+
+#: inc/admin/options/header/options-header-mobile.php:85
+msgid "Menu item behavior"
+msgstr "سلوك عنصر القائمة"
+
+#: inc/admin/options/header/options-header-mobile.php:86
+msgid "Click behavior for menu items with a submenu"
+msgstr "انقر فوق السلوك لعناصر القائمة مع قائمة فرعية"
+
+#: inc/admin/options/header/options-header-mobile.php:91
+msgid "Open link"
+msgstr "فتح الوصلة"
+
+#: inc/admin/options/header/options-header-mobile.php:92
+msgid "Toggle submenu"
+msgstr "التبديل للقائمة الفرعية"
+
+#: inc/admin/options/header/options-header-mobile.php:99
+msgid "Submenu effect"
+msgstr "مؤثر القائمة الفرعية"
+
+#: inc/admin/options/header/options-header-mobile.php:104
+msgid "Accordion"
+msgstr "أكورديون"
+
+#: inc/admin/options/header/options-header-mobile.php:105
+msgid "Slide"
+msgstr "انزلاق"
+
+#: inc/admin/options/header/options-header-mobile.php:119
+msgid "Submenu levels"
+msgstr "مستويات القائمة الفرعية"
+
+#: inc/admin/options/header/options-header-mobile.php:124
+msgid "1 level"
+msgstr "المستوى الاول"
+
+#: inc/admin/options/header/options-header-mobile.php:125
+msgid "2 levels"
+msgstr "المستوى الثاني"
+
+#: inc/admin/options/header/options-header-mobile.php:144
+msgid "Top content"
+msgstr "المحتوى الأعلى"
+
+#: inc/admin/options/header/options-header-mobile.php:153
+msgid "Tabs"
+msgstr "تبويبات"
+
+#: inc/admin/options/header/options-header-mobile.php:157
+msgid "None"
+msgstr "لا شيء"
+
+#: inc/admin/options/header/options-header-mobile.php:158
+msgid "2 Tabs"
+msgstr "علامتا تبويب اثنتين"
+
+#: inc/admin/options/header/options-header-mobile.php:165
+msgid "Tab 1 text"
+msgstr "نص علامة التبويب 1"
+
+#: inc/admin/options/header/options-header-mobile.php:180
+msgid "Menu elements"
+msgstr "عناصر القائمة"
+
+#: inc/admin/options/header/options-header-mobile.php:191
+msgid "Tab 2 text"
+msgstr "نص علامة التبويب 2"
+
+#: inc/admin/options/header/options-header-mobile.php:206
+msgid "Menu elements tab 2"
+msgstr "عناصر القائمة لعلامة التبويب 2"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:9
+#: inc/functions/function-setup.php:71
+msgid "Vertical Menu"
+msgstr "القائمة العمودية"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:28
+msgid "Icon"
+msgstr "الأيقونة"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:69
+msgid "Tag line"
+msgstr "سطر الوسم"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:78
+msgid "Text"
+msgstr "النص"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:87
+#: inc/admin/options/header/options-header-nav-vertical.php:201
+msgid "Text base color"
+msgstr "لون النص الأساسي"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:101
+msgid "Color"
+msgstr "اللون"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:111
+#: inc/admin/options/header/options-header-nav-vertical.php:161
+msgid "Background color"
+msgstr "لون الخلفية"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:128
+msgid "Keep open on front page"
+msgstr "البقاء مفتوحاً في الصفحة الأمامية"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:137
+msgid "Add shadow"
+msgstr "إضافة ظل"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:178
+msgid "Divider"
+msgstr "الفاصل"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:187
+msgid "Nav height"
+msgstr "ارتفاع شريط التنقل"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:215
+msgid "Nav color"
+msgstr "لون شريط التنقل"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:225
+msgid "Nav color :hover"
+msgstr "لون شريط التنقل عند التحويم"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:235
+msgid "Nav background color :hover"
+msgstr "لون خلفية شريط التنقل عند التحويم"
+
+#: inc/admin/options/notifications/options-notifications.php:98
+#: inc/extensions/flatsome-cookie-notice/flatsome-cookie-notice.php:39
+msgid "This site uses cookies to offer you a better browsing experience. By browsing this website, you agree to our use of cookies."
+msgstr "يستخدم هذا الموقع ملفات تعريف الارتباط (الكوكيز) ليقدم لك تجربة تصفح أفضل. من خلال تصفح هذا الموقع ، فإنك توافق على استخدامنا لملفات تعريف الارتباط."
+
+#: inc/admin/options/portfolio/options-portfolio.php:76
+msgid "Show share icons"
+msgstr "إظهار أيقونات المشاركة"
+
+#: inc/admin/options/shop/options-shop-cart-checkout.php:65
+msgid "Boxed Shipping labels"
+msgstr "تسميات شحن صندوقية"
+
+#: inc/admin/options/shop/options-shop-cart-checkout.php:73
+msgid "Show shipping estimate destination"
+msgstr "إظهار وجهة الشحن المقدرة"
+
+#: inc/admin/options/shop/options-shop-category.php:748
+#: inc/admin/options/shop/options-shop-product-page.php:398
+msgid "Color :selected"
+msgstr "اللون: محدد"
+
+#: inc/admin/options/shop/options-shop-product-page.php:40
+#: inc/woocommerce/structure-wc-category-page.php:141
+#: inc/woocommerce/structure-wc-product-page-fields.php:22
+msgid "Custom product layout"
+msgstr "تخطيط منتج مخصص"
+
+#: inc/admin/options/shop/options-shop-product-page.php:359
+msgid "Layout"
+msgstr "التخطيط"
+
+#: inc/admin/options/shop/options-shop-product-page.php:371
+msgid "Tooltip"
+msgstr "أداة التلميح"
+
+#: inc/admin/options/shop/options-shop-product-page.php:372
+msgid "Show a tooltip with the term or term description."
+msgstr "إظهار تلميح مع المصطلح أو وصف المصطلح."
+
+#: inc/admin/options/shop/options-shop-product-page.php:380
+msgid "Inactive out of stock"
+msgstr "نافذ من المخزون غير مفعل"
+
+#: inc/admin/options/shop/options-shop-product-page.php:381
+msgid "Show out of stock items as inactive."
+msgstr "إظهار العناصر النافذة من المخزون على أنها غير مفعلة."
+
+#: inc/admin/options/shop/options-shop-product-page.php:389
+msgid "Disable deselection"
+msgstr "تعطيل إلغاء الاختيار"
+
+#: inc/admin/panel/panel.php:31
+msgid "Sorry, an error occurred while accessing the API."
+msgstr "عذرًا ، حدث خطأ في أثناء الوصول إلى واجهة برمجة التطبيقات."
+
+#: inc/admin/panel/sections/tab-activate.php:12
+msgid "Theme registration"
+msgstr "تسجيل الثيم"
+
+#: inc/admin/panel/sections/tab-activate.php:17
+msgid "Status"
+msgstr "الحالة"
+
+#: inc/classes/class-flatsome-base-registration.php:49
+#: inc/classes/class-flatsome-base-registration.php:58
+#: inc/classes/class-flatsome-base-registration.php:67
+#: inc/classes/class-flatsome-base-registration.php:77
+msgid "Not allowed."
+msgstr "غير مسموح."
+
+#. translators: %s: Time left.
+#: inc/classes/class-flatsome-envato-admin.php:140
+msgid "Please try again in %s."
+msgstr "الرجاء المحاولة مرة أخرى في غضون %s."
+
+#: inc/classes/class-flatsome-envato-admin.php:180
+msgid "You must agree to the Envato License Terms."
+msgstr "يجب أن توافق على شروط رخصة Envato."
+
+#: inc/classes/class-flatsome-envato-registration.php:36
+msgid "Missing token."
+msgstr "رمز مفقود."
+
+#: inc/classes/class-flatsome-envato-registration.php:38
+#: inc/classes/class-flatsome-registration.php:34
+msgid "No purchase code provided."
+msgstr "لم يتم تقديم رمز شراء."
+
+#: inc/classes/class-flatsome-envato-registration.php:99
+#: inc/classes/class-flatsome-registration.php:125
+#: inc/classes/class-flatsome-wupdates-registration.php:88
+msgid "No version received."
+msgstr "لم يتم استلام أي إصدار."
+
+#: inc/classes/class-flatsome-envato-registration.php:103
+#: inc/classes/class-flatsome-registration.php:129
+#: inc/classes/class-flatsome-wupdates-registration.php:92
+msgid "Invalid version received."
+msgstr "تم استلام إصدار غير صالح."
+
+#: inc/classes/class-flatsome-envato-registration.php:133
+#: inc/classes/class-flatsome-registration.php:156
+#: inc/classes/class-flatsome-wupdates-registration.php:118
+msgid "No URL received."
+msgstr "لم يتم استلام عنوان URL."
+
+#: inc/classes/class-flatsome-envato-registration.php:137
+#: inc/classes/class-flatsome-registration.php:160
+#: inc/classes/class-flatsome-wupdates-registration.php:122
+msgid "Invalid URL received."
+msgstr "تم استلام عنوان URL غير صالح."
+
+#: inc/classes/class-flatsome-registration.php:36
+msgid "The provided value seems to be a token. Please register with a purchase code instead."
+msgstr "يبدو أن القيمة المقدمة هي رمز مميز. الرجاء التسجيل برمز الشراء بدلاً من ذلك."
+
+#: inc/classes/class-flatsome-registration.php:38
+msgid "Invalid purchase code."
+msgstr "رمز شراء غير صالح."
+
+#: inc/classes/class-flatsome-registration.php:55
+msgid "Your site is registered. But the purchase code could not be verified at the moment."
+msgstr "تم تسجيل موقعك. لكن لا يمكن التحقق من رمز الشراء في الوقت الحالي."
+
+#: inc/classes/class-flatsome-registration.php:102
+#: inc/classes/class-flatsome-registration.php:145
+msgid "No purchase code."
+msgstr "لا يوجد رمز شراء."
+
+#: inc/classes/class-flatsome-wupdates-registration.php:70
+#: inc/classes/class-flatsome-wupdates-registration.php:108
+msgid "Missing purchase code."
+msgstr "رمز الشراء مفقود."
+
+#. translators: %d: The status code.
+#: inc/classes/class-uxthemes-api.php:78
+msgid "Sorry, an error occurred while accessing the API. Error %d"
+msgstr "عذرًا ، حدث خطأ خلال الوصول إلى واجهة برمجة التطبيقات. الخطأ %d"
+
+#: inc/classes/class-uxthemes-api.php:118
+msgid "Your purchase code is malformed."
+msgstr "رمز الشراء الخاص بك مشوه."
+
+#: inc/classes/class-uxthemes-api.php:121
+msgid "Sorry, an error occurred. Please try again."
+msgstr "عذراً، حدث خطأ. الرجاء المحاولة مرة أخرى."
+
+#: inc/classes/class-uxthemes-api.php:124
+msgid "Flatsome was unable to get the latest version. Your site might have changed domain after you registered it."
+msgstr "تعذّر على Flatsome من الحصول على أحدث إصدار. ربما يكون موقعك قد غير النطاق بعد تسجيله."
+
+#: inc/classes/class-uxthemes-api.php:129
+msgid "Flatsome was unable to get the latest version because the purchase code has not been verified yet. Please re-register it in order to receive updates."
+msgstr "تعذّر على Flatsome الحصول على أحدث إصدار لعدم التحقق من رمز الشراء لحد الآن. يرجى إعادة تسجيله كي تلقي التحديثات."
+
+#: inc/classes/class-uxthemes-api.php:134
+msgid "The purchase code is malformed or does not belong to a Flatsome sale."
+msgstr "رمز الشراء مشوه أو لا ينتمي إلى بيع Flatsome."
+
+#. translators: %s: License manager link attributes.
+#: inc/classes/class-uxthemes-api.php:138
+msgid "The registration was not found for <a%s>your account</a>. It was only deleted on this site."
+msgstr "لم يتم العثور على عملية تسجيل لـ <a%s>حسابك</a>. لقد تم حذفه فقط على هذا الموقع."
+
+#. translators: %s: License manager link attributes.
+#: inc/classes/class-uxthemes-api.php:142
+msgid "Flatsome was unable to get the latest version. Your registration might have been deleted from <a%s>your account</a>."
+msgstr "تعذّر على Flatsome الحصول على أحدث إصدار. ربما قد تم حذف تسجيلك للثيم من <a%s>حسابك</a>."
+
+#: inc/classes/class-uxthemes-api.php:145
+msgid "Flatsome was unable to get the latest version. Your purchase code is malformed."
+msgstr "تعذّر على Flatsome من الحصول على أحدث إصدار. رمز الشراء الخاص بك مشوه."
+
+#. translators: %s: License manager link attributes.
+#: inc/classes/class-uxthemes-api.php:151
+msgid "Your purchase code has been used on too many sites. Please go to <a%s>your account</a> and manage your licenses."
+msgstr "رمز الشراء الخاص بك تم استخدامه في الكثير من المواقع. الرجاء الذَّهاب إلى <a%s>حسابك</a> لإدارة الرخص الخاصة بك."
+
+#. translators: %s: License manager link attributes.
+#: inc/classes/class-uxthemes-api.php:154
+msgid "The purchase code is already registered on another site. Please go to <a%s>your account</a> and manage your licenses."
+msgstr "رمز الشراء مسجل فعلًا في موقع آخر. الرجاء الذَّهاب إلى <a%s>حسابك</a> لإدارة الرخص الخاصة بك."
+
+#: inc/classes/class-uxthemes-api.php:157
+msgid "Your purchase code has been blocked. Please contact support to resolve the issue."
+msgstr "تم حظر رمز الشراء الخاص بك. يرجى الاتصال بالدعم لحل المشكلة."
+
+#: inc/classes/class-uxthemes-api.php:160
+msgid "The purchase code does not belong to a Flatsome sale."
+msgstr "رمز الشراء لا ينتمي إلى بيع Flatsome."
+
+#: inc/classes/class-uxthemes-api.php:163
+msgid "Flatsome was unable to get the latest version. The purchase code does not belong to a Flatsome sale."
+msgstr "تعذّر على Flatsome الحصول على أحدث إصدار. رمز الشراء لا ينتمي إلى بيع Flatsome."
+
+#: inc/classes/class-uxthemes-api.php:165
+msgid "The requested resource no longer exists."
+msgstr "لم يعد المورد المطلوب موجودًا."
+
+#: inc/classes/class-uxthemes-api.php:167
+msgid "No domain was sent with the request."
+msgstr "لم يتم إرسال أي نطاق مع الطلب."
+
+#: inc/classes/class-uxthemes-api.php:169
+msgid "Unable to parse the domain for your site."
+msgstr "تعذر تحليل النطاق لموقعك."
+
+#: inc/classes/class-uxthemes-api.php:172
+msgid "Your purchase code has been locked. Please contact support to resolve the issue."
+msgstr "تم قُفْل رمز الشراء الخاص بك. يرجى الاتصال بالدعم لحل المشكلة."
+
+#: inc/classes/class-uxthemes-api.php:174
+msgid "The requested resource has been locked."
+msgstr "تم قُفْل المورد المطلوب."
+
+#: inc/classes/class-uxthemes-api.php:176
+msgid "Sorry, the API is overloaded."
+msgstr "عذرا ، واجهة برمجة التطبيقات محملة فوق طاقتها."
+
+#: inc/classes/class-uxthemes-api.php:178
+msgid "Sorry, the API is unavailable at the moment."
+msgstr "عذرا ، واجهة برمجة التطبيقات غير متوفرة حاليا."
+
+#: inc/extensions/flatsome-cookie-notice/flatsome-cookie-notice.php:50
+msgctxt "cookie notice"
+msgid "More info"
+msgstr "المزيد من المعلومات"
+
+#: inc/extensions/flatsome-cookie-notice/flatsome-cookie-notice.php:60
+msgctxt "cookie notice"
+msgid "Accept"
+msgstr "قبول"
+
+#: inc/extensions/flatsome-infinite-scroll/templates/button.php:2
+msgid "View more"
+msgstr "شاهد المزيد"
+
+#: inc/extensions/flatsome-live-search/flatsome-live-search.php:199
+msgid "No matches found"
+msgstr "لم يتم العثور على تطابق"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:72
+msgid "Swatch size"
+msgstr "حجم نموذج العينة"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:75
+msgid "X Small"
+msgstr "صغير جداً"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:76
+msgid "Small"
+msgstr "صغير"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:77
+msgid "Medium"
+msgstr "متوسط"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:78
+msgid "Large"
+msgstr "كبير"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:79
+msgid "X Large"
+msgstr "كبير جداً"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:81
+msgid "Determines the size of the swatches."
+msgstr "يحدد حجم نماذج العينات."
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:85
+msgid "Swatch shape"
+msgstr "شكل نموذج العينة"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:88
+msgid "Square"
+msgstr "ميدان"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:89
+msgid "Rounded"
+msgstr "مدور"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:90
+msgid "Circle"
+msgstr "دائرة"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:92
+msgid "Determines the shape of the swatches."
+msgstr "يحدد شكل نموذج العينة."
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:96
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:97
+msgid "Use variation images?"
+msgstr "استخدام صور للتنوعات؟"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:98
+msgid "Enable this if you want swatches for this attribute to be auto filled with variation images."
+msgstr "قم بتمكين هذا إذا كنت تريد تعبئة نماذج العينات لهذه السمة تلقائيًا بصور التنوعات."
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:338
+msgid "Value"
+msgstr "القيمة"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches.php:44
+msgid "UX Color"
+msgstr "لون UX"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches.php:45
+msgid "UX Image"
+msgstr "صورة UX"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches.php:46
+msgid "UX Label"
+msgstr "تسمية UX"
+
+#: inc/extensions/flatsome-wc-quick-view/flatsome-quick-view.php:15
+msgid "Quick View"
+msgstr "معاينة سريعة"
+
+#: inc/functions/function-custom-css.php:739
+#: inc/woocommerce/structure-wc-global.php:326
+#: inc/woocommerce/structure-wc-product-box.php:29
+msgid "New"
+msgstr "جديد"
+
+#: inc/functions/function-custom-css.php:740
+msgid "Hot"
+msgstr "رائج"
+
+#: inc/functions/function-custom-css.php:741
+msgid "Sale"
+msgstr "تخفيض"
+
+#: inc/functions/function-custom-css.php:742
+msgid "Popular"
+msgstr "شعبي"
+
+#. translators: %s: The label
+#: inc/functions/function-register.php:55
+msgid "Follow on %s"
+msgstr "تابعنا على %s"
+
+#: inc/functions/function-setup.php:65
+#: inc/functions/function-setup.php:189
+msgid "Main Menu"
+msgstr "القائمة الرئيسية"
+
+#: inc/functions/function-setup.php:66
+msgid "Main Menu - Mobile"
+msgstr "القائمة الرئيسية - الجوال"
+
+#: inc/functions/function-setup.php:67
+msgid "Secondary Menu"
+msgstr "القائمة الثانوية"
+
+#: inc/functions/function-setup.php:68
+msgid "Footer Menu"
+msgstr "قائمة التذييل"
+
+#: inc/functions/function-setup.php:69
+msgid "Top Bar Menu"
+msgstr "قائمة الشريط العلوي"
+
+#: inc/functions/function-setup.php:70
+msgid "My Account Menu"
+msgstr "قائمة حسابي"
+
+#: inc/functions/function-setup.php:94
+msgid "Sidebar"
+msgstr "الشريط الجانبي"
+
+#: inc/functions/function-setup.php:104
+msgid "Footer 1"
+msgstr "التذييل 1"
+
+#: inc/functions/function-setup.php:114
+msgid "Footer 2"
+msgstr "التذييل 2"
+
+#: inc/functions/function-setup.php:190
+#: inc/shortcodes/accordion.php:116
+#: woocommerce/single-product/tabs/accordian.php:33
+msgid "Toggle"
+msgstr "تبديل"
+
+#: inc/functions/function-site-health.php:11
+msgid "Flatsome registration"
+msgstr "تسجيل Flatsome"
+
+#: inc/functions/function-site-health.php:36
+#: template-parts/admin/envato/register-form.php:38
+msgid "Your copy of Flatsome is registered with a personal Envato token. Please register Flatsome with a purchase code instead to ensure your site receives updates in the future."
+msgstr "نسختك من Flatsome مسجلة برمز Envato الشخصي. يرجى تسجيل Flatsome برمز شراء بدلاً من ذلك للتأكد من أن موقعك سيتلقى التحديثات في المستقبل."
+
+#: inc/functions/function-site-health.php:41
+msgid "Register with a purchase code now"
+msgstr "التسجيل الآن برمز شراء"
+
+#: inc/functions/function-site-health.php:49
+msgid "Flatsome is registered"
+msgstr "تم تسجيل Flatsome"
+
+#: inc/functions/function-site-health.php:55
+msgid "Register Flatsome to receive updates."
+msgstr "سجّل Flatsome لتلقي التحديثات."
+
+#: inc/functions/function-site-health.php:61
+msgid "Flatsome is not registered"
+msgstr "لم يتم تسجيل Flatsome"
+
+#: inc/functions/function-site-health.php:65
+msgid "Register now"
+msgstr "سجل الآن"
+
+#: inc/functions/function-site-health.php:69
+msgid "Flatsome was unable to receive the latest update"
+msgstr "لم يتمكن Flatsome من تلقي آخر تحديث"
+
+#: inc/integrations/wc-yith-wishlist/yith-wishlist.php:61
+#: inc/integrations/wc-yith-wishlist/yith-wishlist.php:82
+msgid "Wishlist"
+msgstr "قائمة الرغبات"
+
+#. translators: %s: Comment count
+#: inc/shortcodes/blog_posts.php:291
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "بلا تعليقات"
+msgstr[1] "تعليق واحد"
+msgstr[2] "تعليقان اثنان"
+msgstr[3] "%s تعليقات"
+msgstr[4] "%s تعليقاً"
+msgstr[5] "%s تعليق"
+
+#: inc/shortcodes/follow.php:121
+#: inc/shortcodes/follow.php:122
+msgid "Follow on Facebook"
+msgstr "تابعنا على Facebook"
+
+#: inc/shortcodes/follow.php:135
+#: inc/shortcodes/follow.php:136
+msgid "Follow on Instagram"
+msgstr "تابعنا على Instagram"
+
+#: inc/shortcodes/follow.php:149
+#: inc/shortcodes/follow.php:150
+msgid "Follow on TikTok"
+msgstr "تابعنا على TikTok"
+
+#: inc/shortcodes/follow.php:166
+#: inc/shortcodes/follow.php:167
+msgid "Follow on SnapChat"
+msgstr "تابعنا على SnapChat"
+
+#: inc/shortcodes/follow.php:173
+msgid "Point the SnapChat camera at this to add us to SnapChat."
+msgstr "وجه الكاميرة في SnapChat إلى هذا لإضافتنا إلى SnapChat."
+
+#: inc/shortcodes/follow.php:185
+#: inc/shortcodes/follow.php:186
+msgid "Follow on Twitter"
+msgstr "تابعنا على Twitter"
+
+#: inc/shortcodes/follow.php:199
+#: inc/shortcodes/follow.php:200
+msgid "Send us an email"
+msgstr "أرسل لنا بريدا إلكترونياً"
+
+#: inc/shortcodes/follow.php:213
+#: inc/shortcodes/follow.php:214
+msgid "Call us"
+msgstr "أتصل بنا هاتفيا"
+
+#: inc/shortcodes/follow.php:227
+#: inc/shortcodes/follow.php:228
+msgid "Follow on Pinterest"
+msgstr "تابعنا على Pinterest"
+
+#: inc/shortcodes/follow.php:241
+#: inc/shortcodes/follow.php:242
+msgid "Subscribe to RSS"
+msgstr "الإشتراك بـ RSS"
+
+#: inc/shortcodes/follow.php:255
+#: inc/shortcodes/follow.php:256
+msgid "Follow on LinkedIn"
+msgstr "تابعنا على LinkedIn"
+
+#: inc/shortcodes/follow.php:269
+#: inc/shortcodes/follow.php:270
+msgid "Follow on YouTube"
+msgstr "تابعنا على YouTube"
+
+#: inc/shortcodes/follow.php:283
+#: inc/shortcodes/follow.php:284
+msgid "Flickr"
+msgstr "Flickr"
+
+#: inc/shortcodes/follow.php:297
+#: inc/shortcodes/follow.php:298
+msgid "Follow on 500px"
+msgstr "تابعنا على 500px"
+
+#: inc/shortcodes/follow.php:311
+#: inc/shortcodes/follow.php:312
+msgid "Follow on VKontakte"
+msgstr "تابعنا على VKontakte"
+
+#: inc/shortcodes/follow.php:325
+#: inc/shortcodes/follow.php:326
+msgid "Follow on Telegram"
+msgstr "تابعنا على Telegram"
+
+#: inc/shortcodes/follow.php:339
+#: inc/shortcodes/follow.php:340
+msgid "Follow on Twitch"
+msgstr "تابعنا على Twitch"
+
+#: inc/shortcodes/follow.php:353
+#: inc/shortcodes/follow.php:354
+msgid "Follow on Discord"
+msgstr "تابعنا على Discord"
+
+#: inc/shortcodes/portfolio.php:146
+#: woocommerce/product-searchform.php:39
+msgid "All"
+msgstr "الكل"
+
+#: inc/shortcodes/sections.php:154
+msgid "Scroll for more"
+msgstr "تمرير من أجل المزيد"
+
+#: inc/shortcodes/share.php:96
+#: inc/shortcodes/share.php:97
+msgid "Share on WhatsApp"
+msgstr "مشاركة على WhatsApp"
+
+#: inc/shortcodes/share.php:111
+#: inc/shortcodes/share.php:112
+msgid "Share on Facebook"
+msgstr "مشاركة على فيسبوك"
+
+#: inc/shortcodes/share.php:125
+#: inc/shortcodes/share.php:126
+msgid "Share on Twitter"
+msgstr "المشاركة على تويتر"
+
+#. translators: %s: the share link.
+#: inc/shortcodes/share.php:137
+msgid "Check this out: %s"
+msgstr "تحقق من هذا: %s"
+
+#: inc/shortcodes/share.php:141
+#: inc/shortcodes/share.php:142
+msgid "Email to a Friend"
+msgstr "أرسل لصديق كبريد إلكتروني"
+
+#: inc/shortcodes/share.php:159
+#: inc/shortcodes/share.php:160
+msgid "Pin on Pinterest"
+msgstr "ثبّت على Pinterest"
+
+#: inc/shortcodes/share.php:173
+#: inc/shortcodes/share.php:174
+msgid "Share on VKontakte"
+msgstr "المشاركة على VKontakte"
+
+#: inc/shortcodes/share.php:187
+#: inc/shortcodes/share.php:188
+msgid "Share on LinkedIn"
+msgstr "مشاركة على Linkedin"
+
+#: inc/shortcodes/share.php:201
+#: inc/shortcodes/share.php:202
+msgid "Share on Tumblr"
+msgstr "المشاركة على Tumblr"
+
+#: inc/shortcodes/share.php:215
+#: inc/shortcodes/share.php:216
+msgid "Share on Telegram"
+msgstr "المشاركة على Telegram"
+
+#: inc/shortcodes/ux_instagram_feed.php:52
+msgid "Please select an Instagram account"
+msgstr "الرجاء تحديد حساب Instagram"
+
+#: inc/shortcodes/ux_instagram_feed.php:222
+msgid "Unable to communicate with Instagram."
+msgstr "تعذّر الاتصال بـ Instagram."
+
+#: inc/shortcodes/ux_instagram_feed.php:224
+msgid "An error occurred while retrieving media"
+msgstr "حدث خطأ خلال استرداد الوسائط"
+
+#: inc/structure/structure-portfolio.php:50
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr "الرئيسية"
+
+#: inc/structure/structure-posts.php:139
+msgid "<span class=\"icon-angle-left\"></span> Older posts"
+msgstr "<span class=\"icon-angle-left\"></span> المنشورات الأقدم"
+
+#: inc/structure/structure-posts.php:144
+msgid "Newer posts <span class=\"icon-angle-right\"></span>"
+msgstr "المنشورات الأحدث <span class=\"icon-angle-right\"></span>"
+
+#: inc/structure/structure-posts.php:168
+msgid "Pingback:"
+msgstr "التنبيه:"
+
+#: inc/structure/structure-posts.php:184
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"يقول\">يقول:</span>"
+
+#: inc/structure/structure-posts.php:186
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك في انتظار الموافقة."
+
+#: inc/structure/structure-posts.php:195
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s في %2$s"
+
+#. translators: %1$s: post date, %2$s: post author
+#: inc/structure/structure-posts.php:236
+msgctxt "post date by post author"
+msgid "<span class=\"posted-on\">Posted on %1$s</span> <span class=\"byline\">by %2$s</span>"
+msgstr "<span class=\"posted-on\">منشور في %1$s</span> <span class=\"byline\">بواسطة %2$s</span>"
+
+#: inc/widgets/widget-blocks.php:17
+msgid "Display a UX Block."
+msgstr "يعرض لبنة UX."
+
+#: inc/widgets/widget-blocks.php:21
+msgid "Flatsome UX Blocks"
+msgstr "لبنات UX من Flatsome"
+
+#: inc/widgets/widget-blocks.php:85
+#: inc/widgets/widget-recent-posts.php:129
+#: inc/widgets/widget-upsell.php:120
+msgid "Title"
+msgstr "العنوان"
+
+#: inc/widgets/widget-recent-posts.php:18
+msgid "Display recent posts in Flatsome format."
+msgstr "عرض أحدث المنشورات بتنسيق Flatsome."
+
+#: inc/widgets/widget-recent-posts.php:22
+msgid "Flatsome Recent Posts"
+msgstr "أحدث المنشورات من Flatsome"
+
+#: inc/widgets/widget-recent-posts.php:49
+msgid "Recent Posts"
+msgstr "أحدث المنشورات"
+
+#: inc/widgets/widget-recent-posts.php:86
+#: template-parts/posts/partials/entry-footer-single.php:33
+#: template-parts/posts/partials/entry-footer.php:33
+msgid "<strong>1</strong> Comment"
+msgstr "تعليق <strong>واحد</strong>"
+
+#: inc/widgets/widget-recent-posts.php:86
+#: template-parts/posts/partials/entry-footer-single.php:33
+#: template-parts/posts/partials/entry-footer.php:33
+msgid "<strong>%</strong> Comments"
+msgstr "التعليقات<strong>%</strong>"
+
+#: inc/widgets/widget-recent-posts.php:132
+msgid "Number of posts to show"
+msgstr "عدد المنشورات المراد عرضها"
+
+#: inc/widgets/widget-recent-posts.php:136
+msgid "Show thumbnail"
+msgstr "عرض الصور المصغرة"
+
+#: inc/widgets/widget-recent-posts.php:139
+msgid "Show date stamp on thumbnail"
+msgstr "إظهار طابع التأريخ على الصورة المصغرة"
+
+#: inc/widgets/widget-recent-posts.php:140
+msgid "* If the \"Show Thumbnail\" option is disabled or no featured image is set, the date stamp will be displayed."
+msgstr "* إذا تم تعطيل الخِيار \"إظهار الصورة المصغرة\" أو لم يتم تعيين أي صورة بارزة ، فسيتم عرض طابع التأريخ."
+
+#: inc/widgets/widget-upsell.php:20
+msgid "Add upsell products to product pages."
+msgstr "إضافة منتجات الارتقاء بالصفقة لصفحات المنتج."
+
+#: inc/widgets/widget-upsell.php:48
+#: inc/widgets/widget-upsell.php:116
+msgid "Complete the look"
+msgstr "أكمل المظهر"
+
+#: inc/woocommerce/structure-wc-category-page.php:97
+#: inc/woocommerce/structure-wc-product-page-fields.php:31
+msgid "Top Content"
+msgstr "المحتوى العلوي"
+
+#: inc/woocommerce/structure-wc-category-page.php:102
+msgid "Enter a value for this field. Shortcodes are allowed. This will be displayed at top of the category."
+msgstr "أدخل قيمة لهذا الحقل. الشفرات المختصرة مسموح بها. سيتم عرض هذا في أعلى التصنيف."
+
+#: inc/woocommerce/structure-wc-category-page.php:119
+#: inc/woocommerce/structure-wc-product-page-fields.php:38
+msgid "Bottom Content"
+msgstr "المحتوى السفلي"
+
+#: inc/woocommerce/structure-wc-category-page.php:124
+msgid "Enter a value for this field. Shortcodes are allowed. This will be displayed at bottom of the category."
+msgstr "أدخل قيمة لهذا الحقل. الشفرات المختصرة مسموح بها. سيتم عرض هذا في أسفل التصنيف."
+
+#: inc/woocommerce/structure-wc-category-page.php:152
+msgid "Choose a custom product block layout for this category."
+msgstr "اختر تخطيط مخصص لهذه الفئة."
+
+#: inc/woocommerce/structure-wc-checkout.php:166
+msgid "I have read and agree"
+msgstr "لقد قرأت وأوافق"
+
+#: inc/woocommerce/structure-wc-global.php:90
+msgid "Shop Sidebar"
+msgstr "شريط المتجر الجانبي"
+
+#: inc/woocommerce/structure-wc-global.php:99
+msgid "Product Sidebar"
+msgstr "الشريط الجانبي للمنتج"
+
+#: inc/woocommerce/structure-wc-global.php:258
+msgid "Posts found"
+msgstr "المنشورات التي تم العثور عليها"
+
+#: inc/woocommerce/structure-wc-global.php:271
+msgid "Pages found"
+msgstr "الصفحات التي تم العثور عليها"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:17
+msgid "Product layout"
+msgstr "تخطيط المنتج"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:24
+msgid "Choose a custom product block layout for this product."
+msgstr "اختر تخطيط مخصص لهذا المنتج."
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:33
+msgid "Enter content that will show after the header and before the product. Shortcodes are allowed"
+msgstr "أدخل المحتوى الذي سيظهر بعد العنوان وقبل المنتج. الشفرات المختصرة مسموح بها"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:40
+msgid "Enter content that will show after the product info. Shortcodes are allowed"
+msgstr "أدخل المحتوى الذي سيظهر بعد معلومات المنتج. الشفرات المختصرة مسموح بها"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:46
+msgid "Extra"
+msgstr "إضافي"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:52
+msgid "Enable a custom bubble on this product."
+msgstr "تمكين فقاعة مخصصة على هذا المنتج."
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:82
+msgid "Custom Tab Content"
+msgstr "محتوى علامة تبويب المخصصة"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:84
+msgid "Enter content for custom product tab here. Shortcodes are allowed"
+msgstr "أدخل محتوى لعلامة تبويب المنتج المخصصة هنا. الشفرات المختصرة مسموح بها"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:93
+msgid "Product Video"
+msgstr "فیدیو المنتج"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:95
+msgid "Enter a Youtube or Vimeo Url of the product video here. We recommend uploading your video to Youtube."
+msgstr "أدخل عنوان URL لـ Youtube أو Vimeo لفيديو المنتج هنا. نوصي برفع الفيديو الخاص بك على Youtube."
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:110
+msgid "Select where you want to display product video."
+msgstr "حدد المكان الذي تريده لعرض فيديو المنتج."
+
+#: inc/woocommerce/structure-wc-product-page.php:73
+#: inc/woocommerce/structure-wc-product-page.php:139
+msgid "Video"
+msgstr "فيديو"
+
+#: inc/woocommerce/structure-wc-product-page.php:104
+msgid "Zoom"
+msgstr "تكبير"
+
+#. Template Name of the theme
+msgid "Page - Full Width - Parallax Title"
+msgstr "الصفحة - العرض الكامل - زيغان العنوان"
+
+#. Template Name of the theme
+msgid "Page - No Header / No Footer"
+msgstr "الصفحة - بلا ترويسة / بلا تذييل"
+
+#. Template Name of the theme
+msgid "Page - Vertical Sub-Nav"
+msgstr "الصفحة - تنقل فرعي عمودي"
+
+#. Template Name of the theme
+msgid "Page - Container - Center Title"
+msgstr "الصفحة - الحاوية - عنوان في المنتصف"
+
+#. Template Name of the theme
+msgid "Page - Full Width"
+msgstr "الصفحة - العرض الكامل"
+
+#. Template Name of the theme
+msgid "WooCommerce - Cart"
+msgstr "WooCommerce - سلة التسوق"
+
+#. Template Name of the theme
+msgid "WooCommerce - Checkout"
+msgstr "WooCommerce - التحاسب"
+
+#. Template Name of the theme
+msgid "Portfolio"
+msgstr "معرض الاعمال"
+
+#. Template Name of the theme
+msgid "Page - Full Width - Header on Scroll"
+msgstr "الصفحة - العرض الكامل - الترويسة عند التمرير"
+
+#. Template Name of the theme
+msgid "Page - Left Sidebar"
+msgstr "الصفحة - شريط جانبي أيسر"
+
+#. Template Name of the theme
+msgid "WooCommerce - My Account"
+msgstr "WooCommerce - حسابي"
+
+#. Template Name of the theme
+msgid "Page - Right Sidebar"
+msgstr "الصفحة - شريط جانبي أيمن"
+
+#. Template Name of the theme
+msgid "Page - Single Page Nav - Transparent Header - Light Text"
+msgstr "الصفحة - صفحة بتنقل منفرد - ترويسة شفافة - نص فاتح"
+
+#. Template Name of the theme
+msgid "Page - Single Page Nav - Transparent Header"
+msgstr "الصفحة - صفحة بتنقل منفرد - ترويسة شفافة"
+
+#. Template Name of the theme
+msgid "Page - Single Page Nav"
+msgstr "الصفحة - صفحة بتنقل منفرد"
+
+#. Template Name of the theme
+msgid "Page - Full Width - Transparent Header - Light Text"
+msgstr "الصفحة - العرض الكامل - ترويسة شفافة - نص فاتح"
+
+#. Template Name of the theme
+msgid "Page - Full Width - Transparent Header"
+msgstr "الصفحة - العرض الكامل - ترويسة شفافة"
+
+#: searchform.php:18
+#: woocommerce/product-searchform.php:65
+msgid "Submit"
+msgstr "إرسال"
+
+#. translators: 1. Template
+#: template-parts/admin/envato/directory-warning.php:13
+msgid "An unusual theme directory name was detected: <em>%s</em>. The Flatsome parent theme should be installed in a directory named <em>flatsome</em> to ensure updates are handled correctly."
+msgstr "تم اكتشاف اسم مجلد قالب غير مألوف: <em>%s</em>. قالب Flatsome الرئيسي يجب أن يتم تنصيبه في مجلد باسم <em>flatsome</em> لضمان التعامل مع التحديثات بشكل صحيح."
+
+#: template-parts/admin/envato/register-form.php:25
+msgid "Your site is <strong>registered</strong>. Thank you! Enjoy Flatsome and one-click updates."
+msgstr "لقد تم <strong>تسجيل</strong> الموقع الخاص بك. شكراً لك! استمتع مع قالب Flatsome والتحديثات بنقرة واحدة."
+
+#: template-parts/admin/envato/register-form.php:39
+msgid "The selector below will show available purchase codes you can register with."
+msgstr "سيُظهر المحدد أدناه رموز الشراء المتاحة التي يمكنك التسجيل بها."
+
+#: template-parts/admin/envato/register-form.php:42
+msgid "Select a purchase code:"
+msgstr "اختيار رمز شراء:"
+
+#: template-parts/admin/envato/register-form.php:60
+msgid "Registered domain:"
+msgstr "النطاق المسجل:"
+
+#: template-parts/admin/envato/register-form.php:121
+msgid "Are you sure you want to unregister Flatsome?"
+msgstr "هل أنت متأكد أنك تريد إلغاء تسجيل Flatsome؟"
+
+#. translators: 1: Version.
+#: template-parts/admin/envato/version-info-iframe.php:15
+msgid "Version %s"
+msgstr "الإصدار %s"
+
+#: template-parts/admin/envato/version-info-iframe.php:18
+msgid "Read change log here"
+msgstr "قراءة سجل التغيير هنا"
+
+#: template-parts/footer/back-to-top.php:22
+msgid "Go to top"
+msgstr "اذهب إلى الأعلى"
+
+#: template-parts/header/partials/element-contact-mobile.php:38
+#: template-parts/header/partials/element-contact.php:33
+msgid "Location"
+msgstr "الموقع"
+
+#: template-parts/header/partials/element-contact-mobile.php:47
+#: template-parts/header/partials/element-contact.php:52
+msgid "Contact"
+msgstr "جهة الاتصال"
+
+#: template-parts/header/partials/element-menu-icon.php:13
+#: template-parts/header/partials/element-menu-icon.php:17
+#: template-parts/overlays/overlay-menu.php:45
+msgid "Menu"
+msgstr "القائمة"
+
+#: template-parts/header/partials/element-nav-vertical.php:33
+#: template-parts/overlays/overlay-menu.php:50
+msgid "Categories"
+msgstr "التصنيفات"
+
+#: template-parts/posts/content-none.php:14
+msgid "Nothing Found"
+msgstr "لم يتم العثور على شيء"
+
+#: template-parts/posts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "هل أنت جاهز لنشر أول منشوراتك؟ <a href=\"%1$s\">ابدأ من هنا</a>."
+
+#: template-parts/posts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "عذراً، ولكن لم نجد ما يتطابق مع مفردات بحثك الرجاء حاول مرة أخرى مع بعض الكلمات المختلفة."
+
+#: template-parts/posts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "يبدو أننا لا نستطيع العثور على ما تبحث عنه. ربما البحث يمكن أن يساعدك."
+
+#. translators: used between list items, there is a space after the comma
+#: template-parts/posts/content-single.php:31
+#: template-parts/posts/content-single.php:34
+#: template-parts/posts/partials/entry-footer-single.php:14
+#: template-parts/posts/partials/entry-footer-single.php:22
+#: template-parts/posts/partials/entry-footer.php:14
+#: template-parts/posts/partials/entry-footer.php:22
+#: template-parts/posts/partials/entry-title.php:12
+#: template-parts/posts/partials/entry-title.php:17
+msgid ", "
+msgstr "، "
+
+#: template-parts/posts/content-single.php:39
+msgid "This entry was posted in %1$s and tagged %2$s."
+msgstr "هذا القيد تم نشره في %1$s وتم وسمه %2$s."
+
+#: template-parts/posts/content-single.php:41
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "هذا القيد تم نشره في %1$s. ضعا شارة مرجعية للـ <a href=\"%3$s\" title=\"وصلة دائميه إلى %4$s\" rel=\"bookmark\">وصلة دائميه</a>."
+
+#: template-parts/posts/content.php:15
+#: template-parts/posts/content.php:19
+#: template-parts/posts/featured-posts.php:29
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "متابعة القراءة <span class=\"meta-nav\">&larr;</span>"
+
+#: template-parts/posts/loop/post-simple.php:32
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "بلا تعليقات"
+msgstr[1] "تعليق واحد"
+msgstr[2] "تعليقان أثنان"
+msgstr[3] "%1$s تعليقات"
+msgstr[4] "%1$s تعليق"
+msgstr[5] "%1$s تعليق"
+
+#: template-parts/posts/partials/archive-title.php:17
+msgid "Category Archives: %s"
+msgstr "فئة الآرشيفات: %s"
+
+#: template-parts/posts/partials/archive-title.php:20
+msgid "Tag Archives: %s"
+msgstr "وسم الآرشيف: %s"
+
+#: template-parts/posts/partials/archive-title.php:23
+msgid "Search Results for: %s"
+msgstr "نتائج البحث لـ :  %s"
+
+#: template-parts/posts/partials/archive-title.php:30
+msgid "Author Archives: %s"
+msgstr "أرشيفات المؤلف: %s"
+
+#: template-parts/posts/partials/archive-title.php:38
+msgid "Daily Archives: %s"
+msgstr "الأرشيفات اليومية: %s"
+
+#: template-parts/posts/partials/archive-title.php:41
+msgid "Monthly Archives: %s"
+msgstr "الأرشيفات الشهرية: %s"
+
+#: template-parts/posts/partials/archive-title.php:44
+msgid "Yearly Archives: %s"
+msgstr "الأرشيفات السنوية: %s"
+
+#: template-parts/posts/partials/archive-title.php:47
+msgid "Asides"
+msgstr "الجوانب"
+
+#: template-parts/posts/partials/archive-title.php:50
+msgid "Images"
+msgstr "الصور"
+
+#: template-parts/posts/partials/archive-title.php:53
+msgid "Videos"
+msgstr "مقاطع الفيديو"
+
+#: template-parts/posts/partials/archive-title.php:56
+msgid "Quotes"
+msgstr "الاقتباسات"
+
+#: template-parts/posts/partials/archive-title.php:59
+msgid "Links"
+msgstr "الوصلات"
+
+#: template-parts/posts/partials/entry-footer-single.php:17
+#: template-parts/posts/partials/entry-footer.php:17
+msgid "Posted in %1$s"
+msgstr "منشور في %1$s"
+
+#: template-parts/posts/partials/entry-footer-single.php:27
+#: template-parts/posts/partials/entry-footer.php:27
+msgid "Tagged %1$s"
+msgstr "موسوم %1$s"
+
+#: template-parts/posts/partials/entry-footer-single.php:33
+#: template-parts/posts/partials/entry-footer.php:33
+msgid "Leave a comment"
+msgstr "اترك تعليقًا"
+
+#: woocommerce/checkout/header-small.php:36
+#: woocommerce/checkout/header.php:38
+msgid "Shopping Cart"
+msgstr "سلة التسوق"
+
+#: woocommerce/checkout/header-small.php:41
+#: woocommerce/checkout/header.php:43
+msgid "Checkout details"
+msgstr "معلومات التحاسب"
+
+#: woocommerce/checkout/header-small.php:46
+#: woocommerce/checkout/header.php:48
+msgid "Order Complete"
+msgstr "اكتمل الطلب"
+
+#: woocommerce/checkout/social-login.php:17
+#: woocommerce/myaccount/header.php:71
+msgid "Login with <strong>Facebook</strong>"
+msgstr "تسجيل الدخول بإستخدام <strong>Facebook</strong>"
+
+#: woocommerce/checkout/social-login.php:28
+#: woocommerce/myaccount/header.php:81
+msgid "Login with <strong>Google</strong>"
+msgstr "تسجيل الدخول بإستخدام <strong>Google</strong>"
+
+#: woocommerce/myaccount/form-login-lightbox-left-panel.php:78
+#: woocommerce/myaccount/form-login-lightbox-right-panel.php:120
+msgid "Don't have an account? Register one!"
+msgstr "لا تمتلك حساب؟ قم بتسجيل واحد!"
+
+#: woocommerce/myaccount/form-login-lightbox-left-panel.php:79
+#: woocommerce/myaccount/form-login-lightbox-right-panel.php:121
+msgid "Register an Account"
+msgstr "تسجيل حساب"
+

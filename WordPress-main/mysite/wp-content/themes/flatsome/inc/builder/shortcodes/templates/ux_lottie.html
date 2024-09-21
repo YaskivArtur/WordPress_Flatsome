@@ -1,0 +1,15 @@
+<div id="{{ shortcode.$id }}" class="ux-lottie {{ shortcode.options.class }} {{ shortcode.options.visibility }}">
+  <a href="javascript:void();">
+    <lottie-player class="ux-lottie__player"></lottie-player>
+  </a>
+  <style>
+    #{{ shortcode.$id }} {
+      width: {{ shortcode.options.width }};
+      height: {{ shortcode.options.height }};
+    }
+    #{{ shortcode.$id }} .ux-lottie__player {
+      padding: {{ shortcode.options.padding }};
+      margin: {{ shortcode.options.margin }};
+    }
+  </style>
+</div>

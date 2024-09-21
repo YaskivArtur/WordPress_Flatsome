@@ -1,0 +1,1798 @@
+# Copyright (C) 2023 UX-Themes
+# This file is distributed under the https://themeforest.net/licenses.
+msgid ""
+msgstr ""
+"Project-Id-Version: l10n-flatsome\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/flatsome\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-08-06T17:28:08+00:00\n"
+"PO-Revision-Date: 2023-08-06 17:53\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: flatsome\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: l10n-flatsome\n"
+"X-Crowdin-Project-ID: 561865\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /master/flatsome/languages/flatsome.pot\n"
+"X-Crowdin-File-ID: 2957\n"
+"Language: zh_CN\n"
+
+#. Theme Name of the theme
+#: inc/admin/admin-notice.php:77
+msgid "Flatsome"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://flatsome.uxthemes.com"
+msgstr ""
+
+#. Description of the theme
+msgid "Multi-Purpose Responsive WooCommerce Theme"
+msgstr ""
+
+#. Author of the theme
+msgid "UX-Themes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://uxthemes.com"
+msgstr ""
+
+#: 404.php:23
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "哎呀！ 该页面无法找到。"
+
+#: 404.php:26
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "看起来在这个位置没有发现任何东西。 也许尝试下面的链接之一或搜索？"
+
+#. translators: %1$s: Comment count, %2$s: Comment title
+#: comments.php:34
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s对&ldquo;%2$s&rdquo;的想法"
+
+#: comments.php:49
+msgid "Comment navigation"
+msgstr "评论导航"
+
+#: comments.php:51
+msgid "Older Comments"
+msgstr "旧评论"
+
+#: comments.php:52
+msgid "Newer Comments"
+msgstr "更新的评论"
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr "评论被关闭。"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "跳到内容"
+
+#: image.php:27
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "发表在 <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> 于 <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> 在 <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+
+#: image.php:39
+#: image.php:109
+#: inc/structure/structure-posts.php:168
+#: inc/structure/structure-posts.php:197
+msgid "Edit"
+msgstr "编辑"
+
+#: image.php:101
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">发表评论</a> 或者引用: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">引用地址</a>."
+
+#: image.php:103
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "评论已被关闭，但您可以引用：<a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">引用链接</a>。"
+
+#: image.php:105
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Trackbacks是关闭的，但您可<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">发表评论</a>."
+
+#: image.php:107
+msgid "Both comments and trackbacks are currently closed."
+msgstr "评论和引用都已关闭."
+
+#: image.php:114
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> 上一篇"
+
+#: image.php:115
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "下一页 <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/admin/admin-bar.php:82
+msgid "Activate Theme"
+msgstr ""
+
+#: inc/admin/admin-notice.php:21
+msgid "<a href=\"%s\">Please enter your purchase code</a> to activate Flatsome and get one-click updates."
+msgstr "<a href=\"%s\">请输入您的购买代码</a> 以激活\"Flatsome\"并获取一键式更新。"
+
+#: inc/admin/admin-notice.php:32
+msgid "Flatsome issues"
+msgstr "Flatsome 问题"
+
+#: inc/admin/admin-notice.php:38
+#: inc/functions/function-site-health.php:74
+msgid "Manage registration"
+msgstr "管理注册"
+
+#: inc/admin/admin-notice.php:43
+#: inc/functions/function-site-health.php:79
+#: template-parts/admin/envato/register-form.php:105
+msgid "Manage your licenses"
+msgstr "管理您的许可证"
+
+#. translators: %1$s: Theme name, %2$s: The URL to the status page.
+#: inc/admin/admin-notice.php:81
+msgid "<strong>Your theme (%1$s) contains outdated copies of some Flatsome template files.</strong> These files may need updating to ensure they are compatible with the current version of Flatsome. Suggestions:"
+msgstr "<strong>你的主题(%1$s)包含一些Flatsome模板文件的过期副本。</strong>这些文件可能需要更新，以确保它们与当前版本的Flatsome兼容。建议。"
+
+#: inc/admin/admin-notice.php:84
+msgid "If you copied over a template file to change something, then you will need to copy the new version of the template and apply your changes again."
+msgstr "如果你复制了一个模板文件来改变一些东西，那么你将需要复制新版本的模板并再次应用你的改变。"
+
+#: inc/admin/admin-notice.php:85
+msgid "If you are unfamiliar with code/templates and resolving potential conflicts, reach out to a developer for assistance."
+msgstr "如果你对代码/模板和解决潜在的冲突不熟悉，请向开发人员寻求帮助。"
+
+#: inc/admin/admin-notice.php:88
+msgid "Learn more about templates"
+msgstr "更多了解模板"
+
+#: inc/admin/admin-notice.php:91
+msgid "View affected templates"
+msgstr "查看受影响的模板"
+
+#: inc/admin/advanced/functions/functions.facebook.php:162
+msgid "Connect Instagram Business accounts"
+msgstr "连接Instagram商业帐户"
+
+#: inc/admin/advanced/functions/functions.facebook.php:169
+#: inc/admin/advanced/functions/functions.facebook.php:178
+msgid "Okay"
+msgstr "好的"
+
+#: inc/admin/advanced/functions/functions.facebook.php:174
+msgid "No associated Instagram Business account was found for your Facebook user."
+msgstr "找不到与您的Facebook用户相关的Instagram企业帐户。"
+
+#: inc/admin/advanced/functions/functions.facebook.php:229
+msgid "Cancel"
+msgstr "取消"
+
+#: inc/admin/advanced/functions/functions.facebook.php:232
+msgid "Connect"
+msgstr "连接"
+
+#: inc/admin/backend/menu/class-menu.php:91
+msgid "Flatsome menu item options"
+msgstr "Flatsome菜单项目选项"
+
+#: inc/admin/backend/menu/class-menu.php:95
+msgid "Menu dropdown"
+msgstr "下拉菜单"
+
+#: inc/admin/backend/menu/class-menu.php:98
+msgid "Design"
+msgstr "设计"
+
+#: inc/admin/backend/menu/class-menu.php:100
+msgid "Default"
+msgstr "默认"
+
+#: inc/admin/backend/menu/class-menu.php:101
+msgid "Default (custom size)"
+msgstr "默认（自定义尺寸）"
+
+#: inc/admin/backend/menu/class-menu.php:102
+msgid "Container width"
+msgstr "容器宽度"
+
+#: inc/admin/backend/menu/class-menu.php:103
+msgid "Full width"
+msgstr "全宽"
+
+#: inc/admin/backend/menu/class-menu.php:106
+msgid "Select dropdown design."
+msgstr "选择下拉设计。"
+
+#: inc/admin/backend/menu/class-menu.php:110
+#: inc/admin/backend/menu/class-menu.php:161
+#: inc/admin/options/header/options-header-nav-vertical.php:55
+#: inc/admin/options/header/options-header-nav-vertical.php:146
+msgid "Width"
+msgstr "宽度"
+
+#: inc/admin/backend/menu/class-menu.php:116
+msgid "Height (optional)"
+msgstr "高度（可选）"
+
+#: inc/admin/backend/menu/class-menu.php:122
+#: inc/widgets/widget-blocks.php:88
+msgid "UX Block"
+msgstr "UX区块"
+
+#: inc/admin/backend/menu/class-menu.php:134
+msgid "Reveal"
+msgstr "展示"
+
+#: inc/admin/backend/menu/class-menu.php:136
+msgid "On hover"
+msgstr "悬停"
+
+#: inc/admin/backend/menu/class-menu.php:137
+msgid "On click"
+msgstr "点击"
+
+#: inc/admin/backend/menu/class-menu.php:143
+msgid "Menu icon"
+msgstr "菜单图标"
+
+#: inc/admin/backend/menu/class-menu.php:146
+msgid "Icon type"
+msgstr "图标类型"
+
+#: inc/admin/backend/menu/class-menu.php:148
+msgid "Media library"
+msgstr "媒体库"
+
+#: inc/admin/backend/menu/class-menu.php:149
+msgid "Custom content"
+msgstr "自定义内容"
+
+#: inc/admin/backend/menu/class-menu.php:165
+#: inc/admin/options/header/options-header-nav-vertical.php:41
+msgid "Height"
+msgstr "高度"
+
+#: inc/admin/backend/menu/class-menu.php:168
+msgid "Icons default (empty) to 20x20."
+msgstr "图标默认（空）为20x20。"
+
+#: inc/admin/backend/menu/class-menu.php:173
+msgid "Markup"
+msgstr "标记"
+
+#: inc/admin/backend/menu/class-menu.php:176
+msgid "Add any HTML, SVG or shortcode here."
+msgstr "在此处添加任何HTML、SVG或shortcode。"
+
+#: inc/admin/backend/menu/class-menu.php:247
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:222
+msgid "Select image"
+msgstr "选择图像"
+
+#: inc/admin/backend/menu/class-menu.php:252
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:223
+msgid "Remove"
+msgstr "删除"
+
+#: inc/admin/classes/class-status.php:548
+#: inc/admin/classes/class-status.php:576
+msgid "Theme"
+msgstr "主题"
+
+#: inc/admin/classes/class-status.php:549
+#: inc/admin/classes/class-status.php:689
+msgid "WordPress environment"
+msgstr "WordPress环境"
+
+#: inc/admin/classes/class-status.php:550
+#: inc/admin/classes/class-status.php:801
+msgid "Server environment"
+msgstr "服务器环境"
+
+#: inc/admin/classes/class-status.php:551
+#: inc/admin/classes/class-status.php:883
+#: inc/functions/function-site-health.php:31
+#: inc/functions/function-site-health.php:52
+msgid "Security"
+msgstr "安全"
+
+#: inc/admin/classes/class-status.php:552
+#: inc/admin/classes/class-status.php:939
+msgid "Database"
+msgstr "数据库"
+
+#: inc/admin/classes/class-status.php:553
+#: inc/admin/classes/class-status.php:977
+msgid "Templates"
+msgstr "模板"
+
+#: inc/admin/classes/class-status.php:557
+msgid "More details"
+msgstr "详细信息"
+
+#: inc/admin/classes/class-status.php:582
+msgid "Name"
+msgstr "名称"
+
+#: inc/admin/classes/class-status.php:584
+msgid "The name of the current active theme."
+msgstr "当前活动主题的名称。"
+
+#: inc/admin/classes/class-status.php:589
+msgid "Version"
+msgstr "版本"
+
+#: inc/admin/classes/class-status.php:591
+msgid "The version of the current active theme."
+msgstr "当前激活主题的安装版本。"
+
+#: inc/admin/classes/class-status.php:596
+msgid "Author URL"
+msgstr "作者网址"
+
+#: inc/admin/classes/class-status.php:598
+msgid "The theme developers URL."
+msgstr "主题开发者网址。"
+
+#: inc/admin/classes/class-status.php:603
+msgid "Registered"
+msgstr "注册"
+
+#: inc/admin/classes/class-status.php:605
+msgid "Displays whether or not the theme is registered."
+msgstr "显示该主题是否被注册。"
+
+#: inc/admin/classes/class-status.php:612
+#: inc/functions/function-site-health.php:28
+msgid "You should register Flatsome with a purchase code"
+msgstr "您应该使用购买代码注册 Flatsome"
+
+#: inc/admin/classes/class-status.php:618
+msgid "Child theme"
+msgstr "子主题"
+
+#: inc/admin/classes/class-status.php:620
+msgid "Displays whether or not the current active theme is a child theme."
+msgstr "显示当前活动的主题是否是一个子主题。"
+
+#. translators: %s: Docs link.
+#: inc/admin/classes/class-status.php:628
+msgid "If you are modifying Flatsome on the parent theme we recommend using a child theme. See: <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">How to create a child theme</a>"
+msgstr "如果您正在修改父主题上的Flatcome，我们建议使用子主题。见： <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">如何创建子主题</a>"
+
+#: inc/admin/classes/class-status.php:634
+msgid "Release channel"
+msgstr "发布渠道"
+
+#: inc/admin/classes/class-status.php:636
+msgid "Which updates to receive on this site."
+msgstr "在这个网站上接收哪些更新。"
+
+#: inc/admin/classes/class-status.php:650
+msgid "Parent theme name"
+msgstr "父主题名称"
+
+#: inc/admin/classes/class-status.php:652
+msgid "The name of the parent theme."
+msgstr "父主题的名称。"
+
+#: inc/admin/classes/class-status.php:657
+msgid "Parent theme version"
+msgstr "父主题版本"
+
+#: inc/admin/classes/class-status.php:659
+msgid "The installed version of the parent theme."
+msgstr "父主题的安装版本。"
+
+#: inc/admin/classes/class-status.php:664
+msgid "Parent theme author URL"
+msgstr "父主题作者URL"
+
+#: inc/admin/classes/class-status.php:666
+msgid "The parent theme developers URL."
+msgstr "父主题开发者网址。"
+
+#: inc/admin/classes/class-status.php:695
+msgid "WordPress version"
+msgstr "WordPress版本"
+
+#: inc/admin/classes/class-status.php:697
+msgid "The installed WordPress version (indicates the fulfillment of the minimum required version)."
+msgstr "已安装的WordPress版本（表示满足最低要求的版本）。"
+
+#. translators: %s: The minimum required WP version number.
+#: inc/admin/classes/class-status.php:706
+msgid "The theme requires WordPress version %s or above."
+msgstr "该主题需要WordPress版本%s或以上。"
+
+#: inc/admin/classes/class-status.php:718
+msgid "WooCommerce version"
+msgstr "WooCommerce版本"
+
+#: inc/admin/classes/class-status.php:720
+msgid "The installed WooCommerce version (indicates the fulfillment of the minimum required version)."
+msgstr "已安装的WooCommerce版本（表示满足最低要求的版本）。"
+
+#. translators: %s: The minimum required WC version number.
+#: inc/admin/classes/class-status.php:729
+msgid "The theme requires WooCommerce version %s or above."
+msgstr "该主题需要WooCommerce版本%s或以上。"
+
+#: inc/admin/classes/class-status.php:741
+msgid "WordPress memory limit"
+msgstr "WordPress内存限制"
+
+#: inc/admin/classes/class-status.php:743
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr "您的网站一次可以使用的最大内存量（RAM）。"
+
+#. translators: %1$s: Memory limit, %2$s: Docs link.
+#: inc/admin/classes/class-status.php:750
+msgid "%1$s - We recommend setting memory to at least 256MB. See: %2$s"
+msgstr "%1$s - 我们建议将内存设置为至少256MB。见。%2$s"
+
+#. translators: %1$s: Memory limit, %2$s: Docs link.
+#: inc/admin/classes/class-status.php:750
+msgid "Increasing memory allocated to PHP"
+msgstr "增加分配给PHP的内存"
+
+#: inc/admin/classes/class-status.php:757
+msgid "WordPress image sizes"
+msgstr "WordPress图像大小"
+
+#: inc/admin/classes/class-status.php:759
+msgid "The image sizes that are registered on this site."
+msgstr "在本网站注册的图像尺寸。"
+
+#: inc/admin/classes/class-status.php:807
+msgid "Server info"
+msgstr "服务器信息"
+
+#: inc/admin/classes/class-status.php:808
+msgid "Information about the web server that is currently hosting your site."
+msgstr "有关当前托管您的站点的Web服务器的信息。"
+
+#: inc/admin/classes/class-status.php:812
+msgid "PHP version"
+msgstr "PHP版本"
+
+#: inc/admin/classes/class-status.php:814
+msgid "The version of PHP installed on your hosting server."
+msgstr "安装在您的托管服务器上的PHP版本。"
+
+#. translators: %s: The recommended PHP version number.
+#: inc/admin/classes/class-status.php:826
+msgid "We recommend using PHP version %s or above for greater performance and security."
+msgstr "我们建议使用PHP版本%s或以上，以获得更高的性能和安全性。"
+
+#: inc/admin/classes/class-status.php:837
+msgid "PHP post max size"
+msgstr "php post最大大小"
+
+#: inc/admin/classes/class-status.php:839
+msgid "The largest filesize that can be contained in one post."
+msgstr "可以包含在一个帖子中的最大文件大小。"
+
+#: inc/admin/classes/class-status.php:844
+msgid "PHP time limit"
+msgstr "PHP时间限制"
+
+#: inc/admin/classes/class-status.php:846
+msgid "The amount of time (in seconds) that your site will spend on a single operation before timing out (to avoid server lockups)."
+msgstr "你网站在单一操作超时花费时间量（秒）（避免服务器锁死）"
+
+#: inc/admin/classes/class-status.php:851
+msgid "PHP max input variables"
+msgstr "PHP 的最大输入变量"
+
+#: inc/admin/classes/class-status.php:853
+msgid "The maximum number of variables your server can use for a single function to avoid overloads."
+msgstr "您的服务器可用于单个函数的变量的最大数量，以避免过载。"
+
+#: inc/admin/classes/class-status.php:859
+msgid "Max upload size"
+msgstr "最大上传大小"
+
+#: inc/admin/classes/class-status.php:861
+msgid "The largest filesize that can be uploaded to your WordPress installation."
+msgstr "可以上传到你的WordPress安装的最大文件大小。"
+
+#: inc/admin/classes/class-status.php:889
+msgid "Secure connection (HTTPS)"
+msgstr "安全连接(HTTPS)"
+
+#: inc/admin/classes/class-status.php:891
+msgid "Is the connection to your site secure?"
+msgstr "与你的网站的连接是否安全？"
+
+#. translators: %s: Docs link.
+#: inc/admin/classes/class-status.php:900
+msgid "Your site is not using HTTPS. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about HTTPS and SSL Certificates</a>."
+msgstr "Your site is not using HTTPS. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about HTTPS and SSL Certificates</a>."
+
+#: inc/admin/classes/class-status.php:907
+msgid "Hide errors from visitors"
+msgstr "对访问者隐藏错误"
+
+#: inc/admin/classes/class-status.php:909
+msgid "Error messages can contain sensitive information about your site environment. These should be hidden from untrusted visitors."
+msgstr "错误消息可能包含有关站点环境的敏感信息。这些应该对不受信任的访问者隐藏。"
+
+#: inc/admin/classes/class-status.php:916
+msgid "Error messages should not be shown to visitors."
+msgstr "错误消息不应该显示给访问者。"
+
+#: inc/admin/classes/class-status.php:945
+msgid "Flatsome database version"
+msgstr "Flatsome数据库版本"
+
+#: inc/admin/classes/class-status.php:947
+msgid "The database version for Flatsome. This should be the same as the parent theme version."
+msgstr "Flatsome的数据库版本。这应该与父主题的版本相同。"
+
+#: inc/admin/classes/class-status.php:954
+msgid "This should be the same as the parent theme version."
+msgstr "这应该与父主题的版本相同。"
+
+#: inc/admin/classes/class-status.php:983
+msgid "Overrides"
+msgstr "覆盖"
+
+#: inc/admin/classes/class-status.php:984
+msgid "This section shows any files that are overriding the default Flatsome templates."
+msgstr "本节显示任何覆盖默认Flatsome模板的文件。"
+
+#. translators: %1$s: Template name, %2$s: Template version, %3$s: Core version.
+#: inc/admin/classes/class-status.php:997
+msgid "%1$s version %2$s is out of date. The core version is %3$s"
+msgstr "%1$s版本%2$s已过期。核心版本是%3$s"
+
+#: inc/admin/envato_setup/envato_setup.php:2010
+msgid "Register Theme"
+msgstr "注册主题"
+
+#: inc/admin/envato_setup/envato_setup.php:2031
+msgid "Continue"
+msgstr "继续"
+
+#: inc/admin/envato_setup/envato_setup.php:2032
+msgid "Unregister"
+msgstr "取消注册"
+
+#: inc/admin/envato_setup/envato_setup.php:2034
+msgid "Register"
+msgstr "注册"
+
+#: inc/admin/gutenberg/class-gutenberg.php:109
+msgid "Edit with UX Builder"
+msgstr "使用构建器编辑"
+
+#: inc/admin/options/blog/options-blog-single.php:85
+msgid "Featured image"
+msgstr "特色图片"
+
+#: inc/admin/options/blog/options-blog-single.php:101
+msgid "Share icons"
+msgstr "分享图标"
+
+#: inc/admin/options/blog/options-blog-single.php:109
+msgid "Meta"
+msgstr "元"
+
+#: inc/admin/options/blog/options-blog-single.php:117
+msgid "Blog author box"
+msgstr "博客作者框"
+
+#: inc/admin/options/blog/options-blog-single.php:125
+msgid "Next/Prev navigation"
+msgstr "显示下一个上一个导航"
+
+#: inc/admin/options/blog/options-blog-single.php:133
+msgid "HTML after blog posts"
+msgstr "HTML在博客文章后"
+
+#: inc/admin/options/header/options-header-logo.php:106
+msgid "Logo link"
+msgstr "Logo 链接"
+
+#: inc/admin/options/header/options-header-logo.php:107
+msgid "Custom logo link (defaults to home page link if empty)."
+msgstr "自定义徽标链接（如果为空，则默认为主页链接）。"
+
+#: inc/admin/options/header/options-header-mobile.php:85
+msgid "Menu item behavior"
+msgstr "菜单项行为"
+
+#: inc/admin/options/header/options-header-mobile.php:86
+msgid "Click behavior for menu items with a submenu"
+msgstr "单击具有子菜单的菜单项的行为"
+
+#: inc/admin/options/header/options-header-mobile.php:91
+msgid "Open link"
+msgstr "打开链接"
+
+#: inc/admin/options/header/options-header-mobile.php:92
+msgid "Toggle submenu"
+msgstr "切换子菜单"
+
+#: inc/admin/options/header/options-header-mobile.php:99
+msgid "Submenu effect"
+msgstr "子菜单效果"
+
+#: inc/admin/options/header/options-header-mobile.php:104
+msgid "Accordion"
+msgstr "手风琴"
+
+#: inc/admin/options/header/options-header-mobile.php:105
+msgid "Slide"
+msgstr "滑动"
+
+#: inc/admin/options/header/options-header-mobile.php:119
+msgid "Submenu levels"
+msgstr "子菜单层级"
+
+#: inc/admin/options/header/options-header-mobile.php:124
+msgid "1 level"
+msgstr "1层"
+
+#: inc/admin/options/header/options-header-mobile.php:125
+msgid "2 levels"
+msgstr "2层"
+
+#: inc/admin/options/header/options-header-mobile.php:144
+msgid "Top content"
+msgstr "顶部内容"
+
+#: inc/admin/options/header/options-header-mobile.php:153
+msgid "Tabs"
+msgstr "标签"
+
+#: inc/admin/options/header/options-header-mobile.php:157
+msgid "None"
+msgstr "无"
+
+#: inc/admin/options/header/options-header-mobile.php:158
+msgid "2 Tabs"
+msgstr "2 选项卡"
+
+#: inc/admin/options/header/options-header-mobile.php:165
+msgid "Tab 1 text"
+msgstr "选项卡 1 文本"
+
+#: inc/admin/options/header/options-header-mobile.php:180
+msgid "Menu elements"
+msgstr "菜单元素"
+
+#: inc/admin/options/header/options-header-mobile.php:191
+msgid "Tab 2 text"
+msgstr "选项卡 2 文本"
+
+#: inc/admin/options/header/options-header-mobile.php:206
+msgid "Menu elements tab 2"
+msgstr "菜单元素选项卡 2"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:9
+#: inc/functions/function-setup.php:71
+msgid "Vertical Menu"
+msgstr "垂直菜单"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:28
+msgid "Icon"
+msgstr "图标"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:69
+msgid "Tag line"
+msgstr "标签行"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:78
+msgid "Text"
+msgstr "文本"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:87
+#: inc/admin/options/header/options-header-nav-vertical.php:201
+msgid "Text base color"
+msgstr "文本基础颜色"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:101
+msgid "Color"
+msgstr "颜色"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:111
+#: inc/admin/options/header/options-header-nav-vertical.php:161
+msgid "Background color"
+msgstr "背景颜色"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:128
+msgid "Keep open on front page"
+msgstr "在首页保持打开状态"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:137
+msgid "Add shadow"
+msgstr "添加阴影"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:178
+msgid "Divider"
+msgstr "分隔线"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:187
+msgid "Nav height"
+msgstr "导航高度"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:215
+msgid "Nav color"
+msgstr "导航颜色"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:225
+msgid "Nav color :hover"
+msgstr "导航颜色：悬停"
+
+#: inc/admin/options/header/options-header-nav-vertical.php:235
+msgid "Nav background color :hover"
+msgstr "导航背景颜色：悬停"
+
+#: inc/admin/options/notifications/options-notifications.php:98
+#: inc/extensions/flatsome-cookie-notice/flatsome-cookie-notice.php:39
+msgid "This site uses cookies to offer you a better browsing experience. By browsing this website, you agree to our use of cookies."
+msgstr "本网站使用cookies为您提供更好的浏览体验。浏览本网站即表示您同意我们使用 Cookie。"
+
+#: inc/admin/options/portfolio/options-portfolio.php:76
+msgid "Show share icons"
+msgstr "显示分享图标"
+
+#: inc/admin/options/shop/options-shop-cart-checkout.php:65
+msgid "Boxed Shipping labels"
+msgstr "带边框的运费标签"
+
+#: inc/admin/options/shop/options-shop-cart-checkout.php:73
+msgid "Show shipping estimate destination"
+msgstr "显示运送预估目的地"
+
+#: inc/admin/options/shop/options-shop-category.php:748
+#: inc/admin/options/shop/options-shop-product-page.php:398
+msgid "Color :selected"
+msgstr "颜色：已选定"
+
+#: inc/admin/options/shop/options-shop-product-page.php:40
+#: inc/woocommerce/structure-wc-category-page.php:141
+#: inc/woocommerce/structure-wc-product-page-fields.php:22
+msgid "Custom product layout"
+msgstr "自定义商品布局"
+
+#: inc/admin/options/shop/options-shop-product-page.php:359
+msgid "Layout"
+msgstr "样式"
+
+#: inc/admin/options/shop/options-shop-product-page.php:371
+msgid "Tooltip"
+msgstr "提示"
+
+#: inc/admin/options/shop/options-shop-product-page.php:372
+msgid "Show a tooltip with the term or term description."
+msgstr "显示带有术语或术语描述的图图。"
+
+#: inc/admin/options/shop/options-shop-product-page.php:380
+msgid "Inactive out of stock"
+msgstr "非活动缺货"
+
+#: inc/admin/options/shop/options-shop-product-page.php:381
+msgid "Show out of stock items as inactive."
+msgstr "将缺货商品显示为非在售商品。"
+
+#: inc/admin/options/shop/options-shop-product-page.php:389
+msgid "Disable deselection"
+msgstr ""
+
+#: inc/admin/panel/panel.php:31
+msgid "Sorry, an error occurred while accessing the API."
+msgstr "对不起，访问API时发生错误。"
+
+#: inc/admin/panel/sections/tab-activate.php:12
+msgid "Theme registration"
+msgstr "主题注册"
+
+#: inc/admin/panel/sections/tab-activate.php:17
+msgid "Status"
+msgstr "状态"
+
+#: inc/classes/class-flatsome-base-registration.php:49
+#: inc/classes/class-flatsome-base-registration.php:58
+#: inc/classes/class-flatsome-base-registration.php:67
+#: inc/classes/class-flatsome-base-registration.php:77
+msgid "Not allowed."
+msgstr "不允许。"
+
+#. translators: %s: Time left.
+#: inc/classes/class-flatsome-envato-admin.php:140
+msgid "Please try again in %s."
+msgstr "请在%s中重试。"
+
+#: inc/classes/class-flatsome-envato-admin.php:180
+msgid "You must agree to the Envato License Terms."
+msgstr "您必须同意Envato许可证条款。"
+
+#: inc/classes/class-flatsome-envato-registration.php:36
+msgid "Missing token."
+msgstr "缺少令牌。"
+
+#: inc/classes/class-flatsome-envato-registration.php:38
+#: inc/classes/class-flatsome-registration.php:34
+msgid "No purchase code provided."
+msgstr "未提供购买代码。"
+
+#: inc/classes/class-flatsome-envato-registration.php:99
+#: inc/classes/class-flatsome-registration.php:125
+#: inc/classes/class-flatsome-wupdates-registration.php:88
+msgid "No version received."
+msgstr "未收到任何版本。"
+
+#: inc/classes/class-flatsome-envato-registration.php:103
+#: inc/classes/class-flatsome-registration.php:129
+#: inc/classes/class-flatsome-wupdates-registration.php:92
+msgid "Invalid version received."
+msgstr "收到的版本无效。"
+
+#: inc/classes/class-flatsome-envato-registration.php:133
+#: inc/classes/class-flatsome-registration.php:156
+#: inc/classes/class-flatsome-wupdates-registration.php:118
+msgid "No URL received."
+msgstr "未收到网址。"
+
+#: inc/classes/class-flatsome-envato-registration.php:137
+#: inc/classes/class-flatsome-registration.php:160
+#: inc/classes/class-flatsome-wupdates-registration.php:122
+msgid "Invalid URL received."
+msgstr "收到无效的 URL。"
+
+#: inc/classes/class-flatsome-registration.php:36
+msgid "The provided value seems to be a token. Please register with a purchase code instead."
+msgstr "所提供的值似乎是一个象征。请改为用购买代码注册。"
+
+#: inc/classes/class-flatsome-registration.php:38
+msgid "Invalid purchase code."
+msgstr "无效的购买代码。"
+
+#: inc/classes/class-flatsome-registration.php:55
+msgid "Your site is registered. But the purchase code could not be verified at the moment."
+msgstr "您的网站已注册。但购买代码目前无法验证。"
+
+#: inc/classes/class-flatsome-registration.php:102
+#: inc/classes/class-flatsome-registration.php:145
+msgid "No purchase code."
+msgstr "没有购买代码。"
+
+#: inc/classes/class-flatsome-wupdates-registration.php:70
+#: inc/classes/class-flatsome-wupdates-registration.php:108
+msgid "Missing purchase code."
+msgstr "缺少购买代码。"
+
+#. translators: %d: The status code.
+#: inc/classes/class-uxthemes-api.php:78
+msgid "Sorry, an error occurred while accessing the API. Error %d"
+msgstr "很抱歉，在访问API时发生了错误。错误%d"
+
+#: inc/classes/class-uxthemes-api.php:118
+msgid "Your purchase code is malformed."
+msgstr "你的购买代码是错误的。"
+
+#: inc/classes/class-uxthemes-api.php:121
+msgid "Sorry, an error occurred. Please try again."
+msgstr "抱歉，发生了错误。请重试。"
+
+#: inc/classes/class-uxthemes-api.php:124
+msgid "Flatsome was unable to get the latest version. Your site might have changed domain after you registered it."
+msgstr "Flatsome 无法获得最新版本。您的站点可能在注册后更改了域。"
+
+#: inc/classes/class-uxthemes-api.php:129
+msgid "Flatsome was unable to get the latest version because the purchase code has not been verified yet. Please re-register it in order to receive updates."
+msgstr "由于购买代码尚未验证，Flatsome 无法获得最新版本。请重新注册以接收更新。"
+
+#: inc/classes/class-uxthemes-api.php:134
+msgid "The purchase code is malformed or does not belong to a Flatsome sale."
+msgstr "购买代码不属于Flatsome销售。"
+
+#. translators: %s: License manager link attributes.
+#: inc/classes/class-uxthemes-api.php:138
+msgid "The registration was not found for <a%s>your account</a>. It was only deleted on this site."
+msgstr "没有找到 <a%s>您的帐户</a>注册。它只在此网站上删除。"
+
+#. translators: %s: License manager link attributes.
+#: inc/classes/class-uxthemes-api.php:142
+msgid "Flatsome was unable to get the latest version. Your registration might have been deleted from <a%s>your account</a>."
+msgstr "Flatsome无法获得最新版本。您的注册可能已从 <a%s>您的帐户</a>中删除。"
+
+#: inc/classes/class-uxthemes-api.php:145
+msgid "Flatsome was unable to get the latest version. Your purchase code is malformed."
+msgstr "Flatsome 无法获得最新版本。您的购买代码格式错误。"
+
+#. translators: %s: License manager link attributes.
+#: inc/classes/class-uxthemes-api.php:151
+msgid "Your purchase code has been used on too many sites. Please go to <a%s>your account</a> and manage your licenses."
+msgstr "您的购买代码已在太多网站上使用。请转到<a%s>您的帐户</a>并管理您的许可证。"
+
+#. translators: %s: License manager link attributes.
+#: inc/classes/class-uxthemes-api.php:154
+msgid "The purchase code is already registered on another site. Please go to <a%s>your account</a> and manage your licenses."
+msgstr "购买代码已在另一个网站上注册。请前往<a%s>您的帐户</a>并管理您的许可证。"
+
+#: inc/classes/class-uxthemes-api.php:157
+msgid "Your purchase code has been blocked. Please contact support to resolve the issue."
+msgstr "您的购买代码已被阻止。请联系支持人员以解决问题。"
+
+#: inc/classes/class-uxthemes-api.php:160
+msgid "The purchase code does not belong to a Flatsome sale."
+msgstr "购买代码不属于Flatsome销售。"
+
+#: inc/classes/class-uxthemes-api.php:163
+msgid "Flatsome was unable to get the latest version. The purchase code does not belong to a Flatsome sale."
+msgstr "Flatsome 无法获得最新版本。购买代码不属于 Flatsome 销售。"
+
+#: inc/classes/class-uxthemes-api.php:165
+msgid "The requested resource no longer exists."
+msgstr "请求的资源不再存在。"
+
+#: inc/classes/class-uxthemes-api.php:167
+msgid "No domain was sent with the request."
+msgstr "请求中没有发送域。"
+
+#: inc/classes/class-uxthemes-api.php:169
+msgid "Unable to parse the domain for your site."
+msgstr "无法解析您的网站域。"
+
+#: inc/classes/class-uxthemes-api.php:172
+msgid "Your purchase code has been locked. Please contact support to resolve the issue."
+msgstr "您的购买代码已被阻止。请联系支持人员以解决问题。"
+
+#: inc/classes/class-uxthemes-api.php:174
+msgid "The requested resource has been locked."
+msgstr "所要求的资源已被锁定。"
+
+#: inc/classes/class-uxthemes-api.php:176
+msgid "Sorry, the API is overloaded."
+msgstr "抱歉，API超载。"
+
+#: inc/classes/class-uxthemes-api.php:178
+msgid "Sorry, the API is unavailable at the moment."
+msgstr "抱歉，API 暂时不可用。"
+
+#: inc/extensions/flatsome-cookie-notice/flatsome-cookie-notice.php:50
+msgctxt "cookie notice"
+msgid "More info"
+msgstr "更多信息"
+
+#: inc/extensions/flatsome-cookie-notice/flatsome-cookie-notice.php:60
+msgctxt "cookie notice"
+msgid "Accept"
+msgstr "接受"
+
+#: inc/extensions/flatsome-infinite-scroll/templates/button.php:2
+msgid "View more"
+msgstr "查看更多"
+
+#: inc/extensions/flatsome-live-search/flatsome-live-search.php:199
+msgid "No matches found"
+msgstr "找不到匹配项"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:72
+msgid "Swatch size"
+msgstr "色板尺寸"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:75
+msgid "X Small"
+msgstr "特小"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:76
+msgid "Small"
+msgstr "小"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:77
+msgid "Medium"
+msgstr "中等"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:78
+msgid "Large"
+msgstr "大号"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:79
+msgid "X Large"
+msgstr "超大"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:81
+msgid "Determines the size of the swatches."
+msgstr "确定色板的大小。"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:85
+msgid "Swatch shape"
+msgstr "色板形状"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:88
+msgid "Square"
+msgstr "方形"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:89
+msgid "Rounded"
+msgstr "圆角"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:90
+msgid "Circle"
+msgstr "圈"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:92
+msgid "Determines the shape of the swatches."
+msgstr "确定色板的形状。"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:96
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:97
+msgid "Use variation images?"
+msgstr "使用变体图像？"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:98
+msgid "Enable this if you want swatches for this attribute to be auto filled with variation images."
+msgstr "如果你想让这个属性的色板自动充满变体的图像，请启用这个功能。"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches-admin.php:338
+msgid "Value"
+msgstr "值"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches.php:44
+msgid "UX Color"
+msgstr "UX颜色"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches.php:45
+msgid "UX Image"
+msgstr "UX图像"
+
+#: inc/extensions/flatsome-swatches/includes/class-swatches.php:46
+msgid "UX Label"
+msgstr "UX标签"
+
+#: inc/extensions/flatsome-wc-quick-view/flatsome-quick-view.php:15
+msgid "Quick View"
+msgstr "快速查看"
+
+#: inc/functions/function-custom-css.php:739
+#: inc/woocommerce/structure-wc-global.php:326
+#: inc/woocommerce/structure-wc-product-box.php:29
+msgid "New"
+msgstr "新的"
+
+#: inc/functions/function-custom-css.php:740
+msgid "Hot"
+msgstr "热门"
+
+#: inc/functions/function-custom-css.php:741
+msgid "Sale"
+msgstr "销售"
+
+#: inc/functions/function-custom-css.php:742
+msgid "Popular"
+msgstr "热门"
+
+#. translators: %s: The label
+#: inc/functions/function-register.php:55
+msgid "Follow on %s"
+msgstr ""
+
+#: inc/functions/function-setup.php:65
+#: inc/functions/function-setup.php:189
+msgid "Main Menu"
+msgstr "主菜单"
+
+#: inc/functions/function-setup.php:66
+msgid "Main Menu - Mobile"
+msgstr "主菜单－移动版"
+
+#: inc/functions/function-setup.php:67
+msgid "Secondary Menu"
+msgstr ""
+
+#: inc/functions/function-setup.php:68
+msgid "Footer Menu"
+msgstr "页脚菜单"
+
+#: inc/functions/function-setup.php:69
+msgid "Top Bar Menu"
+msgstr "顶栏菜单"
+
+#: inc/functions/function-setup.php:70
+msgid "My Account Menu"
+msgstr "我的账户菜单"
+
+#: inc/functions/function-setup.php:94
+msgid "Sidebar"
+msgstr "侧边栏"
+
+#: inc/functions/function-setup.php:104
+msgid "Footer 1"
+msgstr "页脚1"
+
+#: inc/functions/function-setup.php:114
+msgid "Footer 2"
+msgstr "页脚2"
+
+#: inc/functions/function-setup.php:190
+#: inc/shortcodes/accordion.php:116
+#: woocommerce/single-product/tabs/accordian.php:33
+msgid "Toggle"
+msgstr "切换"
+
+#: inc/functions/function-site-health.php:11
+msgid "Flatsome registration"
+msgstr "Flatsome的注册"
+
+#: inc/functions/function-site-health.php:36
+#: template-parts/admin/envato/register-form.php:38
+msgid "Your copy of Flatsome is registered with a personal Envato token. Please register Flatsome with a purchase code instead to ensure your site receives updates in the future."
+msgstr "您的Flatsome副本以个人 Envato令牌注册。请用购买代码注册Flatsome，以确保您的网站将来收到更新。"
+
+#: inc/functions/function-site-health.php:41
+msgid "Register with a purchase code now"
+msgstr "立即用购买代码注册"
+
+#: inc/functions/function-site-health.php:49
+msgid "Flatsome is registered"
+msgstr "Flatsome 已注册"
+
+#: inc/functions/function-site-health.php:55
+msgid "Register Flatsome to receive updates."
+msgstr "注册Flatsome的接收更新。"
+
+#: inc/functions/function-site-health.php:61
+msgid "Flatsome is not registered"
+msgstr "Flatsome 未注册"
+
+#: inc/functions/function-site-health.php:65
+msgid "Register now"
+msgstr "现在注册"
+
+#: inc/functions/function-site-health.php:69
+msgid "Flatsome was unable to receive the latest update"
+msgstr "Flatsome无法接收最新更新"
+
+#: inc/integrations/wc-yith-wishlist/yith-wishlist.php:61
+#: inc/integrations/wc-yith-wishlist/yith-wishlist.php:82
+msgid "Wishlist"
+msgstr "愿望清单"
+
+#. translators: %s: Comment count
+#: inc/shortcodes/blog_posts.php:291
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s 评论"
+
+#: inc/shortcodes/follow.php:121
+#: inc/shortcodes/follow.php:122
+msgid "Follow on Facebook"
+msgstr "在Facebook上关注"
+
+#: inc/shortcodes/follow.php:135
+#: inc/shortcodes/follow.php:136
+msgid "Follow on Instagram"
+msgstr "在Instagram上关注"
+
+#: inc/shortcodes/follow.php:149
+#: inc/shortcodes/follow.php:150
+msgid "Follow on TikTok"
+msgstr "在TikTok上关注"
+
+#: inc/shortcodes/follow.php:166
+#: inc/shortcodes/follow.php:167
+msgid "Follow on SnapChat"
+msgstr "在SnapChat上关注"
+
+#: inc/shortcodes/follow.php:173
+msgid "Point the SnapChat camera at this to add us to SnapChat."
+msgstr "将SnapChat相机对准这一点，将我们添加到SnapChat。"
+
+#: inc/shortcodes/follow.php:185
+#: inc/shortcodes/follow.php:186
+msgid "Follow on Twitter"
+msgstr "在Twitter上关注"
+
+#: inc/shortcodes/follow.php:199
+#: inc/shortcodes/follow.php:200
+msgid "Send us an email"
+msgstr "发邮件给我们"
+
+#: inc/shortcodes/follow.php:213
+#: inc/shortcodes/follow.php:214
+msgid "Call us"
+msgstr "联系我们"
+
+#: inc/shortcodes/follow.php:227
+#: inc/shortcodes/follow.php:228
+msgid "Follow on Pinterest"
+msgstr "在Pinterest上关注"
+
+#: inc/shortcodes/follow.php:241
+#: inc/shortcodes/follow.php:242
+msgid "Subscribe to RSS"
+msgstr "订阅RSS"
+
+#: inc/shortcodes/follow.php:255
+#: inc/shortcodes/follow.php:256
+msgid "Follow on LinkedIn"
+msgstr "在LinkedIn上关注"
+
+#: inc/shortcodes/follow.php:269
+#: inc/shortcodes/follow.php:270
+msgid "Follow on YouTube"
+msgstr "在YouTube上关注"
+
+#: inc/shortcodes/follow.php:283
+#: inc/shortcodes/follow.php:284
+msgid "Flickr"
+msgstr "Flickr"
+
+#: inc/shortcodes/follow.php:297
+#: inc/shortcodes/follow.php:298
+msgid "Follow on 500px"
+msgstr "在500px上关注"
+
+#: inc/shortcodes/follow.php:311
+#: inc/shortcodes/follow.php:312
+msgid "Follow on VKontakte"
+msgstr "在VKontakte上关注"
+
+#: inc/shortcodes/follow.php:325
+#: inc/shortcodes/follow.php:326
+msgid "Follow on Telegram"
+msgstr "在Facebook上关注"
+
+#: inc/shortcodes/follow.php:339
+#: inc/shortcodes/follow.php:340
+msgid "Follow on Twitch"
+msgstr "在Twitch上关注我们"
+
+#: inc/shortcodes/follow.php:353
+#: inc/shortcodes/follow.php:354
+msgid "Follow on Discord"
+msgstr "在Discord上关注"
+
+#: inc/shortcodes/portfolio.php:146
+#: woocommerce/product-searchform.php:39
+msgid "All"
+msgstr "全部"
+
+#: inc/shortcodes/sections.php:154
+msgid "Scroll for more"
+msgstr "滚动查看更多"
+
+#: inc/shortcodes/share.php:96
+#: inc/shortcodes/share.php:97
+msgid "Share on WhatsApp"
+msgstr "分享到WhatsApp"
+
+#: inc/shortcodes/share.php:111
+#: inc/shortcodes/share.php:112
+msgid "Share on Facebook"
+msgstr "分享到Facebook"
+
+#: inc/shortcodes/share.php:125
+#: inc/shortcodes/share.php:126
+msgid "Share on Twitter"
+msgstr "分享到Twitter"
+
+#. translators: %s: the share link.
+#: inc/shortcodes/share.php:137
+msgid "Check this out: %s"
+msgstr ""
+
+#: inc/shortcodes/share.php:141
+#: inc/shortcodes/share.php:142
+msgid "Email to a Friend"
+msgstr "发邮件给朋友"
+
+#: inc/shortcodes/share.php:159
+#: inc/shortcodes/share.php:160
+msgid "Pin on Pinterest"
+msgstr "分享到Pinterest"
+
+#: inc/shortcodes/share.php:173
+#: inc/shortcodes/share.php:174
+msgid "Share on VKontakte"
+msgstr "分享到VKontakte"
+
+#: inc/shortcodes/share.php:187
+#: inc/shortcodes/share.php:188
+msgid "Share on LinkedIn"
+msgstr "分享到LinkedIn"
+
+#: inc/shortcodes/share.php:201
+#: inc/shortcodes/share.php:202
+msgid "Share on Tumblr"
+msgstr "分享到Tumblr"
+
+#: inc/shortcodes/share.php:215
+#: inc/shortcodes/share.php:216
+msgid "Share on Telegram"
+msgstr "分享到Telegram"
+
+#: inc/shortcodes/ux_instagram_feed.php:52
+msgid "Please select an Instagram account"
+msgstr ""
+
+#: inc/shortcodes/ux_instagram_feed.php:222
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: inc/shortcodes/ux_instagram_feed.php:224
+msgid "An error occurred while retrieving media"
+msgstr ""
+
+#: inc/structure/structure-portfolio.php:50
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr "首页"
+
+#: inc/structure/structure-posts.php:139
+msgid "<span class=\"icon-angle-left\"></span> Older posts"
+msgstr "<span class=\"icon-angle-left\"></span> 旧文章"
+
+#: inc/structure/structure-posts.php:144
+msgid "Newer posts <span class=\"icon-angle-right\"></span>"
+msgstr "新文章 <span class=\"icon-angle-right\"></span>"
+
+#: inc/structure/structure-posts.php:168
+msgid "Pingback:"
+msgstr "自动引用通知："
+
+#: inc/structure/structure-posts.php:184
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">说：</span>"
+
+#: inc/structure/structure-posts.php:186
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待审核。"
+
+#: inc/structure/structure-posts.php:195
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s 于 %2$s"
+
+#. translators: %1$s: post date, %2$s: post author
+#: inc/structure/structure-posts.php:236
+msgctxt "post date by post author"
+msgid "<span class=\"posted-on\">Posted on %1$s</span> <span class=\"byline\">by %2$s</span>"
+msgstr ""
+
+#: inc/widgets/widget-blocks.php:17
+msgid "Display a UX Block."
+msgstr ""
+
+#: inc/widgets/widget-blocks.php:21
+msgid "Flatsome UX Blocks"
+msgstr ""
+
+#: inc/widgets/widget-blocks.php:85
+#: inc/widgets/widget-recent-posts.php:129
+#: inc/widgets/widget-upsell.php:120
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:18
+msgid "Display recent posts in Flatsome format."
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:22
+msgid "Flatsome Recent Posts"
+msgstr "Flatsome 最新文章"
+
+#: inc/widgets/widget-recent-posts.php:49
+msgid "Recent Posts"
+msgstr "最新文章"
+
+#: inc/widgets/widget-recent-posts.php:86
+#: template-parts/posts/partials/entry-footer-single.php:33
+#: template-parts/posts/partials/entry-footer.php:33
+msgid "<strong>1</strong> Comment"
+msgstr "<strong>1</strong> 评论"
+
+#: inc/widgets/widget-recent-posts.php:86
+#: template-parts/posts/partials/entry-footer-single.php:33
+#: template-parts/posts/partials/entry-footer.php:33
+msgid "<strong>%</strong> Comments"
+msgstr "<strong>%</strong> 评论"
+
+#: inc/widgets/widget-recent-posts.php:132
+msgid "Number of posts to show"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:136
+msgid "Show thumbnail"
+msgstr "显示缩略图"
+
+#: inc/widgets/widget-recent-posts.php:139
+msgid "Show date stamp on thumbnail"
+msgstr "在缩略图上显示日期戳"
+
+#: inc/widgets/widget-recent-posts.php:140
+msgid "* If the \"Show Thumbnail\" option is disabled or no featured image is set, the date stamp will be displayed."
+msgstr ""
+
+#: inc/widgets/widget-upsell.php:20
+msgid "Add upsell products to product pages."
+msgstr ""
+
+#: inc/widgets/widget-upsell.php:48
+#: inc/widgets/widget-upsell.php:116
+msgid "Complete the look"
+msgstr "完成搭配"
+
+#: inc/woocommerce/structure-wc-category-page.php:97
+#: inc/woocommerce/structure-wc-product-page-fields.php:31
+msgid "Top Content"
+msgstr "顶部内容"
+
+#: inc/woocommerce/structure-wc-category-page.php:102
+msgid "Enter a value for this field. Shortcodes are allowed. This will be displayed at top of the category."
+msgstr "输入此字段的值。允许使用简码。这将显示在类别的顶部。"
+
+#: inc/woocommerce/structure-wc-category-page.php:119
+#: inc/woocommerce/structure-wc-product-page-fields.php:38
+msgid "Bottom Content"
+msgstr "底部内容"
+
+#: inc/woocommerce/structure-wc-category-page.php:124
+msgid "Enter a value for this field. Shortcodes are allowed. This will be displayed at bottom of the category."
+msgstr "输入此字段的值。允许使用短代码。这将显示在类别的底部。"
+
+#: inc/woocommerce/structure-wc-category-page.php:152
+msgid "Choose a custom product block layout for this category."
+msgstr "选择此分类的自定义产品区块布局。"
+
+#: inc/woocommerce/structure-wc-checkout.php:166
+msgid "I have read and agree"
+msgstr "我已阅读并同意"
+
+#: inc/woocommerce/structure-wc-global.php:90
+msgid "Shop Sidebar"
+msgstr "商店侧边栏"
+
+#: inc/woocommerce/structure-wc-global.php:99
+msgid "Product Sidebar"
+msgstr "产品边栏"
+
+#: inc/woocommerce/structure-wc-global.php:258
+msgid "Posts found"
+msgstr "找到的文章"
+
+#: inc/woocommerce/structure-wc-global.php:271
+msgid "Pages found"
+msgstr "找到页面"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:17
+msgid "Product layout"
+msgstr "产品布局"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:24
+msgid "Choose a custom product block layout for this product."
+msgstr "选择此产品的自定义产品区块布局。"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:33
+msgid "Enter content that will show after the header and before the product. Shortcodes are allowed"
+msgstr "输入在页眉和产品前面显示的内容。简码是允许的"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:40
+msgid "Enter content that will show after the product info. Shortcodes are allowed"
+msgstr "输入产品信息后显示的内容。简码是允许的"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:46
+msgid "Extra"
+msgstr "额外"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:52
+msgid "Enable a custom bubble on this product."
+msgstr "启用此产品上的自定义气泡。"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:82
+msgid "Custom Tab Content"
+msgstr "自定义选项卡内容"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:84
+msgid "Enter content for custom product tab here. Shortcodes are allowed"
+msgstr "在这里输入自定义产品选项卡的内容。短码是允许的"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:93
+msgid "Product Video"
+msgstr "商品视频"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:95
+msgid "Enter a Youtube or Vimeo Url of the product video here. We recommend uploading your video to Youtube."
+msgstr "在这里输入产品视频的YouTube或Vimeo网址。我们建议上传你的视频到YouTube。"
+
+#: inc/woocommerce/structure-wc-product-page-fields.php:110
+msgid "Select where you want to display product video."
+msgstr "选择要显示产品视频的位置。"
+
+#: inc/woocommerce/structure-wc-product-page.php:73
+#: inc/woocommerce/structure-wc-product-page.php:139
+msgid "Video"
+msgstr "视频"
+
+#: inc/woocommerce/structure-wc-product-page.php:104
+msgid "Zoom"
+msgstr "缩放"
+
+#. Template Name of the theme
+msgid "Page - Full Width - Parallax Title"
+msgstr "页面 - 全宽 - 视差标题"
+
+#. Template Name of the theme
+msgid "Page - No Header / No Footer"
+msgstr "页面 - 无页眉/无页脚"
+
+#. Template Name of the theme
+msgid "Page - Vertical Sub-Nav"
+msgstr "页面 - 垂直子导航"
+
+#. Template Name of the theme
+msgid "Page - Container - Center Title"
+msgstr "页面 - 容器 - 中心标题"
+
+#. Template Name of the theme
+msgid "Page - Full Width"
+msgstr "页面 - 全宽"
+
+#. Template Name of the theme
+msgid "WooCommerce - Cart"
+msgstr "WooCommerce - 购物车"
+
+#. Template Name of the theme
+msgid "WooCommerce - Checkout"
+msgstr "WooCommerce - 结帐"
+
+#. Template Name of the theme
+msgid "Portfolio"
+msgstr "作品集"
+
+#. Template Name of the theme
+msgid "Page - Full Width - Header on Scroll"
+msgstr "页面 - 全宽 - 滚动时的标题"
+
+#. Template Name of the theme
+msgid "Page - Left Sidebar"
+msgstr "页面 - 左侧边栏"
+
+#. Template Name of the theme
+msgid "WooCommerce - My Account"
+msgstr "WooCommerce - 我的账户"
+
+#. Template Name of the theme
+msgid "Page - Right Sidebar"
+msgstr "页面 - 右侧边栏"
+
+#. Template Name of the theme
+msgid "Page - Single Page Nav - Transparent Header - Light Text"
+msgstr "页面 - 单页导航 - 透明页眉 - 浅色文本"
+
+#. Template Name of the theme
+msgid "Page - Single Page Nav - Transparent Header"
+msgstr "页面 - 单页导航 - 透明页眉"
+
+#. Template Name of the theme
+msgid "Page - Single Page Nav"
+msgstr "页面 - 单页导航"
+
+#. Template Name of the theme
+msgid "Page - Full Width - Transparent Header - Light Text"
+msgstr "页面 - 全宽 - 透明标题 - 浅色文本"
+
+#. Template Name of the theme
+msgid "Page - Full Width - Transparent Header"
+msgstr "页面 - 全宽 - 透明标题"
+
+#: searchform.php:18
+#: woocommerce/product-searchform.php:65
+msgid "Submit"
+msgstr "提交"
+
+#. translators: 1. Template
+#: template-parts/admin/envato/directory-warning.php:13
+msgid "An unusual theme directory name was detected: <em>%s</em>. The Flatsome parent theme should be installed in a directory named <em>flatsome</em> to ensure updates are handled correctly."
+msgstr "检测到异常的主题目录名称： <em>%s</em> 。 Flatsome父主题应安装在名为<em>Flatsome</em>的目录中，以确保正确处理更新。"
+
+#: template-parts/admin/envato/register-form.php:25
+msgid "Your site is <strong>registered</strong>. Thank you! Enjoy Flatsome and one-click updates."
+msgstr "您的网站是<strong>注册的</strong>。谢谢您! 享受Flatsome和一键式更新。"
+
+#: template-parts/admin/envato/register-form.php:39
+msgid "The selector below will show available purchase codes you can register with."
+msgstr "下面的选择器将显示您可以注册的可用购买代码。"
+
+#: template-parts/admin/envato/register-form.php:42
+msgid "Select a purchase code:"
+msgstr "选择购买代码："
+
+#: template-parts/admin/envato/register-form.php:60
+msgid "Registered domain:"
+msgstr "注册域："
+
+#: template-parts/admin/envato/register-form.php:121
+msgid "Are you sure you want to unregister Flatsome?"
+msgstr "您确定要注销？"
+
+#. translators: 1: Version.
+#: template-parts/admin/envato/version-info-iframe.php:15
+msgid "Version %s"
+msgstr "版本 %s"
+
+#: template-parts/admin/envato/version-info-iframe.php:18
+msgid "Read change log here"
+msgstr "在此处阅读更改日志"
+
+#: template-parts/footer/back-to-top.php:22
+msgid "Go to top"
+msgstr "回到顶部"
+
+#: template-parts/header/partials/element-contact-mobile.php:38
+#: template-parts/header/partials/element-contact.php:33
+msgid "Location"
+msgstr "位置"
+
+#: template-parts/header/partials/element-contact-mobile.php:47
+#: template-parts/header/partials/element-contact.php:52
+msgid "Contact"
+msgstr "联系"
+
+#: template-parts/header/partials/element-menu-icon.php:13
+#: template-parts/header/partials/element-menu-icon.php:17
+#: template-parts/overlays/overlay-menu.php:45
+msgid "Menu"
+msgstr "菜单"
+
+#: template-parts/header/partials/element-nav-vertical.php:33
+#: template-parts/overlays/overlay-menu.php:50
+msgid "Categories"
+msgstr "分类"
+
+#: template-parts/posts/content-none.php:14
+msgid "Nothing Found"
+msgstr "什么都没找到"
+
+#: template-parts/posts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "准备好发布您的第一篇文章？ <a href=\"%1$s\">立即开始</a>。"
+
+#: template-parts/posts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "对不起，没有匹配您的搜索条件。请用一些不同的关键字再试一次。"
+
+#: template-parts/posts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "看来我们无法找到您所需要的东西。 也许搜索可以帮助。"
+
+#. translators: used between list items, there is a space after the comma
+#: template-parts/posts/content-single.php:31
+#: template-parts/posts/content-single.php:34
+#: template-parts/posts/partials/entry-footer-single.php:14
+#: template-parts/posts/partials/entry-footer-single.php:22
+#: template-parts/posts/partials/entry-footer.php:14
+#: template-parts/posts/partials/entry-footer.php:22
+#: template-parts/posts/partials/entry-title.php:12
+#: template-parts/posts/partials/entry-title.php:17
+msgid ", "
+msgstr ", "
+
+#: template-parts/posts/content-single.php:39
+msgid "This entry was posted in %1$s and tagged %2$s."
+msgstr "此项目发布于 %1$s  并标记%2$s."
+
+#: template-parts/posts/content-single.php:41
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "此条目已发布在 %1$s。将 <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">永久链接</a> 书签。"
+
+#: template-parts/posts/content.php:15
+#: template-parts/posts/content.php:19
+#: template-parts/posts/featured-posts.php:29
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "继续阅读 <span class=\"meta-nav\">&rarr;</span>"
+
+#: template-parts/posts/loop/post-simple.php:32
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "%1$s 评价"
+
+#: template-parts/posts/partials/archive-title.php:17
+msgid "Category Archives: %s"
+msgstr "分类存档：%s"
+
+#: template-parts/posts/partials/archive-title.php:20
+msgid "Tag Archives: %s"
+msgstr "标签存档：%s"
+
+#: template-parts/posts/partials/archive-title.php:23
+msgid "Search Results for: %s"
+msgstr "搜索结果：%s"
+
+#: template-parts/posts/partials/archive-title.php:30
+msgid "Author Archives: %s"
+msgstr "作者存档：%s"
+
+#: template-parts/posts/partials/archive-title.php:38
+msgid "Daily Archives: %s"
+msgstr "每日存档：%s"
+
+#: template-parts/posts/partials/archive-title.php:41
+msgid "Monthly Archives: %s"
+msgstr "每月存档：%s"
+
+#: template-parts/posts/partials/archive-title.php:44
+msgid "Yearly Archives: %s"
+msgstr "年度存档：%s"
+
+#: template-parts/posts/partials/archive-title.php:47
+msgid "Asides"
+msgstr "旁白"
+
+#: template-parts/posts/partials/archive-title.php:50
+msgid "Images"
+msgstr "图片"
+
+#: template-parts/posts/partials/archive-title.php:53
+msgid "Videos"
+msgstr "视频"
+
+#: template-parts/posts/partials/archive-title.php:56
+msgid "Quotes"
+msgstr "引用"
+
+#: template-parts/posts/partials/archive-title.php:59
+msgid "Links"
+msgstr "链接"
+
+#: template-parts/posts/partials/entry-footer-single.php:17
+#: template-parts/posts/partials/entry-footer.php:17
+msgid "Posted in %1$s"
+msgstr "发表于 %1$s"
+
+#: template-parts/posts/partials/entry-footer-single.php:27
+#: template-parts/posts/partials/entry-footer.php:27
+msgid "Tagged %1$s"
+msgstr "标签 %1$s"
+
+#: template-parts/posts/partials/entry-footer-single.php:33
+#: template-parts/posts/partials/entry-footer.php:33
+msgid "Leave a comment"
+msgstr "发表评论"
+
+#: woocommerce/checkout/header-small.php:36
+#: woocommerce/checkout/header.php:38
+msgid "Shopping Cart"
+msgstr "购物车"
+
+#: woocommerce/checkout/header-small.php:41
+#: woocommerce/checkout/header.php:43
+msgid "Checkout details"
+msgstr "付款详情"
+
+#: woocommerce/checkout/header-small.php:46
+#: woocommerce/checkout/header.php:48
+msgid "Order Complete"
+msgstr "订单完成"
+
+#: woocommerce/checkout/social-login.php:17
+#: woocommerce/myaccount/header.php:71
+msgid "Login with <strong>Facebook</strong>"
+msgstr "用<strong>Facebook</strong>登录"
+
+#: woocommerce/checkout/social-login.php:28
+#: woocommerce/myaccount/header.php:81
+msgid "Login with <strong>Google</strong>"
+msgstr "用<strong>Google</strong>登录"
+
+#: woocommerce/myaccount/form-login-lightbox-left-panel.php:78
+#: woocommerce/myaccount/form-login-lightbox-right-panel.php:120
+msgid "Don't have an account? Register one!"
+msgstr "没有帐户？注册一个吧！"
+
+#: woocommerce/myaccount/form-login-lightbox-left-panel.php:79
+#: woocommerce/myaccount/form-login-lightbox-right-panel.php:121
+msgid "Register an Account"
+msgstr "帐户注册"
+

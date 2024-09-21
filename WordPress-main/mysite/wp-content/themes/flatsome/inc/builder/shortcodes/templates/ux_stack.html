@@ -1,0 +1,16 @@
+<div
+  id="{{:: shortcode.$id }}"
+  class="stack {{ shortcode.options.visibility }} {{ shortcode.options.class }}"
+  ng-class="{
+    ['stack-'+shortcode.options.direction]: shortcode.options.direction,
+    ['items-'+shortcode.options.align]: shortcode.options.align,
+    ['justify-'+shortcode.options.distribute]: shortcode.options.distribute
+  }"
+>
+  <content></content>
+  <style>
+    #{{:: shortcode.$id }} > * {
+      --stack-gap: {{ shortcode.options.gap }}rem;
+    }
+  </style>
+</div>

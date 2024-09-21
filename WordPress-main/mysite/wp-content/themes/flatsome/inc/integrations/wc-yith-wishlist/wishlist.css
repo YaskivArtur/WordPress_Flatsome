@@ -1,0 +1,215 @@
+td.wishlist-empty{
+  text-align: center!important;
+  padding: 50px;
+  font-size: 2em;
+}
+
+.wishlist_table .add_to_cart{
+   line-height: 1.3;
+   padding: 7px 10px;
+}
+
+/* Popup message */
+#yith-wcwl-popup-message{
+  background: #fff;
+  border: 1px solid #dddddd;
+  padding: 15px 0;
+  font-size: 120%;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translateX(50%);
+  width: 300px;
+  z-index: 10000; /* Thanks WP -.- */
+}
+
+.wishlist-icon{
+  position: relative;
+}
+.wishlist-popup {
+  opacity: 0;
+  max-height: 0;
+  position: absolute;
+  overflow: hidden;
+  padding: 5px;
+  margin-top: -10px;
+  border-radius: 5px;
+  line-height: 1.3;
+  text-align: center;
+  font-size: .9em;
+  top:100%;
+  background-color: rgba(0,0,0,.8);
+  right:0;
+  color:#FFF;
+  transition: opacity .3s, max-height .3s;
+  transition-delay: .3s;
+}
+
+.wishlist-popup:after {
+  bottom: 100%;
+  right: 10px;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-bottom-color: rgba(0,0,0,.8);
+  border-width: 10px;
+  margin-left: -10px;
+}
+
+.wishlist-icon:hover .wishlist-popup{
+  opacity: 1;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.wishlist-popup a{
+  color:#ccc;
+  display: block;
+}
+
+.wishlist-popup a:hover{
+ color:#FFF;
+}
+
+.wishlist-icon.added:after{
+  background-color:red;
+  transform: translateY(-3px);
+}
+
+.wishlist-popup .ajax-loading,
+.wishlist-popup .feedback{
+  display: none!important;
+}
+
+.wishlist-title {
+  margin-bottom: 20px;
+}
+
+#yith-wcwl-form .hidden-title-form,
+#yith-wcwl-form .hide-title-form i,
+.wishlist-title .button {
+  display: none;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 768px) {
+  .wishlist-title,
+  .wishlist-empty,
+  .yith_wcwl_wishlist_footer {
+    text-align: center;
+  }
+
+  .share-icons-title {
+    display: none;
+  }
+}
+
+.wishlist_table.mobile {
+  list-style: none;
+}
+
+.wishlist_table.mobile li .product-checkbox {
+  display: inline-block;
+  width: 20px;
+  vertical-align: top;
+}
+
+.wishlist_table.mobile li .item-wrapper {
+  display: inline-block;
+  width: calc(100% - 25px);
+  vertical-align: top;
+}
+
+.wishlist_table.wishlist_manage_table.mobile li .item-wrapper {
+  width: 100%;
+}
+
+.wishlist_table.mobile li .item-wrapper .product-thumbnail {
+  display: inline-block;
+  max-width: 60px;
+  margin-right: 10px;
+}
+
+.rtl .wishlist_table.mobile li .item-wrapper .product-thumbnail {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.wishlist_table.mobile li .item-wrapper .item-details {
+  display: inline-block;
+  width: calc(100% - 74px);
+  vertical-align: top;
+}
+
+.wishlist_table.mobile.with-checkbox li .additional-info-wrapper {
+  padding-left: 20px;
+}
+
+.rtl .wishlist_table.mobile.with-checkbox li .additional-info-wrapper {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+.wishlist_table.mobile li .additional-info-wrapper {
+  border-bottom: 1px solid #ececec;
+  width: calc(100% - 25px);
+}
+
+.wishlist_table.mobile li .additional-info-wrapper .product-add-to-cart,
+.wishlist_table.mobile li .additional-info-wrapper .move-to-another-wishlist {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wishlist_table.mobile .button.add_to_cart_button {
+  margin: 0;
+}
+
+.wishlist_table.mobile td {
+  border-bottom: none;
+  padding: 3px 0;
+}
+
+.wishlist_table.mobile li[id^="yith-wcwl-row-"] {
+  position: relative;
+  margin-top: 20px;
+}
+
+.wishlist_table.mobile .product-remove {
+  position: absolute;
+  top: 5px;
+  left: -12px;
+  width: 24px;
+  height: 24px;
+  line-height: 18px;
+  font-size: 18px;
+  border-radius: 100%;
+  color: #ccc;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid currentColor;
+}
+
+.rtl .wishlist_table.mobile .product-remove {
+  left: unset;
+  right: -12px;
+}
+
+.wishlist_table.mobile .product-remove a {
+  position: unset;
+}
+
+.wishlist_table.mobile .product-remove a i {
+  display: none;
+}
+
+.wishlist_table.mobile .product-remove a:after {
+  content: '×';
+  color: #ccc;
+}

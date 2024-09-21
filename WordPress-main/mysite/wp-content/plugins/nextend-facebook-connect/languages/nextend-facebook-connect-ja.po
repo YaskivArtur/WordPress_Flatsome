@@ -1,0 +1,4801 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nextend-facebook-connect\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-20 21:02+0100\n"
+"PO-Revision-Date: 2024-02-20 21:02+0100\n"
+"Last-Translator: \n"
+"Language-Team: 日本語\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_x:1,2c;esc_html_e\n"
+"X-Poedit-Flags-xgettext: --no-location\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Poedit-SearchPath-0: nextend-social-login-pro\n"
+"X-Poedit-SearchPath-1: nextend-facebook-connect\n"
+
+msgid "What personal data we collect and why we collect it"
+msgstr "当社が収集する個人データの内容と収集の理由"
+
+#, php-format
+msgid ""
+"%1$s collects data when a visitor register, login or link the account with "
+"with any of the enabled social provider. It collects the following data: "
+"email address, name, social provider identifier and access token. Also it "
+"can collect profile picture and more fields with the Pro Addon's sync data "
+"feature."
+msgstr ""
+"%1$s は、訪問者がソーシャルプロバイダーのいずれかに登録、ログイン、またはアカ"
+"ウントとリンクしたときにデータを収集します。収集されるデータは、メールアドレ"
+"ス、名前、ソーシャルプロバイダー識別子、アクセストークンです。また、Pro Addon"
+"の同期データ機能により、プロフィール画像やその他のフィールドを収集することも"
+"できます。"
+
+msgid "Who we share your data with"
+msgstr "お客様のデータを共有する相手"
+
+#, php-format
+msgid ""
+"%1$s stores the personal data on your site and does not share it with anyone "
+"except the access token which used for the authenticated communication with "
+"the social providers."
+msgstr ""
+"%1$s は、ソーシャルプロバイダーとの認証通信に使用するアクセストークンを除き、"
+"個人情報をお客様のサイト内に保存し、誰にも提供しません。"
+
+msgid "Does the plugin share personal data with third parties"
+msgstr "プラグインは個人データを第三者と共有するか"
+
+#, php-format
+msgid ""
+"%1$s use the access token what the social provider gave to communicate with "
+"the providers to verify account and securely access personal data."
+msgstr ""
+"%1$s は、ソーシャルプロバイダーが付与したアクセストークンを使用して、プロバイ"
+"ダーと通信し、アカウントの確認と個人データへの安全なアクセスを行います。"
+
+msgid "How long we retain your data"
+msgstr "お客様のデータを保持する期間"
+
+#, php-format
+msgid ""
+"%1$s removes the collected personal data when the user deleted from "
+"WordPress."
+msgstr ""
+"%1$s は、WordPressからユーザーを削除する際に、収集した個人データを削除しま"
+"す。"
+
+msgid "Does the plugin use personal data collected by others?"
+msgstr "プラグインは、他者が収集した個人データを使用するのですか？"
+
+#, php-format
+msgid ""
+"%1$s use the personal data collected by the social providers to create "
+"account on your site when the visitor authorize it."
+msgstr ""
+"%1$s は、ソーシャルプロバイダーによって収集された個人データを、訪問者がそれを"
+"承認したときに、あなたのサイトでアカウントを作成するために使用します。"
+
+msgid "Does the plugin store things in the browser?"
+msgstr "プラグインはブラウザに保存されるのでしょうか？"
+
+#, php-format
+msgid ""
+"Yes, %1$s must create a cookie for visitors who use the social login "
+"authorization flow. This cookie required for every provider to secure the "
+"communication and to redirect the user back to the last location."
+msgstr ""
+"はい、%1$sはソーシャルログイン認証フローを使用する訪問者のためにCookieを作成"
+"する必要があります。このクッキーは、通信を保護し、ユーザーを最後の場所にリダ"
+"イレクトするために、すべてのプロバイダーに必要です。"
+
+msgid "Does the plugin collect telemetry data, directly or indirectly?"
+msgstr "プラグインは、直接または間接的にテレメトリーデータを収集しますか？"
+
+msgid "No"
+msgstr "いいえ"
+
+msgid ""
+"Does the plugin enqueue JavaScript, tracking pixels or embed iframes from a "
+"third party?"
+msgstr ""
+"プラグインは、第三者からJavaScript、トラッキングピクセル、または埋め込み"
+"iframeをエンキューするのですか？"
+
+msgid "User"
+msgstr "ユーザー"
+
+msgid "This provider doesn't support REST API calls!"
+msgstr "このプロバイダーはREST APIコールをサポートしていません!"
+
+#, php-format
+msgid "%s needs json_decode function."
+msgstr "%s はjson_decode関数が必要です。"
+
+msgid "Please contact your server administrator and ask for solution!"
+msgstr "サーバー管理者に連絡して解決してください。"
+
+msgid "Settings saved."
+msgstr "設定が保存されました。"
+
+msgid "The activation was successful"
+msgstr "アクティベーションが成功しました"
+
+msgid "Deactivate completed."
+msgstr "無効化 が完了しました。"
+
+msgid "Settings"
+msgstr "設定"
+
+#, php-format
+msgid "Unexpected response: %s"
+msgstr "予期せぬレスポンスが発生しました。%s"
+
+#, php-format
+msgid ""
+"%s detected that your login url changed. You must update the Oauth redirect "
+"URIs in the related social applications."
+msgstr ""
+"ログイン URL が変更されたことを %s が検出しました。関連するソーシャル・アプリ"
+"ケーションの Oauth リダイレクト URI を更新する必要があります。"
+
+msgid "Fix Error"
+msgstr "エラーを修正する"
+
+msgid "Oauth Redirect URI"
+msgstr "Oauth リダイレクト URI"
+
+#, php-format
+msgid ""
+"%1$s detected that %2$s installed on your site. You need the Pro Addon to "
+"display Social Login buttons in %2$s login form!"
+msgstr ""
+"%1$s は、あなたのサイトに%2$sがインストールされていることを検出しました。2$の"
+"ログインフォームにソーシャルログインボタンを表示するには、Proアドオンが必要で"
+"す!"
+
+msgid "Dismiss and check Pro Addon"
+msgstr "Pro Addon を解除して確認する"
+
+msgid "Dismiss"
+msgstr "拒否する"
+
+#, php-format
+msgid ""
+"%1$s detected that %2$s installed on your site. You must set \"<b>Page for "
+"register flow</b>\" and \"<b>OAuth redirect uri proxy page</b>\" in %1$s to "
+"work properly."
+msgstr ""
+"%1$s は、あなたのサイトに%2$sがインストールされていることを検出しました。%1$s"
+"の「<b>登録フロー用ページ</b>」と「<b>OAuthリダイレクトURIプロキシページ</"
+"b>」を設定しないと、正しく動作しません。"
+
+msgid "Fix now"
+msgstr "今すぐ修正する"
+
+msgid "Activate your Pro Addon"
+msgstr "Proアドオンのアクティベート"
+
+msgid ""
+"To be able to use the Pro features, you need to activate Nextend Social "
+"Login Pro Addon. You can do this by clicking on the Activate button below "
+"then select the related purchase."
+msgstr ""
+"Pro機能を使用するには、Nextend Social Login Pro Addonを有効化する必要がありま"
+"す。下記のアクティベートボタンをクリックし、関連する購入を選択することで実行"
+"できます。"
+
+msgid "Activate"
+msgstr "アクティベート"
+
+msgid "License key"
+msgstr "ライセンスキー"
+
+msgid "OAuth proxy page"
+msgstr "OAuthプロキシページ"
+
+msgid "Register flow page"
+msgstr "レジスターフローページ"
+
+#, php-format
+msgid ""
+"<strong><u>Warning</u></strong>: You are using <b>%1$s</b>! Depending on "
+"your %1$s configuration the Redirect URI can be different. For more "
+"information please check our %2$s %1$s compatibility tutorial%3$s!"
+msgstr ""
+"<strong><u>警告</u></strong>：<b>%1$s</b> を使用しています! %1$s の設定によっ"
+"ては、リダイレクトURIが異なる場合があります。詳しくは、%2$s %1$s互換性チュー"
+"トリアル %3$s をご覧ください!"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "<p><strong><u>Warning</u></strong>: Providers change the App setup "
+#| "process quite often, which means some steps below might not be accurate. "
+#| "If you see significant difference in the written instructions and what "
+#| "you see at the provider, feel free to %1$sreport it%2$s, so we can check "
+#| "and update the instructions.<br><strong>Last updated:</strong> %3$s.</p>"
+msgid ""
+"<p><strong><u>Warning</u></strong>: Providers change the App setup process "
+"quite often, which means some steps below might not be accurate. If you see "
+"significant difference in the written instructions and what you see at the "
+"provider, check the guide in the %1$sonline documentation%2$s first, just in "
+"case if we are already aware of the changes hence updated the guide. "
+"Otherwise feel free to %3$sreport the changes%4$s, so we can check and "
+"update the instructions.<br><strong>Last updated:</strong> %5$s.</p>"
+msgstr ""
+"<p><strong><u>警告</u></strong>：プロバイダはアプリのセットアップ手順を頻繁に"
+"変更するため、以下の手順が正確でない場合があります。内容が明らかに異なる場合"
+"は、%1$s で %2$s にお気軽にご報告ください。更新します。<br><strong>最終更新"
+"日：</strong> %3$s.</p> "
+
+msgid "You have logged in successfully."
+msgstr "ログインに成功しました。"
+
+msgid "Login label"
+msgstr "ログインラベル"
+
+msgid "Reset to default"
+msgstr "デフォルトに戻す"
+
+msgid "Register label"
+msgstr "登録ラベル"
+
+msgid "Link label"
+msgstr "リンクラベル"
+
+msgid "Unlink label"
+msgstr "アカウント連携解除ラベル"
+
+msgid "Default button"
+msgstr "デフォルトのボタン"
+
+msgid "Use custom button"
+msgstr "カスタムボタンを使用する"
+
+#, php-format
+msgid "Use the %s in your custom button's code to make the label show up."
+msgstr "カスタムボタンのコードにある%sを使用して、ラベルを表示させます。"
+
+msgid "Icon button"
+msgstr "アイコンボタン"
+
+msgid "Save Changes"
+msgstr "変更を保存する"
+
+msgid "Getting Started"
+msgstr "始める(Getting Started)"
+
+msgid "Buttons"
+msgstr "ボタン"
+
+msgid "Sync data"
+msgstr "同期データ"
+
+msgid "Usage"
+msgstr "使用方法"
+
+msgid "Other settings"
+msgstr "その他の設定"
+
+msgid "Username prefix on register"
+msgstr "登録時のユーザー名のprefix（接頭辞）"
+
+msgid "Fallback username prefix on register"
+msgstr "登録時のユーザー名のprefix（接頭辞）の予備"
+
+msgid "Used when username is invalid or not stored"
+msgstr "ユーザー名が無効な場合、または保存されていない場合に使用します。"
+
+msgid "Terms and conditions"
+msgstr "規約と条件"
+
+#, php-format
+msgid "Override global \"%1$s\""
+msgstr "グローバル\"%1$s \"をオーバーライドする。"
+
+msgid "PRO settings"
+msgstr "PROの設定"
+
+msgid "Ask E-mail on registration"
+msgstr "登録時にメールで問い合わせる"
+
+msgid "Never"
+msgstr "常にしない"
+
+msgid "When email is not provided or empty"
+msgstr "メールが提供されていない、または空欄の場合"
+
+msgid "Always"
+msgstr "毎回"
+
+msgid "Ask Username on registration"
+msgstr "登録時にユーザー名を聞く"
+
+msgid "Never, generate automatically"
+msgstr "常に自動生成"
+
+msgid "When username is empty or invalid"
+msgstr "ユーザー名が空または無効な場合"
+
+msgid "Ask Password on registration"
+msgstr "登録時にパスワードを聞く"
+
+msgid "Automatically connect the existing account upon registration"
+msgstr "登録時に既存アカウントと自動連携"
+
+msgid "Disabled"
+msgstr "無効"
+
+msgid "Automatic, based on email address"
+msgstr "メールアドレスに基づき、自動的に"
+
+msgid "Disable login for the selected roles"
+msgstr "選択したロールのログインを無効化する"
+
+msgid "Default roles for user who registered with this provider"
+msgstr "このプロバイダに登録されたユーザーのデフォルトの役割"
+
+#, fuzzy, php-format
+#| msgid "Select the %1$s option for %2$s."
+msgid "Default (The %1$s is: %2$s)"
+msgstr "%2$s の %1$s オプションを選択します。"
+
+#, fuzzy
+#| msgid "Default redirect url"
+msgid "default WordPress role"
+msgstr "デフォルトのリダイレクトURL"
+
+#, php-format
+msgid "Default (The %s.)"
+msgstr ""
+
+msgid "Register"
+msgstr "登録"
+
+msgid "Login"
+msgstr "ログイン"
+
+msgid "Link"
+msgstr "リンク"
+
+msgid "Store in meta key"
+msgstr "メタ・キーに格納"
+
+msgid "Shortcode"
+msgstr "ショートコード"
+
+msgid "Important!"
+msgstr "大事なことです!"
+
+msgid "The shortcodes are only rendered for users who haven't logged in yet!"
+msgstr ""
+"ショートコードは、まだログインしていないユーザーに対してのみレンダリングされ"
+"るのです"
+
+msgid "See the full list of shortcode parameters."
+msgstr "ショートコードパラメータの一覧はこちら"
+
+msgid "Simple link"
+msgstr "シンプルなリンク"
+
+msgid "Click here to login or register"
+msgstr "ログインまたは登録はこちら"
+
+msgid "Image button"
+msgstr "画像ボタン"
+
+msgid "Image url"
+msgstr "画像URL"
+
+msgid "Debug"
+msgstr "デバッグ"
+
+msgid "Test network connection with providers"
+msgstr "プロバイダーとのネットワーク接続をテスト"
+
+msgid "You don't have cURL support, please enable it in php.ini!"
+msgstr "cURLがサポートされていないので、php.iniで有効にしてください!"
+
+#, php-format
+msgid "Test %1$s connection"
+msgstr "テスト %1$s 接続"
+
+msgid "Fix Oauth Redirect URIs"
+msgstr "OauthリダイレクトURIの修正"
+
+msgid "Every Oauth Redirect URI seems fine"
+msgstr "どのOauth Redirect URIも問題ないようです。"
+
+msgid "Got it"
+msgstr "了解"
+
+msgid "Global Settings"
+msgstr "全般設定"
+
+msgid "General"
+msgstr "一般"
+
+msgid "Privacy"
+msgstr "プライバシー"
+
+msgid "Login Form"
+msgstr "ログインフォーム"
+
+msgid "Comment"
+msgstr "コメント"
+
+msgid "Custom Actions"
+msgstr "カスタムアクション"
+
+msgid "Docs"
+msgstr "資料集(Docs)"
+
+msgid "Support"
+msgstr "サポート"
+
+msgid "Pro Addon"
+msgstr "プロアドオン"
+
+msgid "Providers"
+msgstr "プロバイダー"
+
+msgid "Error"
+msgstr "エラー"
+
+msgid ""
+"You don’t have sufficient permissions to install and activate plugins. "
+"Please contact your site’s administrator!"
+msgstr ""
+"プラグインのインストールと有効化に必要な十分な権限がありません。サイトの管理"
+"者に連絡してください"
+
+msgid "Activate Pro Addon"
+msgstr "Proアドオンの有効化"
+
+msgid ""
+"Pro Addon is installed but not activated. To be able to use the Pro "
+"features, you need to activate it."
+msgstr ""
+"Pro Addon はインストールされていますが、有効化されていません。Proの機能を利用"
+"するためには、アクティベートする必要があります。"
+
+msgid "Deactivate Pro Addon"
+msgstr "ProAddon を無効化"
+
+msgid "Pro Addon is not installed"
+msgstr "Pro Addon はインストールされていません"
+
+msgid ""
+"To access the Pro features, you need to install and activate the Pro Addon."
+msgstr ""
+"Proの機能を利用するには、Proアドオンをインストールし、有効化する必要がありま"
+"す。"
+
+#, php-format
+msgid "Install %s now"
+msgstr "今すぐ %s をインストールする"
+
+msgid "Install Pro Addon"
+msgstr "Pro Addon のインストール"
+
+msgid "Activating..."
+msgstr "有効化中..."
+
+msgid "Not compatible!"
+msgstr "互換性がありません！"
+
+#, php-format
+msgid ""
+"%1$s and %2$s are not compatible. Please update %1$s to version %3$s or "
+"newer."
+msgstr ""
+"%1$s と %2$s は互換性がありません。%1$s をバージョン %3$s 以降に更新してくだ"
+"さい。"
+
+#, php-format
+msgid "Update %s"
+msgstr "更新 %s"
+
+#, php-format
+msgid ""
+"%1$s and %2$s are not compatible. Please update %2$s to version %3$s or "
+"newer."
+msgstr ""
+"%1$s と %2$s は互換性がありません。 %2$s をバージョン %3$s 以降にアップデート"
+"してください。"
+
+msgid "Update Pro Addon"
+msgstr "ProAddonを更新"
+
+msgid "Pro Addon is installed and activated"
+msgstr "Pro Addon がインストールされ、有効化されている"
+
+msgid ""
+"You installed and activated the Pro Addon. If you don’t want to use it "
+"anymore, you can deactivate using the button below."
+msgstr ""
+"Pro Addonをインストールし、有効化しました。もう使用しない場合は、下のボタンで"
+"解除できます。"
+
+msgid "Get Pro Addon to unlock more features"
+msgstr "Pro Addonでより多くの機能をアンロック"
+
+#, php-format
+msgid ""
+"The features below are available in %s Pro Addon. Get it today and tweak the "
+"awesome settings."
+msgstr ""
+"以下の機能は、%s Pro Addonで利用可能です。今すぐ入手して、素晴らしい設定をい"
+"じってください。"
+
+msgid ""
+"If you already have a license, you can Authorize your Pro Addon. Otherwise "
+"you can purchase it using the button below."
+msgstr ""
+"すでにライセンスをお持ちの場合は、Pro AddonをAuthorizeすることができます。そ"
+"れ以外の場合は、以下のボタンを使用して購入することができます。"
+
+msgid "Buy Pro Addon"
+msgstr "Pro Addon の購入"
+
+msgid "Authorize Pro Addon"
+msgstr "認証 Pro Addon"
+
+msgid "Pro Addon is not activated"
+msgstr "Pro Addon は有効化されていません"
+
+msgid ""
+"To be able to use the Pro features, you need to install and activate the "
+"Nextend Social Login Pro Addon."
+msgstr ""
+"Pro機能を利用するためには、Nextend Social Login Pro Addonをインストールし、有"
+"効化する必要があります。"
+
+#, php-format
+msgid ""
+"%1$s detected that you have providers configured but none of them are "
+"enabled. To display any social buttons, please make sure you have at least "
+"one provider enabled!"
+msgstr ""
+"%1$s は、プロバイダが設定されているが、どれも有効になっていないことを検出しま"
+"した。ソーシャルボタンを表示するには、少なくとも1つのプロバイダが有効になって"
+"いることを確認してください。"
+
+msgid "Not Available"
+msgstr "使用不可"
+
+msgid "Not Configured"
+msgstr "未設定"
+
+msgid "Not Verified"
+msgstr "未確認"
+
+msgid "Enabled"
+msgstr "有効"
+
+msgid "Upgrade Now"
+msgstr "今すぐアップグレードする"
+
+msgid "Verify Settings"
+msgstr "設定の確認"
+
+msgid "Enable"
+msgstr "有効"
+
+msgid "Disable"
+msgstr "無効にする"
+
+msgid "Stay Updated"
+msgstr "最新情報"
+
+msgid ""
+"Receive info on the latest plugin updates and social provider related "
+"changes."
+msgstr ""
+"最新のプラグインアップデートやソーシャルプロバイダー関連の変更情報を受け取る"
+"ことができます。"
+
+msgid "Enter your email address"
+msgstr "メールアドレスを入力してください"
+
+msgid "Subscribe"
+msgstr "サブスクライブ"
+
+msgid "Saving..."
+msgstr "保存中..."
+
+msgid "Saving failed"
+msgstr "保存に失敗しました"
+
+msgid "Order Saved"
+msgstr "保存された注文"
+
+msgid "Successfully subscribed!"
+msgstr "購読に成功しました"
+
+msgid ""
+"We'll be bringing you all the latest news and updates about Social Login - "
+"right to your inbox."
+msgstr "ソーシャル・ログインに関する最新情報を、あなたのお手元にお届けします。"
+
+msgid "The entered email address is invalid!"
+msgstr "入力されたメールアドレスが無効です"
+
+msgid "Rate your experience!"
+msgstr "あなたの経験を評価してください"
+
+msgid "Hated it"
+msgstr "これを嫌う"
+
+msgid "Disliked it"
+msgstr "これを嫌う"
+
+msgid "It was ok"
+msgstr "それはOKでした"
+
+msgid "Liked it"
+msgstr "気に入った"
+
+msgid "Loved it"
+msgstr "愛してやまない"
+
+msgid "Please Leave a Review"
+msgstr "レビューを書いてください"
+
+msgid ""
+"If you are happy with <b>Nextend Social Login</b> and can take a minute "
+"please leave us a review. It will be a tremendous help for us!"
+msgstr ""
+"もし、<b>Nextend Social Login</b>にご満足いただけたなら、レビューをお寄せくだ"
+"さい。私たちにとって大きな助けとなります。"
+
+msgid "Ok, you deserve it"
+msgstr "OK、あなたはそれに値します。"
+
+msgid "Register form"
+msgstr "登録フォーム"
+
+msgid "No Connect button"
+msgstr "ボタンを接続しない"
+
+msgid "Connect button before register"
+msgstr "登録（Register）の前にボタンを接続"
+
+msgid "Action:"
+msgstr "アクションを行います。"
+
+msgid "Connect button before account details"
+msgstr "アカウント詳細の前にボタンを接続する"
+
+msgid "Connect button after register"
+msgstr "登録（Register）の後にボタンを接続"
+
+msgid "Register button style"
+msgstr "ボタンスタイルを登録する"
+
+msgid "Default"
+msgstr "デフォルト"
+
+msgid "Fullwidth"
+msgstr "全幅"
+
+msgid "Icon"
+msgstr "アイコン"
+
+msgid "Register layout"
+msgstr "レジスタのレイアウト"
+
+msgid "Below"
+msgstr "下部"
+
+msgid "Below with separator"
+msgstr "下部でセパレーター付き"
+
+msgid "Above"
+msgstr "上部"
+
+msgid "Above with separator"
+msgstr "上部でセパレーター付き"
+
+msgid "Sidebar Login form"
+msgstr "サイドバーログインフォーム"
+
+msgid "Hide login buttons"
+msgstr "ログインボタンを隠す"
+
+msgid "Show login buttons"
+msgstr "ログインボタンを表示する"
+
+msgid ""
+"Some themes that use BuddyPress, display the social buttons twice in the "
+"same login form. This option can disable the one for: "
+"<b>bp_sidebar_login_form action</b>.  "
+msgstr ""
+"BuddyPressを利用している一部のテーマでは、同じログインフォームにソーシャルボ"
+"タンが2つ表示されることがあります。このオプションは、その1つを無効化すること"
+"ができます。<b>bp_sidebar_login_formアクション</b>のものを無効にします。  "
+
+msgid "Login form"
+msgstr "ログインフォーム"
+
+msgid "Login button style"
+msgstr "ログインボタンのスタイル"
+
+msgid "Login layout"
+msgstr "ログインレイアウト"
+
+msgid "Social accounts tab"
+msgstr "ソーシャルアカウントタブ"
+
+msgid "Hide"
+msgstr "隠す"
+
+msgid "Show"
+msgstr "表示"
+
+#, php-format
+msgid ""
+"Creates a new tab called %s, where the Link and Unlink buttons will be "
+"displayed."
+msgstr ""
+"リンクとアンリンクのボタンが表示される、%sという新しいタブを作成します。"
+
+msgid "Social Accounts"
+msgstr "ソーシャルアカウント"
+
+msgid "Button alignment"
+msgstr "ボタンの並び"
+
+msgid "Left"
+msgstr "左"
+
+msgid "Center"
+msgstr "中央"
+
+msgid "Right"
+msgstr "右"
+
+msgid "BuddyPress registration integration"
+msgstr "BuddyPress の登録と統合"
+
+#, php-format
+msgid ""
+"When this setting is enabled the actual registration will be done by %1$s, "
+"so it could send the activation emails uppon registration."
+msgstr ""
+"この設定を有効にすると、実際の登録は %1$s によって行われるため、登録時にアク"
+"ティベーションメールを送信することができます。"
+
+#, php-format
+msgid ""
+"%1$s To prevent the login with social login until the account is activated, "
+"you also need to enable the %2$s feature on the %3$s tab!"
+msgstr ""
+"%1$s アカウントが有効化されるまでソーシャルログインでログインできないようにす"
+"るには、%3$s タブ で %2$s 機能を有効にすることも必要です!"
+
+msgid "Usage:"
+msgstr "使用方法："
+
+msgid "Support login restrictions"
+msgstr "ログイン制限に対応"
+
+msgid "Login button"
+msgstr "ログインボタン"
+
+#, php-format
+msgid "You need to turn on the ' %1$s > %2$s > %3$s ' for this feature to work"
+msgstr ""
+"この機能を使用するには、' %1$s > %2$s > %3$s ' をオンにする必要があります。"
+
+msgid "Discussion"
+msgstr "ディスカッション"
+
+msgid "Users must be registered and logged in to comment"
+msgstr "コメントするには、ユーザー登録とログインが必要です。"
+
+msgid "Button style"
+msgstr "ボタンのスタイル"
+
+#, php-format
+msgid "%1$s Add your custom actions here. One action per line."
+msgstr "%1$s ここにカスタムアクションを追加します。1行に1アクションです。"
+
+#, php-format
+msgid ""
+"%1$s The HTML of the social buttons will be added at the place where the "
+"action is fired."
+msgstr ""
+"%1$s ソーシャルボタンのHTMLは、アクションが発生する場所に追加されます。"
+
+msgid "Important:"
+msgstr "重要："
+
+#, php-format
+msgid ""
+"If you %1$sexperience problems%2$s because of this feature, you can disable "
+"it by defining the %3$s constant."
+msgstr ""
+"この機能によって%1$sexperience problems%2$sが発生する場合は、%3$s定数を定義す"
+"ることで無効化することが可能です。"
+
+msgid "Button layout"
+msgstr "ボタンレイアウト"
+
+msgid "Default with top separator"
+msgstr "トップセパレーターを使用した場合のデフォルト"
+
+msgid "Default with bottom separator"
+msgstr "ボトムセパレーター付きデフォルト"
+
+msgid "No Connect button in Login form"
+msgstr "ログインフォームにボタンを接続しない"
+
+msgid "Connect button on"
+msgstr "次に接続する"
+
+msgid "Login form button style"
+msgstr "ログインフォームボタンのスタイル"
+
+msgid "No Connect button in Register form"
+msgstr "登録フォームにボタンを接続しない"
+
+msgid "Register form button style"
+msgstr "登録フォームのボタンスタイル"
+
+msgid "Checkout form"
+msgstr "チェックアウトフォーム"
+
+msgid "No Connect button in Checkout form"
+msgstr "チェックアウトフォームにボタンを接続しない"
+
+msgid "Checkout form button style"
+msgstr "チェックアウトフォームボタンのスタイル"
+
+msgid "Checkout layout"
+msgstr "チェックアウトレイアウト"
+
+msgid "Target window"
+msgstr "ターゲットウィンドウ"
+
+msgid "Prefer popup"
+msgstr "ポップアップを優先する"
+
+msgid "Prefer new tab"
+msgstr "新しいタブを優先する"
+
+msgid "Prefer same window"
+msgstr "同じウィンドウを希望する"
+
+msgid "Registration notification sent to"
+msgstr "登録通知書の送付先"
+
+msgid "WordPress default"
+msgstr "WordPressのデフォルト"
+
+msgid "Nobody"
+msgstr "Nobody"
+
+msgid "Admin"
+msgstr "管理者"
+
+msgid "User and Admin"
+msgstr "ユーザーと管理者"
+
+msgid "Unlink"
+msgstr "アカウント連携を解除"
+
+msgid "Allow Social account unlink"
+msgstr "ソーシャルアカウントのアンリンクを許可する"
+
+msgid "Show linked providers"
+msgstr "リンク先のプロバイダを表示する"
+
+#, php-format
+msgid "Providers linked to the account will appear in the %1$s."
+msgstr "アカウントにリンクされているプロバイダーは、%1$sに表示されます。"
+
+msgid "Users table"
+msgstr "ユーザーテーブル"
+
+msgid "Disable Admin bar for roles"
+msgstr "ロールの管理バーを無効化する"
+
+msgid "Debug mode"
+msgstr "デバッグモード"
+
+msgid "Bypass cache on redirect"
+msgstr "リダイレクト時のキャッシュを回避する"
+
+#, php-format
+msgid ""
+"Enabling this option will add a GET parameter to the URL where we redirect "
+"after a successful registration or login with social login. %1$sLearn "
+"more%2$s."
+msgstr ""
+"このオプションを有効にすると、登録またはソーシャルログインに成功した後にリダ"
+"イレクトするURLに、GETパラメータが追加されます。%1$s詳しくはこちら%2$s."
+
+msgid "Page for register flow"
+msgstr "レジスタフロー用ページ"
+
+msgid "None"
+msgstr "なし"
+
+msgid ""
+"This setting is used when you request additional data from the users (such "
+"as email address) and to display the Terms and conditions."
+msgstr ""
+"この設定は、ユーザーから追加データ（メールアドレスなど）を要求するときや、利"
+"用規約を表示するときに使用されます。"
+
+#, php-format
+msgid ""
+"%2$s First create a new page and insert the following shortcode: %1$s then "
+"select this page above"
+msgstr ""
+"%2$s まず、新しいページを作成し、以下のショートコードを挿入してください。%1$s"
+"を挿入し、上記のこのページを選択します。"
+
+#, php-format
+msgid ""
+"%1$s You won't be able to reach the selected page unless a social login/"
+"registration happens."
+msgstr ""
+"%1$s ソーシャルログイン/登録が発生しない限り、選択したページに到達することは"
+"できません。"
+
+msgid "OAuth redirect uri proxy page"
+msgstr "OAuthリダイレクトURIプロキシページ"
+
+msgid ""
+"You can use this setting when wp-login.php page is not available to handle "
+"the OAuth flow."
+msgstr ""
+"OAuthフローを処理するためにwp-login.phpページが利用できない場合に、この設定を"
+"使用することができます。"
+
+#, php-format
+msgid "%1$s First create a new page then select this page above."
+msgstr "%1$s まず新しいページを作成し、上記のこのページを選択してください。"
+
+msgid "Prevent external redirect overrides"
+msgstr "外部からのリダイレクトのオーバーライドを防止する"
+
+msgid "Disable external redirects"
+msgstr "外部リダイレクトを無効化する"
+
+msgid "Default redirect url"
+msgstr "デフォルトのリダイレクトURL"
+
+msgid "for Login"
+msgstr "ログイン用"
+
+msgid "for Register"
+msgstr "レジスター用"
+
+msgid "Fixed redirect url"
+msgstr "リダイレクトのURLを修正しました。"
+
+msgid "Blacklisted redirects"
+msgstr "ブラックリストに登録されたリダイレクト"
+
+msgid "If you want to blacklist redirect url params. One pattern per line."
+msgstr "リダイレクトのurl paramsをブラックリスト化したい場合。1行に1パターン。"
+
+#, php-format
+msgid "Please visit to our %1$s to check what plugins are supported!"
+msgstr "どのようなプラグインがサポートされているかは、%1$sでご確認ください。"
+
+msgid "Display avatars in \"All media items\""
+msgstr "\"すべてのメディアアイテム \"にアバターを表示する"
+
+msgid ""
+"Enabling this option can speed up loading images in Media Library - Grid "
+"view!"
+msgstr ""
+"このオプションを有効にすると、メディアライブラリ - グリッド表示での画像の読み"
+"込みが高速化されます。"
+
+msgid "Membership"
+msgstr "メンバーシップ"
+
+msgid "Allow registration with Social login."
+msgstr "ソーシャルログインで登録できるようにする。"
+
+msgid "Custom label for register buttons"
+msgstr "レジスターボタン用カスタムラベル"
+
+#, php-format
+msgid ""
+"Set a custom label for the social buttons in registration forms and for "
+"shortcodes with %1$s parameter set to %2$s.<br>The register specific labels "
+"can be modified at the Buttons tab of each provider."
+msgstr ""
+"登録フォームのソーシャルボタンや、%1$sパラメータを%2$sに設定したショートコー"
+"ドのカスタムラベルを設定します。<br>登録固有のラベルは、各プロバイダのButtons"
+"タブで変更可能です。"
+
+msgid "Redirect overlay"
+msgstr "リダイレクトオーバーレイ"
+
+msgid "No overlay"
+msgstr "オーバーレイ無し"
+
+msgid "Display overlay"
+msgstr "オーバーレイを表示する"
+
+msgid "Display overlay with spinner"
+msgstr "スピナー付きオーバーレイを表示"
+
+msgid "Display overlay with spinner and message"
+msgstr "スピナー、メッセージ付きディスプレイオーバーレイ"
+
+msgid ""
+"You can display an overlay on your site when we start the redirect after the "
+"authentication."
+msgstr ""
+"認証後にリダイレクトを開始する際に、サイト上にオーバーレイを表示させることが"
+"できます。"
+
+#, php-format
+msgid "%1$s The overlay won't be displayed if the %2$s setting is set to %3$s!"
+msgstr "%1$s %2$s の設定が %3$s になっていると、オーバーレイは表示されません!"
+
+msgid "Note:"
+msgstr "注意："
+
+msgid "Unsupported WebView behavior"
+msgstr ""
+
+#, fuzzy
+#| msgid "Image button"
+msgid "Remove button"
+msgstr "画像ボタン"
+
+#, fuzzy
+#| msgid "Default button"
+msgid "Disable button"
+msgstr "デフォルトのボタン"
+
+#, php-format
+msgid "Some %1$sproviders%2$s don't support embedded browsers."
+msgstr ""
+
+msgid ""
+"This setting defines if we should remove or disable the related buttons in "
+"WebView environments."
+msgstr ""
+
+msgid "Below and floating"
+msgstr "下部でフローティング"
+
+msgid "Embedded Login form button style"
+msgstr "ログインフォームのボタンスタイルを埋め込む"
+
+msgid "Embedded Login layout"
+msgstr "埋め込み式ログインレイアウト"
+
+msgid "Embedded login form button alignment"
+msgstr "ログインフォームのボタン配置を埋め込む"
+
+msgid "Registration Form"
+msgstr "登録フォーム"
+
+msgid "Embedded login form"
+msgstr "ログインフォームの埋め込み"
+
+msgid "Sign Up form"
+msgstr "登録フォーム"
+
+msgid "No Connect button in Sign Up form"
+msgstr "サインアップフォームにボタンを接続しない"
+
+msgid "Sign Up form button style"
+msgstr "登録フォームのボタンスタイル"
+
+msgid "Sign Up layout"
+msgstr "登録レイアウト"
+
+msgid "Account details"
+msgstr "アカウント詳細"
+
+msgid "No link buttons"
+msgstr "リンクボタン無し"
+
+msgid "Link buttons after account details"
+msgstr "アカウント詳細後のリンクボタン"
+
+msgid "Store"
+msgstr "保存する情報"
+
+msgid "First and last name"
+msgstr "姓と名"
+
+msgid "When not enabled, username will be randomly generated."
+msgstr "有効でない場合、ユーザー名はランダムに生成されます。"
+
+msgid "Email"
+msgstr "電子メール"
+
+msgid "When not enabled, email will be empty."
+msgstr "有効でない場合、Eメールは空白になります。"
+
+msgid "Avatar"
+msgstr "アバター"
+
+msgid "Access token"
+msgstr "アクセストークン"
+
+msgid "Register Form"
+msgstr "登録フォーム"
+
+msgid "No Connect button in login form"
+msgstr "ログインフォームにボタンを接続しない"
+
+msgid "No Connect button in register form"
+msgstr "登録フォームにボタンを接続しない"
+
+msgid "Billing form"
+msgstr "請求フォーム"
+
+msgid "No Connect button in billing form"
+msgstr "課金フォームにボタンを接続しない"
+
+msgid "Billing layout"
+msgstr "請求レイアウト"
+
+msgid "Default with separator"
+msgstr "セパレーター付きデフォルト"
+
+msgid "No Connect buttons in account details form"
+msgstr "アカウント詳細フォームにボタンを接続しない"
+
+msgid "Link buttons on"
+msgstr "のリンクボタン"
+
+msgid "Email template for registration"
+msgstr "登録用メールテンプレート"
+
+msgid "WordPress default notification"
+msgstr "WordPressのデフォルト通知"
+
+msgid "WooCommerce registration notification"
+msgstr "WooCommerceの登録通知"
+
+#, php-format
+msgid ""
+"Defines whether the registration with %1$s will send the same registration "
+"notification that %2$s does, instead of the %3$s default one."
+msgstr ""
+"%1$s の登録が、%3$s のデフォルトの登録通知ではなく、%2$sと同じ登録通知を送る"
+"かどうかを定義しています。"
+
+#, php-format
+msgid "Network connection successful: %1$s"
+msgstr "ネットワーク接続に成功しました： %1$s"
+
+#, php-format
+msgid "Network connection failed: %1$s"
+msgstr "ネットワーク接続に失敗しました：%1$s"
+
+msgid ""
+"Please contact with your hosting provider to resolve the network issue "
+"between your server and the provider."
+msgstr ""
+"お客様のサーバーとプロバイダー間のネットワークの問題を解決するために、ホス"
+"ティングプロバイダーに連絡してください。"
+
+msgid "Manage Avatar"
+msgstr "アバター管理"
+
+#, php-format
+msgid "Avatar <span class=\"count\">(%s)</span>"
+msgid_plural "Avatar <span class=\"count\">(%s)</span>"
+msgstr[0] "アバター <span class=\"count\">(%s)</span>。"
+
+#, php-format
+msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
+msgstr "%1$s &lsaquo; %2$s &#8212; WordPress"
+
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+msgid "Powered by WordPress"
+msgstr "Powered by WordPress"
+
+#, php-format
+msgctxt "site"
+msgid "&larr; Back to %s"
+msgstr "&larr; %s に戻る"
+
+msgid "Your configuration needs to be verified"
+msgstr "あなたの設定を確認する必要があります"
+
+msgid ""
+"Before you can start letting your users register with your app it needs to "
+"be tested. This test makes sure that no users will have troubles with the "
+"login and registration process. <br> If you see error message in the popup "
+"check the copied ID and secret or the app itself. Otherwise your settings "
+"are fine."
+msgstr ""
+"ユーザーにアプリの登録を開始させる前に、テストが必要です。このテストでは、ロ"
+"グインと登録のプロセスでトラブルが発生しないことを確認します。<br>ポップアッ"
+"プにエラーメッセージが表示された場合は、コピーしたIDとシークレット、またはア"
+"プリ自体をチェックしてください。そうでなければ、あなたの設定は問題ありませ"
+"ん。"
+
+msgid "Please save your changes to verify settings."
+msgstr "設定を確認するために、変更内容を保存してください。"
+
+msgid "Works Fine"
+msgstr "上手く動くでしょう"
+
+#, php-format
+msgid ""
+"This provider is currently disabled, which means that users can’t register "
+"or login via their %s account."
+msgstr ""
+"このプロバイダは現在無効になっており、ユーザーは%sアカウントで登録やログイン"
+"ができないことを意味します。"
+
+#, php-format
+msgid ""
+"This provider works fine, but you can test it again. If you don’t want to "
+"let users register or login with %s anymore you can disable it."
+msgstr ""
+"このプロバイダーは問題なく動作しますが、もう一度テストしてみてください。も"
+"し、もうユーザーに%sで登録やログインをさせたくない場合は、これを無効にするこ"
+"とができます。"
+
+#, php-format
+msgid ""
+"This provider is currently enabled, which means that users can register or "
+"login via their %s account."
+msgstr ""
+"このプロバイダは現在有効になっており、ユーザーは%sアカウントで登録またはログ"
+"インできることを意味します。"
+
+msgid "Verify Settings Again"
+msgstr "もう一度設定状況を確認する"
+
+msgid "Please save your changes before verifying settings."
+msgstr "設定を確認する前に、変更内容を保存してください。"
+
+msgid "Authentication successful"
+msgstr "認証に成功"
+
+msgid "Authentication error"
+msgstr "認証エラー"
+
+msgid "Unlink successful."
+msgstr "アカウント連携解除に成功しました"
+
+msgid "Unlink is not allowed!"
+msgstr "アカウント連携解除は禁止されています"
+
+msgid "The test was successful"
+msgstr "テストは成功しました"
+
+msgid "Authentication failed"
+msgstr "認証に失敗しました"
+
+msgid "Identifier"
+msgstr "識別子"
+
+msgid "Profile Picture"
+msgstr "プロフィール画像"
+
+#, php-format
+msgid ""
+"Your %1$s account is successfully linked with your account. Now you can sign "
+"in with %2$s easily."
+msgstr ""
+"お客様の %1$s アカウントとの連携に成功しました。これで、簡単に %2$s でサイン"
+"インできるようになりました。"
+
+#, php-format
+msgid ""
+"You have already linked a(n) %s account. Please unlink the current and then "
+"you can link another %s account."
+msgstr ""
+"あなたはすでに(n) %s アカウントをリンクしています。現在のリンクを解除してか"
+"ら、別の %s アカウントをリンクしてください。"
+
+#, php-format
+msgid "This %s account is already linked to another user."
+msgstr "この %s アカウントは、すでに別のユーザーにリンクされています。"
+
+msgid "User registration is currently not allowed."
+msgstr "現在、ユーザー登録はできません。"
+
+#, php-format
+msgid ""
+"We found a user with your %1$s email address. Unfortunately it belongs to a "
+"different %1$s account, so we are unable to log you in. Please use the "
+"linked %1$s account or log in with your password!"
+msgstr ""
+"あなたの %1$s のメールアドレスを持つユーザーを発見しました。残念ながら、それ"
+"は別の %1$s アカウントに属しているため、ログインすることができません。リンク"
+"先の %1$s アカウントを使用するか、パスワードでログインしてください!"
+
+msgid "Register For This Site"
+msgstr "このサイトに登録する"
+
+#, php-format
+msgid "%1$s requires PHP version %2$s+, plugin is currently NOT ACTIVE."
+msgstr ""
+"%1$s はPHPバージョン%2$s+を必要とし、プラグインは現在アクティブではありませ"
+"ん。"
+
+#, php-format
+msgid ""
+"%1$s requires WordPress version %2$s+. Because you are using an earlier "
+"version, the plugin is currently NOT ACTIVE."
+msgstr ""
+"%1$s はWordPressのバージョン%2$s+が必要です。あなたは以前のバージョンを使用し"
+"ているため、このプラグインは現在アクティブではありません。"
+
+#, php-format
+msgid "Please update %1$s to version %2$s or newer."
+msgstr "%1$s をバージョン %2$s 以降に更新してください。"
+
+msgid "Update now!"
+msgstr "今すぐアップデートしてください"
+
+msgid ""
+"By clicking Register, you accept our <a href=\"#privacy_policy_url\" "
+"target=\"_blank\">Privacy Policy</a>"
+msgstr ""
+"登録をクリックすると、当社の<a href=\"#privacy_policy_url\" "
+"target=\"_blank\">プライバシーポリシー</a>に同意されたことになります。"
+
+msgid "Hold On"
+msgstr "準備中..."
+
+msgid "You are being redirected to another page,<br>it may take a few seconds."
+msgstr "別のページに移動しています。<br>数秒かかる場合があります。"
+
+#, fuzzy
+#| msgid "This provider doesn't support REST API calls!"
+msgid "The selected provider doesn't support embedded browsers!"
+msgstr "このプロバイダーはREST APIコールをサポートしていません!"
+
+msgid "Social Login"
+msgstr "ソーシャルログイン"
+
+msgid "Button skin"
+msgstr "ボタンの見た目"
+
+msgid "Dark"
+msgstr "ダーク"
+
+msgid "Light"
+msgstr "ライト(明るい)"
+
+msgid "Black"
+msgstr "ブラック"
+
+msgid "White"
+msgstr "ホワイト"
+
+#, php-format
+msgid "Navigate to <b>%s</b>"
+msgstr "<b>%s</b> に移動します。"
+
+#, php-format
+msgid "Log in with your %s credentials if you are not logged in"
+msgstr "ログインしていない場合は、%sの認証情報でログインしてください。"
+
+#, php-format
+msgid "Click on the App with App ID: <b>%s</b>"
+msgstr "App IDを持つAppをクリックします。<b>%s</b> をクリックします。"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Click on %1$s on the left hand menu then add the %2$s product, and press "
+#| "the %3$s button."
+msgid ""
+"Click on the %1$s tab on the left side and then click on the %2$s button "
+"that appears next to the %3$s item."
+msgstr ""
+"左メニューの %1$s をクリックし、%2$s の商品を追加して、%3$s ボタンを押しま"
+"す。"
+
+#, php-format
+msgid ""
+"Press the %1$s button that you can find below the %2$s section, next to %3$s."
+msgstr ""
+
+#, php-format
+msgid "Add the following URL to the %s field:"
+msgstr "以下のURLを%sフィールドに追加します。"
+
+#, fuzzy, php-format
+#| msgid "Click on the %s button."
+msgid "Click on the %1$s button."
+msgstr "%s ボタンをクリックします。"
+
+#, php-format
+msgid ""
+"%1$s allows HTTPS OAuth Redirects only. You must move your site to HTTPS in "
+"order to allow login with %1$s."
+msgstr ""
+"%1$s は HTTPS OAuth Redirects のみを許可します。%1$s でのログインを許可するに"
+"は、サイトをHTTPSに移行する必要があります。"
+
+msgid "How to get SSL for my WordPress site?"
+msgstr "WordPressサイトのSSLを取得する方法とは？"
+
+#, php-format
+msgid ""
+"To allow your visitors to log in with their %1$s account, first you must "
+"create a %1$s App. The following guide will help you through the %1$s App "
+"creation process. After you have created your %1$s App, head over to "
+"\"Settings\" and configure the given \"%2$s\" and \"%3$s\" according to your "
+"%1$s App."
+msgstr ""
+"訪問者が %1$s アカウントでログインできるようにするには、まず、%1$s Appを作成"
+"する必要があります。以下のガイドは、%1$s アプリの作成プロセスを説明するもので"
+"す。%1$sアプリを作成したら、「設定」を開き、%1$sアプリに合わせて「%2$s」"
+"「%3$s」を設定します。"
+
+#, php-format
+msgid ""
+"<u><b>WARNING:</b></u> As of February 1, 2023, %1$s requires Business "
+"Verification for Advanced Access, which is necessary for the Facebook login "
+"feature. This means that, individuals can no longer use %1$s login on their "
+"websites to offer social login for their visitors, only verified businesses "
+"will be able to use this provider! For more information about this "
+"limitation, please check the %2$sofficial statement%3$s. "
+msgstr ""
+
+#, php-format
+msgctxt "App creation"
+msgid "Create %s"
+msgstr "作成 %s"
+
+#, php-format
+msgid "Navigate to %s"
+msgstr "%s に移動する"
+
+#, php-format
+msgid "Log in with your %s credentials if you are not logged in."
+msgstr "ログインしていない場合は、%sの認証情報でログインしてください。"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Click on the %1$s button, then fill the %2$s, %3$s, %4$s and %5$s forms."
+msgid ""
+"Click on the %1$s button and then choose the %2$s option as use case and "
+"press %3$s!"
+msgstr ""
+"%1$s ボタンをクリックし、%2$s、%3$s、%4$s、%5$sのフォームに入力します。"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Fill \"<b>App Display Name</b>\", \"<b>App Contact Email</b>\". The "
+#| "specified \"App Display Name\" will appear on your %s!"
+msgid ""
+"Fill the %1$s and %2$s fields. The specified app name will appear on your "
+"%3$s!"
+msgstr ""
+"「<b>アプリ表示名</b>」「<b>アプリ連絡先メールアドレス</b>」を記入する。指定"
+"された「アプリ表示名」は、あなたの%s!"
+
+#, php-format
+msgid ""
+"%1$sOptional%2$s: choose a %3$s if you would like to. If you didn't choose a "
+"%3$s at this point, you will need to select it in step 19, before you start "
+"the %4$s! "
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Click the \"<b>Create App</b>\" button and complete the Security Check."
+msgid "Click the %1$s button and complete the Security Check."
+msgstr ""
+"「<b>アプリ作成</b>」ボタンをクリックし、「セキュリティチェック」を完了しま"
+"す。"
+
+#, php-format
+msgid ""
+"A message at the top of the page might prompt you to switch to %1$s. Ignore "
+"that, as our integration is for %2$s!"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Click the \"<b>Create New App</b>\" button. (If you can not see this "
+#| "button, you might need to create a workspace first!)"
+msgid ""
+"Click on the %1$s button. (If you receive a blank page after you pressed the "
+"%1$s button, you might need to refresh the page.)"
+msgstr ""
+"「<b>Create New App</b>」ボタンをクリックします。(このボタンが表示されない場"
+"合は、最初にワークスペースを作成する必要があるかもしれません！)"
+
+#, php-format
+msgid ""
+"Press the %1$s button on the top right corner, so you can return to the "
+"previous page."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "To generate a %1$s, click on the %2$s button."
+msgid ""
+"Below the %1$s section, find the %2$s permission and click on the %3$s "
+"button."
+msgstr "%1$sを生成するには、%2$sボタンをクリックします。"
+
+#, fuzzy, php-format
+#| msgid "Click on the %s button on the right side."
+msgid "Press the %1$s button on the top right corner again."
+msgstr "右側の「%s」ボタンをクリックします。"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "On the top left side, click on the “<b>%1$s</b>” menu point, then click "
+#| "“<b>%2$s</b>”."
+msgid "On the left side, click on the %1$s tab, then click %2$s."
+msgstr ""
+"左上の「<b>%1$s</b>」というメニューポイントをクリックし、「<b>%2$s</b>」をク"
+"リックします。"
+
+#, php-format
+msgid "Enter your domain name to the %1$s field, probably: %2$s"
+msgstr "ドメイン名を%1$sフィールドに入力してください。おそらく：%2$s"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Fill up the \"<b>Privacy Policy URL</b>\" field. Provide a publicly "
+#| "available and easily accessible privacy policy that explains what data "
+#| "you are collecting and how you will use that data."
+msgid ""
+"Fill up the %1$s field. Provide a publicly available and easily accessible "
+"privacy policy that explains what data you are collecting and how you will "
+"use that data."
+msgstr ""
+"<b>「プライバシーポリシーURL</b>」の欄を埋めてください。どのようなデータを収"
+"集し、そのデータをどのように使用するかを説明する、一般に公開され、容易にアク"
+"セスできるプライバシーポリシーを提供する必要があります。"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "At \"<b>User Data Deletion</b>\", choose the \"<b>Data Deletion "
+#| "Instructions URL</b>\" option, and enter the <i>URL of your page</i>* "
+#| "with the instructions on how users can delete their accounts on your site."
+msgid ""
+"At %1$s, choose the %2$s option, and enter the %3$s with the instructions on "
+"how users can delete their accounts on your site."
+msgstr ""
+"「<b>ユーザーデータの削除</b>」で、「<b>データ削除指示URL</b>」を選択し、ユー"
+"ザーがあなたのサイトでアカウントを削除する方法を説明したページの<i>URL</i>*を"
+"入力してください。"
+
+msgid ""
+"To comply with GDPR, you should already offer possibility to delete accounts "
+"on your site, either by the user or by the admin:"
+msgstr ""
+"GDPRに準拠するためには、ユーザーまたは管理者が、サイト上のアカウントを削除す"
+"る可能性をすでに提供している必要があります。"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "<u>If each user has an option to delete the account</u>: the URL should "
+#| "point to a guide showing the way users can delete their accounts."
+msgid ""
+"%1$sIf each user has an option to delete the account%2$s: the URL should "
+"point to a guide showing the way users can delete their accounts."
+msgstr ""
+"<u>各ユーザーにアカウントを削除するオプションがある場合</u>：URLは、ユーザー"
+"がアカウントを削除する方法を示すガイドを指すべきです。"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "<u>If the accounts are deleted by an admin</u>: then you should have a "
+#| "section - usually in the Privacy Policy - with the contact details, where "
+#| "users can send their account erasure requests. In this case the URL "
+#| "should point to this section of the document."
+msgid ""
+"%1$sIf the accounts are deleted by an admin%2$s: then you should have a "
+"section - usually in the Privacy Policy - with the contact details, where "
+"users can send their account erasure requests. In this case the URL should "
+"point to this section of the document."
+msgstr ""
+"<u>アカウントが管理者によって削除される場合</u>：通常、プライバシーポリシーの"
+"中に、ユーザーがアカウント消去のリクエストを送信できる連絡先を記載したセク"
+"ションを設ける必要があります。この場合、URLはドキュメントのこのセクションを指"
+"す必要があります。"
+
+#, fuzzy, php-format
+#| msgid "Select the %1$s option for %2$s."
+msgid "Select a %1$s, an %2$s."
+msgstr "%2$s の %1$s オプションを選択します。"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Scroll up to the top of the page and choose the \"<b>LINE Login</b>\" "
+#| "section."
+msgid "Scroll down to the bottom of the page, press the %s button."
+msgstr ""
+"ページ上部までスクロールして、「<b>LINEログイン</b>」の項目を選択します。"
+
+#, fuzzy, php-format
+#| msgid "Find the %1$s section and add the following URL to the %2$s field:"
+msgid ""
+"Select %1$s platform, then press %2$s and enter the following URL into the "
+"%3$s field: %4$s"
+msgstr "%1$s セクションを探し、%2$sフィールドに以下のURLを追加します。"
+
+#, php-format
+msgid "Press the %s button."
+msgstr "%s ボタンを押す。"
+
+#, php-format
+msgid ""
+"By default, your application only has Standard Access for the %1$s and %2$s "
+"permissions, which means that only you can log in with it. To get Advanced "
+"Access you will need to go trough the %3$s, that you can start on the %4$s "
+"tab on the left side."
+msgstr ""
+
+#, php-format
+msgid ""
+"Currently your app is in Development Mode which also means that people "
+"outside of your business can not use it. Once your verification is "
+"completed, click on the %1$s tab and publish your app by clicking on the "
+"%1$s button at the bottom right corner. Before you press it, it is "
+"recommended to check the steps listed on the %2$s page, if you configured "
+"everything properly."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "At the left hand menu click on the %1$s option under %2$s."
+msgid "After everything is done, click on the %1$s tab, then click %2$s."
+msgstr "左側のメニューで、%2$sの下にある%1$sオプションをクリックします。"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "At the top of the page you can find your \"<b>%1$s</b>\" and you can see "
+#| "your \"<b>%2$s</b>\" if you click on the \"Show\" button. These will be "
+#| "needed in plugin’s settings."
+msgid ""
+"At the top of the page you can find your %1$s and you can see your %2$s if "
+"you click on the %3$s button. These will be needed in plugin’s settings."
+msgstr ""
+"ページ上部には「<b>%1$s</b>」が、「表示」ボタンをクリックすると「<b>%2$s</"
+"b>」が表示されます。これらは、プラグインの設定で必要になります。"
+
+#, php-format
+msgid ""
+"<b>WARNING:</b> <u>Don't replace your Facebook App with another!</u> Since "
+"WordPress users with linked Facebook accounts can only login using the %1$s "
+"App, that was originally used at the time, when the WordPress account was "
+"linked with a %1$s Account.<br>\n"
+"If you would like to know the reason of this, or you really need to replace "
+"the Facebook App, then please check our %2$sdocumentation%3$s."
+msgstr ""
+"<b>警告</b>：<u>Facebookアプリを他のアプリに置き換えないでください！</u> "
+"FacebookアカウントをリンクしたWordPressユーザーは、WordPressアカウントが%1$s"
+"アカウントとリンクされていたときに元々使用されていた%1$sアプリを使ってのみロ"
+"グインできます。<br>。\n"
+"この理由をお知りになりたい場合、またはFacebookアプリを交換する必要がある場合"
+"は、%2$sdocumentation%3$sをご確認ください。"
+
+msgid "Maintaining the Facebook App:"
+msgstr "Facebookアプリをメンテナンスする。"
+
+#, php-format
+msgid ""
+"<strong><u>Facebook Data Use Checkup:</u></strong> To protecting people's "
+"privacy, Facebook might requests you to fill some forms, so they can ensure "
+"that your API access and data use comply with the Facebook policies.\n"
+"If Facebook displays the \"%1$s\" modal for your App, then in our "
+"%2$sdocumentation%3$s you can find more information about the permissions "
+"that we need."
+msgstr ""
+"<strong><u>Facebookデータ使用チェック：</u></strong>人々のプライバシーを保護"
+"するために、Facebookはあなたにいくつかのフォームへの記入を要求することがあり"
+"ます、あなたのAPIアクセスやデータ使用がFacebookのポリシーに準拠していることを"
+"確認するためです。\n"
+"Facebookがあなたのアプリに「%1$s」モーダルを表示した場合、私たち"
+"の%2$sdocumentation%3$sで、私たちが必要とするパーミッションについての詳細情報"
+"を見ることができます。"
+
+#, php-format
+msgid "I am done setting up my %s"
+msgstr "私の %s の設定は終了しました"
+
+msgid "App ID"
+msgstr "アプリID"
+
+msgid "Required"
+msgstr "必須"
+
+#, php-format
+msgid ""
+"If you are not sure what is your %1$s, please head over to <a "
+"href=\"%2$s\">Getting Started</a>"
+msgstr ""
+"あなたの%1$sが何かわからない場合は、<a href=\"%2$s\">Getting Started</a> にア"
+"クセスしてください。"
+
+msgid "App Secret"
+msgstr "アプリの秘密"
+
+#, php-format
+msgid ""
+"By replacing your existing %1$s App, users with linked %1$s accounts will no "
+"longer be able to login with %1$s."
+msgstr ""
+"既存の %1$s App を置き換えることで、リンクされた %1$s アカウントを持つユーザ"
+"は %1$s でログインできなくなります。"
+
+msgid "Find out why?"
+msgstr "その理由を探ってみましょう。"
+
+msgid "Profile image size"
+msgstr "プロフィール画像サイズ"
+
+msgid "Small"
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "Large"
+msgstr ""
+
+msgid "Extra Large"
+msgstr ""
+
+msgid "Continue with <b>Facebook</b>"
+msgstr "<b>Facebook</b>で続行"
+
+msgid "Sign up with <b>Facebook</b>"
+msgstr "<b>Facebook</b>で登録する"
+
+msgid "Link account with <b>Facebook</b>"
+msgstr "<b>Facebook</b>とアカウントを連携"
+
+msgid "Unlink account from <b>Facebook</b>"
+msgstr "<b>Facebook</b>からアカウント連携を解除する"
+
+#, php-format
+msgid ""
+"The %1$s entered did not appear to be a valid. Please enter a valid %2$s."
+msgstr "入力された%1$sは有効でないようです。有効な%2$sを入力してください。"
+
+#, php-format
+msgid "Required scope: %1$s"
+msgstr "必要なスコープ：%1$s"
+
+msgid "Uniform - Legacy"
+msgstr "公式デザイン - （古い）"
+
+msgid "Click on the \"<b>Credentials</b>\" in the left hand menu"
+msgstr "左メニューの「<b>認証情報(Credentials)</b>」をクリックします。"
+
+#, php-format
+msgid ""
+"Under the \"<b>OAuth 2.0 Client IDs</b>\" section find your Client ID: "
+"<b>%s</b>"
+msgstr ""
+"<b>OAuth 2.0 Client IDs</b>」の項目で、あなたのクライアントIDを探します。"
+"<b>%s</b>"
+
+#, php-format
+msgid ""
+"Under the \"<b>%1$s</b>\" section click \"<b>%2$s</b>\" and add the "
+"following URL:"
+msgstr ""
+"「<b>%1$s</b>」の下にある「<b>%2$s</b>」をクリックし、以下のURLを追加してくだ"
+"さい。"
+
+msgid "Click on \"<b>Save</b>\""
+msgstr "\"<b>保存(Save)</b>\"をクリックします。"
+
+#, php-format
+msgid ""
+"If you don't have a project yet, you'll need to create one. You can do this "
+"by clicking on the blue \"<b>%1$s</b>\" text on the right side!  ( If you "
+"already have a project, then in the top bar click on the name of your "
+"project instead, which will bring up a modal and click <b>\"%2$s\"</b>. )"
+msgstr ""
+"まだプロジェクトを持っていない場合は、プロジェクトを作成する必要があります。"
+"右側の青い「<b>%1$s</b>」というテキストをクリックすることでできます。  (すで"
+"にプロジェクトを持っている場合は、トップバーのプロジェクト名をクリックすると"
+"モーダルが表示され、<b>\"%2$s\"</b>をクリックします。)"
+
+#, php-format
+msgid "Name your project and then click on the \"<b>%1$s</b>\" button again!"
+msgstr ""
+"プロジェクトに名前を付けて、もう一度「<b>%1$s</b>」ボタンをクリックしてくださ"
+"い!"
+
+msgid ""
+"Once you have a project, you'll end up in the dashboard. ( If earlier you "
+"have already had a Project, then make sure you select the created project in "
+"the top bar! )"
+msgstr ""
+"プロジェクトを作成すると、ダッシュボードに表示されます。(先にプロジェクトを"
+"持っていた場合は、トップバーで作成したプロジェクトを選択してください。)"
+
+#, php-format
+msgid "Click the “<b>%1$s</b>” button on the left hand side."
+msgstr "左側の「<b>%1$s</b>」ボタンをクリックします。"
+
+#, php-format
+msgid ""
+"Choose a <b>%1$s</b> according to your needs and press \"<b>%2$s</b>\". If "
+"you want to enable the social login with %3$s for any users with a %3$s "
+"account, then pick the \"%4$s\" option!"
+msgstr ""
+"ニーズに応じて<b>%1$s</b>を選び、「<b>%2$s</b>」を押してください。もし、%3$s"
+"のアカウントを持つすべてのユーザーに対して、%3$sによるソーシャルログインを有"
+"効にしたい場合は、「%4$s」オプションを選んでください!"
+
+#, php-format
+msgid ""
+"<b>Note:</b> We don't use sensitive or restricted scopes either. But if you "
+"will use this App for other purposes too, then you may need to go through an "
+"%1$s!"
+msgstr ""
+"<b>注意</b>：私たちは、機密または制限されたスコープを使用することはありませ"
+"ん。しかし、このアプリを他の目的にも使用する場合は、%1$sを通過する必要がある"
+"かもしれません!"
+
+#, php-format
+msgid ""
+"Enter a name for your App to the \"<b>%1$s</b>\" field, which will appear as "
+"the name of the app asking for consent."
+msgstr ""
+"「<b>%1$s</b>」にAppの名前を入力すると、同意を求めるアプリの名前として表示さ"
+"れます。"
+
+#, php-format
+msgid ""
+"For the \"<b>%1$s</b>\" field, select an email address that users can use to "
+"contact you with questions about their consent."
+msgstr ""
+"「<b>%1$s</b>」の欄には、ユーザーが同意に関する質問で連絡するために使用できる"
+"メールアドレスを選択します。"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Fill \"<b>Website</b>\" with the url of your homepage, probably: <b>%s</b>"
+msgid "Fill the %1$s field with the url of your homepage, probably: %2$s"
+msgstr ""
+"「<b>ホームページ</b>」には、あなたのホームページのurlを記入してください。"
+"<b>%s</b>"
+
+#, php-format
+msgid ""
+"Enter your privacy policy and terms of service links into the %1$s and %2$s "
+"fields."
+msgstr ""
+
+#, php-format
+msgid ""
+"Under the \"<b>%1$s</b>\" section press the \"<b>%2$s</b>\" button and  "
+"enter your domain name, probably: <b>%3$s</b> without subdomains!"
+msgstr ""
+"「<b>%1$s</b>」の項目で「<b>%2$s</b>」ボタンを押し、ドメイン名（メイン）を入"
+"力します。<b>%3$s</b> サブドメインの指定は必要ありません。"
+
+#, php-format
+msgid ""
+"At the \"<b>%1$s</b>\" section, enter an email address that %2$s can use to "
+"notify you about any changes to your project."
+msgstr ""
+"「<b>%1$s</b>」の部分に、%2$sがプロジェクトの変更について通知するために使用で"
+"きる電子メールアドレスを入力します。"
+
+#, php-format
+msgid ""
+"Press \"<b>%1$s</b>\" then press it again on the \"%2$s\", \"%3$s\" pages, "
+"too!"
+msgstr ""
+"「<b>%1$s</b>」を押して、「%2$s」「%3$s」のページでも、もう一度押してみましょ"
+"う"
+
+#, php-format
+msgid ""
+"On the left side, click on the \"<b>%1$s</b>\" menu point, then click the "
+"\"<b>%2$s</b>\" button in the top bar."
+msgstr ""
+"左側のメニューポイント「<b>%1$s</b>」をクリックし、上部バーの「<b>%2$s</b>」"
+"ボタンをクリックします。"
+
+#, php-format
+msgid "Choose the \"<b>%1$s</b>\" option."
+msgstr "「<b>%1$s</b>」を選択します。"
+
+#, php-format
+msgid "Select the \"<b>%1$s</b>\" under Application type."
+msgstr "アプリケーションの種類で「<b>%1$s</b>」を選択します。"
+
+#, php-format
+msgid "Enter a \"<b>%1$s</b>\" for your OAuth client ID."
+msgstr "OAuthクライアントIDには「<b>%1$s</b>」を入力してください。"
+
+#, php-format
+msgid "Click on the \"<b>%1$s</b>\" button"
+msgstr "「<b>%1$s</b>」ボタンをクリックします。"
+
+#, php-format
+msgid ""
+"A modal should pop up with your credentials. If that doesn't happen, go to "
+"the %1$s in the left hand menu and select your app by clicking on its name "
+"and you'll be able to copy-paste the \"<b>%2$s</b>\" and \"<b>%3$s</b>\" "
+"from there."
+msgstr ""
+"モーダル（子ウィンドウ）で認証情報がポップアップ表示されるはずです。そうなら"
+"ない場合は、左メニューの %1$s に移動し、アプリの名前をクリックして選択する"
+"と、そこから「<b>%2$s</b>」と「<b>%3$s</b>」をコピーペーストできるようになり"
+"ます。"
+
+#, php-format
+msgid ""
+"Currently your App is in %1$s mode, so only limited number of people can use "
+"it. To allow this App for any user with a Google Account, click on the "
+"\"%2$s\" option on the left side, then click the \"%3$s\" button under the "
+"\"%4$s\" section, and press the \"%5$s\" button. "
+msgstr ""
+"現在、あなたのアプリは%1$sモードになっているため、限られた人しか使うことがで"
+"きません。Googleアカウントを持っているユーザーなら誰でもこのアプリを使えるよ"
+"うにするには、左側の「%2$s」オプションをクリックし、「%4$s」セクションの下に"
+"ある「%3$s」ボタンをクリックし、「%5$s」ボタンを押します。"
+
+msgid "Client ID"
+msgstr "クライアントID"
+
+msgid "Client Secret"
+msgstr "クライアントシークレット"
+
+msgid "Select account on each login"
+msgstr "ログインのたびにアカウントを選択"
+
+msgid ""
+"Disable, when you don't want to see the account select prompt on each login."
+msgstr ""
+"ログインのたびにアカウント選択のプロンプトを表示したくない場合は、無効にして"
+"ください。"
+
+msgid "Continue with <b>Google</b>"
+msgstr "<b>Google</b>で続行"
+
+msgid "Sign up with <b>Google</b>"
+msgstr "<b>Google</b>で登録する"
+
+msgid "Link account with <b>Google</b>"
+msgstr "<b>Google</b>とアカウントを連携"
+
+msgid "Unlink account from <b>Google</b>"
+msgstr "<b>Google</b>からアカウント連携を解除する"
+
+#, php-format
+msgid "Required API: %1$s"
+msgstr "必要なAPI：%1$s"
+
+msgid "X"
+msgstr ""
+
+msgid "Legacy"
+msgstr ""
+
+#, php-format
+msgid "On the left side, under the %s section click on the name of your App."
+msgstr "左側の「%s」セクションで、アプリの名前をクリックします。"
+
+#, php-format
+msgid "Click on the %1$s button at %2$s."
+msgstr "%2$s で %1$s のボタンをクリックしてください。"
+
+#, php-format
+msgid "Make sure the %1$s field contains the following URL: %2$s"
+msgstr "%1$sフィールドに以下のURLが含まれていることを確認してください。%2$s"
+
+#, php-format
+msgid "Click on %s"
+msgstr "%s をクリックしてください。"
+
+#, php-format
+msgid ""
+"To allow your visitors to log in with their %1$s account, first you must "
+"create an %1$s App. The following guide will help you through the %1$s App "
+"creation process. After you have created your %1$s App, head over to "
+"\"Settings\" and configure the given \"%2$s\" and \"%3$s\" according to your "
+"%1$s App."
+msgstr ""
+"訪問者が %1$s アカウントでログインできるようにするには、まず、%1$s Appを作成"
+"する必要があります。以下のガイドは、%1$s アプリの作成プロセスを説明するもので"
+"す。%1$sアプリを作成したら、「設定」を開き、%1$sアプリに合わせて「%2$s」"
+"「%3$s」を設定します。"
+
+msgid ""
+"If you don't have a developer account yet, please apply one by filling all "
+"the required details! This is required for the next steps!"
+msgstr ""
+"まだデベロッパーアカウントをお持ちでない方は、必要事項をすべてご記入の上、お"
+"申し込みください。次のステップに進むために必要です。"
+
+#, php-format
+msgid ""
+"Once your developer account is complete, navigate back to <b>%s</b> if you "
+"aren't already there!"
+msgstr ""
+"開発者アカウントの作成が完了したら、<b>%s</b>に戻る（まだ戻っていない場合）。"
+
+#, php-format
+msgid "Click on \"<b>%s</b>\"!"
+msgstr "「<b>%s</b>」をクリック!"
+
+#, php-format
+msgid ""
+"Name your project, and go through the basic setup. You’ll need to select "
+"your use case, give a description then click the %s button."
+msgstr ""
+"プロジェクトに名前を付け、基本的なセットアップを行います。ユースケースを選択"
+"し、説明を与え、%sボタンをクリックする必要があります。"
+
+#, php-format
+msgid "Choose the %1$s option for %2$s, then press %3$s!"
+msgstr "%2$s の %1$s オプションを選択し、%3$sを押してください!"
+
+#, php-format
+msgid "Into the %1$s field, enter a name for your App, then press %2$s again!"
+msgstr "%1$s フィールドにアプリの名前を入力し、もう一度%2$sを押してください。"
+
+#, fuzzy, php-format
+#| msgid "Click on the %s button on the right side."
+msgid "Click on the  the %1$s button on the bottom right corner."
+msgstr "右側の「%s」ボタンをクリックします。"
+
+#, php-format
+msgid "Scroll down and click on the %1$s button at %2$s."
+msgstr "下にスクロールして、%2$sのところにある%1$sボタンをクリックします。"
+
+#, php-format
+msgid "Choose the %1$s option at %2$s."
+msgstr "%2$s で %1$s のオプションを選択してください。"
+
+#, php-format
+msgid "Select the %1$s option for %2$s."
+msgstr "%2$s の %1$s オプションを選択します。"
+
+#, php-format
+msgid "Enter your site's URL to the \"<b>%1$s</b>\" field: <b>%2$s</b>"
+msgstr ""
+"「<b>%1$s</b>」の欄にサイトのURLを入力します。<b>%2$s</b>」と入力してくださ"
+"い。"
+
+#, php-format
+msgid "Click on %s."
+msgstr "%s をクリックしてください。"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "You’ll find your API key and secret on this page. Copy and paste the "
+#| "\"<b>%1$s</b>\" and the \"<b>%2$s</b>\" to the corresponding fields at "
+#| "%3$s and press \"<b>Save Changes</b>\"."
+msgid ""
+"Find your %1$s and %2$s. Copy and paste the credentials to the corresponding "
+"fields at %3$s and press %4$s."
+msgstr ""
+"このページでAPIキーとシークレットを確認することができます。「<b>%1$s</b>」と"
+"「<b>%2$s</b>」をコピーして、%3$sの該当欄に貼り付け、「<b>Save Changes</b>」"
+"を押してください。"
+
+#, fuzzy, php-format
+#| msgid "Finally <b>verify the settings</b> and <b>enable the provider</b>!"
+msgid "Verify the settings and enable the %1$s provider!"
+msgstr "最後に<b>設定を確認し</b>、<b>プロバイダを有効にする</b>!"
+
+#, php-format
+msgid ""
+"%1$s: %2$s has some %3$srate limits%4$s that you need to consider before you "
+"choose a plan. For example we use the %5$s endpoint, which have:"
+msgstr ""
+
+msgid "WARNING"
+msgstr ""
+
+#, php-format
+msgid ""
+"%1$s which means a user can make a fix number of requests every 24 hours."
+msgstr ""
+
+#, fuzzy
+#| msgid "User and Admin"
+msgid "User Rate Limit:"
+msgstr "ユーザーと管理者"
+
+#, php-format
+msgid ""
+"%1$s which means your App can serve a fix number of requests in total every "
+"30 days. This limit is shared between all users and applied to the entire "
+"project."
+msgstr ""
+
+msgid "Effective 30-day limit:"
+msgstr ""
+
+#, php-format
+msgid ""
+"Once the rate limit is reached, people won't be able to login with %1$s "
+"until the limit resets. If you want to have a higher limit, you might need "
+"to upgrade to the %3$sBasic plan of %2$s %4$s."
+msgstr ""
+
+#, php-format
+msgid ""
+"You’ll find your API key and secret on this page. Copy and paste the "
+"\"<b>%1$s</b>\" and the \"<b>%2$s</b>\" to the corresponding fields at %3$s "
+"and press \"<b>Save Changes</b>\"."
+msgstr ""
+"このページでAPIキーとシークレットを確認することができます。「<b>%1$s</b>」と"
+"「<b>%2$s</b>」をコピーして、%3$sの該当欄に貼り付け、「<b>Save Changes</b>」"
+"を押してください。"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Go back to your Twitter project and on the left side, under the \"<b>%s</"
+#| "b>\" section click on the name of your App."
+msgid ""
+"Go back to your X project and on the left side, under the \"<b>%s</b>\" "
+"section click on the name of your App."
+msgstr ""
+"Twitterのプロジェクトに戻り、左側の「<b>%s</b>」セクションで、アプリの名前を"
+"クリックします。"
+
+#, php-format
+msgid ""
+"If you want to get the email address as well, then don’t forget to enable "
+"the %1$s option. In this case you also need to fill the \"<b>%2$s</b>\" and "
+"the \"<b>%3$s</b>\" fields with the corresponding URLs!"
+msgstr ""
+"電子メールアドレスも取得したい場合は、%1$sオプションを有効にすることを忘れな"
+"いでください。この場合、「<b>%2$s</b>」と「<b>%3$s</b>」のフィールドに、対応"
+"するURLを入力する必要があります。"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Once your application for the Elevated access has been approved, go back "
+#| "to %1$s then <b>verify</b> and <b>enable</b> the %2$s provider!"
+msgid "Go back to %1$s then <b>verify</b> and <b>enable</b> the %2$s provider!"
+msgstr ""
+"高架アクセスへの申請が承認されたら、%1$sに戻り、<b>verify</b>と<b>enable</b>"
+"で、%2$sのプロバイダーにアクセスしてください。"
+
+msgid "API version"
+msgstr ""
+
+msgid "v1.1"
+msgstr ""
+
+msgid "v2"
+msgstr ""
+
+msgid "API Key"
+msgstr "APIキー"
+
+msgid "API Key Secret"
+msgstr "APIキーシークレット"
+
+msgid "Original"
+msgstr "オリジナル"
+
+#, fuzzy
+#| msgid "Continue with <b>VK</b>"
+msgid "Continue with <b>X</b>"
+msgstr "<b>VK</b>で続行"
+
+#, fuzzy
+#| msgid "Sign up with <b>VK</b>"
+msgid "Sign up with <b>X</b>"
+msgstr "<b>VK</b>で登録する"
+
+#, fuzzy
+#| msgid "Link account with <b>VK</b>"
+msgid "Link account with <b>X</b>"
+msgstr "<b>VK</b>とアカウントを連携"
+
+#, fuzzy
+#| msgid "Unlink account from <b>VK</b>"
+msgid "Unlink account from <b>X</b>"
+msgstr "<b>VK</b>からアカウント連携を解除する"
+
+msgctxt "Register form submit button label"
+msgid "Register"
+msgstr "登録"
+
+#, php-format
+msgid "%s Buttons"
+msgstr "%s ボタン"
+
+msgid "Title:"
+msgstr "タイトル"
+
+msgid "Button style:"
+msgstr "ボタンのスタイル："
+
+msgid "Button align:"
+msgstr "ボタンの整列："
+
+msgid "Show link buttons"
+msgstr "リンクボタンを表示する"
+
+msgid "Show unlink buttons"
+msgstr "アカウントの連携解除ボタンを表示する"
+
+msgid "Social login is not allowed with this role!"
+msgstr "このロールでは、ソーシャルログインはできません"
+
+msgid "Please enter a username."
+msgstr "ユーザー名を入力してください。"
+
+msgid ""
+"This username is invalid because it uses illegal characters. Please enter a "
+"valid username."
+msgstr ""
+"このユーザーネームは不正な文字が使用されているため無効です。有効なユーザー名"
+"を入力してください。"
+
+msgid ""
+"<strong>Error</strong>: This username is already registered. Please choose "
+"another one."
+msgstr ""
+"<strong>エラー</strong>：このユーザー名はすでに登録されています。別のものを選"
+"択してください。"
+
+msgid "<strong>Error</strong>: Sorry, that username is not allowed."
+msgstr ""
+"<strong>エラー</strong>： 申し訳ありませんが、そのユーザー名は許可されていま"
+"せん。"
+
+msgid "<strong>Error</strong>: Please enter an email address."
+msgstr "<strong>エラー</strong>：メールアドレスを入力してください。"
+
+msgid "<strong>Error</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>エラー</strong>：メールアドレスが正しくありません。"
+
+msgid ""
+"<strong>Error</strong>: This email is already registered. Please choose "
+"another one."
+msgstr ""
+"<strong>エラー</strong>：この電子メールはすでに登録されています。別のものを選"
+"択してください。"
+
+msgid "<strong>Error</strong>: Please enter a password."
+msgstr "<strong>エラー</strong>：パスワードを入力してください。"
+
+msgid "<strong>Error</strong>: Passwords may not contain the character \"\\\"."
+msgstr "<strong>エラー</strong>：パスワードに\"\\\"を含めることはできません。"
+
+msgid ""
+"<strong>Error</strong>: Passwords don&#8217;t match. Please enter the same "
+"password in both password fields."
+msgstr ""
+"<strong>エラー</strong>：パスワードが一致しません。両方のパスワードフィールド"
+"に同じパスワードを入力してください。"
+
+#, php-format
+msgid ""
+"This email is already registered, please login in to your account to link "
+"with %1$s."
+msgstr ""
+"このメールはすでに登録されています。%1$sと連携するためには、アカウントにログ"
+"インしてください。"
+
+msgid "Unexpected response: The provider didn't return the Authorization URL!"
+msgstr "予期しない応答がありました。プロバイダが認証URLを返さなかった!"
+
+msgid "Unexpected response: Authentication has been cancelled!"
+msgstr "予期せぬ応答がありました。認証がキャンセルされました"
+
+msgid "Unexpected response: Immediate request failed - Setup Needed!"
+msgstr "予期しない応答がありました。Immediate request failed - Setup Needed!"
+
+msgid ""
+"Unexpected response: The targeted OpenID server is not authorized to verify "
+"this request!"
+msgstr ""
+"予期せぬ応答がありました。対象となるOpenIDサーバーは、このリクエストを検証す"
+"る権限がありません。"
+
+msgid "Unexpected response: OpenID Verification failed!"
+msgstr "予期せぬ応答がありました。OpenID Verificationに失敗しました。"
+
+#, php-format
+msgid "Please install and activate %1$s to use the %2$s"
+msgstr "%2$s を使用するには、%1$sをインストールし、有効化してください。"
+
+msgid "Network Activate"
+msgstr "ネットワークアクティベート"
+
+msgid "Install now!"
+msgstr "今すぐインストールしてください"
+
+msgid "Social Providers"
+msgstr "ソーシャルプロバイダー"
+
+#, php-format
+msgid ""
+"The Facebook Sync data needs an approved %1$s and your App must use the "
+"latest %2$s version!"
+msgstr ""
+"Facebook Syncのデータは承認された%1$sが必要で、あなたのアプリは最新の%2$sバー"
+"ジョンを使用する必要があります。"
+
+#, php-format
+msgid ""
+"Most of these information can only be retrieved, when the field is marked as "
+"Public on the user's %s page!"
+msgstr ""
+"これらの情報のほとんどは、そのフィールドがユーザーの%sページで「公開」とマー"
+"クされている場合にのみ取得できます。"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Most of these information can only be retrieved, when the field is marked "
+#| "as Public on the user's %s page!"
+msgid ""
+"Most of these information can only be retrieved, when the field is filled on "
+"the user's %s page!"
+msgstr ""
+"これらの情報のほとんどは、そのフィールドがユーザーの%sページで「公開」とマー"
+"クされている場合にのみ取得できます。"
+
+#, php-format
+msgid ""
+"The Spotify Sync data requires the %1$s with the necessary scopes enabled!"
+msgstr ""
+
+#, php-format
+msgid ""
+"The TikTok Sync data requires the %1$s with the necessary scopes enabled!"
+msgstr ""
+
+#, php-format
+msgid "Visit %s"
+msgstr "訪問 %s"
+
+msgid ""
+"On the right side, under \"<b>Manage</b>\", hover over the gear icon and "
+"select \"<b>Web Settings</b>\" option."
+msgstr ""
+"右側の「<b>管理</b>」の下にある歯車アイコンにカーソルを合わせ、「<b>Web設定</"
+"b>」オプションを選択します。"
+
+msgid "Click \"<b>Edit</b>\"."
+msgstr "「<b>編集(Edit)</b>」をクリックします。"
+
+#, php-format
+msgid "Add the following URL to the %s field: "
+msgstr "以下のURLを%sフィールドに追加します。"
+
+msgid ""
+"If you don't have a Security Profile yet, you'll need to create one. You can "
+"do this by clicking on the orange \"<b>Create a New Security Profile</b>\" "
+"button on the left side."
+msgstr ""
+"セキュリティプロファイルをまだお持ちでない場合は、作成する必要があります。左"
+"側のオレンジ色の「<b>Create a New Security Profile</b>」ボタンをクリックする"
+"ことで作成することができます。"
+
+msgid ""
+"Fill \"<b>Security Profile Name</b>\", \"<b>Security Profile Description</"
+"b>\" and \"<b>Consent Privacy Notice URL</b>\"."
+msgstr ""
+"「<b>セキュリティプロファイル名</b>」「<b>セキュリティプロファイル説明</b>」"
+"「<b>同意プライバシー通知URL</b>」を記入してください。"
+
+msgid "Once you filled all the required fields, click \"<b>Save</b>\"."
+msgstr "必要な項目をすべて入力したら、「<b>保存</b>」をクリックしてください。"
+
+#, php-format
+msgid ""
+"Fill \"<b>Allowed Origins</b>\" with the url of your homepage, probably: "
+"<b>%s</b>"
+msgstr ""
+"<b>許可されたオリジン</b>」には、おそらくあなたのホームページのurlを記入して"
+"ください。<b>%s</b>"
+
+msgid "When all fields are filled, click \"<b>Save</b>\"."
+msgstr "すべての項目が入力されたら、「<b>保存</b>」をクリックします。"
+
+msgid ""
+"Find the necessary \"<b>Client ID</b>\" and \"<b>Client Secret</b>\" at the "
+"middle of the page, under the \"<b>Web Settings</b>\" tab."
+msgstr ""
+"ページ中央の「<b>Web設定」タブで、必要な「<b>クライアントID</b>」と「<b>クラ"
+"イアントシークレット</b>」を確認します。"
+
+msgid "Continue with <b>Amazon</b>"
+msgstr "<b>Amazon</b>で続行"
+
+msgid "Sign up with <b>Amazon</b>"
+msgstr "<b>Amazon</b>で登録する"
+
+msgid "Link account with <b>Amazon</b>"
+msgstr "<b>Amazon</b>とアカウントを連携"
+
+msgid "Unlink account from <b>Amazon</b>"
+msgstr "<b>Amazon</b>からアカウント連携を解除する"
+
+msgid "Click on the name of your service."
+msgstr "サービス名をクリックします。"
+
+msgid ""
+"Click the \"<b>Configure</b>\" button next to \"<b>Sign In with Apple</b>\"."
+msgstr ""
+"「<b>Sign In with Apple</b>」の横にある「<b>Configure</b>」ボタンをクリックし"
+"ます。"
+
+#, php-format
+msgid "Click the <b>blue + icon</b> next to %1$s heading."
+msgstr "%1$s の見出しの横にある<b>青い+アイコン</b>をクリックします。"
+
+#, php-format
+msgid ""
+"Fill the \"<b>Domains and Subdomains</b>\" field with your domain name "
+"probably: <b>%s</b>"
+msgstr ""
+"「<b>ドメインとサブドメイン</b>」の欄には、おそらくあなたのドメイン名を記入し"
+"ます。<b>%s</b>"
+
+msgid ""
+"Finally press \"<b>Next</b>\" then \"<b>Done</b>\" and finally click on the "
+"\"<b>Continue</b>\" and the \"<b>Save</b>\" button!"
+msgstr ""
+"最後に「<b>次へ</b>」、「<b>完了</b>」の順に押し、最後に「<b>続行</b>」と"
+"「<b>保存</b>」ボタンをクリックします!"
+
+#, php-format
+msgid ""
+"To allow your visitors to log in with their %1$s account, first you must "
+"create an %1$s App. The following guide will help you through the %1$s App "
+"creation process. After you have created your %1$s App, head over to "
+"\"Settings\" and configure the given \"%2$s\", \"%3$s\", \"%4$s\" and "
+"\"%5$s\" according to your %1$s App."
+msgstr ""
+"訪問者が %1$s アカウントでログインできるようにするには、まず、%1$s Appを作成"
+"する必要があります。以下のガイドは、%1$s アプリの作成プロセスを説明するもので"
+"す。%1$s アプリを作成したら、「設定」を開き、%1$s アプリに合わせて「%2$s」"
+"「%3$s」「%4$s」「%5$s」を設定する。"
+
+msgid ""
+"Make sure you have an <strong>active subscription for the <a href=\"https://"
+"developer.apple.com/programs/\" target=\"_blank\">Apple Developer Program</"
+"a></strong>, as that is necessary for both creating and maintaining an Apple "
+"App!"
+msgstr ""
+"<a href=\"https://developer.apple.com/programs/\" target=\"_blank\">Apple "
+"Developer Program</a></strong> のアクティブなサブスクリプションがあることを確"
+"認してください。これは、Apple Appの作成と維持の両方に必要だからです"
+
+msgid ""
+"Make sure your site have <b>SSL</b>, since <b>Apple only allows HTTPS urls</"
+"b>!"
+msgstr ""
+"<b>アップルはHTTPSのURLしか許可しないので、あなたのサイトが<b>SSL</b>であるこ"
+"とを確認してください！</b>。"
+
+msgid "1.) Create the associated App:"
+msgstr "1.)関連するAppを作成します。"
+
+#, php-format
+msgid ""
+"Click the <b>blue + icon</b> next to %1$s, then select the <b>%2$s</b> "
+"option and click the \"Continue\" button."
+msgstr ""
+"%1$s の横にある<b>青い+アイコン</b>をクリックし、<b>%2$s</b>オプションを選択"
+"して「続ける」ボタンをクリックします。"
+
+#, php-format
+msgid ""
+"Choose the \"<strong>%1$s</strong>\" option as type and press the "
+"\"<b>Continue</b>\" button."
+msgstr ""
+"タイプとして「<strong>%1$s</strong>」を選択し、「<b>続行</b>」ボタンを押しま"
+"す。"
+
+msgid "Enter a \"<b>Description</b>\""
+msgstr "\"<b>説明</b>\"を入力します。"
+
+#, php-format
+msgid ""
+"At the \"<b>Bundle ID</b>\" field select the \"<b>Explicit</b>\" option and "
+"enter your domain name in reverse-domain name style, with the name of the "
+"app at its end: <b>%s.nslapp</b>"
+msgstr ""
+"「<b>Bundle ID</b>」の欄で「<b>Explicit</b>」を選択し、ドメイン名を逆ドメイン"
+"名スタイルで入力し、その末尾にアプリの名前を付けます。<b>%s.nslapp</b>」と入"
+"力します。"
+
+msgid ""
+"Under the \"<b>Capabilities</b>\" section, tick the \"<b>Sign In with Apple</"
+"b>\" option."
+msgstr ""
+"「<b>能力</b>」セクションで、「<b>Appleでサインイン</b>」オプションにチェック"
+"を入れます。"
+
+msgid ""
+"Scroll up and press the \"<b>Continue</b>\" button and then the "
+"\"<b>Register</b>\" button."
+msgstr ""
+"上にスクロールして「<b>続行</b>」ボタンを押し、「<b>登録</b>」ボタンを押しま"
+"す。"
+
+msgid "2.) Create the Key:"
+msgstr "2.)キーを作成します。"
+
+#, php-format
+msgid "On the left hand side, click on the \"<b>%s</b>\" tab."
+msgstr "左側の「<b>%s</b>」のタブをクリックします。"
+
+msgid "Enter a name in the <b>Key Name</b> field."
+msgstr "<b>Key Name</b> の欄に名前を入力します。"
+
+msgid ""
+"Tick the \"<b>Sign In with Apple</b>\" option, then click on \"<b>Configure</"
+"b>\"."
+msgstr ""
+"「<b>Sign In with Apple</b>」にチェックを入れ、「<b>Configure</b>」をクリック"
+"します。"
+
+msgid ""
+"If you have multiple Apps, then at the \"<b>Choose a Primary App ID</b>\" "
+"field <b>select the App what you just created</b>, then click \"<b>Save</"
+"b>\"."
+msgstr ""
+"複数のアプリがある場合は、「<b>プライマリアプリIDの選択</b>」欄で <b>作成した"
+"アプリを選択し</b>、「<b>保存</b>」をクリックしてください。"
+
+msgid ""
+"Finally press the \"<b>Continue</b>\" button and then the \"<b>Register</"
+"b>\" button."
+msgstr "最後に「<b>続行</b>」ボタンを押し、「<b>登録</b>」ボタンを押します。"
+
+msgid "<b>Don't download the key yet!</b>"
+msgstr "<b>まだキーをダウンロードしないでください！</b>。"
+
+msgid "3.) Create the Service:"
+msgstr "3.)サービスを作成します。"
+
+#, php-format
+msgid ""
+"Go to the \"<b>%1$s</b>\" section, what you will find within the \"%2$s\" "
+"tab."
+msgstr ""
+"「<b>%1$s</b>」セクションに移動し、「%2$s」タブの中にあるものを見てください。"
+
+#, php-format
+msgid ""
+"Click the <b>blue + icon</b> next to %1$s, then select the \"<b>%2$s</b>\" "
+"option and click the \"<b>Continue</b>\" button."
+msgstr ""
+"%1$s の横にある<b>青い+アイコン</b>をクリックし、「<b>%2$s</b>」を選択し「<b>"
+"続行</b>」ボタンをクリックします。"
+
+msgid "Enter a \"<b>Description</b>\"."
+msgstr "「<b>説明</b>」を入力してください。"
+
+#, php-format
+msgid ""
+"At the \"<b>Identifier</b>\" field enter your domain name in reverse-domain "
+"name style, with the name of the client at its end: <b>%s.nslclient</b>"
+msgstr ""
+"「<b>識別子</b>」の欄には、逆ドメイン名スタイルで、末尾にクライアントの名前を"
+"付けて、ドメイン名を入力してください。<b>%s.nslclient</b>」と入力します。"
+
+msgid "<b>Note:</b> This will also be used as Service Identifier later!"
+msgstr "<b>注意：</b>これは後でサービス識別子としても使われます。"
+
+msgid ""
+"Press the \"<b>Continue</b>\" button and then the \"<b>Register</b>\" button."
+msgstr "「<b>続行</b>」ボタンを押し、「<b>登録</b>」ボタンを押します。"
+
+#, php-format
+msgid "In the \"<b>%1$s</b>\" section, click the service you just created."
+msgstr "「<b>%1$s</b>」の項目で、先ほど作成したサービスをクリックします。"
+
+msgid ""
+"Tick the \"<b>Sign In with Apple</b>\" option and click the \"<b>Configure</"
+"b>\" button next to it."
+msgstr ""
+"「<b>Sign In with Apple</b>」にチェックを入れ、その横にある「<b>Configure</"
+"b>」ボタンをクリックします。"
+
+msgid ""
+"If you have multiple Apps, then at the \"Primary App ID\" field select the "
+"App what you just created."
+msgstr ""
+"複数のアプリがある場合は、「Primary App ID」欄で、先ほど作成したアプリを選択"
+"します。"
+
+msgid "Click the \"<b>Next</b>\" button then press the \"<b>Done</b>\" button."
+msgstr "「<b>次へ</b>」ボタンをクリックし、「<b>完了</b>」ボタンを押します。"
+
+msgid ""
+"Finally press the \"<b>Continue</b>\" button and then the \"<b>Save</b>\" "
+"button."
+msgstr ""
+"最後に「<b>Continue</b>」ボタンを押し、「<b>Save</b>」ボタンを押します。"
+
+msgid "4.) Configure Nextend Social Login with your credentials:"
+msgstr "4.)認証情報を使ってNextend Social Loginを設定する。"
+
+msgid "Go to Nextend Social Login > Providers > Apple > Settings tab."
+msgstr "Nextend Social Login > Providers > Apple > Settings タブに移動します。"
+
+msgid "<strong><u>Private Key ID:</u></strong>"
+msgstr "<strong><u>秘密鍵ID (Private Key ID) ：</u></strong>"
+
+#, php-format
+msgid "Navigate to: <b>%s</b>"
+msgstr "ナビゲートしてください。<b>%s</b>"
+
+msgid "Click on the <b>name of your Key</b>."
+msgstr "<b>鍵の名前(name of your Key)</b>をクリックします。"
+
+msgid "You will find your \"<b>Private Key ID</b>\" under \"<b>Key ID</b>\"."
+msgstr "「<b>鍵ID</b>」の下に「<b>秘密鍵ID</b>」が表示されます。"
+
+msgid "<strong><u>Private Key:</u></strong>"
+msgstr "<strong><u>秘密鍵 (Private Key)：</u></strong>"
+
+msgid ""
+"Click the \"<b>Download</b>\" button to download the key file. <u>Once this "
+"file is downloaded, it will no longer be available, so <b>make sure you keep "
+"this file safe</b>!</u> "
+msgstr ""
+"「<b>ダウンロード</b>」ボタンをクリックすると、キーファイルがダウンロードされ"
+"ます。<u>このファイルをダウンロードすると、もう利用できなくなりますので、<b>"
+"このファイルを安全に保管してください</b>！</u>。"
+
+msgid ""
+"<b>Open the downloaded file</b> with a text editor, like Notepad, <b><u>copy "
+"all of its contents</u></b> and <b>paste it</b> into the \"<b>Private Key</"
+"b>\" field of Nextend Social Login."
+msgstr ""
+"<b>ダウンロードしたファイル</b>をメモ帳などのテキストエディタで開き、<b><u>そ"
+"の内容をすべてコピー</u></b>し、<b>それをNextend Social Loginの「<b>秘密鍵</"
+"b>」欄に貼り付けます</b>。"
+
+msgid "<strong><u>Team Identifier:</u></strong>"
+msgstr "<strong><u>チーム識別子 (Team Identifier)：</u></strong>"
+
+msgid ""
+"A 10 character long identifier, what you can find on the <b>top-right "
+"corner, just under your name</b>."
+msgstr "10文字の識別子で、<b>右上の名前のすぐ下</b>に表示されます。"
+
+msgid "<strong><u>Service Identifier:</u></strong>"
+msgstr "<strong><u>サービス識別子 (Service Identifier)：</u></strong>"
+
+#, php-format
+msgid ""
+"You will find it under the \"<b>IDENTIFIER</b>\" column. If you configured "
+"the service according to the suggestions, it will probably end to .nslclient "
+"e.g.: <b>%s.nslclient</b>"
+msgstr ""
+"「<b>IDENTIFIER</b>」カラムの下にあります。提案に従ってサービスを構成した場"
+"合、それはおそらく、例えば.nslclientで終わるでしょう。<b>%s.nslclient</b>のよ"
+"うになります。"
+
+msgid ""
+"Once you filled up all the fields, click on the \"<b>Generate Token</b>\" "
+"button."
+msgstr ""
+"すべての項目を入力したら、「<b>Generate Token</b>」ボタンをクリックします。"
+
+msgid "Finally <b>verify the settings</b> and <b>enable the provider</b>!"
+msgstr "最後に<b>設定を確認し</b>、<b>プロバイダを有効にする</b>!"
+
+msgid ""
+"When you need to change your credentials for some reason, then you must "
+"delete the token, copy the new credentials and generate a new token!"
+msgstr ""
+"何らかの理由で認証情報を変更する必要がある場合、トークンを削除し、新しい認証"
+"情報をコピーして新しいトークンを生成する必要があります。"
+
+msgid "Delete credentials"
+msgstr "認証情報を削除する"
+
+msgid "Private Key ID"
+msgstr "秘密鍵ID"
+
+msgid "Private Key"
+msgstr "プライベートキー"
+
+msgid "Team Identifier"
+msgstr "チーム識別子"
+
+msgid "Service Identifier"
+msgstr "サービス識別子"
+
+msgid "Generate Token"
+msgstr "トークンを生成する"
+
+msgid "Continue with <b>Apple</b>"
+msgstr "<b>アップル</b>で続行"
+
+msgid "Sign up with <b>Apple</b>"
+msgstr "<b>アップル</b>で登録する"
+
+msgid "Link account with <b>Apple</b>"
+msgstr "<b>Apple</b>とアカウントを連携"
+
+msgid "Unlink account from <b>Apple</b>"
+msgstr "<b>Apple</b>からアカウント連携を解除する"
+
+#, php-format
+msgid "An error occurred when storing of the expiration timestamp : %1$s"
+msgstr "有効期限タイムスタンプ：%1$sの保存時にエラーが発生しました。"
+
+#, php-format
+msgid "Token generation failed: %1$s"
+msgstr "トークン生成に失敗しました：%1$s"
+
+msgid "Please check your credentials!"
+msgstr "認証情報をご確認ください"
+
+msgid "Private key format is not valid!"
+msgstr "秘密鍵の形式が無効です"
+
+#, php-format
+msgid ""
+"%s detected that your Apple credentials have expired. Please delete the "
+"current credentials and generate new one!"
+msgstr ""
+"あなたのApple認証情報が期限切れであることが%sによって検出されました。現在の認"
+"証情報を削除し、新しい認証情報を生成してください。"
+
+msgid "Apple Credentials"
+msgstr "Appleの認証情報"
+
+#, php-format
+msgid ""
+"If you are not logged in yet, then log in with your %s credentials and visit "
+"the link above again."
+msgstr ""
+"まだログインしていない場合は、%sの認証情報でログインし、上記のリンクに再度ア"
+"クセスしてください。"
+
+#, php-format
+msgid ""
+"Select your %s App and click on the “<b>%2$s</b>” menu point under the "
+"Settings section on the left side."
+msgstr ""
+"%s アプリを選択し、左側の設定セクションの下にある「<b>%2$s</b>」メニューポイ"
+"ントをクリックします。"
+
+#, php-format
+msgid "Add the following URL in the %s field:"
+msgstr "%s フィールドに以下のURLを追加します。"
+
+msgid "Click the \"<b>New Application</b>\" button."
+msgstr "「<b>新規お申し込み</b>」ボタンをクリックします。"
+
+msgid "Fill the \"<b>Name</b>\" field and click the \"<b>Create</b>\" button."
+msgstr "「<b>名前</b>」を入力し、「<b>作成</b>」ボタンをクリックします。"
+
+msgid ""
+"Optional: Select an \"<b>App Icon</b>\" and add a \"<b>Terms of Service URL</"
+"b>\" and \"<b>Privacy Policy URL</b>\"."
+msgstr ""
+"オプション：<b>アプリのアイコン</b>」を選択し、「<b>利用規約URL</b>」と「<b>"
+"プライバシーポリシーURL</b>」を追加します。"
+
+#, php-format
+msgid ""
+"On the left side, click on the “<b>%1$s</b>” menu point in the Settings."
+msgstr ""
+"左側の「設定」の「<b>%1$s</b>」というメニューポイントをクリックします。"
+
+msgid "Click the \"<b>Save Changes</b>\" button."
+msgstr "「<b>変更を保存する</b>」ボタンをクリックします。"
+
+msgid ""
+"Copy the necessary \"<b>Client ID</b>\" and \"<b>Client Secret</b>\" values "
+"and fill these fields in the plugin settings!"
+msgstr ""
+"必要な\"<b>クライアントID</b>\"と\"<b>クライアントシークレット</b>\"の値をコ"
+"ピーして、プラグインの設定でこれらのフィールドを埋めてください。"
+
+msgid "Force reauthorization on each login"
+msgstr "ログイン毎に再認証を強制する"
+
+msgid "Enable, when you want to see the consent screen on each login."
+msgstr "ログインのたびに同意画面を表示する場合は、「有効」にします。"
+
+msgid "Continue with <b>Discord</b>"
+msgstr "<b>Discord</b>で続行"
+
+msgid "Sign up with <b>Discord</b>"
+msgstr "<b>Discord</b>で登録する"
+
+msgid "Link account with <b>Discord</b>"
+msgstr "<b>Discord</b>とアカウントを連携"
+
+msgid "Unlink account from <b>Discord</b>"
+msgstr "<b>Discord</b>からアカウント連携を解除する"
+
+#, php-format
+msgid "Click on the name of your %s App."
+msgstr "あなたの%s Appの名前をクリックします。"
+
+msgid ""
+"Select the \"<b>Settings</b>\" tab and scroll down to the Authentication "
+"section!"
+msgstr ""
+"「<b>設定</b>」タブを選択し、「認証」セクションまでスクロールしてください!"
+
+msgid "Click on the \"<b>Save Changes</b>\" button."
+msgstr "「<b>変更を保存する(Save Changes)</b>」ボタンをクリックします。"
+
+msgid ""
+"Click on the \"<b>Registering new application</b>\" button under the "
+"Applications tab."
+msgstr ""
+"「アプリケーション(Applications)」タブの「<b>新しいアプリケーションを登録する"
+"(Registering new application)</b>」ボタンをクリックします。"
+
+msgid "Enter a \"<b>Label</b>\" and \"<b>Description</b>\" for your App."
+msgstr "アプリの「<b>ラベル</b>」と「<b>説明</b>」を入力してください。"
+
+#, php-format
+msgid ""
+"Fill \"<b>Website</b>\" with the url of your homepage, probably: <b>%s</b>"
+msgstr ""
+"「<b>ホームページ</b>」には、あなたのホームページのurlを記入してください。"
+"<b>%s</b>"
+
+msgid ""
+"Complete the Human test and click the \"<b>Register my application</b>\" "
+"button."
+msgstr ""
+"ヒューマンテストを完了し、「<b>アプリケーションを登録する</b>」ボタンをクリッ"
+"クします。"
+
+#, php-format
+msgid "Fill the \"<b>Domains</b>\" field with your domain name like: <b>%s</b>"
+msgstr ""
+"「<b>ドメイン</b>」欄には、以下のようにドメイン名を記入してください。<b>%s</"
+"b>"
+
+msgid ""
+"Select \"<b>Read only</b>\" as Default Access under the Authentication "
+"section."
+msgstr ""
+"「\n"
+"認証」セクションの「デフォルトのアクセス」として「<b>読み取り専用</b>」を選択"
+"します。"
+
+msgid "Click on the \"<b>Save Changes</b>\" button!"
+msgstr "「<b>変更を保存する(Save Changes)</b>」ボタンをクリック!"
+
+msgid "Navigate to the \"<b>Details</b>\" tab of your Application!"
+msgstr "アプリケーションの「<b>詳細</b>」タブに移動します!"
+
+msgid ""
+"Here you can see your \"<b>API Key</b>\" and \"<b>API Secret</b>\". These "
+"will be needed in the plugin's settings."
+msgstr ""
+"ここで、「<b>API Key</b>」と「<b>API Secret</b>」を確認することができます。こ"
+"れらは、プラグインの設定で必要になります。"
+
+msgid "API Secret"
+msgstr "APIシークレット"
+
+#, php-format
+msgid "We detected that your %1$s is probably overridden over the %2$s filter!"
+msgstr ""
+"あなたの %1$s は、おそらく %2$s フィルターより優先されることを検出しました!"
+
+#, php-format
+msgid "We detected that your %1$s has been overridden over the %2$s filter!"
+msgstr "あなたの %1$s が %2$s フィルターに上書きされたことを検出しました!"
+
+msgid "Continue with <b>Disqus</b>"
+msgstr "<b>Disqus</b>で続行"
+
+msgid "Sign up with <b>Disqus</b>"
+msgstr "<b>Disqus</b>で登録する"
+
+msgid "Link account with <b>Disqus</b>"
+msgstr "<b>Disqus</b>とアカウントを連携"
+
+msgid "Unlink account from <b>Disqus</b>"
+msgstr "<b>Disqus</b>からアカウント連携を解除する"
+
+#, php-format
+msgid "Click on the name of the App you configured %s with."
+msgstr "%s を設定したAppの名前をクリックします。"
+
+#, php-format
+msgid "Make sure the <b>Homepage URL</b> matches with: <b>%s</b>"
+msgstr "<b>ホームページのURL</b>と一致することを確認してください。<b>%s</b>"
+
+msgid "Press the <b>Update application</b> button to save the changes."
+msgstr "<b>アプリケーションの更新</b>ボタンを押すと、変更が保存されます。"
+
+#, php-format
+msgid ""
+"Make sure the <b>%1$s</b> tab is selected and click on the <b>%2$s</b> "
+"button."
+msgstr ""
+"<b>%1$s</b>タブが選択されていることを確認し、<b>%2$s</b>ボタンをクリックしま"
+"す。"
+
+msgid ""
+"Enter a name into the <b>Application name</b> field. Users will see this "
+"name, when they authorize your app at the OAuth consent screen!"
+msgstr ""
+"「<b>アプリケーション名</b>」に名前を入力します。OAuthの同意画面でアプリを承"
+"認する際に、この名前が表示されます。"
+
+#, php-format
+msgid ""
+"Fill <b>Homepage URL</b> with the url of your homepage, probably: <b>%s</b>"
+msgstr ""
+"<b>Homepage URL</b>には、あなたのホームページのurlを記入してください。<b>%s</"
+"b>"
+
+msgid ""
+"In the <b>Description</b> field you should explain what this App will be "
+"used for."
+msgstr ""
+"<b>説明</b>欄には、このアプリがどのような用途に使用されるかを説明する必要があ"
+"ります。"
+
+msgid "Click the <b>Register application</b> button."
+msgstr "<b>アプリケーションを登録する</b>ボタンをクリックします。"
+
+msgid ""
+"Find the necessary <b>Client ID</b> and <b>Client Secret</b> at the middle "
+"of the page. These will be needed in the plugin's settings!"
+msgstr ""
+"ページの真ん中にある<b>Client ID</b>と<b>Client Secret</b>に必要なものを見つ"
+"けてください。これらはプラグインの設定で必要になります!"
+
+#, php-format
+msgid ""
+"<b>Important note:</b> The email address is only retrievable, if there is a "
+"public email address set at the %1$s profile page%2$s!"
+msgstr ""
+"<b>重要な注意事項：</b> メールアドレスは、%1$sプロフィールページ%2$sに公開"
+"メールアドレスが設定されている場合のみ取得可能です!"
+
+msgid "Continue with <b>GitHub</b>"
+msgstr "<b>GitHub</b>で続行"
+
+msgid "Sign up with <b>GitHub</b>"
+msgstr "<b>GitHub</b>で登録する"
+
+msgid "Link account with <b>GitHub</b>"
+msgstr "<b>GitHub</b>とアカウントを連携"
+
+msgid "Unlink account from <b>GitHub</b>"
+msgstr "<b>GitHub</b>からアカウント連携を解除する"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Select the \"<b>Settings</b>\" tab and scroll down to the Authentication "
+#| "section!"
+msgid "Select the %1$s tab on the left and scroll down to the %2$s section!"
+msgstr ""
+"「<b>設定</b>」タブを選択し、「認証」セクションまでスクロールしてください!"
+
+#, fuzzy
+#| msgid "Add the following URL to the %s field:"
+msgid "Add the following URL:"
+msgstr "以下のURLを%sフィールドに追加します。"
+
+#, php-format
+msgid "Click on the %s button."
+msgstr "%s ボタンをクリックします。"
+
+#, fuzzy, php-format
+#| msgid "Click on the %s button."
+msgid "Click on the blue \"%s\" button!"
+msgstr "%s ボタンをクリックします。"
+
+#, php-format
+msgid ""
+"Select an image for your App, fill in the \"%1$s\" and \"%2$s\" fields, "
+"comply with the \"%3$s\", then click on the \"%4$s\" button!"
+msgstr ""
+
+#, php-format
+msgid "Once you have a project, click on it, and you will enter the %1$s."
+msgstr ""
+
+#, php-format
+msgid ""
+"Copy and save the \"%1$s\" value. This is what you will use later on the "
+"Settings tab for the \"%1$s\" field."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Click on %1$s on the left hand menu then add the %2$s product, and press "
+#| "the %3$s button."
+msgid ""
+"Then in the side bar on the left side, find the \"%1$s\" menu and click on "
+"the \"%2$s\" menu point. Click on the \"%3$s\" button, then on \"%4$s\"."
+msgstr ""
+"左メニューの %1$s をクリックし、%2$s の商品を追加して、%3$s ボタンを押しま"
+"す。"
+
+#, php-format
+msgid ""
+"Copy and save this code, this is what you will use for the \"%1$s\" on the "
+"Settings tab."
+msgstr ""
+
+#, php-format
+msgid ""
+"Also, make sure to set the \"%1$s\" to \"%2$s\" with the \"%3$s\" button."
+msgstr ""
+
+#, php-format
+msgid "Next, go to the \"%1$s\" in the \"%2$s\" menu on the left."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Enter your domain name into the %1$s field, probably: %2$s"
+msgid ""
+"Click on the blue \"%1$s\" button, then enter your domain name into the "
+"\"%2$s\" field, probably: %3$s"
+msgstr "ドメイン名を%1$sフィールドに入力します（おそらく: %2$s）。"
+
+#, php-format
+msgid ""
+"Below the \"%1$s\" menu on the left, click on the \"%2$s\" menu point, then "
+"set the \"%3$s\" ON-OFF switch to ON. A popup will appear, where you should "
+"click on the \"%4$s\" button."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Under the \"<b>%1$s</b>\" section click \"<b>%2$s</b>\" and add the "
+#| "following URL:"
+msgid ""
+"Scroll down to the \"%1$s\" section, then click on the \"%2$s\" button, and "
+"enter the following URL: "
+msgstr ""
+"「<b>%1$s</b>」の下にある「<b>%2$s</b>」をクリックし、以下のURLを追加してくだ"
+"さい。"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "On the left side, click on the “<b>%1$s</b>” menu point in the Settings."
+msgid "After this, click on the \"%1$s\" menu point on the left."
+msgstr ""
+"左側の「設定」の「<b>%1$s</b>」というメニューポイントをクリックします。"
+
+#, php-format
+msgid ""
+"Click on the \"%1$s\" button for the Scopes with the \"%2$s\" and for any "
+"other scope that you will need:"
+msgstr ""
+
+#, php-format
+msgid ""
+"%s - Purpose: Used for the username generation and for setting the first "
+"name and last name."
+msgstr ""
+
+#, php-format
+msgid ""
+"%s - Purpose: Accounts will be registered or linked based on this email "
+"address."
+msgstr ""
+
+#, php-format
+msgid "%s - Purpose: This image will be used as the avatar of the account."
+msgstr ""
+
+#, php-format
+msgid ""
+"In the popup you should set the \"%1$s\" to either \"%2$s\" or \"%3$s\" "
+"depending on your needs."
+msgstr ""
+
+#, php-format
+msgid ""
+"Finally fill the \"%1$s\" field. It is important to clearly state what you "
+"want to use the consent item for."
+msgstr ""
+
+#, php-format
+msgid ""
+"%1$s The \"%2$s\" type itself and certain scopes (e.g. \"%3$s\", \"%4$s\" - "
+"used when you turn on the corresponding setting on our %5$s tab), will "
+"require you to register business information, or if you are a single "
+"developer verify your identity (both can be done under the \"%6$s\" menu "
+"point), in order to be able to request consent to these items."
+msgstr ""
+
+msgid "WARNING:"
+msgstr ""
+
+#, php-format
+msgid ""
+"Find the \"%1$s\" and \"%2$s\" values you copied earlier. You will need "
+"these for the fields with the same name on the \"%3$s\" tab."
+msgstr ""
+
+#, fuzzy
+#| msgid "API Key"
+msgid "REST API Key"
+msgstr "APIキー"
+
+#, fuzzy
+#| msgid "Client Secret"
+msgid "Client Secret Code"
+msgstr "クライアントシークレット"
+
+msgid "Authorization Prompt"
+msgstr "認証プロンプト"
+
+msgid "Display account select modal"
+msgstr "アカウント選択モーダル（子ウィンドウ）表示"
+
+msgid "Force user to enter login credentials on each login"
+msgstr "ログインのたびにログイン情報を入力するよう強制する。"
+
+msgid "Start the authentication with the Kakao Account sign-up page."
+msgstr ""
+
+msgid "Mini"
+msgstr ""
+
+#, fuzzy
+#| msgid "Continue with <b>VK</b>"
+msgid "Continue with <b>Kakao</b>"
+msgstr "<b>VK</b>で続行"
+
+#, fuzzy
+#| msgid "Sign up with <b>VK</b>"
+msgid "Sign up with <b>Kakao</b>"
+msgstr "<b>VK</b>で登録する"
+
+#, fuzzy
+#| msgid "Link account with <b>VK</b>"
+msgid "Link account with <b>Kakao</b>"
+msgstr "<b>VK</b>とアカウントを連携"
+
+#, fuzzy
+#| msgid "Unlink account from <b>VK</b>"
+msgid "Unlink account from <b>Kakao</b>"
+msgstr "<b>VK</b>からアカウント連携を解除する"
+
+#, php-format
+msgid "Navigate to your %s"
+msgstr "あなたの%sにナビゲートします。"
+
+#, php-format
+msgid "Select your %s App and click on the LINE Login section."
+msgstr "お使いの%sアプリを選択し、「LINEログイン」の項目をクリックします。"
+
+#, php-format
+msgid "Change your URL in the %s field:"
+msgstr "%s 欄のURLを変更してください。"
+
+#, php-format
+msgid ""
+"Editing Live Apps are only possible with a %s. So please make sure you own "
+"one!"
+msgstr ""
+"ライブアプリの編集は、%s がないとできません。だから、必ず1つ持っていることを"
+"確認してください"
+
+msgid "Click the \"<b>Create a new provider</b>\" button."
+msgstr "「<b>新規プロバイダを作成する</b>」ボタンをクリックします。"
+
+msgid ""
+"Fill the \"<b>Provider name</b>\" field and click the \"<b>Create</b>\" "
+"button."
+msgstr ""
+"「<b>プロバイダー名</b>」を入力し、「<b>作成</b>」ボタンをクリックします。"
+
+msgid ""
+"Under the \"<b>Channels</b>\" panel select the \"<b>Create a LINE Login "
+"channel</b>\" option."
+msgstr ""
+"「<b>チャンネル</b>」パネルで「<b>LINEログインチャンネルを作成する</b>」オプ"
+"ションを選択します。"
+
+msgid "Make sure \"<b>LINE Login</b>\" is selected as \"<b>Channel type</b>\"."
+msgstr ""
+"「<b>チャンネルタイプ</b>」に「<b>LINEログイン</b>」が選択されていることを確"
+"認してください。"
+
+msgid ""
+"For \"<b>Provider</b>\" choose the provider from the list, that you just "
+"created."
+msgstr "<b>プロバイダ</b>」は、先ほど作成したリストからプロバイダを選びます。"
+
+msgid "Select your \"<b>Region</b>\"."
+msgstr "「<b>地域</b>」を選択します。"
+
+msgid ""
+"Add your \"<b>Channel icon</b>\", \"<b>Channel name</b>\" and \"<b>Channel "
+"description</b>\". These will appear on your Consent Screen!"
+msgstr ""
+"「<b>チャンネルアイコン</b>」、「<b>チャンネル名</b>」、「<b>チャンネル説明</"
+"b>」を追加します。これらは、あなたの同意画面に表示されます"
+
+msgid "At the \"<b>App types</b>\" select the \"<b>Web app</b>\" option."
+msgstr "「<b>アプリの種類</b>」で、「<b>Webアプリ</b>」を選択します。"
+
+msgid ""
+"Read and consent to the \"<b>LINE Developers Agreement</b>\", then click the "
+"\"<b>Create</b>\" button."
+msgstr ""
+"「<b>LINE Developers Agreement</b>」を読み、同意の上、「<b>Create</b>」ボタン"
+"をクリックしてください。"
+
+msgid ""
+"Scroll down to \"<b>OpenID Connect</b>\", click the \"<b>Apply</b>\" button "
+"near the \"<b>Email address permission</b>\" label."
+msgstr ""
+"「<b>OpenID Connect</b>」までスクロールし、「<b>メールアドレスの許可</b>」ラ"
+"ベルの近くにある「<b>申請</b>」ボタンをクリックしてください。"
+
+msgid "Fill out the form, then click the \"<b>Submit</b>\" button."
+msgstr ""
+"フォームに必要事項を入力し、「<b>送信</b>」ボタンをクリックしてください。"
+
+msgid ""
+"Scroll up to the top of the page and choose the \"<b>LINE Login</b>\" "
+"section."
+msgstr ""
+"ページ上部までスクロールして、「<b>LINEログイン</b>」の項目を選択します。"
+
+msgid ""
+"Under your App name click the \"<b>Developing</b>\" button and publish your "
+"Channel!"
+msgstr ""
+"アプリ名の下にある「<b>Developing</b>」ボタンをクリックし、チャンネルを公開し"
+"ます。"
+
+msgid ""
+"Go to the \"<b>Basic settings</b>\" tab and find the necessary \"<b>Channel "
+"ID</b>\" and \"<b>Channel secret</b>\" values and fill these fields in the "
+"plugin settings!"
+msgstr ""
+"「<b>基本設定</b>」タブで、必要な「<b>チャンネルID</b>」と「<b>チャンネルシー"
+"クレット</b>」の値を探し、プラグインの設定でこれらのフィールドを埋めてくださ"
+"い。"
+
+msgid "Channel ID"
+msgstr "チャンネルID"
+
+msgid "Channel Secret"
+msgstr "チャンネルシークレット"
+
+msgid "Add LINE Official Account as a friend"
+msgstr "LINE公式アカウントを友だちに追加する"
+
+msgid "Don't display"
+msgstr "表示しない"
+
+msgid "Display the add friend option in the consent screen"
+msgstr "同意画面に友達追加オプションを表示する"
+
+msgid "Opens a new screen with the add friend option after the consent screen"
+msgstr "同意画面の後に、友達追加オプションのある新しい画面を開く"
+
+#, php-format
+msgid ""
+"If you have a LINE Official Account, people can add it as a friend when they "
+"authorize your App. %1$sLearn more%2$s."
+msgstr ""
+"LINE公式アカウントをお持ちの方は、アプリを認証する際に友だちとして追加するこ"
+"とができます。%1$s 詳しくはこちら%2$s。"
+
+msgid "Initial Login method"
+msgstr "初期ログイン方法"
+
+msgid "Email and Password"
+msgstr "メールアドレスとパスワード"
+
+msgid "QR code"
+msgstr "QRコード"
+
+msgid ""
+"The selected value defines whether the Email and Password or the QR code "
+"login option will be presented in the LINE authentication screen by default."
+msgstr ""
+"LINEの認証画面において、「メールアドレスとパスワード」と「QRコード」のどちら"
+"が表示されるかを設定します。"
+
+msgid "Force initial login method"
+msgstr "初期ログイン方法の強制"
+
+msgid ""
+"Enable, if you want to offer only the selected Initial Login method in the "
+"LINE authentication screen."
+msgstr ""
+"LINE認証画面で、選択した初期ログイン方法のみを提供する場合は、「有効」にしま"
+"す。"
+
+msgid "Allow Auto login"
+msgstr "自動ログインを許可"
+
+#, php-format
+msgid ""
+"Having the Auto login enabled could make the login fail in certain cases. "
+"%1$sLearn more%2$s."
+msgstr ""
+"自動ログインを有効にすると、特定のケースでログインに失敗することがありま"
+"す。%1$s 詳しくはこちら%2$s。"
+
+msgid "Continue with <b>Line</b>"
+msgstr "<b>LINE</b>で続行"
+
+msgid "Sign up with <b>Line</b>"
+msgstr "<b>LINE</b>で登録する"
+
+msgid "Link account with <b>Line</b>"
+msgstr "<b>LINE</b>とアカウントを連携"
+
+msgid "Unlink account from <b>Line</b>"
+msgstr "<b>LINE</b>からアカウント連携を解除する"
+
+#, fuzzy, php-format
+#| msgid "Click on your App and go to the \"<b>Auth</b>\" tab."
+msgid "Click on your App and go to the %s tab."
+msgstr "アプリをクリックし、「<b>Auth</b>」タブに移動します。"
+
+#, fuzzy, php-format
+#| msgid "Add the following URL to the %s field:"
+msgid "Add the following URL at %s:"
+msgstr "以下のURLを%sフィールドに追加します。"
+
+#, fuzzy, php-format
+#| msgid "Click on \"<b>Update</b>\" to save the changes"
+msgid "Click on %s to save the changes"
+msgstr "「<b>更新(Update)</b>」をクリックし、変更を保存します。"
+
+#, fuzzy, php-format
+#| msgid "Locate the \"<b>Create app</b>\" button and click on it."
+msgid "Locate the %s button and click on it."
+msgstr "「<b>アプリを作成する</b>」ボタンを探し、クリックする。"
+
+#, fuzzy, php-format
+#| msgid "Enter the name of your App to the \"App name\" field."
+msgid "Enter the name of your App to the %s field."
+msgstr "アプリ名」欄に、アプリの名前を入力します。"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Find your company page in the \"<b>Company</b>\" field. If you don't have "
+#| "one yet, create new one at: %s"
+msgid ""
+"Find your page in the %1$s field. If you don't have one yet, create new one "
+"at: %2$s"
+msgstr ""
+"「<b>会社</b>」欄で会社ページを検索してください。まだお持ちでない方は、下記で"
+"新規作成してください。%s"
+
+#, fuzzy, php-format
+#| msgid "Enter your %1$s and %2$s URLs."
+msgid "Enter your %1$s and upload an %2$s"
+msgstr "%1$s と %2$s のURLを入力してください。"
+
+#, fuzzy, php-format
+#| msgid "To generate a %1$s, click on the %2$s button."
+msgid "Read and agree the %1$s then click the %2$s button!"
+msgstr "%1$sを生成するには、%2$sボタンをクリックします。"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "You will end up in the App setting area. Click on the \"<b>Products</b>\" "
+#| "tab."
+msgid ""
+"You will end up in the products area. If you aren't already there click on "
+"the %s tab."
+msgstr "アプリの設定エリアに行き着きます。<b>製品</b>」タブをクリックします。"
+
+#, fuzzy, php-format
+#| msgid "To generate a %1$s, click on the %2$s button."
+msgid "Find %1$s and click %2$s."
+msgstr "%1$sを生成するには、%2$sボタンをクリックします。"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "A modal will appear where you need to tick the \"<b>I have read and agree "
+#| "to these terms</b>\" checkbox and finally press the \"<b>Add product</"
+#| "b>\" button."
+msgid ""
+"A modal will appear where you need to tick the %1$s checkbox and finally "
+"press the %2$s button."
+msgstr ""
+"モーダル（子ウィンドウ）が表示されますので、「<b>本規約を読み、同意する」"
+"チェックボックスにチェックを入れ、最後に「<b>商品を追加する」ボタンをクリック"
+"してください。"
+
+#, fuzzy, php-format
+#| msgid "Click on the %s button."
+msgid "Click on the %1$s tab."
+msgstr "%s ボタンをクリックします。"
+
+#, fuzzy, php-format
+#| msgid "Find the %1$s section and add the following URL to the %2$s field:"
+msgid "Find the %1$s section and add the following URL at %2$s:"
+msgstr "%1$s セクションを探し、%2$sフィールドに以下のURLを追加します。"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Copy the necessary %1$s value under the %2$s section, you will need this "
+#| "on our %3$s tab."
+msgid ""
+"Find the necessary %1$s and %2$s under the %3$s section, on the %4$s tab."
+msgstr ""
+"%2$s セクションの下にある必要な %1$s の値をコピーしてください。%3$s で必要に"
+"なります。"
+
+msgid "Continue with <b>LinkedIn</b>"
+msgstr "<b>LinkedIn</b>で続行"
+
+msgid "Sign up with <b>LinkedIn</b>"
+msgstr "<b>LinkedIn</b>で登録する"
+
+msgid "Link account with <b>LinkedIn</b>"
+msgstr "<b>LinkedIn</b>でアカウントを連携"
+
+msgid "Unlink account from <b>LinkedIn</b>"
+msgstr "<b>LinkedIn</b>からアカウント連携を解除する"
+
+#, php-format
+msgid "Log in with your %s credentials if you are not logged in yet."
+msgstr "まだログインしていない場合は、%sの認証情報でログインしてください。"
+
+msgid "Click on the Search bar and search for \"<b>App registrations</b>\"."
+msgstr "検索バーをクリックし、「<b>アプリ登録</b>」で検索してください。"
+
+#, php-format
+msgid "Click on the App with Application (client) ID: <b>%s</b>"
+msgstr ""
+"アプリケーション（クライアント）IDのあるアプリをクリックします。<b>%s</b>"
+
+msgid "Click on the link next to the Redirect URIs label."
+msgstr "「Redirect URIs」ラベルの横にあるリンクをクリックします。"
+
+#, php-format
+msgid ""
+"Log in with your %s credentials if you are not logged in or create a new "
+"account."
+msgstr ""
+"ログインしていない場合は、%sの認証情報でログインするか、新しいアカウントを作"
+"成してください。"
+
+msgid "Click on \"<b>New registration</b>\"."
+msgstr "「<b>新規登録(New registration)</b>」をクリックします。"
+
+msgid "Fill the \"<b>Name</b>\" field with your App Name."
+msgstr "「<b>Name</b>」フィールドにアプリ名を入力します。"
+
+#, php-format
+msgid ""
+"Select an option at Supported account types.<br><strong><u>Important:</u></"
+"strong> On our Settings tab, you will need to select the Audience depending "
+"on the selected value! If you are not sure what to choose, then %1$shere%2$s "
+"you can learn more."
+msgstr ""
+"<br><strong><u>重要</u></strong>：設定タブで、選択した値に応じてオーディエン"
+"スを選択する必要があります!何を選べばいいかわからない場合は、%1$shere%2$sで詳"
+"しく説明しています。"
+
+#, php-format
+msgid ""
+"At the %1$s field, select the %2$s option as platform, and add the following "
+"URL into the input field:"
+msgstr ""
+"%1$sフィールドで、プラットフォームとして%2$sオプションを選択し、入力フィール"
+"ドに次のURLを追加します。"
+
+#, php-format
+msgid ""
+"%1$s It seems the suggested %2$s contains query string(s), that %3$s doesn't "
+"allow in the URLs. Please check the structure of your %4$s, as you might use "
+"one with query strings in it!"
+msgstr ""
+"%1$s 提案された %2$s には、%3$s が URL で許可していないクエリ文字列が含まれて"
+"いるようです。クエリ文字列を含むものを使用している可能性があるので、%4$s の構"
+"造を確認してください。"
+
+msgid "Warning:"
+msgstr "警告："
+
+msgid "Permalinks"
+msgstr "パーマリンク"
+
+msgid "Create your App with the \"<b>Register</b>\" button."
+msgstr "「<b>登録</b>」ボタンでアプリを作成します。"
+
+msgid "You land on the \"<b>Overview</b>\" page."
+msgstr "「<b>概要</b>」のページに着地します。"
+
+msgid ""
+"Copy the \"<b>Application (client) ID</b>\", this will be the <b>Application "
+"(client) ID</b> in the plugin settings."
+msgstr ""
+"「<b>アプリケーション（クライアント）ID</b>」をコピーし、これがプラグイン設定"
+"の<b>アプリケーション（クライアント）ID</b>となります。"
+
+msgid ""
+"Click on the link named \"<b>Add a certificate or secret</b>\" next to the "
+"Client credentials label."
+msgstr ""
+"Client credentialsラベルの横にある「<b>Add a certificate or secret</b>」とい"
+"うリンクをクリックします。"
+
+msgid "Click on \"<b>New client secret</b>\"."
+msgstr ""
+"「<b>新しいクライアントシークレット(New client secret)</b>」をクリックしま"
+"す。"
+
+msgid "Fill the \"<b>Description</b>\" field."
+msgstr "「<b>説明</b>」を記入する。"
+
+msgid "Set the expiration date at the \"<b>Expires</b>\" field."
+msgstr "「<b>Expires</b>」欄で有効期限を設定します。"
+
+msgid "Then create your Client Secret with the \"<b>Add</b>\" button."
+msgstr "次に、「<b>追加</b>」ボタンでクライアントシークレットを作成します。"
+
+#, php-format
+msgid ""
+"Copy the %s, this will be the <b>Client secret</b> in the plugin settings."
+msgstr ""
+"%s をコピーしてください、これがプラグイン設定の<b>Client secret</b>となりま"
+"す。"
+
+msgid "Application (client) ID"
+msgstr "アプリケーション（クライアント）ID"
+
+msgid "Client secret"
+msgstr "クライアントシークレット"
+
+msgid "Audience"
+msgstr "オーディエンス"
+
+msgid ""
+"Accounts in any organizational directory (Any Azure AD directory - "
+"Multitenant)"
+msgstr ""
+"任意の組織ディレクトリのアカウント（任意のAzure ADディレクトリ - マルチテナン"
+"ト）"
+
+msgid ""
+"Accounts in any organizational directory (Any Azure AD directory - "
+"Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)"
+msgstr ""
+"任意の組織ディレクトリ（任意のAzure ADディレクトリ - マルチテナント）および個"
+"人のMicrosoftアカウント（例：Skype、Xbox）内のアカウント"
+
+msgid "Personal Microsoft accounts only"
+msgstr "個人のマイクロソフトアカウントのみ"
+
+msgid ""
+"Only users in an organizational directory from a particular Azure AD tenant:"
+msgstr "特定のAzure ADテナントからの組織ディレクトリのユーザーのみ。"
+
+#, php-format
+msgid ""
+"The selected value will define the supported account types. %1$sLearn more."
+"%2$s"
+msgstr ""
+"選択された値によって、サポートされるアカウントタイプが定義されます。%1$sもっ"
+"と詳しく知りたい%2$s"
+
+msgid "Display authorization and authentication dialog only when necessary"
+msgstr "必要なときだけ認可・認証ダイアログを表示する"
+
+msgid "Continue with <b>Microsoft</b>"
+msgstr "<b>マイクロソフト</b>で続行"
+
+msgid "Sign up with <b>Microsoft</b>"
+msgstr "<b>マイクロソフト</b>で登録する"
+
+msgid "Link account with <b>Microsoft</b>"
+msgstr "<b>マイクロソフト</b>とのアカウント連携"
+
+msgid "Unlink account from <b>Microsoft</b>"
+msgstr "<b>Microsoft</b>からアカウント連携を解除する"
+
+msgid "There is a Sandbox/Live switch. Make sure \"<b>Live</b>\" is selected!"
+msgstr ""
+"Sandbox/Liveの切り替えがあります。<b>Live</b>」が選択されていることを確認して"
+"ください!"
+
+#, php-format
+msgid "Click on the name of your %s App, under the REST API apps section."
+msgstr ""
+"REST API アプリ] セクションの下にある %s アプリの名前をクリックします。"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Under the \"<b>%1$s</b>\" section click \"<b>%2$s</b>\" and add the "
+#| "following URL:"
+msgid ""
+"Scroll down to %1$s section, find the %2$s feature and and click on the %3$s "
+"link."
+msgstr ""
+"「<b>%1$s</b>」の下にある「<b>%2$s</b>」をクリックし、以下のURLを追加してくだ"
+"さい。"
+
+#, fuzzy, php-format
+#| msgid "Add the following URL to the %s field:"
+msgid "Add the following URL to the %s field and press %2$s:"
+msgstr "以下のURLを%sフィールドに追加します。"
+
+#, php-format
+msgid ""
+"Wait for %1$s to approve the %2$s feature ( this might take up to 7 business "
+"days ). The %3$s row will indicate the current status. "
+msgstr ""
+
+#, php-format
+msgid ""
+"Editing Live Apps are only possible with a %s. If you own one, go to the 4. "
+"step, if not click on the link!"
+msgstr ""
+"Live Appsの編集は、%sがある場合のみ可能です。お持ちの方は4.のステップへ、お持"
+"ちでない方はリンクをクリックしてください。"
+
+msgid "Click on Registration and create a Business account."
+msgstr ""
+"「登録(Registration)」をクリックし、「ビジネスアカウント(Business account)」"
+"を作成します。"
+
+msgid "If you are done, follow the guide from the 5. step."
+msgstr "完了した場合は、5.のステップからガイドに従ってください。"
+
+#, php-format
+msgid "Log in with your %s credentials."
+msgstr "%s の認証情報でログインしてください。"
+
+msgid "Click the \"<b>Create App</b>\" button under the REST API apps section."
+msgstr ""
+"REST APIアプリの項目にある「<b>アプリを作成する</b>」ボタンをクリックします。"
+
+msgid ""
+"Fill the \"<b>App Name</b>\" field and click \"<b>Create App</b>\" button."
+msgstr ""
+"「<b>アプリ名</b>」を入力し、「<b>アプリ作成</b>」ボタンをクリックします。"
+
+#, php-format
+msgid ""
+"Scroll down to %1$s section, and turn off all features. ( If you are trying "
+"to set up social login in an existing App, then create a new App, as this "
+"App should be used only for social login because some of the non used "
+"features might cause scope specific problems. )"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "To generate a %1$s, click on the %2$s button."
+msgid "Find the %1$s feature and check the checkbox."
+msgstr "%1$sを生成するには、%2$sボタンをクリックします。"
+
+#, fuzzy, php-format
+#| msgid "Click on the %1$s button at %2$s."
+msgid "Click on the %1$s link that you can find below the %2$s feature."
+msgstr "%2$s で %1$s のボタンをクリックしてください。"
+
+#, fuzzy, php-format
+#| msgid "Scroll down to the %s section."
+msgid "Scroll down to %1$s section, and tick the %2$s field."
+msgstr "%s の部分までスクロールしてください。"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "If you want to get the email address as well, then don't forget to tick "
+#| "%1$s option. In this case you should also enable the %2$s setting in our "
+#| "%3$s %4$s tab."
+msgid ""
+"If you want to get the email address as well, then don't forget to tick %1$s "
+"option. In this case you should also enable the %2$s setting in our %3$s "
+"%4$s tab. ( If you enabled extra fields on our Sync data tab, don't forget "
+"to tick the other necessary fields either! )"
+msgstr ""
+"電子メールアドレスも取得したい場合は、%1$s オプションにチェックを入れることを"
+"忘れないでください。この場合、%3$s %4$sタブの%2$s設定も有効にする必要がありま"
+"す。"
+
+msgid "Email scope"
+msgstr "電子メールの範囲"
+
+#, fuzzy, php-format
+#| msgid "Enter your %1$s and %2$s URLs."
+msgid "Fill the %1$s and %2$s fields."
+msgstr "%1$s と %2$s のURLを入力してください。"
+
+#, php-format
+msgid ""
+"Optional: If you want the unverified %1$s accounts to be able to login with "
+"your App, then check the %2$s field, too."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "When all fields are filled, click \"<b>Save</b>\"."
+msgid "When all fields are filled, click %1$s in the modal."
+msgstr "すべての項目が入力されたら、「<b>保存</b>」をクリックします。"
+
+#, php-format
+msgid ""
+"Once the %1$s feature is approved, scroll up to the %2$s section and find "
+"the necessary %3$s and %4$s values, you will need these on the %5$s tab of "
+"the plugin!"
+msgstr ""
+
+msgid "Secret"
+msgstr "シークレット"
+
+msgid "Disable, when you have no rights for email address."
+msgstr "メールアドレスに権限がない場合は無効となります。"
+
+msgid "Continue with <b>PayPal</b>"
+msgstr "<b>PayPal（ペイパル）</b>で続行"
+
+msgid "Sign up with <b>PayPal</b>"
+msgstr "<b>PayPal</b>で登録する"
+
+msgid "Link account with <b>PayPal</b>"
+msgstr "<b>PayPal</b>とアカウントを連携"
+
+msgid "Unlink account from <b>PayPal</b>"
+msgstr "<b>PayPal（ペイパル）</b>からアカウント連携を解除する"
+
+#, fuzzy, php-format
+#| msgid "Click on the name of your %s App."
+msgid "Click on %1$s in the bottom left corner of your %2$s App."
+msgstr "あなたの%s Appの名前をクリックします。"
+
+#, php-format
+msgid "Replace your existing %s with this URL:"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Click on the %s button."
+msgid "Click on the %s button"
+msgstr "%s ボタンをクリックします。"
+
+#, php-format
+msgid "Make sure you have the %s radio option selected!"
+msgstr ""
+
+#, php-format
+msgid "Enter a %s for your App."
+msgstr "Appの%sを入力してください。"
+
+#, fuzzy, php-format
+#| msgid "Enter a %s for your App."
+msgid "Optional: Enter a %1$s and set an %2$s for your App."
+msgstr "Appの%sを入力してください。"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Complete the Human test and click the \"<b>Register my application</b>\" "
+#| "button."
+msgid "Complete the Human test and click the %s button."
+msgstr ""
+"ヒューマンテストを完了し、「<b>アプリケーションを登録する</b>」ボタンをクリッ"
+"クします。"
+
+#, php-format
+msgid ""
+"Finally find your %1$s, which is the value just below the name and type of "
+"your app, and the %2$s, which is the value next to %3$s. These will be "
+"needed in the plugin's settings."
+msgstr ""
+
+#, fuzzy
+#| msgid "Continue with <b>VK</b>"
+msgid "Continue with <b>Reddit</b>"
+msgstr "<b>VK</b>で続行"
+
+#, fuzzy
+#| msgid "Sign up with <b>VK</b>"
+msgid "Sign up with <b>Reddit</b>"
+msgstr "<b>VK</b>で登録する"
+
+#, fuzzy
+#| msgid "Link account with <b>VK</b>"
+msgid "Link account with <b>Reddit</b>"
+msgstr "<b>VK</b>とアカウントを連携"
+
+#, fuzzy
+#| msgid "Unlink account from <b>VK</b>"
+msgid "Unlink account from <b>Reddit</b>"
+msgstr "<b>VK</b>からアカウント連携を解除する"
+
+#, php-format
+msgid "Select your %s App."
+msgstr "あなたの%s Appを選択してください。"
+
+msgid ""
+"Under the \"<b>Add features and functionality</b>\" panel click on the "
+"\"<b>Permissions</b>\" option."
+msgstr "<b>機能追加</b>」パネルで、「<b>権限</b>」オプションをクリックします。"
+
+msgid "Click on the \"<b>Add</b>\" and \"<b>Save URLs</b>\" button."
+msgstr ""
+"「<b>追加(Add)</b>」「<b>URLの保存(Save URLs)</b>」ボタンをクリックします。"
+
+#, php-format
+msgid ""
+"Visit the %1$s page and log in with your %2$s credentials if you are not "
+"logged in, yet."
+msgstr ""
+"%1$sのページにアクセスし、まだログインしていない場合は、%2$sの認証情報でログ"
+"インしてください。"
+
+msgid ""
+"Click the \"<b>Create New App</b>\" button. (If you can not see this button, "
+"you might need to create a workspace first!)"
+msgstr ""
+"「<b>Create New App</b>」ボタンをクリックします。(このボタンが表示されない場"
+"合は、最初にワークスペースを作成する必要があるかもしれません！)"
+
+msgid "Choose the \"<b>From scratch</b>\" option."
+msgstr "「<b>ゼロから</b>」を選択します。"
+
+msgid ""
+"Fill the \"<b>App Name</b>\" field, select your workspace and click the "
+"\"<b>Create App</b>\" button."
+msgstr ""
+"「<b>アプリ名</b>」を入力し、ワークスペースを選択して「<b>アプリ作成</b>」ボ"
+"タンをクリックします。"
+
+msgid "Scroll down to the \"<b>Redirect URLs</b>\" section."
+msgstr "「<b>リダイレクトURL</b>」の項目までスクロールしてください。"
+
+msgid "Click on the \"<b>Save URLs</b>\" button."
+msgstr "「<b>URLの保存</b>」ボタンをクリックします。"
+
+msgid "Scroll down to the \"<b>Scopes</b>\" section."
+msgstr "「<b>Scopes</b>」の項目までスクロールしてください。"
+
+msgid ""
+"Add the following Scopes to the \"<b>User Token Scopes</b>\" field: "
+"\"<b>openid</b>\", \"<b>profile</b>\", \"<b>email</b>\""
+msgstr ""
+"「<b>User Token Scopes</b>」フィールドに以下のScopesを追加しま"
+"す。\"<b>openid</b>\"、\"<b>profile</b>\"、\"<b>email</b>\""
+
+msgid ""
+"On the top left side click on the \"<b>Basic Information</b>\" option in the "
+"\"<b>Settings</b>\"."
+msgstr "左上の「<b>設定</b>」にある「<b>基本情報</b>」をクリックしてください。"
+
+msgid ""
+"Under the \"<b>Install your app</b>\" panel click on the \"<b>Install to "
+"Workspace</b>\" button."
+msgstr ""
+"「<b>アプリのインストール</b>」パネルの下にある「<b>ワークスペースにインス"
+"トール</b>」ボタンをクリックしてください。"
+
+msgid "Click on the \"<b>Allow</b>\" button."
+msgstr "「<b>許可する</b>」ボタンをクリックします。"
+
+msgid ""
+"Under the \"<b>Manage distribution</b>\" panel click on the \"<b>Distribute "
+"App</b>\" button."
+msgstr ""
+"<b>配布の管理</b>」パネルで、「<b>アプリの配布</b>」ボタンをクリックします。"
+
+msgid "Scroll down to the \"<b>Remove Hard Coded Information</b>\" section."
+msgstr "「<b>ハードコード情報の削除</b>」の項目までスクロールしてください。"
+
+msgid ""
+"Click on the \"<b>I’ve reviewed and removed any hard-coded information.</"
+"b>\". "
+msgstr ""
+"「<b>ハードコードされた情報を見直し、削除しました(I’ve reviewed and removed "
+"any hard-coded information.)</b>」をクリックします。"
+
+msgid "Click on the \"<b>Activate Public Distribution</b>\" button."
+msgstr ""
+"「<b>公開配信を有効にする(Activate Public Distribution)</b>」ボタンをクリック"
+"します。"
+
+msgid ""
+"On the top left side click on the \"<b>Basic Information</b>\" option, that "
+"you find under \"<b>Settings</b>\"."
+msgstr "左上の「<b>設定」の下にある「<b>基本情報</b>」をクリックします。"
+
+msgid ""
+"Scroll down to the \"<b>App Credentials</b>\" section, find the necessary "
+"\"<b>Client ID</b>\" and \"<b>Client Secret</b>\" values and fill these "
+"fields in the plugin settings!"
+msgstr ""
+"「<b>アプリ認証情報</b>」セクションまでスクロールし、必要な「<b>クライアント"
+"ID</b>」と「<b>クライアントシークレット</b>」の値を見つけ、プラグイン設定でこ"
+"れらのフィールドを埋めてください。"
+
+msgid "Slack Team ID"
+msgstr "SlackのチームID"
+
+msgid "Optional"
+msgstr "オプション"
+
+#, php-format
+msgid ""
+"The Team ID of a workspace to attempt to restrict to. %1$sLearn more.%2$s"
+msgstr "制限を試みるワークスペースのチームID。%1$sもっと詳しく.%2$s"
+
+msgid "72x72"
+msgstr "72x72"
+
+msgid "192x192"
+msgstr "192x192"
+
+msgid "512x512"
+msgstr "512x512"
+
+msgid "1024x1024"
+msgstr "1024x1024"
+
+msgid "Sign in with <b>Slack</b>"
+msgstr "<b>Slack</b>でサインインする。"
+
+msgid "Sign up with <b>Slack</b>"
+msgstr "<b>Slack</b>で登録する"
+
+msgid "Link account with <b>Slack</b>"
+msgstr "<b>Slack</b>とアカウントを連携"
+
+msgid "Unlink account from <b>Slack</b>"
+msgstr "<b>Slack</b>からアカウント連携を解除する"
+
+msgid "Green"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Select the \"<b>Settings</b>\" tab and scroll down to the Authentication "
+#| "section!"
+msgid ""
+"Find the %1$s button on the top right and scroll down to the %2$s button, "
+"and click on it!"
+msgstr ""
+"「<b>設定</b>」タブを選択し、「認証」セクションまでスクロールしてください!"
+
+#, fuzzy, php-format
+#| msgid "Click on the %s button on the right side."
+msgid "Finally, click on the %s button at the bottom."
+msgstr "右側の「%s」ボタンをクリックします。"
+
+#, fuzzy, php-format
+#| msgid "Click on the %s button."
+msgid "Click on the purple \"%s\" button!"
+msgstr "%s ボタンをクリックします。"
+
+#, php-format
+msgid ""
+"Enter an \"%1$s\" and \"%2$s\" of your choice (they will be displayed to the "
+"user on the grant screen)."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Choose the %1$s option at %2$s."
+msgid "Choose the \"%1$s\" option at \"%2$s\"."
+msgstr "%2$s で %1$s のオプションを選択してください。"
+
+#, fuzzy, php-format
+#| msgid "To generate a %1$s, click on the %2$s button."
+msgid "Read through the \"%1$s\" and put a tick in the checkbox."
+msgstr "%1$sを生成するには、%2$sボタンをクリックします。"
+
+#, php-format
+msgid ""
+"Click on \"%1$s\". Your application is now registered, and you'll be "
+"redirected to the app overview page."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Click on the %s button."
+msgid "Click on the the %1$s button."
+msgstr "%s ボタンをクリックします。"
+
+#, php-format
+msgid ""
+"Click on \"%1$s\", copy and save the \"%2$s\" value. This is what you will "
+"use later on the Settings tab for the \"%2$s\" field."
+msgstr ""
+
+#, php-format
+msgid ""
+"Currently your app is in %1$s which  means that, up to 25 authenticated %2$s "
+"users can use your app. If you want anybody with a %2$s account to use your "
+"app, then you need to move to %3$s. To request %3$s, use the navigation menu "
+"and go to %4$s, then hit \"%5$s\", and go through the \"%6$s\" process. In "
+"the last step you will need to choose the following OAuth scope: %7$s and "
+"all the other extra scopes connected to the %8$s fields you enabled."
+msgstr ""
+
+#, php-format
+msgid ""
+"Once %1$s reviewed and approved your request ( it can take up to 6 weeks ), "
+"find the \"%2$s\" and \"%3$s\" values you copied earlier. Enter these for "
+"the fields with the same name on the \"%4$s\" tab."
+msgstr ""
+
+#, fuzzy
+#| msgid "Continue with <b>Steam</b>"
+msgid "Continue with <b>Spotify</b>"
+msgstr "<b>Steam</b>で続行"
+
+#, fuzzy
+#| msgid "Sign up with <b>Steam</b>"
+msgid "Sign up with <b>Spotify</b>"
+msgstr "<b>Steam</b>で登録する"
+
+#, fuzzy
+#| msgid "Link account with <b>Steam</b>"
+msgid "Link account with <b>Spotify</b>"
+msgstr "<b>Steam</b>とアカウントを連携"
+
+#, fuzzy
+#| msgid "Unlink account from <b>Steam</b>"
+msgid "Unlink account from <b>Spotify</b>"
+msgstr "<b>Steam</b>からアカウント連携を解除する"
+
+#, php-format
+msgid ""
+"To allow your visitors to log in with their %1$s account, first you must "
+"create a %1$s %2$s. The following guide will help you through the %1$s %2$s "
+"creation process. After you have created your %1$s %2$s, head over to "
+"\"Settings\" and configure the given \"%2$s\" field according to your %1$s "
+"%2$s."
+msgstr ""
+"訪問者が %1$s アカウントでログインできるようにするには、まず %1$s %2$s を作成"
+"する必要があります。以下のガイドは、%1$s %2$sの作成プロセスを説明するもので"
+"す。%1$s %2$sを作成したら、「設定」を開き、%1$s %2$sに応じて所定の「%2$s」"
+"フィールドを設定します。"
+
+#, php-format
+msgid "To be able to create a %1$s, you need to spend at least $5 in the %2$s."
+msgstr "%1$s を作成できるようになるには、%2$s で5ドル以上使う必要があります。"
+
+#, php-format
+msgid "Check the %1$s option."
+msgstr "%1$s オプションを確認してください。"
+
+#, php-format
+msgid "Press the %1$s button."
+msgstr "%1$s ボタンを押す。"
+
+#, php-format
+msgid ""
+"Copy the necessary %1$s value under the %2$s section, you will need this on "
+"our %3$s tab."
+msgstr ""
+"%2$s セクションの下にある必要な %1$s の値をコピーしてください。%3$s で必要に"
+"なります。"
+
+#, php-format
+msgid ""
+"<b>WARNING:</b> The %1$s API can not return any email address! %2$sLearn "
+"more%3$s."
+msgstr ""
+"<b>警告</b>：%1$s APIはメールアドレスを返せません! %2$s もっと詳しく%3$s。"
+
+msgid "Web API Key"
+msgstr "Web APIキー"
+
+msgid "Continue with <b>Steam</b>"
+msgstr "<b>Steam</b>で続行"
+
+msgid "Sign up with <b>Steam</b>"
+msgstr "<b>Steam</b>で登録する"
+
+msgid "Link account with <b>Steam</b>"
+msgstr "<b>Steam</b>とアカウントを連携"
+
+msgid "Unlink account from <b>Steam</b>"
+msgstr "<b>Steam</b>からアカウント連携を解除する"
+
+msgid "Error: The 64-bit SteamID can not be retrieved for this user!"
+msgstr ""
+"エラーになりました。このユーザーの64ビットSteamIDを取得することはできません!"
+
+#, php-format
+msgid "Log in to your %s developer account, if you are not logged in yet."
+msgstr ""
+"まだログインしていない場合は、%s開発者アカウントにログインしてください。"
+
+#, php-format
+msgid ""
+"On the top right corner click on %1$s then click on the name of that App "
+"that you used for the configuration."
+msgstr ""
+"右上の「%1$s」をクリックし、設定に使用したアプリの名前をクリックします。"
+
+#, php-format
+msgid "Scroll down to the %s section."
+msgstr "%s の部分までスクロールしてください。"
+
+#, php-format
+msgid ""
+"If the URLs don't match, enter the URL of your website into the %1$s field, "
+"probably: %2$s"
+msgstr ""
+"URLが一致しない場合は、%1$sフィールドにあなたのウェブサイトのURLを入力してく"
+"ださい（おそらく: %2$s"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Enter your domain name into the %1$s field, if it is not added already: "
+#| "%2$s"
+msgid "Add the following URL to the %s field, if it is not added already: "
+msgstr ""
+"ドメイン名を %1$s フィールドに入力します（まだ追加されていない場合）： %2$s"
+
+#, php-format
+msgid ""
+"Submit your App for a review, by pressing the %1$s button on the top right "
+"corner and wait until the %2$s field says %3$s. This can take a couple of "
+"days."
+msgstr ""
+"右上の%1$sボタンを押し、%2$sフィールドに%3$sと表示されるまで待ち、アプリをレ"
+"ビューに提出します。2～3日かかることもあります。"
+
+#, php-format
+msgid ""
+"Log in to your %s developer account or register one if you don't have any!"
+msgstr ""
+"%s 開発者アカウントにログインするか、まだお持ちでない場合は登録してください。"
+
+#, php-format
+msgid "On the top right corner click on %1$s then click on the %2$s option."
+msgstr "右上の「%1$s」をクリックし、「%2$s」オプションをクリックします。"
+
+#, php-format
+msgid ""
+"Find the %1$s section and upload an image as %2$s, then enter an %3$s, a "
+"%4$s and choose a value for %5$s."
+msgstr ""
+"%1$s の部分を探し、%2$sとして画像をアップロードし、%3$s、%4$sを入力し、%5$sの"
+"値を選択します。"
+
+#, php-format
+msgid ""
+"For %1$s you should enable the %2$s option then enter the URL of your "
+"website into the %3$s field, probably: %4$s"
+msgstr ""
+"%1$s の場合は、%2$s オプションを有効にし、%3$s フィールドにウェブサイトのURL"
+"を入力してください。おそらく：%4$s"
+
+#, php-format
+msgid ""
+"Click on %1$s on the left hand menu then add the %2$s product, and press the "
+"%3$s button."
+msgstr ""
+"左メニューの %1$s をクリックし、%2$s の商品を追加して、%3$s ボタンを押しま"
+"す。"
+
+#, php-format
+msgid "At the left hand menu click on the %1$s option under %2$s."
+msgstr "左側のメニューで、%2$sの下にある%1$sオプションをクリックします。"
+
+#, php-format
+msgid "Enter your %1$s and %2$s URLs."
+msgstr "%1$s と %2$s のURLを入力してください。"
+
+#, php-format
+msgid "Scroll up and click on the %s button."
+msgstr "上にスクロールして、%sボタンをクリックします。"
+
+#, php-format
+msgid ""
+"Currently your App is in %1$s status, meaning that you don't have access to "
+"the credentials which are necessary for the %2$s integration. In order to "
+"gain access, click on the %3$s on the top right corner."
+msgstr ""
+"現在、あなたのアプリは %1$s ステータスで、%2$s 統合に必要な認証情報にアクセス"
+"できないことを意味します。アクセスするためには、右上の%3$sをクリックしてくだ"
+"さい。"
+
+#, php-format
+msgid ""
+"A modal will appear where you should enter a text, that describes what you "
+"are going to do with the App. In this particular case, you will use it to "
+"offer %1$s login option for your visitors."
+msgstr ""
+"モーダル（子ウィンドウ）が表示されるので、アプリで何をするのかを説明するテキ"
+"ストを入力します。このケースでは、訪問者に %1$s のログイン オプションを提供す"
+"るために使用することになります。"
+
+#, php-format
+msgid ""
+"Wait until your App gets approved. This can take a couple of days. If you "
+"scroll up to the top of the page you will be able to inspect the %1$s below "
+"the %2$s section. If you want to learn more about the App review process, "
+"you can find more information in the %3$sofficial documentation%4$s."
+msgstr ""
+"アプリが承認されるまで待ちます。2～3日かかることもあります。ページの上までス"
+"クロールすると、%2$sセクションの下にある%1$sを確認することができます。Appの審"
+"査プロセスについてもっと知りたい場合は、%3$sofficial documentation%4$sに詳細"
+"な情報があります。"
+
+#, php-format
+msgid ""
+"Once the %1$s says %2$s, you will be able to reveal the %3$s and %4$s by "
+"clicking on the eye icon next to these fields. You will need these "
+"credentials for the provider configuration."
+msgstr ""
+"%1$s が %2$s と言ったら、これらのフィールドの隣にある目のアイコンをクリックし"
+"て、%3$sと%4$sを明らかにすることができます。これらの認証情報は、プロバイダー"
+"の設定に必要です。"
+
+#, php-format
+msgid ""
+"<b>WARNING:</b> The %1$s API can not return any email address or phone "
+"number! %2$sLearn more%3$s."
+msgstr ""
+"<b>警告</b>：%1$s APIは、電子メールアドレスまたは電話番号を返すことができませ"
+"ん! %2$s もっと詳しく %3$s。"
+
+msgid "Client Key"
+msgstr "クライアントキー"
+
+msgid "Continue with <b>TikTok</b>"
+msgstr "<b>TikTok</b>で続行"
+
+msgid "Sign up with <b>TikTok</b>"
+msgstr "<b>TikTok</b>で登録する"
+
+msgid "Link account with <b>TikTok</b>"
+msgstr "<b>TikTok</b>とアカウントを連携"
+
+msgid "Unlink account from <b>TikTok</b>"
+msgstr "<b>TikTok</b>からアカウント連携を解除する"
+
+#, php-format
+msgid "On the %1$s tab, find your app and click %2$s."
+msgstr "%1$s タブで、アプリを探し、%2$sをクリックします。"
+
+msgid "Complete the human verification test."
+msgstr "ヒューマンテストを完了する。"
+
+#, php-format
+msgid "Open the %1$s and login with your %2$s account."
+msgstr "%1$s を開き、%2$s のアカウントでログインしてください。"
+
+#, php-format
+msgid "To be able to create a %s your account both needs:"
+msgstr "%s を作成できるようにするには、あなたのアカウントが必要です。"
+
+#, php-format
+msgid "to be %s"
+msgstr "%s にする。"
+
+#, php-format
+msgid ""
+"and to have the %1$s enabled. If it is not enabled already, you can enable "
+"it at your %2$s page on the %3$s tab"
+msgstr ""
+"と、%1$sを有効にしてください。まだ有効になっていない場合は、%2$sページの%3$s"
+"タブで有効にすることができます"
+
+#, php-format
+msgid "Navigate to the %1$s tab."
+msgstr "%1$s タブに移動します。"
+
+#, php-format
+msgid "Click on the %s button on the right side."
+msgstr "右側の「%s」ボタンをクリックします。"
+
+#, php-format
+msgid "Select the %1$s option in the %2$s list."
+msgstr "%2$s リストで %1$s オプションを選択します。"
+
+#, php-format
+msgid "To generate a %1$s, click on the %2$s button."
+msgstr "%1$sを生成するには、%2$sボタンをクリックします。"
+
+#, php-format
+msgid ""
+"Copy the %1$s and the %2$s values. These will be needed in the plugin's "
+"settings."
+msgstr ""
+"%1$s と %2$s の値をコピーします。これらは、プラグインの設定で必要になります。"
+
+msgid "Continue with <b>Twitch</b>"
+msgstr "<b>Twitch</b>で続行"
+
+msgid "Sign up with <b>Twitch</b>"
+msgstr "<b>Twitch</b>で登録する"
+
+msgid "Link account with <b>Twitch</b>"
+msgstr "<b>Twitch</b>とアカウントを連携"
+
+msgid "Unlink account from <b>Twitch</b>"
+msgstr "<b>Twitch</b>からアカウント連携を解除する"
+
+msgid "Click on the \"<b>Manage</b>\" button next to the associated App."
+msgstr ""
+"関連するアプリの横にある「<b>管理(Manage)</b>」ボタンをクリックします。"
+
+msgid "Go to the \"<b>Settings</b>\" menu"
+msgstr "「<b>設定</b>」メニューに移動します。"
+
+msgid "Click on \"<b>Update</b>\" to save the changes"
+msgstr "「<b>更新(Update)</b>」をクリックし、変更を保存します。"
+
+msgid "Locate the blue \"<b>Create app</b>\" button and click on it."
+msgstr "青い「<b>アプリを作成する</b>」ボタンを探してクリックします。"
+
+msgid ""
+"Enter the <b>Title</b> for your App and select \"<b>Website</b>\" as "
+"platform."
+msgstr ""
+"アプリの<b>タイトル</b>を入力し、プラットフォームとして「<b>ウェブサイト</"
+"b>」を選択します。"
+
+#, php-format
+msgid ""
+"Fill \"<b>Website address</b>\" with the url of your homepage, probably: "
+"<b>%s</b>"
+msgstr ""
+"「<b>ホームページアドレス</b>」には、あなたのホームページのurlを記入してくだ"
+"さい。<b>%s</b>"
+
+#, php-format
+msgid ""
+"Fill the \"<b>Base domain</b>\" field with your domain, probably: <b>%s</b>"
+msgstr ""
+"「<b>ベースドメイン</b>」の欄には、おそらくあなたのドメインを記入してくださ"
+"い。<b>%s</b>"
+
+msgid "When all fields are filled, click the \"<b>Upload app</b>\" button."
+msgstr ""
+"すべての項目が入力されたら、「<b>アプリをアップロードする</b>」ボタンをクリッ"
+"クします。"
+
+msgid ""
+"<b>Fill the information form</b> of your app, <b>upload an app icon</b> then "
+"click <b>Save</b>."
+msgstr ""
+"<b>アプリの情報フォーム</b>に必要事項を入力し、<b>アプリのアイコンをアップ"
+"ロードし、<b>保存</b>をクリックしてください。"
+
+msgid "Pick <b>Settings</b> at the left-hand menu "
+msgstr "左側のメニューから<b>設定</b>を選ぶ"
+
+msgid "<b>Save</b> your app"
+msgstr "<b>アプリを保存</b>する"
+
+msgid ""
+"Find the necessary \"<b>App ID</b>\" and \"<b>Secure key</b>\" at the top of "
+"the Settings page where you just hit the save button."
+msgstr ""
+"必要な「<b>アプリID</b>」と「<b>セキュアキー</b>」は、先ほど保存ボタンを押し"
+"た設定ページの上部に記載されています。"
+
+msgid "Secure key"
+msgstr "セキュアキー"
+
+msgid "Continue with <b>VK</b>"
+msgstr "<b>VK</b>で続行"
+
+msgid "Sign up with <b>VK</b>"
+msgstr "<b>VK</b>で登録する"
+
+msgid "Link account with <b>VK</b>"
+msgstr "<b>VK</b>とアカウントを連携"
+
+msgid "Unlink account from <b>VK</b>"
+msgstr "<b>VK</b>からアカウント連携を解除する"
+
+msgid "Click \"<b>Manage Settings</b>\" under the Tools section!"
+msgstr ""
+"「ツール(Tools)」セクションの「<b>設定の管理 (Manage Settings)</b>」をクリッ"
+"ク!"
+
+msgid "Click on the \"<b>Create New Application</b>\" button."
+msgstr ""
+"「<b>新しいアプリケーションを作成する(Create New Application)</b>」ボタンをク"
+"リックします。"
+
+msgid "Enter a \"<b>Name</b>\" and \"<b>Description</b>\" for your App."
+msgstr "アプリの「<b>名前</b>」と「<b>説明</b>」を入力してください。"
+
+#, php-format
+msgid ""
+"Fill \"<b>Website URL</b>\" with the url of your homepage, probably: <b>%s</"
+"b>"
+msgstr ""
+"「<b>Website URL</b>」には、あなたのホームページのurlを記入してください。"
+"<b>%s</b>"
+
+msgid "You can leave the \"Javascript Origins\" field blank!"
+msgstr "「Javascript Origins」欄は空欄でOK!"
+
+msgid "At the \"<b>Type</b>\" make sure \"<b>Web</b>\" is selected!"
+msgstr ""
+"「<b>タイプ</b>」で、「<b>ウェブ</b>」が選択されていることを確認してくださ"
+"い。"
+
+msgid "Click the \"<b>Create</b>\" button!"
+msgstr "「<b>作成</b>」ボタンをクリック!"
+
+msgid ""
+"<b>Click the name of your App</b> either in the Breadcrumb navigation or "
+"next to Editing!"
+msgstr ""
+"<b>アプリの名前</b>をクリックすると、パンくずナビか編集の横に表示されます。"
+
+msgid ""
+"Here you can see your \"<b>Client ID</b>\" and \"<b>Client Secret</b>\". "
+"These will be needed in the plugin's settings."
+msgstr ""
+"ここで、「<b>クライアントID</b>」と「<b>クライアントシークレット</b>」を確認"
+"することができます。これらは、プラグインの設定で必要になります。"
+
+msgid "Continue with <b>WordPress.com</b>"
+msgstr "<b>WordPress.com</b>で続行"
+
+msgid "Sign up with <b>WordPress.com</b>"
+msgstr "<b>WordPress.com</b>で登録する"
+
+msgid "Link account with <b>WordPress.com</b>"
+msgstr "<b>WordPress.com</b>とアカウントを連携"
+
+msgid "Unlink account from <b>WordPress.com</b>"
+msgstr "<b>WordPress.com</b>からアカウント連携を解除する"
+
+msgid "Click on the App which has its credentials associated with the plugin."
+msgstr "プラグインに関連付けられた認証情報を持つアプリをクリックします。"
+
+msgid "Click on the \"<b>Create an App</b>\" button on the top right corner."
+msgstr ""
+"右上の「<b>アプリを作成する(Create an App)</b>」ボタンをクリックします。"
+
+msgid "Fill the \"<b>Application Name</b>\" field."
+msgstr "「<b>アプリケーション名</b>」を記入する。"
+
+msgid "Enter a \"<b>Description</b>\" for your app!"
+msgstr "アプリの「<b>説明</b>」を入力してください!"
+
+#, php-format
+msgid ""
+"Enter the URL of your site to the \"<b>Home Page URL</b>\" field: <b>%s</b>"
+msgstr "<b>Home Page URL</b>」に、あなたのサイトのURLを入力します。<b>%s</b>"
+
+#, php-format
+msgid "At %1$s choose the %2$s option."
+msgstr "%1$sで、%2$sのオプションを選択します。"
+
+msgid ""
+"Under the \"<b>API Permissions</b>\" you should select \"<b>OpenID Connect "
+"Permissions</b>\" with both \"<b>Email</b>\" and \"<b>Profile</b>\" enabled."
+msgstr ""
+"「<b>API権限</b>」で「<b>OpenID Connect権限</b>」を選択し、「<b>Eメール</b>」"
+"と「<b>プロファイル</b>」の両方を有効にしてください。"
+
+msgid "Click \"<b>Create App</b>\"."
+msgstr "「<b>アプリ作成(Create App)</b>」をクリックします。"
+
+msgid ""
+"On the top of the page, you will find the necessary \"<b>Client ID</b>\" and "
+"\"<b>Client Secret</b>\"! These will be needed in the plugin's settings."
+msgstr ""
+"ページ上部には、必要な「<b>クライアントID</b>」と「<b>クライアントシークレッ"
+"ト</b>」が記載されています!これらは、プラグインの設定で必要になります。"
+
+msgid "Continue with <b>Yahoo</b>"
+msgstr "<b>Yahoo</b>で続行"
+
+msgid "Sign up with <b>Yahoo</b>"
+msgstr "<b>Yahoo</b>で登録する"
+
+msgid "Link account with <b>Yahoo</b>"
+msgstr "<b>Yahoo</b>とアカウントを連携"
+
+msgid "Unlink account from <b>Yahoo</b>"
+msgstr "<b>Yahoo</b>からアカウント連携を解除する"
+
+#, php-format
+msgid "Required permission: %1$s"
+msgstr "必要な権限：%1$s"
+
+msgid "OR"
+msgstr "または"
+
+msgid "Social accounts"
+msgstr "ソーシャルアカウント"
+
+msgid "Registration confirmation will be emailed to you."
+msgstr "登録確認はメールで行われます。"
+
+msgid "Password"
+msgstr "パスワード"
+
+#, fuzzy
+#| msgid "Confirm password"
+msgid "Hide password"
+msgstr "パスワードの確認"
+
+msgid "Strength indicator"
+msgstr "ストレングスインジケーター"
+
+msgid "Confirm use of weak password"
+msgstr "弱いパスワードの使用を確認する"
+
+msgid "Confirm password"
+msgstr "パスワードの確認"
+
+msgid "Username"
+msgstr "ユーザー名（ユーザーID）"
+
+#, fuzzy, php-format
+#~| msgid "Click on the %s button on the right side."
+#~ msgid "Hit the %1$s button next to the old URI."
+#~ msgstr "右側の「%s」ボタンをクリックします。"
+
+#, fuzzy, php-format
+#~| msgid "Add the following URL to the %s field:"
+#~ msgid "Add your web domain or URL to the \"%1$s\" field."
+#~ msgstr "以下のURLを%sフィールドに追加します。"
+
+#, fuzzy, php-format
+#~| msgid "Make sure the %1$s field contains the following URL: %2$s"
+#~ msgid "For the \"%1$s\", enter the following URL: "
+#~ msgstr "%1$sフィールドに以下のURLが含まれていることを確認してください。%2$s"
+
+#~ msgid "Checkout for WooCommerce"
+#~ msgstr "WooCommerce用チェックアウト"
+
+#~ msgid "No Connect button in \"Checkout for WooCommerce\" form"
+#~ msgstr "「Checkout for WooCommerce」フォームに接続ボタン無し"
+
+#~ msgid "Checkout for WooCommerce layout"
+#~ msgstr "WooCommerceのレイアウトに合わせたチェックアウト"
+
+#~ msgid "Invalid URL Provided."
+#~ msgstr "無効な URL が提供されました。"
+
+#~ msgid "Could not create Temporary file."
+#~ msgstr "Temporary ファイルを作成できませんでした。"
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "Click on %1$s on the left hand menu then add the %2$s product, and press "
+#~| "the %3$s button."
+#~ msgid ""
+#~ "Click on the %1$s tab on the left side and then click on the %2$s button "
+#~ "that appears next to the %3$s product, then choose %4$s."
+#~ msgstr ""
+#~ "左メニューの %1$s をクリックし、%2$s の商品を追加して、%3$s ボタンを押しま"
+#~ "す。"
+
+#~ msgid ""
+#~ "Scroll down to \"<b>LIVE APP SETTINGS</b>\", find the \"<b>Live Return "
+#~ "URL</b>\" heading and click \"<b>Show</b>\"."
+#~ msgstr ""
+#~ "「<b>LIVE APP SETTINGS</b>」までスクロールし、「<b>Live Return URL</b>」の"
+#~ "見出しを見つけて「<b>Show</b>」をクリックしてください。"
+
+#~ msgid "Click on \"Save\""
+#~ msgstr "\"保存(Save) \"をクリックする"
+
+#~ msgid ""
+#~ "Scroll down to \"<b>LIVE APP SETTINGS</b>\", find the \"<b>Live Return "
+#~ "URL</b>\" heading then click \"<b>Show</b>\"."
+#~ msgstr ""
+#~ "「<b>LIVE APP SETTINGS</b>」までスクロールし、「<b>Live Return URL</b>」を"
+#~ "探し、「<b>Show</b>」をクリックします。"
+
+#~ msgid ""
+#~ "Scroll down to \"<b>App feature options</b>\" section and tick \"<b>Log "
+#~ "In with PayPal</b>\"."
+#~ msgstr ""
+#~ "<b>アプリ機能オプション</b>」の項目までスクロールし、「<b>PayPalでログイン"
+#~ "</b>」にチェックを入れてください。"
+
+#, php-format
+#~ msgid "Click %1$s that appears after the %2$s text."
+#~ msgstr "%2$s のテキストの後に表示される %1$s をクリックします。"
+
+#~ msgid "Tick \"<b>Full name</b>\"."
+#~ msgstr "「<b>フルネーム</b>」にチェックを入れる。"
+
+#~ msgid ""
+#~ "Fill \"<b>Privacy policy URL</b>\" and  \"<b>User agreement URL</b>\"."
+#~ msgstr ""
+#~ "「<b>プライバシーポリシーURL</b>」「<b>利用規約URL</b>」を記入してくださ"
+#~ "い。"
+
+#~ msgid ""
+#~ "Scroll up to \"<b>LIVE API CREDENTIALS</b>\" section and find the "
+#~ "necessary \"<b>Client ID</b>\" and \"<b>Secret</b>\"! ( Make sure you are "
+#~ "in \"<b>Live</b>\" mode and not \"Sandbox\". )"
+#~ msgstr ""
+#~ "「<b>LIVE API CREDENTIALS</b>」セクションまでスクロールして、必要な"
+#~ "「<b>Client ID</b>」と「<b>Secret</b>」を見つけます。(サンドボックス」では"
+#~ "なく、「<b>ライブ</b>」モードであることを確認してください。）"
+
+#, php-format
+#~ msgid ""
+#~ "%1$s Before you could start using the App, it requires an App review, "
+#~ "which might take up to 7 business days to process. Below the %2$s field "
+#~ "you can check the %3$s. Once your App got approved, you could continue "
+#~ "with the provider verification in our %4$s tab."
+#~ msgstr ""
+#~ "%1$s 本アプリの使用を開始する前に、アプリのレビューが必要であり、その処理"
+#~ "には最大7営業日かかる場合があります。%2$s フィールドの下にある %3$s を確認"
+#~ "することができます。アプリが承認されたら、%4$s タブでプロバイダー検証を続"
+#~ "けることができます。"
+
+#~ msgid "Important note:"
+#~ msgstr "重要なお知らせ："
+
+#~ msgid ""
+#~ "Enter your \"<b>Privacy policy URL</b>\" and upload an \"<b>App logo</b>\""
+#~ msgstr ""
+#~ "<b>プライバシーポリシーURL</b>」を入力し、「<b>アプリロゴ</b>」をアップ"
+#~ "ロードします。"
+
+#~ msgid ""
+#~ "Read and agree the \"<b>API Terms of Use</b>\" then click the \"<b>Create "
+#~ "App</b>\" button!"
+#~ msgstr ""
+#~ "「<b>API利用規約</b>」を読み、同意の上、「<b>アプリ作成</b>」ボタンをク"
+#~ "リックしてください。"
+
+#, php-format
+#~ msgid "Find <b>\"%s\"</b> and click \"<b>Select</b>\"."
+#~ msgstr "<b>\"%s\"</b>を検索し、「<b>選択</b>」をクリックします。"
+
+#~ msgid "Click on the \"<b>Auth</b>\" tab."
+#~ msgstr "「<b>認証（Auth）</b>」タブをクリックします。"
+
+#~ msgid ""
+#~ "Find the necessary \"<b>Client ID</b>\" and \"<b>Client Secret</b>\" "
+#~ "under the Application credentials section, on the <b>Auth</b> tab."
+#~ msgstr ""
+#~ "アプリケーションの認証情報セクションの<b>Auth</b>タブで、必要な"
+#~ "「<b>Client ID</b>」と「<b>Client Secret</b>」を見つけてください。"
+
+#, fuzzy, php-format
+#~| msgid "Select the %1$s option in the %2$s list."
+#~ msgid "Pick the %1$s option for the platform."
+#~ msgstr "%2$s リストで %1$s オプションを選択します。"
+
+#, fuzzy, php-format
+#~| msgid "Choose the %1$s option for %2$s, then press %3$s!"
+#~ msgid "For the question %1$s, select the %2$s option, then press %3$s."
+#~ msgstr "%2$s の %1$s オプションを選択し、%3$sを押してください!"
+
+#~ msgid "Continue with <b>Twitter</b>"
+#~ msgstr "<b>Twitter</b>で続行"
+
+#~ msgid "Sign up with <b>Twitter</b>"
+#~ msgstr "<b>Twitter</b>で登録する"
+
+#~ msgid "Link account with <b>Twitter</b>"
+#~ msgstr "<b>Twitter</b>とアカウントを連携"
+
+#~ msgid "Unlink account from <b>Twitter</b>"
+#~ msgstr "<b>Twitter</b>からアカウント連携を解除する"
+
+#~ msgid "In the left sidebar, click on \"<b>Facebook Login > Settings</b>\""
+#~ msgstr "左サイドバーの\"<b>Facebookログイン>設定</b>\"をクリックします。"
+
+#~ msgid "Click on \"<b>Save Changes</b>\""
+#~ msgstr "\"<b>変更を保存する(Save Changes)</b>\"をクリックします。"
+
+#~ msgid ""
+#~ "Click on the \"<b>Create App</b>\" button and in the Popup choose the "
+#~ "\"<b>Consumer</b>\" App type!"
+#~ msgstr ""
+#~ "「<b>アプリを作成する(Create App)</b>」ボタンをクリックし、ポップアップで"
+#~ "「<b>カスタマー(Consumer)</b>」とアプリ形式を選択！"
+
+#~ msgid ""
+#~ "If you see the message \"<b>Become a Facebook Developer</b>\", then you "
+#~ "need to click on the green \"<b>Register Now</b>\" button, fill the form "
+#~ "then finally verify your account."
+#~ msgstr ""
+#~ "<b>Become a Facebook Developer</b>\" というメッセージが表示されたら、緑色"
+#~ "の \"<b>Register Now</b>\" ボタンをクリックし、フォームに入力して、最後に"
+#~ "アカウントを確認する必要があります。"
+
+#~ msgid ""
+#~ "<b>Optional</b>: choose a \"<b>Business Manager Account</b>\" in the "
+#~ "popup, if you have any."
+#~ msgstr ""
+#~ "<b>オプション</b>：ポップアップで「<b>ビジネス・マネージャー・アカウント</"
+#~ "b>」がある場合は、それを選択します。"
+
+#, php-format
+#~ msgid "Find \"<b>%1$s</b>\" and click \"<b>Set Up</b>\"."
+#~ msgstr "「<b>%1$s</b>」を探し、「<b>セットアップ</b>」をクリックします。"
+
+#, php-format
+#~ msgid ""
+#~ "Select \"<b>Web</b>\" and enter the following URL to the \"<b>Site URL</"
+#~ "b>\" field: <b>%s</b>"
+#~ msgstr ""
+#~ "「<b>Web</b>」を選択し、「<b>サイトURL</b>」に以下のURLを入力してくださ"
+#~ "い。<b>%s</b>"
+
+#~ msgid "Press “<b>Save</b>”."
+#~ msgstr "「<b>保存</b>」を押してください。"
+
+#, php-format
+#~ msgid ""
+#~ "Click on the “<b>%1$s</b>” option what you find on the left side, under "
+#~ "“<b>%2$s</b> - <b>%3$s</b>”"
+#~ msgstr ""
+#~ "左側の「<b>%1$s</b> - <b>%2$s</b>-<b>%3$s</b>」の下にある「<b>%1$s</b>」オ"
+#~ "プションをクリックします。"
+
+#~ msgid "Click on “<b>Save Changes</b>”."
+#~ msgstr "「<b>変更を保存する(Save Changes)</b>」をクリックします。"
+
+#, php-format
+#~ msgid ""
+#~ "Enter your domain name to the \"<b>App Domains</b>\" field, probably: "
+#~ "<b>%s</b>"
+#~ msgstr "「<b>アプリのドメイン</b>」にドメイン名を入力します<b>%s</b>"
+
+#~ msgid ""
+#~ "Select a “<b>Category</b>”, an “<b>App Icon</b>” and pick the “<b>App "
+#~ "Purpose</b>” option that describes your App the best, then press "
+#~ "\"<b>Save Changes</b>\"."
+#~ msgstr ""
+#~ "「<b>カテゴリ</b>」、「<b>アプリのアイコン</b>」、「<b>アプリの目的</b>」"
+#~ "を選択し、「<b>変更を保存</b>」を押してください。"
+
+#~ msgid ""
+#~ "Your application is currently private, which means that only you can log "
+#~ "in with it. In the top bar switch the \"<b>App Mode</b>\" from "
+#~ "\"<b>Development</b>\" to \"<b>Live</b>\"."
+#~ msgstr ""
+#~ "あなたのアプリケーションは現在非公開です。つまり、あなただけがそのアプリ"
+#~ "ケーションでログインすることができます。トップバーの「<b>アプリモード</"
+#~ "b>」を「<b>開発中</b>」から「<b>ライブ</b>」に切り替えてください。"
+
+#, php-format
+#~ msgid ""
+#~ "By default, your application only has Standard access for the "
+#~ "permissions, which is not enough for %1$s.<br>On the left side, click on "
+#~ "<strong>%2$s</strong> then click <strong>%3$s</strong>. In the table you "
+#~ "will find the \"<strong>%4$s</strong>\" and \"<strong>%5$s</strong>\" "
+#~ "permissions and you should click on the <strong>%6$s</strong> buttons "
+#~ "next to them. "
+#~ msgstr ""
+#~ "デフォルトでは、アプリケーションの権限（permissions）の標準アクセスしかあ"
+#~ "りません。これでは %1$s には十分ではありません。<br>左側の<strong>%2$s</"
+#~ "strong>をクリックし、<strong>%3$s</strong>をクリックしてください。表の中に"
+#~ "「<strong>%4$s</strong>」と「<strong>%5$s</strong>」というパーミッションが"
+#~ "あるので、その横にある<strong>%6$s</strong>ボタンをクリックしてください。"
+
+#, php-format
+#~ msgid ""
+#~ "On the left side, under the \"<b>%s</b>\" section click on the name of "
+#~ "your Project ( that you created the App for )."
+#~ msgstr ""
+#~ "左側の「<b>%s</b>」セクションで、プロジェクト名（アプリを作成したプロジェ"
+#~ "クト）をクリックしてください。"

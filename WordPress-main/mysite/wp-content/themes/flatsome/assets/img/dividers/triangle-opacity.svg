@@ -1,0 +1,4 @@
+<svg viewBox="0 0 1000 100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+	<path class="ux-shape-fill" d="M1025 100H-25L500 24L1025 100Z"/>
+	<path class="ux-shape-fill" opacity="0.3" d="M1025 100H-25L500 0L1025 100Z"/>
+</svg>

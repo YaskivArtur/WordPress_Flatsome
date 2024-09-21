@@ -1,0 +1,486 @@
+# Copyright (C) 2019 Syed Balkhi
+# This file is distributed under the same license as the WP Call Button plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Call Button 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-call-now-button\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-08-20T01:18:53-04:00\n"
+"PO-Revision-Date: 2019-08-20T01:18:53-04:00\n"
+"X-Generator: WP-CLI 2.0.1\n"
+"X-Domain: wp-call-button\n"
+
+#. Plugin Name of the plugin
+msgid "WP Call Button"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.wpbeginner.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin enables visitors on your website to call your business phone number by adding a call button at a prominent location on your website."
+msgstr ""
+
+#. Author of the plugin
+msgid "Syed Balkhi"
+msgstr ""
+
+#: src/Plugin/WpCallButtonPlugin.php:100
+#: views/admin_view-sticky.php:82
+#: views/admin_view-static.php:17
+msgid "Call Button Color"
+msgstr ""
+
+#: src/Plugin/WpCallButtonPlugin.php:101
+msgid "Text Color"
+msgstr ""
+
+#: src/Plugin/WpCallButtonPlugin.php:102
+msgid "Select Color"
+msgstr ""
+
+#: src/Plugin/WpCallButtonPlugin.php:103
+msgid "Hide Phone Icon?"
+msgstr ""
+
+#: src/Plugin/WpCallButtonPlugin.php:104
+msgid "Center Align Call Button?"
+msgstr ""
+
+#: src/Plugin/WpCallButtonPlugin.php:106
+msgid "Call Button Font Size"
+msgstr ""
+
+#: src/Plugin/WpCallButtonPlugin.php:107
+msgid "Other Settings"
+msgstr ""
+
+#: src/Plugin/WpCallButtonWidget.php:57
+msgctxt "Widget"
+msgid "Display a call button."
+msgstr ""
+
+#: src/Plugin/WpCallButtonWidget.php:158
+msgctxt "Widget"
+msgid "Title:"
+msgstr ""
+
+#: src/Plugin/WpCallButtonWidget.php:167
+msgctxt "Widget"
+msgid "Description:"
+msgstr ""
+
+#: src/Plugin/WpCallButtonWidget.php:172
+msgctxt "Widget"
+msgid "Show Advanced Settings"
+msgstr ""
+
+#: src/Plugin/WpCallButtonWidget.php:172
+msgctxt "Widget"
+msgid "Hide Advanced Settings"
+msgstr ""
+
+#: src/Plugin/WpCallButtonWidget.php:176
+msgctxt "Widget"
+msgid "Call Button Text:"
+msgstr ""
+
+#: src/Plugin/WpCallButtonWidget.php:185
+msgctxt "Widget"
+msgid "Call Button Color:"
+msgstr ""
+
+#: src/Plugin/WpCallButtonWidget.php:195
+msgctxt "Widget"
+msgid "Call Button Text Color:"
+msgstr ""
+
+#: src/Plugin/WpCallButtonWidget.php:205
+msgctxt "Widget"
+msgid "Show the phone icon?"
+msgstr ""
+
+#: src/Plugin/WpCallButtonHelpers.php:163
+msgid "Search for a post"
+msgstr ""
+
+#: src/Plugin/WpCallButtonHelpers.php:165
+#: src/Plugin/WpCallButtonHelpers.php:169
+msgid "Invalid number"
+msgstr ""
+
+#: src/Plugin/WpCallButtonHelpers.php:166
+msgid "Invalid country code"
+msgstr ""
+
+#: src/Plugin/WpCallButtonHelpers.php:167
+msgid "Too short"
+msgstr ""
+
+#: src/Plugin/WpCallButtonHelpers.php:168
+msgid "Too long"
+msgstr ""
+
+#: src/Plugin/WpCallButtonHelpers.php:181
+#: src/Plugin/WpCallButtonHelpers.php:188
+#: src/Plugin/WpAmPluginsHolder.php:105
+msgid "Activate"
+msgstr ""
+
+#: src/Plugin/WpCallButtonHelpers.php:182
+#: src/Plugin/WpAmPluginsHolder.php:97
+msgid "Activated"
+msgstr ""
+
+#: src/Plugin/WpCallButtonHelpers.php:183
+#: src/Plugin/WpCallButtonAdmin.php:262
+#: src/Plugin/WpAmPluginsHolder.php:94
+msgid "Active"
+msgstr ""
+
+#: src/Plugin/WpCallButtonHelpers.php:184
+#: src/Plugin/WpCallButtonAdmin.php:261
+#: src/Plugin/WpAmPluginsHolder.php:102
+msgid "Inactive"
+msgstr ""
+
+#: src/Plugin/WpCallButtonHelpers.php:185
+msgid "Processing..."
+msgstr ""
+
+#: src/Plugin/WpCallButtonHelpers.php:186
+msgid "Could not install a plugin. Please download from WordPress.org and install manually."
+msgstr ""
+
+#: src/Plugin/WpCallButtonHelpers.php:187
+msgid "Install and Activate"
+msgstr ""
+
+#: src/Plugin/WpCallButtonHelpers.php:211
+msgid "Call Us"
+msgstr ""
+
+#: src/Plugin/WpCallButtonAdmin.php:57
+#: views/admin_view.php:6
+msgid "Sticky Call Button"
+msgstr ""
+
+#: src/Plugin/WpCallButtonAdmin.php:64
+#: views/admin_view.php:8
+msgid "About Us"
+msgstr ""
+
+#: src/Plugin/WpCallButtonAdmin.php:68
+#: views/admin_view.php:7
+msgid "Static Call Button"
+msgstr ""
+
+#: src/Plugin/WpCallButtonAdmin.php:182
+msgid "Settings"
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:113
+msgid "Not Installed"
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:116
+msgid "Install Plugin"
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:138
+msgid "MonsterInsights"
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:139
+#: src/Plugin/WpAmPluginsHolder.php:145
+msgid "MonsterInsights makes it “effortless” to properly connect your WordPress site with Google Analytics, so you can start making data-driven decisions to grow your business."
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:144
+msgid "MonsterInsights Pro"
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:152
+msgid "OptinMonster"
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:153
+msgid "Our high-converting optin forms like Exit-Intent® popups, Fullscreen Welcome Mats, and Scroll boxes help you dramatically boost conversions and get more email subscribers."
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:159
+msgid "Contact Forms by WPForms"
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:160
+#: src/Plugin/WpAmPluginsHolder.php:166
+msgid "The best WordPress contact form plugin. Drag & Drop online form builder that helps you create beautiful contact forms with just a few clicks."
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:165
+msgid "WPForms Pro"
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:173
+msgid "WP Mail SMTP"
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:174
+#: src/Plugin/WpAmPluginsHolder.php:181
+msgid "SMTP (Simple Mail Transfer Protocol) is an industry standard for sending emails. SMTP helps increase email deliverability by using proper authentication."
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:180
+msgid "WP Mail SMTP Pro"
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:188
+msgid "SeedProd"
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:189
+#: src/Plugin/WpAmPluginsHolder.php:195
+msgid "Get the best WordPress Coming Soon Page plugin. Capture leads before your site goes live or while in Maintenance Mode. Super easy to setup and use."
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:194
+msgid "SeedProd Pro"
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:202
+msgid "RafflePress"
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:203
+#: src/Plugin/WpAmPluginsHolder.php:209
+msgid "RafflePress is the best WordPress contest and giveway plugin. Grow your email list, followers, and website traffic with viral giveaways in WordPress."
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:208
+msgid "RafflePress Pro"
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:226
+msgid "Could not activate the plugin. Please activate it from the Plugins page."
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:238
+msgid "Plugin activated."
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:253
+msgid "Could not install the plugin."
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:317
+msgid "Plugin installed & activated."
+msgstr ""
+
+#: src/Plugin/WpAmPluginsHolder.php:325
+msgid "Plugin installed."
+msgstr ""
+
+#. translators: 1: Name of Plugin 2: URL
+#: views/activate_welcome_view.php:5
+msgid "Thanks for installing <b>%1$s</b>. <a href=\"%2$s\">Click here</a> to configure the plugin."
+msgstr ""
+
+#: views/admin_view-sticky.php:8
+msgid "Sticky call buttons scroll with the user, so you can get maximum attention to your Call Now button."
+msgstr ""
+
+#: views/admin_view-sticky.php:12
+msgid "Call Now Button Status"
+msgstr ""
+
+#: views/admin_view-sticky.php:17
+msgid "Display the Call Now button on the website."
+msgstr ""
+
+#: views/admin_view-sticky.php:21
+msgid "Phone Number"
+msgstr ""
+
+#: views/admin_view-sticky.php:24
+msgid "Valid"
+msgstr ""
+
+#: views/admin_view-sticky.php:26
+msgid "Enter your business phone number with area code"
+msgstr ""
+
+#. translators: 1: Hyperlink 2: Brand name
+#: views/admin_view-sticky.php:31
+msgid "Don’t have a business phone number? We recommend using <a href=\"%1$s\" target=\"_blank\">%2$s</a>, a leading small business phone service provider."
+msgstr ""
+
+#. translators: 1: Brand name 2: Hyperlink
+#: views/admin_view-sticky.php:41
+msgid "See why WPBeginner uses and recommends %1$s as the '<a href=\"%2$s\" target=\"_blank\">best business phone service for small businesses</a>'"
+msgstr ""
+
+#: views/admin_view-sticky.php:50
+#: views/admin_view-static.php:10
+msgid "Call Button Text"
+msgstr ""
+
+#: views/admin_view-sticky.php:53
+msgid "Enter a button text. Works only if the <b>Call Button Position</b> is set to <code>Full Width</code> below"
+msgstr ""
+
+#: views/admin_view-sticky.php:57
+msgid "Call Button Position"
+msgstr ""
+
+#: views/admin_view-sticky.php:60
+msgid "Bottom Full Width (with text)"
+msgstr ""
+
+#: views/admin_view-sticky.php:62
+msgid "Full Width"
+msgstr ""
+
+#: views/admin_view-sticky.php:64
+#: views/admin_view-sticky.php:66
+msgid "Bottom Left"
+msgstr ""
+
+#: views/admin_view-sticky.php:68
+#: views/admin_view-sticky.php:70
+#: views/admin_view-sticky.php:94
+msgid "Bottom Center"
+msgstr ""
+
+#: views/admin_view-sticky.php:72
+#: views/admin_view-sticky.php:74
+msgid "Bottom Right"
+msgstr ""
+
+#: views/admin_view-sticky.php:78
+msgid "Determines how the sticky call button appears on your website."
+msgstr ""
+
+#: views/admin_view-sticky.php:85
+#: views/admin_view-static.php:20
+msgid "Choose a color for your Call Button."
+msgstr ""
+
+#: views/admin_view-sticky.php:89
+msgid "Call Button Visibility"
+msgstr ""
+
+#: views/admin_view-sticky.php:94
+msgid "Show everywhere (Default)"
+msgstr ""
+
+#: views/admin_view-sticky.php:98
+msgid "Only Show on above post IDs"
+msgstr ""
+
+#: views/admin_view-sticky.php:98
+msgid "Show only on certain posts / pages and Hide everywhere else"
+msgstr ""
+
+#: views/admin_view-sticky.php:108
+#: views/admin_view-sticky.php:122
+msgid "Choose posts, pages and / or custom post type posts"
+msgstr ""
+
+#: views/admin_view-sticky.php:112
+msgid "Hide on above post IDs"
+msgstr ""
+
+#: views/admin_view-sticky.php:112
+msgid "Hide on certain posts / pages but show everywhere else"
+msgstr ""
+
+#: views/admin_view-sticky.php:128
+msgid "Show Call Button Only on Mobile devices?"
+msgstr ""
+
+#: views/admin_view-sticky.php:134
+msgid "Save Changes"
+msgstr ""
+
+#: views/admin_view-static.php:6
+msgid "Static call buttons can be embedded anywhere by using our easy to use shortcode. You can adjust the appearance of your button using the settings below."
+msgstr ""
+
+#: views/admin_view-static.php:13
+msgid "Enter a button text."
+msgstr ""
+
+#: views/admin_view-static.php:24
+msgid "Hide the phone icon in your button?"
+msgstr ""
+
+#: views/admin_view-static.php:28
+msgid "Hide the phone icon from your call button."
+msgstr ""
+
+#: views/admin_view-static.php:34
+msgid "Use the shortcode below to add a Call button in your posts or pages."
+msgstr ""
+
+#: views/admin_view-static.php:40
+msgid "Copy"
+msgstr ""
+
+#: views/admin_view-static.php:41
+msgid "Click on the field above to copy the shortcode. Note: Phone Number will be pulled from the Sticky Call Button settings page."
+msgstr ""
+
+#. translators: 1: Brand name 2: Brandname
+#: views/admin_view-static.php:50
+msgid "If you’re using the new %1$s for %2$s, then you can use our call button block."
+msgstr ""
+
+#. translators: 1: URL 2: Brandname
+#: views/admin_view-static.php:60
+msgid "We also have a <a href=\"%1$s\" target=\"_blank\">%2$s</a> if you wanted to display the call button in your theme's sidebar. for %2$s, then you can use our call button block."
+msgstr ""
+
+#: views/admin_view-about.php:6
+msgid "Hello and welcome to WP Call Button, the easiest way to add a call now button on your WordPress site."
+msgstr ""
+
+#: views/admin_view-about.php:7
+msgid "Our goal is to help small businesses get more customers, so they can grow and compete with the big guys."
+msgstr ""
+
+#. translators: %1$s - WPBeginner URL, %2$s - OptinMonster URL, %3$s - MonsterInsights URL.
+#: views/admin_view-about.php:13
+msgid "WP Call Button is brought to you by the team behind <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">WPBeginner</a> in collaboration with our friends at <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Nextiva</a>, business phone service. Our team is also behind other popular plugins like <a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">WPForms</a>, <a href=\"%4$s\" target=\"_blank\" rel=\"noopener noreferrer\">MonsterInsights</a>, <a href=\"%5$s\" target=\"_blank\" rel=\"noopener noreferrer\">OptinMonster</a>, <a href=\"%6$s\" target=\"_blank\" rel=\"noopener noreferrer\">WP Mail SMTP</a>, <a href=\"%7$s\" target=\"_blank\" rel=\"noopener noreferrer\">SeedProd</a>, <a href=\"%8$s\" target=\"_blank\" rel=\"noopener noreferrer\">RafflePress</a>, <a href=\"%9$s\" target=\"_blank\" rel=\"noopener noreferrer\">TrustPulse</a> and more."
+msgstr ""
+
+#: views/admin_view-about.php:39
+msgid "Yup, we know a thing or two about building awesome products that customers love. Currently our plugins are running on over 9 million websites."
+msgstr ""
+
+#: views/admin_view.php:12
+msgid "Options saved successfully."
+msgstr ""
+
+#: views/admin_view.php:14
+#: views/admin_view.php:21
+msgid "Dismiss this notice."
+msgstr ""
+
+#: views/admin_view.php:19
+msgid "Your Call Button won't show up until you enter a phone number."
+msgstr ""
+
+#: views/admin_view-plugins-holder.php:31
+msgid "Upgrade to Pro"
+msgstr ""
+
+#. translators: %s - status HTML text.
+#: views/admin_view-plugins-holder.php:51
+msgid "Status: %s"
+msgstr ""

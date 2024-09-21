@@ -1,0 +1,413 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">blocks</custom-type>
+		<custom-type translate="1">featured_item</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">block_categories</taxonomy>
+		<taxonomy translate="1">featured_item_category</taxonomy>
+		<taxonomy translate="0">featured_item_tag</taxonomy>
+	</taxonomies>
+	<admin-texts>
+		<key name="theme_mods_flatsome">
+			<key name="404_block"/>
+			<key name="account_login_lightbox_side_panel_bg_image"/>
+			<key name="account_login_lightbox_side_panel_block"/>
+			<key name="blog_after_post"/>
+			<key name="blog_header"/>
+			<key name="catalog_mode_header"/>
+			<key name="catalog_mode_lightbox"/>
+			<key name="catalog_mode_product"/>
+			<key name="category_filter_text"/>
+			<key name="contact_email"/>
+			<key name="contact_email_label"/>
+			<key name="contact_hours_details"/>
+			<key name="contact_location"/>
+			<key name="contact_location_label"/>
+			<key name="contact_phone"/>
+			<key name="cookie_notice_text"/>
+			<key name="featured_items_page"/>
+			<key name="footer_block"/>
+			<key name="footer_left_text"/>
+			<key name="footer_right_text"/>
+			<key name="header_button_1"/>
+			<key name="header_button_1_link"/>
+			<key name="header_button_2"/>
+			<key name="header_button_2_link"/>
+			<key name="header_nav_vertical_tagline"/>
+			<key name="header_nav_vertical_text"/>
+			<key name="header_newsletter_block"/>
+			<key name="header_newsletter_label"/>
+			<key name="header_newsletter_shortcode"/>
+			<key name="header_newsletter_sub_title"/>
+			<key name="header_newsletter_title"/>
+			<key name="header_wishlist_label"/>
+			<key name="html_after_add_to_cart"/>
+			<key name="html_after_footer"/>
+			<key name="html_after_header"/>
+			<key name="html_before_add_to_cart"/>
+			<key name="html_before_footer"/>
+			<key name="html_cart_footer"/>
+			<key name="html_cart_header"/>
+			<key name="html_cart_sidebar"/>
+			<key name="html_checkout_sidebar"/>
+			<key name="html_intro"/>
+			<key name="html_scripts_after_body"/>
+			<key name="html_scripts_before_body"/>
+			<key name="html_scripts_footer"/>
+			<key name="html_scripts_header"/>
+			<key name="html_shop_page"/>
+			<key name="html_shop_page_content"/>
+			<key name="html_thank_you"/>
+			<key name="logo_link"/>
+			<key name="maintenance_mode_text"/>
+			<key name="mobile_sidebar_tab_text"/>
+			<key name="mobile_sidebar_tab_2_text"/>
+			<key name="mobile_sidebar_top_content"/>
+			<key name="nav_position_text"/>
+			<key name="nav_position_text_top"/>
+			<key name="privacy_policy_page"/>
+			<key name="sale_bubble_percentage_formatting"/>
+			<key name="sale_bubble_text"/>
+			<key name="search_placeholder"/>
+			<key name="shop_aside_title"/>
+			<key name="site_logo"/>
+			<key name="site_logo_dark"/>
+			<key name="site_logo_sticky"/>
+			<key name="tab_content"/>
+			<key name="tab_title"/>
+			<key name="top_right_text"/>
+			<key name="topbar_left"/>
+			<key name="topbar_right"/>
+		</key>
+	</admin-texts>
+	<shortcodes>
+		<shortcode>
+			<tag>ux_countdown</tag>
+			<attributes>
+				<attribute>t_week</attribute>
+				<attribute>t_day</attribute>
+				<attribute>t_hour</attribute>
+				<attribute>t_min</attribute>
+				<attribute>t_sec</attribute>
+				<attribute>t_week_p</attribute>
+				<attribute>t_day_p</attribute>
+				<attribute>t_hour_p</attribute>
+				<attribute>t_min_p</attribute>
+				<attribute>t_sec_p</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>accordion</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>accordion-item</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>blog_posts</tag>
+			<attributes>
+				<attribute>readmore</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>button</tag>
+			<attributes>
+				<attribute>text</attribute>
+				<attribute type="link">link</attribute>
+				<attribute>tooltip</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>featured_box</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>title_small</attribute>
+				<attribute type="media-ids">img</attribute>
+				<attribute type="link">link</attribute>
+				<attribute>tooltip</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>page_header</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>sub_title</attribute>
+			</attributes>
+		</shortcode>
+<!--		<shortcode>-->
+<!--			<tag>ux_portfolio</tag>-->
+<!--			<attributes>-->
+<!--				<attribute type="link">link?</attribute>-->
+<!--				<attribute>sub_title?</attribute>-->
+<!--			</attributes>-->
+<!--		</shortcode>-->
+		<shortcode>
+			<tag>ux_price_table</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>description</attribute>
+				<attribute>button_text</attribute>
+				<attribute type="link">button_link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>bullet_item</tag>
+			<attributes>
+				<attribute>text</attribute>
+				<attribute>tooltip</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>ux_product_categories</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>ux_product_categories_grid</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>ux_product_flip</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>row</tag>
+			<attributes>
+				<attribute>label</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>row_inner</tag>
+			<attributes>
+				<attribute>label</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>row_inner_1</tag>
+			<attributes>
+				<attribute>label</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>row_inner_2</tag>
+			<attributes>
+				<attribute>label</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>col</tag>
+			<attributes>
+				<attribute>label</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>col_inner</tag>
+			<attributes>
+				<attribute>label</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>col_inner_1</tag>
+			<attributes>
+				<attribute>label</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>col_inner_2</tag>
+			<attributes>
+				<attribute>label</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>section</tag>
+			<attributes>
+				<attribute type="media-ids">bg</attribute>
+				<attribute>label</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>section_inner</tag>
+			<attributes>
+				<attribute type="media-ids">bg</attribute>
+				<attribute>label</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>share</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>follow</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>tab</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>title_small</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>tabgroup</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>tabgroup_vertical</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>team_member</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute type="media-ids">img</attribute>
+				<attribute type="link">link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>testimonial</tag>
+			<attributes>
+				<attribute type="link">link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>text_box</tag>
+		</shortcode>
+		<shortcode>
+			<tag>title</tag>
+			<attributes>
+				<attribute>text</attribute>
+				<attribute>sub_text</attribute>
+				<attribute type="link">link</attribute>
+				<attribute>link_text</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>ux_banner</tag>
+			<attributes>
+				<attribute type="media-ids">bg</attribute>
+				<attribute type="link">link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>ux_gallery</tag>
+			<attributes>
+				<attribute type="media-ids">ids</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>ux_hotspot</tag>
+			<attributes>
+				<attribute>text</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>ux_image</tag>
+			<attributes>
+				<attribute type="media-ids">id</attribute>
+				<attribute type="link">link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>ux_image_box</tag>
+			<attributes>
+				<attribute type="media-ids">img</attribute>
+				<attribute type="link">link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>logo</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute type="media-ids">img</attribute>
+				<attribute type="link">link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>ux_menu</tag>
+		</shortcode>
+		<shortcode>
+			<tag>ux_menu_title</tag>
+			<attributes>
+				<attribute>text</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>ux_menu_link</tag>
+			<attributes>
+				<attribute>text</attribute>
+				<attribute type="link">link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>ux_pages</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute type="link">link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>ux_payment_icons</tag>
+			<attributes>
+				<attribute type="link">link</attribute>
+			</attributes>
+		</shortcode>
+<!--		<shortcode>-->
+<!--			<tag>ux_products</tag>-->
+<!--			<attributes>-->
+<!--				<attribute>title?</attribute>-->
+<!--			</attributes>-->
+<!--		</shortcode>-->
+<!--		<shortcode>-->
+<!--			<tag>ux_products_list</tag>-->
+<!--			<attributes>-->
+<!--				<attribute>title?</attribute>-->
+<!--			</attributes>-->
+<!--		</shortcode>-->
+		<shortcode>
+			<tag>ux_stack</tag>
+		</shortcode>
+		<shortcode>
+			<tag>ux_stack_inner</tag>
+		</shortcode>
+		<shortcode>
+			<tag>ux_stack_inner_1</tag>
+		</shortcode>
+		<shortcode>
+			<tag>ux_stack_inner_2</tag>
+		</shortcode>
+		<shortcode>
+			<tag>ux_text</tag>
+		</shortcode>
+		<shortcode>
+			<tag>ux_video</tag>
+			<attributes>
+				<attribute type="media-url">url</attribute>
+			</attributes>
+		</shortcode>
+	</shortcodes>
+</wpml-config>
+
+
+
+
+
+

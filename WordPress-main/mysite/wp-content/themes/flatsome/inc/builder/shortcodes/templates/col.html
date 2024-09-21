@@ -1,0 +1,44 @@
+<div id="{{:: shortcode.$id }}" class="col
+  	small-{{ shortcode.options.span }}
+  	col-hover-{{ shortcode.options.hover }}
+    {{ shortcode.options.visibility }}
+    {{ shortcode.options.class }}
+    {{ shortcode.options.forceFirst }}-col-first
+  "
+  data-fade="true"
+ 	ng-class="{dark: shortcode.options.color == 'light', 'col-divided': shortcode.options.divider, 'has-hover': shortcode.options.borderHover,  'uxb-sticky-column': shortcode.options.sticky == 'true'}"
+    ng-attr-data-parallax="{{ shortcode.options.parallax }}"
+	ng-style="{
+		'min-height' : shortcode.options.height,
+	}">
+
+	<div class="col-inner
+    text-{{ shortcode.options.align }}
+  	box-shadow-{{ shortcode.options.depth }}
+  	box-shadow-{{ shortcode.options.depthHover }}-hover
+  	text-shadow-{{ shortcode.options.textDepth }}"
+  	ng-attr-data-animate="{{ shortcode.options.animate }}" data-animated="true"
+		ng-style="{
+		  'background-color': shortcode.options.bgColor,
+		}">
+		<div ng-if="shortcode.options.border"
+			 ng-class="{['hover-'+shortcode.options.borderHover ] : shortcode.options.borderHover}"
+			 class="is-border is-{{shortcode.options.borderStyle}}"
+			 ng-style="{
+			'borderRadius': shortcode.options.borderRadius+'px',
+			'borderWidth': shortcode.options.border,
+			'margin': shortcode.options.borderMargin,
+			'borderColor': shortcode.options.borderColor
+			}"
+		></div>
+
+   	  <content></content>
+
+	  <style scope="scope">
+		#{{:: shortcode.$id }} > .col-inner {padding: {{ shortcode.options.padding }}; }
+		#{{:: shortcode.$id }} > .col-inner {margin: {{ shortcode.options.margin }}; }
+		#{{:: shortcode.$id }} > .col-inner {border-radius: {{ shortcode.options.bgRadius }}px; }
+		#{{:: shortcode.$id }} > .col-inner {max-width: {{ shortcode.options.maxWidth }}; }
+	  </style>
+   	</div>
+</div>

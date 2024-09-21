@@ -1,0 +1,217 @@
+.toplevel_page_flatsome-panel #wpbody-content > .notice,
+body[class^='flatsome_page_'] #wpbody-content > .notice,
+body[class*=' flatsome_page_'] #wpbody-content > .notice {
+	display: none!important;
+}
+
+li.toplevel_page_flatsome-panel img{
+	width: 26px;
+	height: 26px;
+	padding-top: 4px!important;
+}
+
+.panel.flatsome-panel {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.flatsome-panel .about-wrap .nav-tab{
+  font-size: 14px;
+  margin-right: 5px;
+  margin-left: 0;
+  line-height: 2;
+}
+
+.flatsome-panel .fl-badge {
+    background-image: url(Logo.svg)!important;
+}
+
+.flatsome-panel .about-wrap .nav-tab-wrapper{
+	margin-bottom: 20px!important;
+}
+
+.flatsome-panel .about-wrap .flatsome-panel h2{
+	text-align: left;
+	max-width: 600px;
+}
+
+.rtl .flatsome-panel .about-wrap .flatsome-panel h2{
+	text-align: right;
+}
+
+.flatsome-panel .about-wrap .flatsome-panel .inner-panel{
+	padding: 0 20px 30px 20px;
+	background-color: #FFF;
+	margin: 15px 10px;
+	box-shadow: 1px 1px 5px 1px rgba(0,0,0,.1);
+}
+
+.flatsome-panel .about-wrap .cols {
+	display: flex;
+	flex-wrap: wrap;
+}
+.flatsome-panel .about-wrap .inner-panel{flex:1;}
+.flatsome-panel .about-wrap .inner-panel.col-span-3{flex: 3}
+.flatsome-panel .inner-panel{
+	transition: opacity .3s;
+}
+.flatsome-panel .inner-panel:hover{
+	opacity: 1!important;
+}
+.flatsome-panel .inner-panel.success{border-color: green!important; opacity: .6}
+.flatsome-panel .inner-panel.success h5{color: green!important;}
+
+.flatsome-token-migrator__selector {
+	display: flex;
+	align-items: center;
+}
+
+/* Admin status overview */
+.ux-status-overview {
+	display: grid;
+}
+
+.ux-status-overview__list {
+	display: grid;
+	gap: 10px;
+}
+
+.ux-status-overview__actions {
+	margin: 1em 0;
+}
+
+.ux-status-overview__list-item {
+	display: flex;
+	align-items: center;
+}
+
+.ux-status-overview__list-item a {
+	color: inherit;
+	text-decoration: none;
+	transition: margin .3s;
+}
+
+.ux-status-overview__list-item a:hover {
+	margin: 0 4px;
+}
+
+.ux-status-overview__list-item-icon {
+	display: inline-flex;
+	margin-right: 10px
+}
+
+.rtl .ux-status-overview__list-item-icon {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.ux-status-overview__list-item-icon.success svg {
+	fill: #6BBE66;
+}
+
+.ux-status-overview__list-item-icon.warning svg {
+	fill: #f99b71;
+}
+
+.ux-status-overview__list-item-icon.critical svg {
+	fill: #e16666;
+}
+
+/* Admin status table
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+table.flatsome-status-table {
+	border: 0;
+	box-shadow: none;
+}
+
+table.flatsome-status-table h2 {
+	font-size: 1.2em;
+	font-weight: 600;
+	margin: 0;
+}
+
+table.flatsome-status-table td:first-child {
+	width: 30%;
+}
+
+table.flatsome-status-table td:last-child {
+	width: 100%;
+}
+
+table.flatsome-status-table td.help {
+	width: 1em;
+}
+
+table.flatsome-status-table  td mark.success,
+table.flatsome-status-table  th mark.success {
+	color: #7ad03a;
+}
+
+table.flatsome-status-table td mark.critical,
+table.flatsome-status-table th mark.critical {
+	color: #a00;
+}
+
+table.flatsome-status-table td mark.warning,
+table.flatsome-status-table th mark.warning {
+	color: #f99b71;
+}
+
+table.flatsome-status-table td mark,
+table.flatsome-status-table th mark {
+	background: transparent none;
+}
+
+table.flatsome-status-table.widefat thead td,
+table.flatsome-status-table.widefat thead th {
+	border: 0;
+}
+
+.flatsome-panel .about-wrap .flatsome-panel .inner-panel table.flatsome-status-table {
+	padding-top: 20px;
+}
+
+.flatsome-help-tip {
+	color: #d7d7d8;
+	width: 14px;
+	height: 14px;
+	font-size: 14px;
+	padding-top: 1px;
+}
+
+.flatsome-help-tip:hover {
+	color: #2271b1;
+}
+
+.tippy-box[data-theme~='blue'] {
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+	box-shadow: 0 0 20px 4px rgba(154, 161, 177, .15), 0 4px 80px -8px rgba(36, 40, 47, .25), 0 4px 4px -2px rgba(91, 94, 105, .15);
+	background-color: #2271b1
+}
+
+.tippy-box[data-theme~=blue][data-placement^=top] > .tippy-arrow:before {
+	border-top-color: #2271b1
+}
+
+.tippy-box[data-theme~=blue][data-placement^=bottom] > .tippy-arrow:before {
+	border-bottom-color: #2271b1
+}
+
+.tippy-box[data-theme~=blue][data-placement^=left] > .tippy-arrow:before {
+	border-left-color: #2271b1
+}
+
+.tippy-box[data-theme~=blue][data-placement^=right] > .tippy-arrow:before {
+	border-right-color: #2271b1
+}
+
+.tippy-box[data-theme~=blue] > .tippy-backdrop {
+	background-color: #2271b1
+}
+
+.tippy-box[data-theme~=blue] > .tippy-svg-arrow {
+	fill: #2271b1
+}
+

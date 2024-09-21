@@ -1,0 +1,23 @@
+<div
+  id="{{:: shortcode.$id }}"
+  class="{{ shortcode.options.visibility }} {{ shortcode.options.class }}"
+  ng-class="{
+    text: shortcode.options.fontSize ||
+          shortcode.options.lineHeight ||
+          shortcode.options.textAlign ||
+          shortcode.options.textColor
+  }"
+  ng-bind-html="shortcode.content | autop | html"
+></div>
+<style>
+  #{{:: shortcode.$id }} {
+    font-size: {{ shortcode.options.fontSize }}rem;
+    line-height: {{ shortcode.options.lineHeight }};
+    text-align: {{ shortcode.options.textAlign }};
+    color: {{ shortcode.options.textColor }};
+  }
+
+  #{{:: shortcode.$id }} > * {
+    color: {{ shortcode.options.textColor }};
+  }
+</style>

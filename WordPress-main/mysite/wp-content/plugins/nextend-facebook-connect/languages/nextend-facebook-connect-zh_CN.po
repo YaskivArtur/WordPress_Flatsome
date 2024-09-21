@@ -1,0 +1,5204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nextend-facebook-connect\n"
+"POT-Creation-Date: 2024-02-20 21:03+0100\n"
+"PO-Revision-Date: 2024-02-20 21:03+0100\n"
+"Last-Translator: \n"
+"Language-Team: nextend-facebook-connect\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_x:1,2c;esc_html_e\n"
+"X-Poedit-Flags-xgettext: --no-location\n"
+"X-Poedit-SearchPath-0: nextend-social-login-pro\n"
+"X-Poedit-SearchPath-1: nextend-facebook-connect\n"
+"X-Poedit-SearchPathExcluded-0: nextend-facebook-connect/providers/twitter/"
+"compat\n"
+"X-Poedit-SearchPathExcluded-1: nextend-facebook-connect/providers/google/"
+"compat\n"
+"X-Poedit-SearchPathExcluded-2: nextend-facebook-connect/providers/facebook/"
+"compat\n"
+
+msgid "What personal data we collect and why we collect it"
+msgstr ""
+
+#, php-format
+msgid ""
+"%1$s collects data when a visitor register, login or link the account with "
+"with any of the enabled social provider. It collects the following data: "
+"email address, name, social provider identifier and access token. Also it "
+"can collect profile picture and more fields with the Pro Addon's sync data "
+"feature."
+msgstr ""
+
+msgid "Who we share your data with"
+msgstr ""
+
+#, php-format
+msgid ""
+"%1$s stores the personal data on your site and does not share it with anyone "
+"except the access token which used for the authenticated communication with "
+"the social providers."
+msgstr ""
+
+msgid "Does the plugin share personal data with third parties"
+msgstr ""
+
+#, php-format
+msgid ""
+"%1$s use the access token what the social provider gave to communicate with "
+"the providers to verify account and securely access personal data."
+msgstr ""
+
+msgid "How long we retain your data"
+msgstr ""
+
+#, php-format
+msgid ""
+"%1$s removes the collected personal data when the user deleted from "
+"WordPress."
+msgstr ""
+
+msgid "Does the plugin use personal data collected by others?"
+msgstr ""
+
+#, php-format
+msgid ""
+"%1$s use the personal data collected by the social providers to create "
+"account on your site when the visitor authorize it."
+msgstr ""
+
+msgid "Does the plugin store things in the browser?"
+msgstr ""
+
+#, php-format
+msgid ""
+"Yes, %1$s must create a cookie for visitors who use the social login "
+"authorization flow. This cookie required for every provider to secure the "
+"communication and to redirect the user back to the last location."
+msgstr ""
+
+msgid "Does the plugin collect telemetry data, directly or indirectly?"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid ""
+"Does the plugin enqueue JavaScript, tracking pixels or embed iframes from a "
+"third party?"
+msgstr ""
+
+msgid "User"
+msgstr "用户"
+
+msgid "This provider doesn't support REST API calls!"
+msgstr ""
+
+#, php-format
+msgid "%s needs json_decode function."
+msgstr "%s 需要 json_decode 函数。"
+
+msgid "Please contact your server administrator and ask for solution!"
+msgstr "请与服务器管理员联系并寻求解决方案!"
+
+msgid "Settings saved."
+msgstr "设置已保存。"
+
+#, fuzzy
+#| msgid "The authorization was successful"
+msgid "The activation was successful"
+msgstr "授权成功"
+
+#, fuzzy
+#| msgid "Deauthorize completed."
+msgid "Deactivate completed."
+msgstr "取消授权."
+
+msgid "Settings"
+msgstr "设置"
+
+#, php-format
+msgid "Unexpected response: %s"
+msgstr "响应出现意外情况: %s"
+
+#, php-format
+msgid ""
+"%s detected that your login url changed. You must update the Oauth redirect "
+"URIs in the related social applications."
+msgstr ""
+"%s 检测到您的登录网址已更改。您必须更新相关社交应用程序中的Oauth redirect "
+"URIs."
+
+msgid "Fix Error"
+msgstr "修复错误"
+
+msgid "Oauth Redirect URI"
+msgstr "Oauth Redirect URI"
+
+#, php-format
+msgid ""
+"%1$s detected that %2$s installed on your site. You need the Pro Addon to "
+"display Social Login buttons in %2$s login form!"
+msgstr ""
+"%1$s 检测到 %2$s 已经安装在你的网站. 你需要安装专业版本去显示社交登录按钮 "
+"%2$s 登录表单!"
+
+msgid "Dismiss and check Pro Addon"
+msgstr "解除并检查专业版本"
+
+msgid "Dismiss"
+msgstr "解除"
+
+#, php-format
+msgid ""
+"%1$s detected that %2$s installed on your site. You must set \"<b>Page for "
+"register flow</b>\" and \"<b>OAuth redirect uri proxy page</b>\" in %1$s to "
+"work properly."
+msgstr ""
+
+#, fuzzy
+#| msgid "Fix Error"
+msgid "Fix now"
+msgstr "修复错误"
+
+#, fuzzy
+#| msgid "Activate Pro Addon"
+msgid "Activate your Pro Addon"
+msgstr "启用专业版本插件"
+
+#, fuzzy
+#| msgid ""
+#| "To be able to use the Pro features, you need to authorize Nextend Social "
+#| "Connect Pro Addon. You can do this by clicking on the Authorize button "
+#| "below then select the related purchase."
+msgid ""
+"To be able to use the Pro features, you need to activate Nextend Social "
+"Login Pro Addon. You can do this by clicking on the Activate button below "
+"then select the related purchase."
+msgstr ""
+"要想使用专业版本功能，你需要 Nextend Social Connect 专业版本的授权。你可以点"
+"击下面的授权按钮，然后选择购买。"
+
+msgid "Activate"
+msgstr ""
+
+msgid "License key"
+msgstr "密匙"
+
+msgid "OAuth proxy page"
+msgstr ""
+
+#, fuzzy
+#| msgid "Register"
+msgid "Register flow page"
+msgstr "注册"
+
+#, php-format
+msgid ""
+"<strong><u>Warning</u></strong>: You are using <b>%1$s</b>! Depending on "
+"your %1$s configuration the Redirect URI can be different. For more "
+"information please check our %2$s %1$s compatibility tutorial%3$s!"
+msgstr ""
+
+#, php-format
+msgid ""
+"<p><strong><u>Warning</u></strong>: Providers change the App setup process "
+"quite often, which means some steps below might not be accurate. If you see "
+"significant difference in the written instructions and what you see at the "
+"provider, check the guide in the %1$sonline documentation%2$s first, just in "
+"case if we are already aware of the changes hence updated the guide. "
+"Otherwise feel free to %3$sreport the changes%4$s, so we can check and "
+"update the instructions.<br><strong>Last updated:</strong> %5$s.</p>"
+msgstr ""
+
+msgid "You have logged in successfully."
+msgstr "你已经成功登录。"
+
+msgid "Login label"
+msgstr "登录标签"
+
+msgid "Reset to default"
+msgstr "恢复默认设置"
+
+#, fuzzy
+#| msgid "Register"
+msgid "Register label"
+msgstr "注册"
+
+msgid "Link label"
+msgstr "链接标签"
+
+msgid "Unlink label"
+msgstr "解除链接标签"
+
+msgid "Default button"
+msgstr "默认按钮"
+
+msgid "Use custom button"
+msgstr "使用自定义按钮"
+
+#, php-format
+msgid "Use the %s in your custom button's code to make the label show up."
+msgstr "使用 %s 在你的自定义按钮代码显示界面."
+
+msgid "Icon button"
+msgstr "图标按钮"
+
+msgid "Save Changes"
+msgstr "保存设置"
+
+msgid "Getting Started"
+msgstr "从这里开始"
+
+msgid "Buttons"
+msgstr "按钮"
+
+msgid "Sync data"
+msgstr ""
+
+msgid "Usage"
+msgstr "用法"
+
+msgid "Other settings"
+msgstr "其他设置"
+
+msgid "Username prefix on register"
+msgstr "用户名前缀注册"
+
+msgid "Fallback username prefix on register"
+msgstr "用户名前缀注册机制"
+
+#, fuzzy
+#| msgid "Used when username is invalid"
+msgid "Used when username is invalid or not stored"
+msgstr "当用户名无效时使用"
+
+msgid "Terms and conditions"
+msgstr ""
+
+#, php-format
+msgid "Override global \"%1$s\""
+msgstr ""
+
+msgid "PRO settings"
+msgstr "专业版本设置"
+
+msgid "Ask E-mail on registration"
+msgstr "注册时询问E-MAIL"
+
+msgid "Never"
+msgstr "从不"
+
+msgid "When email is not provided or empty"
+msgstr "当邮箱为空时"
+
+msgid "Always"
+msgstr "一直"
+
+msgid "Ask Username on registration"
+msgstr "注册时需要用户名"
+
+msgid "Never, generate automatically"
+msgstr "永远不要，自动生成"
+
+msgid "When username is empty or invalid"
+msgstr ""
+
+#, fuzzy
+#| msgid "Ask Username on registration"
+msgid "Ask Password on registration"
+msgstr "注册时需要用户名"
+
+msgid "Automatically connect the existing account upon registration"
+msgstr "注册后自动连接现有帐户"
+
+msgid "Disabled"
+msgstr "禁用"
+
+msgid "Automatic, based on email address"
+msgstr "自动，自动，基于电子邮件地址"
+
+msgid "Disable login for the selected roles"
+msgstr "禁止所选对象登录"
+
+msgid "Default roles for user who registered with this provider"
+msgstr "为使用此提供商的用户设置默认角色"
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Default (The %1$s is: %2$s)"
+msgstr "点击创建按钮"
+
+#, fuzzy
+#| msgid "Oauth Redirect URI"
+msgid "default WordPress role"
+msgstr "Oauth Redirect URI"
+
+#, php-format
+msgid "Default (The %s.)"
+msgstr ""
+
+msgid "Register"
+msgstr "注册"
+
+msgid "Login"
+msgstr ""
+
+msgid "Link"
+msgstr ""
+
+msgid "Store in meta key"
+msgstr ""
+
+msgid "Shortcode"
+msgstr "短码"
+
+#, fuzzy
+#| msgid "Import"
+msgid "Important!"
+msgstr "导入"
+
+msgid "The shortcodes are only rendered for users who haven't logged in yet!"
+msgstr ""
+
+msgid "See the full list of shortcode parameters."
+msgstr ""
+
+msgid "Simple link"
+msgstr "简单链接"
+
+msgid "Click here to login or register"
+msgstr "点击这里登录或注册"
+
+msgid "Image button"
+msgstr "图片按钮"
+
+msgid "Image url"
+msgstr "图片链接地址"
+
+#, fuzzy
+#| msgid "Debug mode"
+msgid "Debug"
+msgstr "调试模式"
+
+msgid "Test network connection with providers"
+msgstr ""
+
+msgid "You don't have cURL support, please enable it in php.ini!"
+msgstr ""
+
+#, php-format
+msgid "Test %1$s connection"
+msgstr ""
+
+msgid "Fix Oauth Redirect URIs"
+msgstr "修复 Oauth Redirect URIs"
+
+msgid "Every Oauth Redirect URI seems fine"
+msgstr "所有的Oauth Redirect URI 运作正常"
+
+msgid "Got it"
+msgstr "搞定"
+
+msgid "Global Settings"
+msgstr "全局设置"
+
+msgid "General"
+msgstr "常规"
+
+msgid "Privacy"
+msgstr ""
+
+msgid "Login Form"
+msgstr "登录界面"
+
+msgid "Comment"
+msgstr "评论"
+
+msgid "Custom Actions"
+msgstr ""
+
+msgid "Docs"
+msgstr "文档"
+
+msgid "Support"
+msgstr "支持"
+
+msgid "Pro Addon"
+msgstr "专业版插件"
+
+msgid "Providers"
+msgstr "提供商"
+
+msgid "Error"
+msgstr "错误"
+
+msgid ""
+"You don’t have sufficient permissions to install and activate plugins. "
+"Please contact your site’s administrator!"
+msgstr "您没有足够的权限来安装和激活插件。 请联系您的网站管理员！"
+
+msgid "Activate Pro Addon"
+msgstr "启用专业版本插件"
+
+msgid ""
+"Pro Addon is installed but not activated. To be able to use the Pro "
+"features, you need to activate it."
+msgstr "专业版插件已经安装但没有启用。要使用专业版本功能，你需要先启用它。"
+
+#, fuzzy
+#| msgid "Activate Pro Addon"
+msgid "Deactivate Pro Addon"
+msgstr "启用专业版本插件"
+
+msgid "Pro Addon is not installed"
+msgstr "没有安装专业版"
+
+msgid ""
+"To access the Pro features, you need to install and activate the Pro Addon."
+msgstr "要访问专业功能，您需要安装并激活专业版本插件。"
+
+#, php-format
+msgid "Install %s now"
+msgstr "安装 %s 现在"
+
+msgid "Install Pro Addon"
+msgstr "安装专业的扩展"
+
+msgid "Activating..."
+msgstr "正在启用."
+
+#, fuzzy
+#| msgid "Not Available"
+msgid "Not compatible!"
+msgstr "无法使用"
+
+#, fuzzy, php-format
+#| msgid "Please update %1$s to version %2$s or newer."
+msgid ""
+"%1$s and %2$s are not compatible. Please update %1$s to version %3$s or "
+"newer."
+msgstr "请更新 %1$s 到 %2$s 版本."
+
+#, fuzzy, php-format
+#| msgid "Update now!"
+msgid "Update %s"
+msgstr "现在更新！"
+
+#, fuzzy, php-format
+#| msgid "Please update %1$s to version %2$s or newer."
+msgid ""
+"%1$s and %2$s are not compatible. Please update %2$s to version %3$s or "
+"newer."
+msgstr "请更新 %1$s 到 %2$s 版本."
+
+#, fuzzy
+#| msgid "Activate Pro Addon"
+msgid "Update Pro Addon"
+msgstr "启用专业版本插件"
+
+msgid "Pro Addon is installed and activated"
+msgstr "专业版本已经安装并启用了"
+
+#, fuzzy
+#| msgid ""
+#| "You installed and activated the Pro Addon. If you don’t want to use it "
+#| "anymore, you can deauthorize using the button below."
+msgid ""
+"You installed and activated the Pro Addon. If you don’t want to use it "
+"anymore, you can deactivate using the button below."
+msgstr ""
+"你已经安装并启用了专业版本，如果你不想使用它，你可以点击下面的按钮取消授权。"
+
+msgid "Get Pro Addon to unlock more features"
+msgstr "购买专业版本来解锁更多的功能"
+
+#, php-format
+msgid ""
+"The features below are available in %s Pro Addon. Get it today and tweak the "
+"awesome settings."
+msgstr "这个功能只允许 %s 专业版本. 今天就购买它，然后开启更多的强力功能。"
+
+msgid ""
+"If you already have a license, you can Authorize your Pro Addon. Otherwise "
+"you can purchase it using the button below."
+msgstr ""
+"如果你已经拥有一个密匙，你可以验证你的专业版本插件。否则，你需要点击下面的按"
+"钮先购买。"
+
+msgid "Buy Pro Addon"
+msgstr "购买专业版"
+
+msgid "Authorize Pro Addon"
+msgstr "验证专业版插件"
+
+msgid "Pro Addon is not activated"
+msgstr "专业版本未启用"
+
+#, fuzzy
+#| msgid ""
+#| "To be able to use the Pro features, you need to install and activate the "
+#| "Nextend Social Connect Pro Addon."
+msgid ""
+"To be able to use the Pro features, you need to install and activate the "
+"Nextend Social Login Pro Addon."
+msgstr "要想使用专业功能，你需要先安装然后启用 Nextend Social Connect 专业版."
+
+#, php-format
+msgid ""
+"%1$s detected that you have providers configured but none of them are "
+"enabled. To display any social buttons, please make sure you have at least "
+"one provider enabled!"
+msgstr ""
+
+msgid "Not Available"
+msgstr "无法使用"
+
+msgid "Not Configured"
+msgstr "没有配置"
+
+msgid "Not Verified"
+msgstr "未验证"
+
+msgid "Enabled"
+msgstr "允许"
+
+msgid "Upgrade Now"
+msgstr "现在更新"
+
+msgid "Verify Settings"
+msgstr "验证设置"
+
+msgid "Enable"
+msgstr "启用"
+
+msgid "Disable"
+msgstr "禁止"
+
+msgid "Stay Updated"
+msgstr ""
+
+msgid ""
+"Receive info on the latest plugin updates and social provider related "
+"changes."
+msgstr ""
+
+#, fuzzy
+#| msgid "Please enter an email address."
+msgid "Enter your email address"
+msgstr "请输入电子邮箱."
+
+msgid "Subscribe"
+msgstr ""
+
+msgid "Saving..."
+msgstr "正在保存."
+
+msgid "Saving failed"
+msgstr "保存失败"
+
+msgid "Order Saved"
+msgstr "订单已保存"
+
+msgid "Successfully subscribed!"
+msgstr ""
+
+msgid ""
+"We'll be bringing you all the latest news and updates about Social Login - "
+"right to your inbox."
+msgstr ""
+
+#, fuzzy
+#| msgid "Please enter an email address."
+msgid "The entered email address is invalid!"
+msgstr "请输入电子邮箱."
+
+msgid "Rate your experience!"
+msgstr "留一个评论!"
+
+msgid "Hated it"
+msgstr "讨厌"
+
+msgid "Disliked it"
+msgstr "不喜欢"
+
+msgid "It was ok"
+msgstr "还不错"
+
+msgid "Liked it"
+msgstr "喜欢"
+
+msgid "Loved it"
+msgstr "大爱"
+
+msgid "Please Leave a Review"
+msgstr "请留下一个评论"
+
+msgid ""
+"If you are happy with <b>Nextend Social Login</b> and can take a minute "
+"please leave us a review. It will be a tremendous help for us!"
+msgstr ""
+"如果你对<b>Nextend Social Login</b>很满意，请花上一点点的时间留下一个评论。这"
+"对我们来说将是一个巨大的帮助！"
+
+msgid "Ok, you deserve it"
+msgstr "好吧，你应得的"
+
+#, fuzzy
+#| msgid "Registration Form"
+msgid "Register form"
+msgstr "注册信息表"
+
+msgid "No Connect button"
+msgstr "没有连接按钮"
+
+msgid "Connect button before register"
+msgstr "连接按钮在注册之前"
+
+msgid "Action:"
+msgstr "动作:"
+
+msgid "Connect button before account details"
+msgstr "登录按钮在账户详情之前"
+
+msgid "Connect button after register"
+msgstr "登录按钮在注册之后"
+
+#, fuzzy
+#| msgid "Login form button style"
+msgid "Register button style"
+msgstr "登录界面按钮样式"
+
+msgid "Default"
+msgstr "默认"
+
+msgid "Fullwidth"
+msgstr ""
+
+msgid "Icon"
+msgstr "图标"
+
+#, fuzzy
+#| msgid "Register"
+msgid "Register layout"
+msgstr "注册"
+
+msgid "Below"
+msgstr "下面"
+
+msgid "Below with separator"
+msgstr "下面并分割"
+
+msgid "Above"
+msgstr "上面"
+
+msgid "Above with separator"
+msgstr "在上面并分割"
+
+#, fuzzy
+#| msgid "Login form"
+msgid "Sidebar Login form"
+msgstr "登录表单"
+
+msgid "Hide login buttons"
+msgstr "隐藏登录按钮"
+
+msgid "Show login buttons"
+msgstr "显示登录按钮"
+
+msgid ""
+"Some themes that use BuddyPress, display the social buttons twice in the "
+"same login form. This option can disable the one for: "
+"<b>bp_sidebar_login_form action</b>.  "
+msgstr ""
+
+msgid "Login form"
+msgstr "登录表单"
+
+#, fuzzy
+#| msgid "Login form button style"
+msgid "Login button style"
+msgstr "登录界面按钮样式"
+
+msgid "Login layout"
+msgstr "登录界面布局"
+
+#, fuzzy
+#| msgid "Social accounts"
+msgid "Social accounts tab"
+msgstr "社交账号"
+
+msgid "Hide"
+msgstr "隐藏"
+
+msgid "Show"
+msgstr "显示"
+
+#, php-format
+msgid ""
+"Creates a new tab called %s, where the Link and Unlink buttons will be "
+"displayed."
+msgstr ""
+
+msgid "Social Accounts"
+msgstr "社交账号"
+
+#, fuzzy
+#| msgid "Buttons"
+msgid "Button alignment"
+msgstr "按钮"
+
+msgid "Left"
+msgstr ""
+
+msgid "Center"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+#, fuzzy
+#| msgid "BuddyPress register button style"
+msgid "BuddyPress registration integration"
+msgstr "BuddyPress 注册按钮样式"
+
+#, php-format
+msgid ""
+"When this setting is enabled the actual registration will be done by %1$s, "
+"so it could send the activation emails uppon registration."
+msgstr ""
+
+#, php-format
+msgid ""
+"%1$s To prevent the login with social login until the account is activated, "
+"you also need to enable the %2$s feature on the %3$s tab!"
+msgstr ""
+
+#, fuzzy
+#| msgid "Usage"
+msgid "Usage:"
+msgstr "用法"
+
+#, fuzzy
+#| msgid "Show login buttons"
+msgid "Support login restrictions"
+msgstr "显示登录按钮"
+
+#, fuzzy
+#| msgid "Icon button"
+msgid "Login button"
+msgstr "图标按钮"
+
+#, php-format
+msgid "You need to turn on the ' %1$s > %2$s > %3$s ' for this feature to work"
+msgstr "你需要打开 ' %1$s > %2$s > %3$s ' 这个功能"
+
+msgid "Discussion"
+msgstr "讨论"
+
+msgid "Users must be registered and logged in to comment"
+msgstr "必须是登录用户才能评论"
+
+#, fuzzy
+#| msgid "Button style:"
+msgid "Button style"
+msgstr "按钮样式:"
+
+#, php-format
+msgid "%1$s Add your custom actions here. One action per line."
+msgstr ""
+
+#, php-format
+msgid ""
+"%1$s The HTML of the social buttons will be added at the place where the "
+"action is fired."
+msgstr ""
+
+#, fuzzy
+#| msgid "Import"
+msgid "Important:"
+msgstr "导入"
+
+#, php-format
+msgid ""
+"If you %1$sexperience problems%2$s because of this feature, you can disable "
+"it by defining the %3$s constant."
+msgstr ""
+
+#, fuzzy
+#| msgid "Login layout"
+msgid "Button layout"
+msgstr "登录界面布局"
+
+#, fuzzy
+#| msgid "Below with separator"
+msgid "Default with top separator"
+msgstr "下面并分割"
+
+#, fuzzy
+#| msgid "Below with separator"
+msgid "Default with bottom separator"
+msgstr "下面并分割"
+
+#, fuzzy
+#| msgid "No Connect button in login form"
+msgid "No Connect button in Login form"
+msgstr "在登录表单里不要登录按钮"
+
+#, fuzzy
+#| msgid "No Connect button"
+msgid "Connect button on"
+msgstr "没有连接按钮"
+
+msgid "Login form button style"
+msgstr "登录界面按钮样式"
+
+#, fuzzy
+#| msgid "No Connect button in register form"
+msgid "No Connect button in Register form"
+msgstr "不要登录按钮在注册表上"
+
+#, fuzzy
+#| msgid "Login form button style"
+msgid "Register form button style"
+msgstr "登录界面按钮样式"
+
+msgid "Checkout form"
+msgstr ""
+
+#, fuzzy
+#| msgid "No Connect button in login form"
+msgid "No Connect button in Checkout form"
+msgstr "在登录表单里不要登录按钮"
+
+#, fuzzy
+#| msgid "Login form button style"
+msgid "Checkout form button style"
+msgstr "登录界面按钮样式"
+
+#, fuzzy
+#| msgid "Register"
+msgid "Checkout layout"
+msgstr "注册"
+
+msgid "Target window"
+msgstr "目标窗口"
+
+msgid "Prefer popup"
+msgstr "比较喜欢弹出窗口"
+
+msgid "Prefer new tab"
+msgstr "喜欢新选项卡"
+
+msgid "Prefer same window"
+msgstr "喜欢同窗口"
+
+msgid "Registration notification sent to"
+msgstr "注册通知发送到"
+
+msgid "WordPress default"
+msgstr "WordPress 默认"
+
+msgid "Nobody"
+msgstr "没人"
+
+msgid "Admin"
+msgstr "管理员"
+
+msgid "User and Admin"
+msgstr "用户和管理员"
+
+#, fuzzy
+#| msgid "Unlink label"
+msgid "Unlink"
+msgstr "解除链接标签"
+
+#, fuzzy
+#| msgid "Social accounts"
+msgid "Allow Social account unlink"
+msgstr "社交账号"
+
+msgid "Show linked providers"
+msgstr ""
+
+#, php-format
+msgid "Providers linked to the account will appear in the %1$s."
+msgstr ""
+
+#, fuzzy
+#| msgid "Username"
+msgid "Users table"
+msgstr "用户名"
+
+#, fuzzy
+#| msgid "Disable login for the selected roles"
+msgid "Disable Admin bar for roles"
+msgstr "禁止所选对象登录"
+
+msgid "Debug mode"
+msgstr "调试模式"
+
+msgid "Bypass cache on redirect"
+msgstr ""
+
+#, php-format
+msgid ""
+"Enabling this option will add a GET parameter to the URL where we redirect "
+"after a successful registration or login with social login. %1$sLearn "
+"more%2$s."
+msgstr ""
+
+#, fuzzy
+#| msgid "Register"
+msgid "Page for register flow"
+msgstr "注册"
+
+msgid "None"
+msgstr ""
+
+msgid ""
+"This setting is used when you request additional data from the users (such "
+"as email address) and to display the Terms and conditions."
+msgstr ""
+
+#, php-format
+msgid ""
+"%2$s First create a new page and insert the following shortcode: %1$s then "
+"select this page above"
+msgstr ""
+
+#, php-format
+msgid ""
+"%1$s You won't be able to reach the selected page unless a social login/"
+"registration happens."
+msgstr ""
+
+msgid "OAuth redirect uri proxy page"
+msgstr ""
+
+msgid ""
+"You can use this setting when wp-login.php page is not available to handle "
+"the OAuth flow."
+msgstr ""
+
+#, php-format
+msgid "%1$s First create a new page then select this page above."
+msgstr ""
+
+msgid "Prevent external redirect overrides"
+msgstr ""
+
+msgid "Disable external redirects"
+msgstr ""
+
+#, fuzzy
+#| msgid "Oauth Redirect URI"
+msgid "Default redirect url"
+msgstr "Oauth Redirect URI"
+
+#, fuzzy
+#| msgid "Social Login"
+msgid "for Login"
+msgstr "社交登录"
+
+#, fuzzy
+#| msgid "Register"
+msgid "for Register"
+msgstr "注册"
+
+#, fuzzy
+#| msgid "Fixed redirect url for login"
+msgid "Fixed redirect url"
+msgstr "修改登录后重定向URL"
+
+#, fuzzy
+#| msgid "Fixed redirect url for login"
+msgid "Blacklisted redirects"
+msgstr "修改登录后重定向URL"
+
+msgid "If you want to blacklist redirect url params. One pattern per line."
+msgstr ""
+
+#, php-format
+msgid "Please visit to our %1$s to check what plugins are supported!"
+msgstr ""
+
+msgid "Display avatars in \"All media items\""
+msgstr ""
+
+msgid ""
+"Enabling this option can speed up loading images in Media Library - Grid "
+"view!"
+msgstr ""
+
+msgid "Membership"
+msgstr "会员"
+
+#, fuzzy
+#| msgid "Allow registration with Social login"
+msgid "Allow registration with Social login."
+msgstr "允许通过社交登录注册"
+
+#, fuzzy
+#| msgid "Register"
+msgid "Custom label for register buttons"
+msgstr "注册"
+
+#, php-format
+msgid ""
+"Set a custom label for the social buttons in registration forms and for "
+"shortcodes with %1$s parameter set to %2$s.<br>The register specific labels "
+"can be modified at the Buttons tab of each provider."
+msgstr ""
+
+msgid "Redirect overlay"
+msgstr ""
+
+msgid "No overlay"
+msgstr ""
+
+msgid "Display overlay"
+msgstr ""
+
+msgid "Display overlay with spinner"
+msgstr ""
+
+msgid "Display overlay with spinner and message"
+msgstr ""
+
+msgid ""
+"You can display an overlay on your site when we start the redirect after the "
+"authentication."
+msgstr ""
+
+#, php-format
+msgid "%1$s The overlay won't be displayed if the %2$s setting is set to %3$s!"
+msgstr ""
+
+msgid "Note:"
+msgstr ""
+
+msgid "Unsupported WebView behavior"
+msgstr ""
+
+#, fuzzy
+#| msgid "Image button"
+msgid "Remove button"
+msgstr "图片按钮"
+
+#, fuzzy
+#| msgid "Default button"
+msgid "Disable button"
+msgstr "默认按钮"
+
+#, php-format
+msgid "Some %1$sproviders%2$s don't support embedded browsers."
+msgstr ""
+
+msgid ""
+"This setting defines if we should remove or disable the related buttons in "
+"WebView environments."
+msgstr ""
+
+msgid "Below and floating"
+msgstr "下面并浮动"
+
+msgid "Embedded Login form button style"
+msgstr "嵌入式登录表单按钮样式"
+
+msgid "Embedded Login layout"
+msgstr "嵌入式登录表单布局"
+
+#, fuzzy
+#| msgid "Embedded Login form button style"
+msgid "Embedded login form button alignment"
+msgstr "嵌入式登录表单按钮样式"
+
+msgid "Registration Form"
+msgstr "注册信息表"
+
+msgid "Embedded login form"
+msgstr "嵌入登录表单"
+
+#, fuzzy
+#| msgid "Login form"
+msgid "Sign Up form"
+msgstr "登录表单"
+
+#, fuzzy
+#| msgid "No Connect button in login form"
+msgid "No Connect button in Sign Up form"
+msgstr "在登录表单里不要登录按钮"
+
+#, fuzzy
+#| msgid "Login form button style"
+msgid "Sign Up form button style"
+msgstr "登录界面按钮样式"
+
+#, fuzzy
+#| msgid "Login layout"
+msgid "Sign Up layout"
+msgstr "登录界面布局"
+
+#, fuzzy
+#| msgid "WooCommerce account details"
+msgid "Account details"
+msgstr "WooCommerce 账户详情"
+
+msgid "No link buttons"
+msgstr ""
+
+msgid "Link buttons after account details"
+msgstr "链接按钮在账户详情后面"
+
+msgid "Store"
+msgstr ""
+
+msgid "First and last name"
+msgstr ""
+
+msgid "When not enabled, username will be randomly generated."
+msgstr ""
+
+msgid "Email"
+msgstr "Email"
+
+msgid "When not enabled, email will be empty."
+msgstr ""
+
+msgid "Avatar"
+msgstr ""
+
+msgid "Access token"
+msgstr ""
+
+#, fuzzy
+#| msgid "Registration Form"
+msgid "Register Form"
+msgstr "注册信息表"
+
+msgid "No Connect button in login form"
+msgstr "在登录表单里不要登录按钮"
+
+msgid "No Connect button in register form"
+msgstr "不要登录按钮在注册表上"
+
+#, fuzzy
+#| msgid "Login form"
+msgid "Billing form"
+msgstr "登录表单"
+
+msgid "No Connect button in billing form"
+msgstr "不要链接按钮在结算表单"
+
+#, fuzzy
+#| msgid "Login layout"
+msgid "Billing layout"
+msgstr "登录界面布局"
+
+#, fuzzy
+#| msgid "Below with separator"
+msgid "Default with separator"
+msgstr "下面并分割"
+
+#, fuzzy
+#| msgid "Connect button before account details"
+msgid "No Connect buttons in account details form"
+msgstr "登录按钮在账户详情之前"
+
+#, fuzzy
+#| msgid "Icon button"
+msgid "Link buttons on"
+msgstr "图标按钮"
+
+#, fuzzy
+#| msgid "Ask E-mail on registration"
+msgid "Email template for registration"
+msgstr "注册时询问E-MAIL"
+
+#, fuzzy
+#| msgid "WordPress default"
+msgid "WordPress default notification"
+msgstr "WordPress 默认"
+
+#, fuzzy
+#| msgid "WooCommerce register form"
+msgid "WooCommerce registration notification"
+msgstr "WooCommerce 注册表单"
+
+#, php-format
+msgid ""
+"Defines whether the registration with %1$s will send the same registration "
+"notification that %2$s does, instead of the %3$s default one."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Authentication successful"
+msgid "Network connection successful: %1$s"
+msgstr "授权成功"
+
+#, php-format
+msgid "Network connection failed: %1$s"
+msgstr ""
+
+msgid ""
+"Please contact with your hosting provider to resolve the network issue "
+"between your server and the provider."
+msgstr ""
+
+msgid "Manage Avatar"
+msgstr ""
+
+#, php-format
+msgid "Avatar <span class=\"count\">(%s)</span>"
+msgid_plural "Avatar <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+
+#, php-format
+msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
+msgstr ""
+
+msgid "https://wordpress.org/"
+msgstr ""
+
+msgid "Powered by WordPress"
+msgstr ""
+
+#, php-format
+msgctxt "site"
+msgid "&larr; Back to %s"
+msgstr ""
+
+msgid "Your configuration needs to be verified"
+msgstr "您的配置需要验证"
+
+msgid ""
+"Before you can start letting your users register with your app it needs to "
+"be tested. This test makes sure that no users will have troubles with the "
+"login and registration process. <br> If you see error message in the popup "
+"check the copied ID and secret or the app itself. Otherwise your settings "
+"are fine."
+msgstr ""
+"在开始让用户注册之前，需要对您的应用程序进行测试。 此测试可确保用户在登录和注"
+"册过程中不会遇到麻烦。 <br>如果您在弹出窗口中看到错误消息，请检查复制的ID和密"
+"码。如果没有错误信息，说明你的程序运行正常。"
+
+msgid "Please save your changes to verify settings."
+msgstr "请保存您的更改以验证。"
+
+msgid "Works Fine"
+msgstr "运行正常"
+
+#, php-format
+msgid ""
+"This provider is currently disabled, which means that users can’t register "
+"or login via their %s account."
+msgstr "该通道目前已被禁用，用户无法通过其 %s 帐户注册或登录。"
+
+#, php-format
+msgid ""
+"This provider works fine, but you can test it again. If you don’t want to "
+"let users register or login with %s anymore you can disable it."
+msgstr ""
+"该通道工作正常，但可以再次进行测试。 如果您不想让用户通过 %s 注册或登录，可以"
+"禁用它。"
+
+#, php-format
+msgid ""
+"This provider is currently enabled, which means that users can register or "
+"login via their %s account."
+msgstr "该通道目前已启用，这意味着用户可以通过 %s 账户进行注册或登录。"
+
+msgid "Verify Settings Again"
+msgstr "再次验证设置"
+
+msgid "Please save your changes before verifying settings."
+msgstr ""
+
+msgid "Authentication successful"
+msgstr "授权成功"
+
+msgid "Authentication error"
+msgstr "授权认证出错"
+
+msgid "Unlink successful."
+msgstr "解除链接成功."
+
+msgid "Unlink is not allowed!"
+msgstr ""
+
+msgid "The test was successful"
+msgstr "测试成功"
+
+msgid "Authentication failed"
+msgstr "授权认证失败"
+
+msgid "Identifier"
+msgstr ""
+
+msgid "Profile Picture"
+msgstr ""
+
+#, php-format
+msgid ""
+"Your %1$s account is successfully linked with your account. Now you can sign "
+"in with %2$s easily."
+msgstr "你的 %1$s 账号已经成功链接到你的网站帐号. 你可以快速登录 %2$s ."
+
+#, fuzzy, php-format
+#| msgid ""
+#| "You have already linked a(n) %s account. Please unlink the current and "
+#| "then you can link other %s account."
+msgid ""
+"You have already linked a(n) %s account. Please unlink the current and then "
+"you can link another %s account."
+msgstr ""
+"你已经链接了 a(n) %s 账号. 请解除现有的链接账号，你才可以重新链接 %s 账号。"
+
+#, fuzzy, php-format
+#| msgid "This %s account is already linked to other user."
+msgid "This %s account is already linked to another user."
+msgstr "这个 %s 账号已经链接到了其他用户。"
+
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#, php-format
+msgid ""
+"We found a user with your %1$s email address. Unfortunately it belongs to a "
+"different %1$s account, so we are unable to log you in. Please use the "
+"linked %1$s account or log in with your password!"
+msgstr ""
+
+#, fuzzy
+#| msgid "Register For This Site!"
+msgid "Register For This Site"
+msgstr "注册此网站！"
+
+#, php-format
+msgid "%1$s requires PHP version %2$s+, plugin is currently NOT ACTIVE."
+msgstr ""
+
+#, php-format
+msgid ""
+"%1$s requires WordPress version %2$s+. Because you are using an earlier "
+"version, the plugin is currently NOT ACTIVE."
+msgstr ""
+
+#, php-format
+msgid "Please update %1$s to version %2$s or newer."
+msgstr "请更新 %1$s 到 %2$s 版本."
+
+msgid "Update now!"
+msgstr "现在更新！"
+
+msgid ""
+"By clicking Register, you accept our <a href=\"#privacy_policy_url\" "
+"target=\"_blank\">Privacy Policy</a>"
+msgstr ""
+
+msgid "Hold On"
+msgstr ""
+
+msgid "You are being redirected to another page,<br>it may take a few seconds."
+msgstr ""
+
+msgid "The selected provider doesn't support embedded browsers!"
+msgstr ""
+
+msgid "Social Login"
+msgstr "社交登录"
+
+#, fuzzy
+#| msgid "Buttons"
+msgid "Button skin"
+msgstr "按钮"
+
+msgid "Dark"
+msgstr ""
+
+msgid "Light"
+msgstr ""
+
+msgid "Black"
+msgstr ""
+
+msgid "White"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Navigate to %s"
+msgid "Navigate to <b>%s</b>"
+msgstr "导航 %s"
+
+#, php-format
+msgid "Log in with your %s credentials if you are not logged in"
+msgstr "如果您未登录，请使用您的 %s 凭据登录"
+
+#, fuzzy, php-format
+#| msgid "Click on the App with App ID: %s"
+msgid "Click on the App with App ID: <b>%s</b>"
+msgstr "点击应用程序ID为：%s"
+
+#, php-format
+msgid ""
+"Click on the %1$s tab on the left side and then click on the %2$s button "
+"that appears next to the %3$s item."
+msgstr ""
+
+#, php-format
+msgid ""
+"Press the %1$s button that you can find below the %2$s section, next to %3$s."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#| "b>"
+msgid "Add the following URL to the %s field:"
+msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Click on the %1$s button."
+msgstr "点击创建按钮"
+
+#, php-format
+msgid ""
+"%1$s allows HTTPS OAuth Redirects only. You must move your site to HTTPS in "
+"order to allow login with %1$s."
+msgstr ""
+
+msgid "How to get SSL for my WordPress site?"
+msgstr ""
+
+#, php-format
+msgid ""
+"To allow your visitors to log in with their %1$s account, first you must "
+"create a %1$s App. The following guide will help you through the %1$s App "
+"creation process. After you have created your %1$s App, head over to "
+"\"Settings\" and configure the given \"%2$s\" and \"%3$s\" according to your "
+"%1$s App."
+msgstr ""
+"要想允许你的访问者使用 %1$s 账号登录，你首先要建立一个 %1$s 应用。下面的导航"
+"将帮助你了解 %1$s 应用建立的过程，然后你可以建立一个你自己的 %1$s App。转到"
+"\"设置“，然后根据你的 %1$s 配置，给予 \"%2$s\" and \"%3$s\"。"
+
+#, php-format
+msgid ""
+"<u><b>WARNING:</b></u> As of February 1, 2023, %1$s requires Business "
+"Verification for Advanced Access, which is necessary for the Facebook login "
+"feature. This means that, individuals can no longer use %1$s login on their "
+"websites to offer social login for their visitors, only verified businesses "
+"will be able to use this provider! For more information about this "
+"limitation, please check the %2$sofficial statement%3$s. "
+msgstr ""
+
+#, php-format
+msgctxt "App creation"
+msgid "Create %s"
+msgstr "建立 %s"
+
+#, php-format
+msgid "Navigate to %s"
+msgstr "导航 %s"
+
+#, fuzzy, php-format
+#| msgid "Log in with your %s credentials if you are not logged in"
+msgid "Log in with your %s credentials if you are not logged in."
+msgstr "如果您未登录，请使用您的 %s 凭据登录"
+
+#, php-format
+msgid ""
+"Click on the %1$s button and then choose the %2$s option as use case and "
+"press %3$s!"
+msgstr ""
+
+#, php-format
+msgid ""
+"Fill the %1$s and %2$s fields. The specified app name will appear on your "
+"%3$s!"
+msgstr ""
+
+#, php-format
+msgid ""
+"%1$sOptional%2$s: choose a %3$s if you would like to. If you didn't choose a "
+"%3$s at this point, you will need to select it in step 19, before you start "
+"the %4$s! "
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Click on the \"Create New App\" button"
+msgid "Click the %1$s button and complete the Security Check."
+msgstr "点击\"创建新应用\"按钮"
+
+#, php-format
+msgid ""
+"A message at the top of the page might prompt you to switch to %1$s. Ignore "
+"that, as our integration is for %2$s!"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Click on the \"Create New App\" button"
+msgid ""
+"Click on the %1$s button. (If you receive a blank page after you pressed the "
+"%1$s button, you might need to refresh the page.)"
+msgstr "点击\"创建新应用\"按钮"
+
+#, php-format
+msgid ""
+"Press the %1$s button on the top right corner, so you can return to the "
+"previous page."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Name your project and then click on the Create button"
+msgid ""
+"Below the %1$s section, find the %2$s permission and click on the %3$s "
+"button."
+msgstr "命名您的项目，然后点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Press the %1$s button on the top right corner again."
+msgstr "点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid "Name your project and then click on the Create button"
+msgid "On the left side, click on the %1$s tab, then click %2$s."
+msgstr "命名您的项目，然后点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid "Enter your domain name to the App Domains"
+msgid "Enter your domain name to the %1$s field, probably: %2$s"
+msgstr "填写你的域名到 应用域名"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Fill up the \"Privacy Policy URL\". Provide a publicly available and "
+#| "easily accessible privacy policy that explains what data you are "
+#| "collecting and how you will use that data."
+msgid ""
+"Fill up the %1$s field. Provide a publicly available and easily accessible "
+"privacy policy that explains what data you are collecting and how you will "
+"use that data."
+msgstr ""
+"填写“隐私政策URL”。 提供公开可用且易于访问的隐私政策页面，解释您收集的数据以"
+"及您将如何使用该数据。"
+
+#, php-format
+msgid ""
+"At %1$s, choose the %2$s option, and enter the %3$s with the instructions on "
+"how users can delete their accounts on your site."
+msgstr ""
+
+msgid ""
+"To comply with GDPR, you should already offer possibility to delete accounts "
+"on your site, either by the user or by the admin:"
+msgstr ""
+
+#, php-format
+msgid ""
+"%1$sIf each user has an option to delete the account%2$s: the URL should "
+"point to a guide showing the way users can delete their accounts."
+msgstr ""
+
+#, php-format
+msgid ""
+"%1$sIf the accounts are deleted by an admin%2$s: then you should have a "
+"section - usually in the Privacy Policy - with the contact details, where "
+"users can send their account erasure requests. In this case the URL should "
+"point to this section of the document."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Select a %1$s, an %2$s."
+msgstr "点击创建按钮"
+
+#, php-format
+msgid "Scroll down to the bottom of the page, press the %s button."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#| "b>"
+msgid ""
+"Select %1$s platform, then press %2$s and enter the following URL into the "
+"%3$s field: %4$s"
+msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, php-format
+msgid "Press the %s button."
+msgstr ""
+
+#, php-format
+msgid ""
+"By default, your application only has Standard Access for the %1$s and %2$s "
+"permissions, which means that only you can log in with it. To get Advanced "
+"Access you will need to go trough the %3$s, that you can start on the %4$s "
+"tab on the left side."
+msgstr ""
+
+#, php-format
+msgid ""
+"Currently your app is in Development Mode which also means that people "
+"outside of your business can not use it. Once your verification is "
+"completed, click on the %1$s tab and publish your app by clicking on the "
+"%1$s button at the bottom right corner. Before you press it, it is "
+"recommended to check the steps listed on the %2$s page, if you configured "
+"everything properly."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Name your project and then click on the Create button"
+msgid "After everything is done, click on the %1$s tab, then click %2$s."
+msgstr "命名您的项目，然后点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Here you can see your \"APP ID\" and you can see your \"App secret\" if "
+#| "you click on the \"Show\" button. These will be needed in plugin's "
+#| "settings."
+msgid ""
+"At the top of the page you can find your %1$s and you can see your %2$s if "
+"you click on the %3$s button. These will be needed in plugin’s settings."
+msgstr ""
+"然后，你可以看见你的 \"APP ID\" 和 \"APP secret\"密匙，你可以看到\"显示\"按"
+"钮，这些都需要填写到插件的设置里。"
+
+#, php-format
+msgid ""
+"<b>WARNING:</b> <u>Don't replace your Facebook App with another!</u> Since "
+"WordPress users with linked Facebook accounts can only login using the %1$s "
+"App, that was originally used at the time, when the WordPress account was "
+"linked with a %1$s Account.<br>\n"
+"If you would like to know the reason of this, or you really need to replace "
+"the Facebook App, then please check our %2$sdocumentation%3$s."
+msgstr ""
+
+msgid "Maintaining the Facebook App:"
+msgstr ""
+
+#, php-format
+msgid ""
+"<strong><u>Facebook Data Use Checkup:</u></strong> To protecting people's "
+"privacy, Facebook might requests you to fill some forms, so they can ensure "
+"that your API access and data use comply with the Facebook policies.\n"
+"If Facebook displays the \"%1$s\" modal for your App, then in our "
+"%2$sdocumentation%3$s you can find more information about the permissions "
+"that we need."
+msgstr ""
+
+#, php-format
+msgid "I am done setting up my %s"
+msgstr "我已经设置完毕我的 %s"
+
+msgid "App ID"
+msgstr "应用程序 ID"
+
+msgid "Required"
+msgstr "请求"
+
+#, php-format
+msgid ""
+"If you are not sure what is your %1$s, please head over to <a "
+"href=\"%2$s\">Getting Started</a>"
+msgstr "如果你不确定，什么是你的 %1$s, 请转到 <a href=\"%2$s\">现在开始</a>"
+
+msgid "App Secret"
+msgstr "App 密匙"
+
+#, php-format
+msgid ""
+"By replacing your existing %1$s App, users with linked %1$s accounts will no "
+"longer be able to login with %1$s."
+msgstr ""
+
+msgid "Find out why?"
+msgstr ""
+
+msgid "Profile image size"
+msgstr ""
+
+msgid "Small"
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "Large"
+msgstr ""
+
+msgid "Extra Large"
+msgstr ""
+
+msgid "Continue with <b>Facebook</b>"
+msgstr "通过 <b>Facebook</b>"
+
+#, fuzzy
+#| msgid "Continue with <b>Facebook</b>"
+msgid "Sign up with <b>Facebook</b>"
+msgstr "通过 <b>Facebook</b>"
+
+msgid "Link account with <b>Facebook</b>"
+msgstr "关联 <b>Facebook</b> 账号"
+
+msgid "Unlink account from <b>Facebook</b>"
+msgstr "解除关联 <b>Facebook</b> 账号"
+
+#, php-format
+msgid ""
+"The %1$s entered did not appear to be a valid. Please enter a valid %2$s."
+msgstr "输入的 %1$s 似乎不是有效的。 请输入有效的 %2$s."
+
+#, php-format
+msgid "Required scope: %1$s"
+msgstr ""
+
+msgid "Uniform - Legacy"
+msgstr ""
+
+#, fuzzy
+#| msgid "Click on the \"Credentials\" in the left hand menu"
+msgid "Click on the \"<b>Credentials</b>\" in the left hand menu"
+msgstr "点击左侧菜单的\"凭据\""
+
+#, php-format
+msgid ""
+"Under the \"<b>OAuth 2.0 Client IDs</b>\" section find your Client ID: "
+"<b>%s</b>"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Make sure that the \"%1$s\" field contains %2$s"
+msgid ""
+"Under the \"<b>%1$s</b>\" section click \"<b>%2$s</b>\" and add the "
+"following URL:"
+msgstr "确保 \"%1$s\" 包含 %2$s"
+
+#, fuzzy
+#| msgid "Click on \"Save\""
+msgid "Click on \"<b>Save</b>\""
+msgstr "点击\"保存“"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "If you don't have a project yet, you'll need to create one. You can do "
+#| "this by clicking on the blue \"Create project\" button on the right side"
+msgid ""
+"If you don't have a project yet, you'll need to create one. You can do this "
+"by clicking on the blue \"<b>%1$s</b>\" text on the right side!  ( If you "
+"already have a project, then in the top bar click on the name of your "
+"project instead, which will bring up a modal and click <b>\"%2$s\"</b>. )"
+msgstr ""
+"如果你还没有项目，你需要创建一个。 您可以点击右侧蓝色的“创建项目”按钮来完成此"
+"操作"
+
+#, fuzzy, php-format
+#| msgid "Name your project and then click on the Create button"
+msgid "Name your project and then click on the \"<b>%1$s</b>\" button again!"
+msgstr "命名您的项目，然后点击创建按钮"
+
+msgid ""
+"Once you have a project, you'll end up in the dashboard. ( If earlier you "
+"have already had a Project, then make sure you select the created project in "
+"the top bar! )"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Click on the \"Credentials\" in the left hand menu"
+msgid "Click the “<b>%1$s</b>” button on the left hand side."
+msgstr "点击左侧菜单的\"凭据\""
+
+#, php-format
+msgid ""
+"Choose a <b>%1$s</b> according to your needs and press \"<b>%2$s</b>\". If "
+"you want to enable the social login with %3$s for any users with a %3$s "
+"account, then pick the \"%4$s\" option!"
+msgstr ""
+
+#, php-format
+msgid ""
+"<b>Note:</b> We don't use sensitive or restricted scopes either. But if you "
+"will use this App for other purposes too, then you may need to go through an "
+"%1$s!"
+msgstr ""
+
+#, php-format
+msgid ""
+"Enter a name for your App to the \"<b>%1$s</b>\" field, which will appear as "
+"the name of the app asking for consent."
+msgstr ""
+
+#, php-format
+msgid ""
+"For the \"<b>%1$s</b>\" field, select an email address that users can use to "
+"contact you with questions about their consent."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Fill \"Site URL\" with the url of your homepage, probably: <b>%s</b>"
+msgid "Fill the %1$s field with the url of your homepage, probably: %2$s"
+msgstr "将你网站的首页URL填写到 \"网站URL\"，应该是 <b>%s</b>"
+
+#, php-format
+msgid ""
+"Enter your privacy policy and terms of service links into the %1$s and %2$s "
+"fields."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Fill \"Site URL\" with the url of your homepage, probably: <b>%s</b>"
+msgid ""
+"Under the \"<b>%1$s</b>\" section press the \"<b>%2$s</b>\" button and  "
+"enter your domain name, probably: <b>%3$s</b> without subdomains!"
+msgstr "将你网站的首页URL填写到 \"网站URL\"，应该是 <b>%s</b>"
+
+#, php-format
+msgid ""
+"At the \"<b>%1$s</b>\" section, enter an email address that %2$s can use to "
+"notify you about any changes to your project."
+msgstr ""
+
+#, php-format
+msgid ""
+"Press \"<b>%1$s</b>\" then press it again on the \"%2$s\", \"%3$s\" pages, "
+"too!"
+msgstr ""
+
+#, php-format
+msgid ""
+"On the left side, click on the \"<b>%1$s</b>\" menu point, then click the "
+"\"<b>%2$s</b>\" button in the top bar."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Choose the \"<b>%1$s</b>\" option."
+msgstr "点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid "Click on the \"Create New App\" button"
+msgid "Select the \"<b>%1$s</b>\" under Application type."
+msgstr "点击\"创建新应用\"按钮"
+
+#, php-format
+msgid "Enter a \"<b>%1$s</b>\" for your OAuth client ID."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Click on the \"<b>%1$s</b>\" button"
+msgstr "点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "A modal should pop up with your credentials. If that doesn't happen, go "
+#| "to the Credentials in the left hand menu and select your app by clicking "
+#| "on its name and you'll be able to copy-paste the Client ID and Client "
+#| "Secret from there."
+msgid ""
+"A modal should pop up with your credentials. If that doesn't happen, go to "
+"the %1$s in the left hand menu and select your app by clicking on its name "
+"and you'll be able to copy-paste the \"<b>%2$s</b>\" and \"<b>%3$s</b>\" "
+"from there."
+msgstr ""
+"您的凭据会以弹出的形式出现。 如果这种情况没有发生，请转到左侧菜单中的凭证，并"
+"通过单击其名称选择您的应用程序，然后您可以从那里复制粘贴客户端ID和客户端密"
+"钥。"
+
+#, php-format
+msgid ""
+"Currently your App is in %1$s mode, so only limited number of people can use "
+"it. To allow this App for any user with a Google Account, click on the "
+"\"%2$s\" option on the left side, then click the \"%3$s\" button under the "
+"\"%4$s\" section, and press the \"%5$s\" button. "
+msgstr ""
+
+msgid "Client ID"
+msgstr "客户端ID"
+
+msgid "Client Secret"
+msgstr "客户端密码"
+
+msgid "Select account on each login"
+msgstr ""
+
+msgid ""
+"Disable, when you don't want to see the account select prompt on each login."
+msgstr ""
+
+msgid "Continue with <b>Google</b>"
+msgstr "通过 <b>Google</b>"
+
+#, fuzzy
+#| msgid "Continue with <b>Google</b>"
+msgid "Sign up with <b>Google</b>"
+msgstr "通过 <b>Google</b>"
+
+msgid "Link account with <b>Google</b>"
+msgstr "关联 <b>Google</b>"
+
+msgid "Unlink account from <b>Google</b>"
+msgstr "取消关联 <b>Google</b>"
+
+#, fuzzy, php-format
+#| msgid "Required"
+msgid "Required API: %1$s"
+msgstr "请求"
+
+msgid "X"
+msgstr ""
+
+msgid "Legacy"
+msgstr "旧版"
+
+#, fuzzy, php-format
+#| msgid "In the left sidebar, click on \"Facebook Login/Settings\""
+msgid "On the left side, under the %s section click on the name of your App."
+msgstr "在左侧，点击\"Facebook 登录/设置\""
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Click on the %1$s button at %2$s."
+msgstr "点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid "Make sure that the \"%1$s\" field contains %2$s"
+msgid "Make sure the %1$s field contains the following URL: %2$s"
+msgstr "确保 \"%1$s\" 包含 %2$s"
+
+#, fuzzy, php-format
+#| msgid "Click on \"Save\""
+msgid "Click on %s"
+msgstr "点击\"保存“"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "To allow your visitors to log in with their %1$s account, first you must "
+#| "create a %1$s App. The following guide will help you through the %1$s App "
+#| "creation process. After you have created your %1$s App, head over to "
+#| "\"Settings\" and configure the given \"%2$s\" and \"%3$s\" according to "
+#| "your %1$s App."
+msgid ""
+"To allow your visitors to log in with their %1$s account, first you must "
+"create an %1$s App. The following guide will help you through the %1$s App "
+"creation process. After you have created your %1$s App, head over to "
+"\"Settings\" and configure the given \"%2$s\" and \"%3$s\" according to your "
+"%1$s App."
+msgstr ""
+"要想允许你的访问者使用 %1$s 账号登录，你首先要建立一个 %1$s 应用。下面的导航"
+"将帮助你了解 %1$s 应用建立的过程，然后你可以建立一个你自己的 %1$s App。转到"
+"\"设置“，然后根据你的 %1$s 配置，给予 \"%2$s\" and \"%3$s\"。"
+
+msgid ""
+"If you don't have a developer account yet, please apply one by filling all "
+"the required details! This is required for the next steps!"
+msgstr ""
+
+#, php-format
+msgid ""
+"Once your developer account is complete, navigate back to <b>%s</b> if you "
+"aren't already there!"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Click on \"Save\""
+msgid "Click on \"<b>%s</b>\"!"
+msgstr "点击\"保存“"
+
+#, php-format
+msgid ""
+"Name your project, and go through the basic setup. You’ll need to select "
+"your use case, give a description then click the %s button."
+msgstr ""
+
+#, php-format
+msgid "Choose the %1$s option for %2$s, then press %3$s!"
+msgstr ""
+
+#, php-format
+msgid "Into the %1$s field, enter a name for your App, then press %2$s again!"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Click on the  the %1$s button on the bottom right corner."
+msgstr "点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid "Name your project and then click on the Create button"
+msgid "Scroll down and click on the %1$s button at %2$s."
+msgstr "命名您的项目，然后点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Choose the %1$s option at %2$s."
+msgstr "点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Select the %1$s option for %2$s."
+msgstr "点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#| "b>"
+msgid "Enter your site's URL to the \"<b>%1$s</b>\" field: <b>%2$s</b>"
+msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy, php-format
+#| msgid "Click on \"Save\""
+msgid "Click on %s."
+msgstr "点击\"保存“"
+
+#, php-format
+msgid ""
+"Find your %1$s and %2$s. Copy and paste the credentials to the corresponding "
+"fields at %3$s and press %4$s."
+msgstr ""
+
+#, php-format
+msgid "Verify the settings and enable the %1$s provider!"
+msgstr ""
+
+#, php-format
+msgid ""
+"%1$s: %2$s has some %3$srate limits%4$s that you need to consider before you "
+"choose a plan. For example we use the %5$s endpoint, which have:"
+msgstr ""
+
+msgid "WARNING"
+msgstr ""
+
+#, php-format
+msgid ""
+"%1$s which means a user can make a fix number of requests every 24 hours."
+msgstr ""
+
+#, fuzzy
+#| msgid "User and Admin"
+msgid "User Rate Limit:"
+msgstr "用户和管理员"
+
+#, php-format
+msgid ""
+"%1$s which means your App can serve a fix number of requests in total every "
+"30 days. This limit is shared between all users and applied to the entire "
+"project."
+msgstr ""
+
+msgid "Effective 30-day limit:"
+msgstr ""
+
+#, php-format
+msgid ""
+"Once the rate limit is reached, people won't be able to login with %1$s "
+"until the limit resets. If you want to have a higher limit, you might need "
+"to upgrade to the %3$sBasic plan of %2$s %4$s."
+msgstr ""
+
+#, php-format
+msgid ""
+"You’ll find your API key and secret on this page. Copy and paste the "
+"\"<b>%1$s</b>\" and the \"<b>%2$s</b>\" to the corresponding fields at %3$s "
+"and press \"<b>Save Changes</b>\"."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "In the left sidebar, click on \"Facebook Login/Settings\""
+msgid ""
+"Go back to your X project and on the left side, under the \"<b>%s</b>\" "
+"section click on the name of your App."
+msgstr "在左侧，点击\"Facebook 登录/设置\""
+
+#, php-format
+msgid ""
+"If you want to get the email address as well, then don’t forget to enable "
+"the %1$s option. In this case you also need to fill the \"<b>%2$s</b>\" and "
+"the \"<b>%3$s</b>\" fields with the corresponding URLs!"
+msgstr ""
+
+#, php-format
+msgid "Go back to %1$s then <b>verify</b> and <b>enable</b> the %2$s provider!"
+msgstr ""
+
+msgid "API version"
+msgstr ""
+
+msgid "v1.1"
+msgstr ""
+
+msgid "v2"
+msgstr ""
+
+msgid "API Key"
+msgstr ""
+
+#, fuzzy
+#| msgid "App Secret"
+msgid "API Key Secret"
+msgstr "App 密匙"
+
+msgid "Original"
+msgstr ""
+
+#, fuzzy
+#| msgid "Continue with <b>VK</b>"
+msgid "Continue with <b>X</b>"
+msgstr "通过 <b>VK</b>"
+
+#, fuzzy
+#| msgid "Continue with <b>VK</b>"
+msgid "Sign up with <b>X</b>"
+msgstr "通过 <b>VK</b>"
+
+#, fuzzy
+#| msgid "Link account with <b>VK</b>"
+msgid "Link account with <b>X</b>"
+msgstr "关联 <b>VK</b>"
+
+#, fuzzy
+#| msgid "Unlink account from <b>VK</b>"
+msgid "Unlink account from <b>X</b>"
+msgstr "取消关联 <b>VK</b>"
+
+#, fuzzy
+#| msgid "Register"
+msgctxt "Register form submit button label"
+msgid "Register"
+msgstr "注册"
+
+#, php-format
+msgid "%s Buttons"
+msgstr "%s 按钮"
+
+msgid "Title:"
+msgstr "标题:"
+
+msgid "Button style:"
+msgstr "按钮样式:"
+
+#, fuzzy
+#| msgid "Buttons"
+msgid "Button align:"
+msgstr "按钮"
+
+msgid "Show link buttons"
+msgstr ""
+
+msgid "Show unlink buttons"
+msgstr ""
+
+msgid "Social login is not allowed with this role!"
+msgstr "此用户组不允许社交登录！"
+
+msgid "Please enter a username."
+msgstr "请输入用户名."
+
+msgid ""
+"This username is invalid because it uses illegal characters. Please enter a "
+"valid username."
+msgstr "此用户名无效，因为它使用了非法字符。 请输入有效的用户名。"
+
+#, fuzzy
+#| msgid "This username is already registered. Please choose another one."
+msgid ""
+"<strong>Error</strong>: This username is already registered. Please choose "
+"another one."
+msgstr "这个用户名已经有人注册，请选择其他的。"
+
+#, fuzzy
+#| msgid "Sorry, that username is not allowed."
+msgid "<strong>Error</strong>: Sorry, that username is not allowed."
+msgstr "对不起，这个用户名不允许使用。"
+
+#, fuzzy
+#| msgid "Please enter an email address."
+msgid "<strong>Error</strong>: Please enter an email address."
+msgstr "请输入电子邮箱."
+
+#, fuzzy
+#| msgid "The email address isn&#8217;t correct."
+msgid "<strong>Error</strong>: The email address isn&#8217;t correct."
+msgstr "邮箱地址是n&#8217;t 正确."
+
+#, fuzzy
+#| msgid "This email is already registered, please choose another one."
+msgid ""
+"<strong>Error</strong>: This email is already registered. Please choose "
+"another one."
+msgstr "这个邮箱已经注册使用过，请选择其他的。"
+
+msgid "<strong>Error</strong>: Please enter a password."
+msgstr ""
+
+msgid "<strong>Error</strong>: Passwords may not contain the character \"\\\"."
+msgstr ""
+
+msgid ""
+"<strong>Error</strong>: Passwords don&#8217;t match. Please enter the same "
+"password in both password fields."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid ""
+#| "This email is already registered, please login in to your account to link "
+#| "with Facebook."
+msgid ""
+"This email is already registered, please login in to your account to link "
+"with %1$s."
+msgstr "这个电子邮件已经注册过，请登录到您的帐户以链接到Facebook。"
+
+msgid "Unexpected response: The provider didn't return the Authorization URL!"
+msgstr ""
+
+msgid "Unexpected response: Authentication has been cancelled!"
+msgstr ""
+
+msgid "Unexpected response: Immediate request failed - Setup Needed!"
+msgstr ""
+
+msgid ""
+"Unexpected response: The targeted OpenID server is not authorized to verify "
+"this request!"
+msgstr ""
+
+msgid "Unexpected response: OpenID Verification failed!"
+msgstr ""
+
+#, php-format
+msgid "Please install and activate %1$s to use the %2$s"
+msgstr ""
+
+msgid "Network Activate"
+msgstr ""
+
+msgid "Install now!"
+msgstr ""
+
+#, fuzzy
+#| msgid "Providers"
+msgid "Social Providers"
+msgstr "提供商"
+
+#, php-format
+msgid ""
+"The Facebook Sync data needs an approved %1$s and your App must use the "
+"latest %2$s version!"
+msgstr ""
+
+#, php-format
+msgid ""
+"Most of these information can only be retrieved, when the field is marked as "
+"Public on the user's %s page!"
+msgstr ""
+
+#, php-format
+msgid ""
+"Most of these information can only be retrieved, when the field is filled on "
+"the user's %s page!"
+msgstr ""
+
+#, php-format
+msgid ""
+"The Spotify Sync data requires the %1$s with the necessary scopes enabled!"
+msgstr ""
+
+#, php-format
+msgid ""
+"The TikTok Sync data requires the %1$s with the necessary scopes enabled!"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Visit %s."
+msgid "Visit %s"
+msgstr "访问 %s."
+
+msgid ""
+"On the right side, under \"<b>Manage</b>\", hover over the gear icon and "
+"select \"<b>Web Settings</b>\" option."
+msgstr ""
+
+msgid "Click \"<b>Edit</b>\"."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#| "b>"
+msgid "Add the following URL to the %s field: "
+msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy
+#| msgid ""
+#| "If you don't have a project yet, you'll need to create one. You can do "
+#| "this by clicking on the blue \"Create project\" button on the right side"
+msgid ""
+"If you don't have a Security Profile yet, you'll need to create one. You can "
+"do this by clicking on the orange \"<b>Create a New Security Profile</b>\" "
+"button on the left side."
+msgstr ""
+"如果你还没有项目，你需要创建一个。 您可以点击右侧蓝色的“创建项目”按钮来完成此"
+"操作"
+
+msgid ""
+"Fill \"<b>Security Profile Name</b>\", \"<b>Security Profile Description</"
+"b>\" and \"<b>Consent Privacy Notice URL</b>\"."
+msgstr ""
+
+msgid "Once you filled all the required fields, click \"<b>Save</b>\"."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Fill \"Site URL\" with the url of your homepage, probably: <b>%s</b>"
+msgid ""
+"Fill \"<b>Allowed Origins</b>\" with the url of your homepage, probably: "
+"<b>%s</b>"
+msgstr "将你网站的首页URL填写到 \"网站URL\"，应该是 <b>%s</b>"
+
+msgid "When all fields are filled, click \"<b>Save</b>\"."
+msgstr ""
+
+#, fuzzy
+#| msgid ""
+#| "Here you can see your \"APP ID\" and you can see your \"App secret\" if "
+#| "you click on the \"Show\" button. These will be needed in plugin's "
+#| "settings."
+msgid ""
+"Find the necessary \"<b>Client ID</b>\" and \"<b>Client Secret</b>\" at the "
+"middle of the page, under the \"<b>Web Settings</b>\" tab."
+msgstr ""
+"然后，你可以看见你的 \"APP ID\" 和 \"APP secret\"密匙，你可以看到\"显示\"按"
+"钮，这些都需要填写到插件的设置里。"
+
+msgid "Continue with <b>Amazon</b>"
+msgstr "通过 <b>Amazon</b>"
+
+#, fuzzy
+#| msgid "Continue with <b>Amazon</b>"
+msgid "Sign up with <b>Amazon</b>"
+msgstr "通过 <b>Amazon</b>"
+
+msgid "Link account with <b>Amazon</b>"
+msgstr "关联 <b>Amazon</b> 账号"
+
+msgid "Unlink account from <b>Amazon</b>"
+msgstr "解除关联 <b>Amazon</b> 账号"
+
+#, fuzzy
+#| msgid "Click on the Create button"
+msgid "Click on the name of your service."
+msgstr "点击创建按钮"
+
+msgid ""
+"Click the \"<b>Configure</b>\" button next to \"<b>Sign In with Apple</b>\"."
+msgstr ""
+
+#, php-format
+msgid "Click the <b>blue + icon</b> next to %1$s heading."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Fill \"Site URL\" with the url of your homepage, probably: <b>%s</b>"
+msgid ""
+"Fill the \"<b>Domains and Subdomains</b>\" field with your domain name "
+"probably: <b>%s</b>"
+msgstr "将你网站的首页URL填写到 \"网站URL\"，应该是 <b>%s</b>"
+
+msgid ""
+"Finally press \"<b>Next</b>\" then \"<b>Done</b>\" and finally click on the "
+"\"<b>Continue</b>\" and the \"<b>Save</b>\" button!"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid ""
+#| "To allow your visitors to log in with their %1$s account, first you must "
+#| "create a %1$s App. The following guide will help you through the %1$s App "
+#| "creation process. After you have created your %1$s App, head over to "
+#| "\"Settings\" and configure the given \"%2$s\" and \"%3$s\" according to "
+#| "your %1$s App."
+msgid ""
+"To allow your visitors to log in with their %1$s account, first you must "
+"create an %1$s App. The following guide will help you through the %1$s App "
+"creation process. After you have created your %1$s App, head over to "
+"\"Settings\" and configure the given \"%2$s\", \"%3$s\", \"%4$s\" and "
+"\"%5$s\" according to your %1$s App."
+msgstr ""
+"要想允许你的访问者使用 %1$s 账号登录，你首先要建立一个 %1$s 应用。下面的导航"
+"将帮助你了解 %1$s 应用建立的过程，然后你可以建立一个你自己的 %1$s App。转到"
+"\"设置“，然后根据你的 %1$s 配置，给予 \"%2$s\" and \"%3$s\"。"
+
+msgid ""
+"Make sure you have an <strong>active subscription for the <a href=\"https://"
+"developer.apple.com/programs/\" target=\"_blank\">Apple Developer Program</"
+"a></strong>, as that is necessary for both creating and maintaining an Apple "
+"App!"
+msgstr ""
+
+msgid ""
+"Make sure your site have <b>SSL</b>, since <b>Apple only allows HTTPS urls</"
+"b>!"
+msgstr ""
+
+msgid "1.) Create the associated App:"
+msgstr ""
+
+#, php-format
+msgid ""
+"Click the <b>blue + icon</b> next to %1$s, then select the <b>%2$s</b> "
+"option and click the \"Continue\" button."
+msgstr ""
+
+#, php-format
+msgid ""
+"Choose the \"<strong>%1$s</strong>\" option as type and press the "
+"\"<b>Continue</b>\" button."
+msgstr ""
+
+msgid "Enter a \"<b>Description</b>\""
+msgstr ""
+
+#, php-format
+msgid ""
+"At the \"<b>Bundle ID</b>\" field select the \"<b>Explicit</b>\" option and "
+"enter your domain name in reverse-domain name style, with the name of the "
+"app at its end: <b>%s.nslapp</b>"
+msgstr ""
+
+msgid ""
+"Under the \"<b>Capabilities</b>\" section, tick the \"<b>Sign In with Apple</"
+"b>\" option."
+msgstr ""
+
+msgid ""
+"Scroll up and press the \"<b>Continue</b>\" button and then the "
+"\"<b>Register</b>\" button."
+msgstr ""
+
+msgid "2.) Create the Key:"
+msgstr ""
+
+#, php-format
+msgid "On the left hand side, click on the \"<b>%s</b>\" tab."
+msgstr ""
+
+msgid "Enter a name in the <b>Key Name</b> field."
+msgstr ""
+
+msgid ""
+"Tick the \"<b>Sign In with Apple</b>\" option, then click on \"<b>Configure</"
+"b>\"."
+msgstr ""
+
+msgid ""
+"If you have multiple Apps, then at the \"<b>Choose a Primary App ID</b>\" "
+"field <b>select the App what you just created</b>, then click \"<b>Save</"
+"b>\"."
+msgstr ""
+
+msgid ""
+"Finally press the \"<b>Continue</b>\" button and then the \"<b>Register</"
+"b>\" button."
+msgstr ""
+
+msgid "<b>Don't download the key yet!</b>"
+msgstr ""
+
+msgid "3.) Create the Service:"
+msgstr ""
+
+#, php-format
+msgid ""
+"Go to the \"<b>%1$s</b>\" section, what you will find within the \"%2$s\" "
+"tab."
+msgstr ""
+
+#, php-format
+msgid ""
+"Click the <b>blue + icon</b> next to %1$s, then select the \"<b>%2$s</b>\" "
+"option and click the \"<b>Continue</b>\" button."
+msgstr ""
+
+msgid "Enter a \"<b>Description</b>\"."
+msgstr ""
+
+#, php-format
+msgid ""
+"At the \"<b>Identifier</b>\" field enter your domain name in reverse-domain "
+"name style, with the name of the client at its end: <b>%s.nslclient</b>"
+msgstr ""
+
+msgid "<b>Note:</b> This will also be used as Service Identifier later!"
+msgstr ""
+
+msgid ""
+"Press the \"<b>Continue</b>\" button and then the \"<b>Register</b>\" button."
+msgstr ""
+
+#, php-format
+msgid "In the \"<b>%1$s</b>\" section, click the service you just created."
+msgstr ""
+
+msgid ""
+"Tick the \"<b>Sign In with Apple</b>\" option and click the \"<b>Configure</"
+"b>\" button next to it."
+msgstr ""
+
+msgid ""
+"If you have multiple Apps, then at the \"Primary App ID\" field select the "
+"App what you just created."
+msgstr ""
+
+#, fuzzy
+#| msgid "Click on the \"Create New App\" button"
+msgid "Click the \"<b>Next</b>\" button then press the \"<b>Done</b>\" button."
+msgstr "点击\"创建新应用\"按钮"
+
+msgid ""
+"Finally press the \"<b>Continue</b>\" button and then the \"<b>Save</b>\" "
+"button."
+msgstr ""
+
+msgid "4.) Configure Nextend Social Login with your credentials:"
+msgstr ""
+
+msgid "Go to Nextend Social Login > Providers > Apple > Settings tab."
+msgstr ""
+
+msgid "<strong><u>Private Key ID:</u></strong>"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Navigate to %s"
+msgid "Navigate to: <b>%s</b>"
+msgstr "导航 %s"
+
+#, fuzzy
+#| msgid "Click on the Create button"
+msgid "Click on the <b>name of your Key</b>."
+msgstr "点击创建按钮"
+
+msgid "You will find your \"<b>Private Key ID</b>\" under \"<b>Key ID</b>\"."
+msgstr ""
+
+msgid "<strong><u>Private Key:</u></strong>"
+msgstr ""
+
+msgid ""
+"Click the \"<b>Download</b>\" button to download the key file. <u>Once this "
+"file is downloaded, it will no longer be available, so <b>make sure you keep "
+"this file safe</b>!</u> "
+msgstr ""
+
+msgid ""
+"<b>Open the downloaded file</b> with a text editor, like Notepad, <b><u>copy "
+"all of its contents</u></b> and <b>paste it</b> into the \"<b>Private Key</"
+"b>\" field of Nextend Social Login."
+msgstr ""
+
+msgid "<strong><u>Team Identifier:</u></strong>"
+msgstr ""
+
+msgid ""
+"A 10 character long identifier, what you can find on the <b>top-right "
+"corner, just under your name</b>."
+msgstr ""
+
+msgid "<strong><u>Service Identifier:</u></strong>"
+msgstr ""
+
+#, php-format
+msgid ""
+"You will find it under the \"<b>IDENTIFIER</b>\" column. If you configured "
+"the service according to the suggestions, it will probably end to .nslclient "
+"e.g.: <b>%s.nslclient</b>"
+msgstr ""
+
+msgid ""
+"Once you filled up all the fields, click on the \"<b>Generate Token</b>\" "
+"button."
+msgstr ""
+
+msgid "Finally <b>verify the settings</b> and <b>enable the provider</b>!"
+msgstr ""
+
+msgid ""
+"When you need to change your credentials for some reason, then you must "
+"delete the token, copy the new credentials and generate a new token!"
+msgstr ""
+
+msgid "Delete credentials"
+msgstr ""
+
+msgid "Private Key ID"
+msgstr ""
+
+msgid "Private Key"
+msgstr ""
+
+msgid "Team Identifier"
+msgstr ""
+
+msgid "Service Identifier"
+msgstr ""
+
+msgid "Generate Token"
+msgstr ""
+
+msgid "Continue with <b>Apple</b>"
+msgstr "通过 <b>Apple</b>"
+
+#, fuzzy
+msgid "Sign up with <b>Apple</b>"
+msgstr "通过 <b>Apple</b>"
+
+msgid "Link account with <b>Apple</b>"
+msgstr "关联 <b>Apple</b>"
+
+msgid "Unlink account from <b>Apple</b>"
+msgstr "取消关联 <b>Apple</b>"
+
+#, php-format
+msgid "An error occurred when storing of the expiration timestamp : %1$s"
+msgstr ""
+
+#, php-format
+msgid "Token generation failed: %1$s"
+msgstr ""
+
+msgid "Please check your credentials!"
+msgstr ""
+
+msgid "Private key format is not valid!"
+msgstr ""
+
+#, php-format
+msgid ""
+"%s detected that your Apple credentials have expired. Please delete the "
+"current credentials and generate new one!"
+msgstr ""
+
+msgid "Apple Credentials"
+msgstr ""
+
+#, php-format
+msgid ""
+"If you are not logged in yet, then log in with your %s credentials and visit "
+"the link above again."
+msgstr ""
+
+#, php-format
+msgid ""
+"Select your %s App and click on the “<b>%2$s</b>” menu point under the "
+"Settings section on the left side."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#| "b>"
+msgid "Add the following URL in the %s field:"
+msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy
+#| msgid "Click on the \"Create New App\" button"
+msgid "Click the \"<b>New Application</b>\" button."
+msgstr "点击\"创建新应用\"按钮"
+
+#, fuzzy
+#| msgid "Name your project and then click on the Create button"
+msgid "Fill the \"<b>Name</b>\" field and click the \"<b>Create</b>\" button."
+msgstr "命名您的项目，然后点击创建按钮"
+
+msgid ""
+"Optional: Select an \"<b>App Icon</b>\" and add a \"<b>Terms of Service URL</"
+"b>\" and \"<b>Privacy Policy URL</b>\"."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Click on the \"Credentials\" in the left hand menu"
+msgid ""
+"On the left side, click on the “<b>%1$s</b>” menu point in the Settings."
+msgstr "点击左侧菜单的\"凭据\""
+
+#, fuzzy
+#| msgid "Click on \"Save Changes\""
+msgid "Click the \"<b>Save Changes</b>\" button."
+msgstr "点击\"保存设置\""
+
+#, fuzzy
+#| msgid ""
+#| "Here you can see your \"APP ID\" and you can see your \"App secret\" if "
+#| "you click on the \"Show\" button. These will be needed in plugin's "
+#| "settings."
+msgid ""
+"Copy the necessary \"<b>Client ID</b>\" and \"<b>Client Secret</b>\" values "
+"and fill these fields in the plugin settings!"
+msgstr ""
+"然后，你可以看见你的 \"APP ID\" 和 \"APP secret\"密匙，你可以看到\"显示\"按"
+"钮，这些都需要填写到插件的设置里。"
+
+msgid "Force reauthorization on each login"
+msgstr ""
+
+msgid "Enable, when you want to see the consent screen on each login."
+msgstr ""
+
+#, fuzzy
+#| msgid "Continue with <b>Disqus</b>"
+msgid "Continue with <b>Discord</b>"
+msgstr "通过 <b>Disqus</b>"
+
+#, fuzzy
+#| msgid "Continue with <b>Disqus</b>"
+msgid "Sign up with <b>Discord</b>"
+msgstr "通过 <b>Disqus</b>"
+
+#, fuzzy
+#| msgid "Link account with <b>Disqus</b>"
+msgid "Link account with <b>Discord</b>"
+msgstr "关联 <b>Disqus</b>"
+
+#, fuzzy
+#| msgid "Unlink account from <b>Disqus</b>"
+msgid "Unlink account from <b>Discord</b>"
+msgstr "取消关联 <b>Disqus</b>"
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Click on the name of your %s App."
+msgstr "点击创建按钮"
+
+#, fuzzy
+#| msgid "Find the necessary Authentication Keys under the Authentication menu"
+msgid ""
+"Select the \"<b>Settings</b>\" tab and scroll down to the Authentication "
+"section!"
+msgstr "在认证菜单下找到认证密钥"
+
+#, fuzzy
+#| msgid "Click on \"Save Changes\""
+msgid "Click on the \"<b>Save Changes</b>\" button."
+msgstr "点击\"保存设置\""
+
+#, fuzzy
+#| msgid "Click on the \"Create New App\" button"
+msgid ""
+"Click on the \"<b>Registering new application</b>\" button under the "
+"Applications tab."
+msgstr "点击\"创建新应用\"按钮"
+
+msgid "Enter a \"<b>Label</b>\" and \"<b>Description</b>\" for your App."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Fill \"Website URL\" with the url of your homepage, probably: <b>%s</b>"
+msgid ""
+"Fill \"<b>Website</b>\" with the url of your homepage, probably: <b>%s</b>"
+msgstr "用你的主页的网址填写“网址”，可能是：<b>%s</b>"
+
+#, fuzzy
+#| msgid "Click on the \"Create New App\" button"
+msgid ""
+"Complete the Human test and click the \"<b>Register my application</b>\" "
+"button."
+msgstr "点击\"创建新应用\"按钮"
+
+#, fuzzy, php-format
+#| msgid "Fill \"Site URL\" with the url of your homepage, probably: <b>%s</b>"
+msgid "Fill the \"<b>Domains</b>\" field with your domain name like: <b>%s</b>"
+msgstr "将你网站的首页URL填写到 \"网站URL\"，应该是 <b>%s</b>"
+
+#, fuzzy
+#| msgid "Find the necessary Authentication Keys under the Authentication menu"
+msgid ""
+"Select \"<b>Read only</b>\" as Default Access under the Authentication "
+"section."
+msgstr "在认证菜单下找到认证密钥"
+
+#, fuzzy
+#| msgid "Click on \"Save Changes\""
+msgid "Click on the \"<b>Save Changes</b>\" button!"
+msgstr "点击\"保存设置\""
+
+msgid "Navigate to the \"<b>Details</b>\" tab of your Application!"
+msgstr ""
+
+#, fuzzy
+#| msgid ""
+#| "Here you can see your \"APP ID\" and you can see your \"App secret\" if "
+#| "you click on the \"Show\" button. These will be needed in plugin's "
+#| "settings."
+msgid ""
+"Here you can see your \"<b>API Key</b>\" and \"<b>API Secret</b>\". These "
+"will be needed in the plugin's settings."
+msgstr ""
+"然后，你可以看见你的 \"APP ID\" 和 \"APP secret\"密匙，你可以看到\"显示\"按"
+"钮，这些都需要填写到插件的设置里。"
+
+#, fuzzy
+#| msgid "App Secret"
+msgid "API Secret"
+msgstr "App 密匙"
+
+#, php-format
+msgid "We detected that your %1$s is probably overridden over the %2$s filter!"
+msgstr ""
+
+#, php-format
+msgid "We detected that your %1$s has been overridden over the %2$s filter!"
+msgstr ""
+
+msgid "Continue with <b>Disqus</b>"
+msgstr "通过 <b>Disqus</b>"
+
+#, fuzzy
+#| msgid "Continue with <b>Disqus</b>"
+msgid "Sign up with <b>Disqus</b>"
+msgstr "通过 <b>Disqus</b>"
+
+msgid "Link account with <b>Disqus</b>"
+msgstr "关联 <b>Disqus</b>"
+
+msgid "Unlink account from <b>Disqus</b>"
+msgstr "取消关联 <b>Disqus</b>"
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Click on the name of the App you configured %s with."
+msgstr "点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#| "b>"
+msgid "Make sure the <b>Homepage URL</b> matches with: <b>%s</b>"
+msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy
+#| msgid "Hit update to save the changes"
+msgid "Press the <b>Update application</b> button to save the changes."
+msgstr "点击更新以保存更改"
+
+#, php-format
+msgid ""
+"Make sure the <b>%1$s</b> tab is selected and click on the <b>%2$s</b> "
+"button."
+msgstr ""
+
+msgid ""
+"Enter a name into the <b>Application name</b> field. Users will see this "
+"name, when they authorize your app at the OAuth consent screen!"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Fill \"Website URL\" with the url of your homepage, probably: <b>%s</b>"
+msgid ""
+"Fill <b>Homepage URL</b> with the url of your homepage, probably: <b>%s</b>"
+msgstr "用你的主页的网址填写“网址”，可能是：<b>%s</b>"
+
+msgid ""
+"In the <b>Description</b> field you should explain what this App will be "
+"used for."
+msgstr ""
+
+#, fuzzy
+#| msgid "Click on the \"Create New App\" button"
+msgid "Click the <b>Register application</b> button."
+msgstr "点击\"创建新应用\"按钮"
+
+#, fuzzy
+#| msgid ""
+#| "Here you can see your \"APP ID\" and you can see your \"App secret\" if "
+#| "you click on the \"Show\" button. These will be needed in plugin's "
+#| "settings."
+msgid ""
+"Find the necessary <b>Client ID</b> and <b>Client Secret</b> at the middle "
+"of the page. These will be needed in the plugin's settings!"
+msgstr ""
+"然后，你可以看见你的 \"APP ID\" 和 \"APP secret\"密匙，你可以看到\"显示\"按"
+"钮，这些都需要填写到插件的设置里。"
+
+#, php-format
+msgid ""
+"<b>Important note:</b> The email address is only retrievable, if there is a "
+"public email address set at the %1$s profile page%2$s!"
+msgstr ""
+
+msgid "Continue with <b>GitHub</b>"
+msgstr "通过 <b>GitHub</b>"
+
+#, fuzzy
+msgid "Sign up with <b>GitHub</b>"
+msgstr "通过 <b>GitHub</b>"
+
+msgid "Link account with <b>GitHub</b>"
+msgstr "关联 <b>GitHub</b>"
+
+msgid "Unlink account from <b>GitHub</b>"
+msgstr "取消关联 <b>GitHub</b>"
+
+#, fuzzy, php-format
+#| msgid "Find the necessary Authentication Keys under the Authentication menu"
+msgid "Select the %1$s tab on the left and scroll down to the %2$s section!"
+msgstr "在认证菜单下找到认证密钥"
+
+#, fuzzy
+#| msgid ""
+#| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#| "b>"
+msgid "Add the following URL:"
+msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Click on the %s button."
+msgstr "点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Click on the blue \"%s\" button!"
+msgstr "点击创建按钮"
+
+#, php-format
+msgid ""
+"Select an image for your App, fill in the \"%1$s\" and \"%2$s\" fields, "
+"comply with the \"%3$s\", then click on the \"%4$s\" button!"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Once you have a project, you'll end up in the dashboard."
+msgid "Once you have a project, click on it, and you will enter the %1$s."
+msgstr "一旦你有一个项目，你会在仪表盘发现它。"
+
+#, php-format
+msgid ""
+"Copy and save the \"%1$s\" value. This is what you will use later on the "
+"Settings tab for the \"%1$s\" field."
+msgstr ""
+
+#, php-format
+msgid ""
+"Then in the side bar on the left side, find the \"%1$s\" menu and click on "
+"the \"%2$s\" menu point. Click on the \"%3$s\" button, then on \"%4$s\"."
+msgstr ""
+
+#, php-format
+msgid ""
+"Copy and save this code, this is what you will use for the \"%1$s\" on the "
+"Settings tab."
+msgstr ""
+
+#, php-format
+msgid ""
+"Also, make sure to set the \"%1$s\" to \"%2$s\" with the \"%3$s\" button."
+msgstr ""
+
+#, php-format
+msgid "Next, go to the \"%1$s\" in the \"%2$s\" menu on the left."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Enter your domain name to the App Domains"
+msgid ""
+"Click on the blue \"%1$s\" button, then enter your domain name into the "
+"\"%2$s\" field, probably: %3$s"
+msgstr "填写你的域名到 应用域名"
+
+#, php-format
+msgid ""
+"Below the \"%1$s\" menu on the left, click on the \"%2$s\" menu point, then "
+"set the \"%3$s\" ON-OFF switch to ON. A popup will appear, where you should "
+"click on the \"%4$s\" button."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Make sure that the \"%1$s\" field contains %2$s"
+msgid ""
+"Scroll down to the \"%1$s\" section, then click on the \"%2$s\" button, and "
+"enter the following URL: "
+msgstr "确保 \"%1$s\" 包含 %2$s"
+
+#, fuzzy, php-format
+#| msgid "Click on the \"Credentials\" in the left hand menu"
+msgid "After this, click on the \"%1$s\" menu point on the left."
+msgstr "点击左侧菜单的\"凭据\""
+
+#, php-format
+msgid ""
+"Click on the \"%1$s\" button for the Scopes with the \"%2$s\" and for any "
+"other scope that you will need:"
+msgstr ""
+
+#, php-format
+msgid ""
+"%s - Purpose: Used for the username generation and for setting the first "
+"name and last name."
+msgstr ""
+
+#, php-format
+msgid ""
+"%s - Purpose: Accounts will be registered or linked based on this email "
+"address."
+msgstr ""
+
+#, php-format
+msgid "%s - Purpose: This image will be used as the avatar of the account."
+msgstr ""
+
+#, php-format
+msgid ""
+"In the popup you should set the \"%1$s\" to either \"%2$s\" or \"%3$s\" "
+"depending on your needs."
+msgstr ""
+
+#, php-format
+msgid ""
+"Finally fill the \"%1$s\" field. It is important to clearly state what you "
+"want to use the consent item for."
+msgstr ""
+
+#, php-format
+msgid ""
+"%1$s The \"%2$s\" type itself and certain scopes (e.g. \"%3$s\", \"%4$s\" - "
+"used when you turn on the corresponding setting on our %5$s tab), will "
+"require you to register business information, or if you are a single "
+"developer verify your identity (both can be done under the \"%6$s\" menu "
+"point), in order to be able to request consent to these items."
+msgstr ""
+
+msgid "WARNING:"
+msgstr ""
+
+#, php-format
+msgid ""
+"Find the \"%1$s\" and \"%2$s\" values you copied earlier. You will need "
+"these for the fields with the same name on the \"%3$s\" tab."
+msgstr ""
+
+msgid "REST API Key"
+msgstr ""
+
+#, fuzzy
+#| msgid "Client Secret"
+msgid "Client Secret Code"
+msgstr "客户端密码"
+
+#, fuzzy
+#| msgid "Authentication error"
+msgid "Authorization Prompt"
+msgstr "授权认证出错"
+
+msgid "Display account select modal"
+msgstr ""
+
+msgid "Force user to enter login credentials on each login"
+msgstr ""
+
+msgid "Start the authentication with the Kakao Account sign-up page."
+msgstr ""
+
+msgid "Mini"
+msgstr ""
+
+#, fuzzy
+#| msgid "Continue with <b>VK</b>"
+msgid "Continue with <b>Kakao</b>"
+msgstr "通过 <b>VK</b>"
+
+#, fuzzy
+#| msgid "Continue with <b>VK</b>"
+msgid "Sign up with <b>Kakao</b>"
+msgstr "通过 <b>VK</b>"
+
+#, fuzzy
+#| msgid "Link account with <b>VK</b>"
+msgid "Link account with <b>Kakao</b>"
+msgstr "关联 <b>VK</b>"
+
+#, fuzzy
+#| msgid "Unlink account from <b>VK</b>"
+msgid "Unlink account from <b>Kakao</b>"
+msgstr "取消关联 <b>VK</b>"
+
+#, fuzzy, php-format
+#| msgid "Navigate to %s"
+msgid "Navigate to your %s"
+msgstr "导航 %s"
+
+#, php-format
+msgid "Select your %s App and click on the LINE Login section."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Add the following URL to the \"Callback URL\" field: <b>%s</b>"
+msgid "Change your URL in the %s field:"
+msgstr "将以下网址添加到\"Callback URL\"中：<b>%s</b>"
+
+#, php-format
+msgid ""
+"Editing Live Apps are only possible with a %s. So please make sure you own "
+"one!"
+msgstr ""
+
+#, fuzzy
+#| msgid "Click on the \"Create New App\" button"
+msgid "Click the \"<b>Create a new provider</b>\" button."
+msgstr "点击\"创建新应用\"按钮"
+
+#, fuzzy
+#| msgid "Name your project and then click on the Create button"
+msgid ""
+"Fill the \"<b>Provider name</b>\" field and click the \"<b>Create</b>\" "
+"button."
+msgstr "命名您的项目，然后点击创建按钮"
+
+msgid ""
+"Under the \"<b>Channels</b>\" panel select the \"<b>Create a LINE Login "
+"channel</b>\" option."
+msgstr ""
+
+msgid "Make sure \"<b>LINE Login</b>\" is selected as \"<b>Channel type</b>\"."
+msgstr ""
+
+msgid ""
+"For \"<b>Provider</b>\" choose the provider from the list, that you just "
+"created."
+msgstr ""
+
+#, fuzzy
+#| msgid "Click on \"Save\""
+msgid "Select your \"<b>Region</b>\"."
+msgstr "点击\"保存“"
+
+msgid ""
+"Add your \"<b>Channel icon</b>\", \"<b>Channel name</b>\" and \"<b>Channel "
+"description</b>\". These will appear on your Consent Screen!"
+msgstr ""
+
+msgid "At the \"<b>App types</b>\" select the \"<b>Web app</b>\" option."
+msgstr ""
+
+#, fuzzy
+#| msgid "Name your project and then click on the Create button"
+msgid ""
+"Read and consent to the \"<b>LINE Developers Agreement</b>\", then click the "
+"\"<b>Create</b>\" button."
+msgstr "命名您的项目，然后点击创建按钮"
+
+msgid ""
+"Scroll down to \"<b>OpenID Connect</b>\", click the \"<b>Apply</b>\" button "
+"near the \"<b>Email address permission</b>\" label."
+msgstr ""
+
+#, fuzzy
+#| msgid "Click on the \"Create New App\" button"
+msgid "Fill out the form, then click the \"<b>Submit</b>\" button."
+msgstr "点击\"创建新应用\"按钮"
+
+msgid ""
+"Scroll up to the top of the page and choose the \"<b>LINE Login</b>\" "
+"section."
+msgstr ""
+
+msgid ""
+"Under your App name click the \"<b>Developing</b>\" button and publish your "
+"Channel!"
+msgstr ""
+
+#, fuzzy
+#| msgid ""
+#| "Here you can see your \"APP ID\" and you can see your \"App secret\" if "
+#| "you click on the \"Show\" button. These will be needed in plugin's "
+#| "settings."
+msgid ""
+"Go to the \"<b>Basic settings</b>\" tab and find the necessary \"<b>Channel "
+"ID</b>\" and \"<b>Channel secret</b>\" values and fill these fields in the "
+"plugin settings!"
+msgstr ""
+"然后，你可以看见你的 \"APP ID\" 和 \"APP secret\"密匙，你可以看到\"显示\"按"
+"钮，这些都需要填写到插件的设置里。"
+
+msgid "Channel ID"
+msgstr ""
+
+#, fuzzy
+#| msgid "Consumer Secret"
+msgid "Channel Secret"
+msgstr "用户密码"
+
+msgid "Add LINE Official Account as a friend"
+msgstr ""
+
+msgid "Don't display"
+msgstr ""
+
+msgid "Display the add friend option in the consent screen"
+msgstr ""
+
+msgid "Opens a new screen with the add friend option after the consent screen"
+msgstr ""
+
+#, php-format
+msgid ""
+"If you have a LINE Official Account, people can add it as a friend when they "
+"authorize your App. %1$sLearn more%2$s."
+msgstr ""
+
+msgid "Initial Login method"
+msgstr ""
+
+msgid "Email and Password"
+msgstr ""
+
+msgid "QR code"
+msgstr ""
+
+msgid ""
+"The selected value defines whether the Email and Password or the QR code "
+"login option will be presented in the LINE authentication screen by default."
+msgstr ""
+
+msgid "Force initial login method"
+msgstr ""
+
+msgid ""
+"Enable, if you want to offer only the selected Initial Login method in the "
+"LINE authentication screen."
+msgstr ""
+
+msgid "Allow Auto login"
+msgstr ""
+
+#, php-format
+msgid ""
+"Having the Auto login enabled could make the login fail in certain cases. "
+"%1$sLearn more%2$s."
+msgstr ""
+
+#, fuzzy
+#| msgid "Continue with <b>LinkedIn</b>"
+msgid "Continue with <b>Line</b>"
+msgstr "通过 <b>LinkedIn</b>"
+
+#, fuzzy
+#| msgid "Continue with <b>LinkedIn</b>"
+msgid "Sign up with <b>Line</b>"
+msgstr "通过 <b>LinkedIn</b>"
+
+#, fuzzy
+#| msgid "Link account with <b>LinkedIn</b>"
+msgid "Link account with <b>Line</b>"
+msgstr "关联 <b>LinkedIn</b> 账号"
+
+#, fuzzy
+#| msgid "Unlink account from <b>LinkedIn</b>"
+msgid "Unlink account from <b>Line</b>"
+msgstr "从<b> LinkedIn </ b>取消关联帐户"
+
+#, php-format
+msgid "Click on your App and go to the %s tab."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#| "b>"
+msgid "Add the following URL at %s:"
+msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy, php-format
+#| msgid "Hit update to save the changes"
+msgid "Click on %s to save the changes"
+msgstr "点击更新以保存更改"
+
+#, fuzzy, php-format
+#| msgid "Locate the yellow \"Create application\" button and click on it."
+msgid "Locate the %s button and click on it."
+msgstr "找到黄色的“创建应用程序”按钮并点击它。"
+
+#, fuzzy, php-format
+#| msgid "Add the following URL to the \"Callback URL\" field: <b>%s</b>"
+msgid "Enter the name of your App to the %s field."
+msgstr "将以下网址添加到\"Callback URL\"中：<b>%s</b>"
+
+#, php-format
+msgid ""
+"Find your page in the %1$s field. If you don't have one yet, create new one "
+"at: %2$s"
+msgstr ""
+
+#, php-format
+msgid "Enter your %1$s and upload an %2$s"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Name your project and then click on the Create button"
+msgid "Read and agree the %1$s then click the %2$s button!"
+msgstr "命名您的项目，然后点击创建按钮"
+
+#, php-format
+msgid ""
+"You will end up in the products area. If you aren't already there click on "
+"the %s tab."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Name your project and then click on the Create button"
+msgid "Find %1$s and click %2$s."
+msgstr "命名您的项目，然后点击创建按钮"
+
+#, php-format
+msgid ""
+"A modal will appear where you need to tick the %1$s checkbox and finally "
+"press the %2$s button."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Click on the %1$s tab."
+msgstr "点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#| "b>"
+msgid "Find the %1$s section and add the following URL at %2$s:"
+msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, php-format
+msgid ""
+"Find the necessary %1$s and %2$s under the %3$s section, on the %4$s tab."
+msgstr ""
+
+msgid "Continue with <b>LinkedIn</b>"
+msgstr "通过 <b>LinkedIn</b>"
+
+#, fuzzy
+#| msgid "Continue with <b>LinkedIn</b>"
+msgid "Sign up with <b>LinkedIn</b>"
+msgstr "通过 <b>LinkedIn</b>"
+
+msgid "Link account with <b>LinkedIn</b>"
+msgstr "关联 <b>LinkedIn</b> 账号"
+
+msgid "Unlink account from <b>LinkedIn</b>"
+msgstr "从<b> LinkedIn </ b>取消关联帐户"
+
+#, fuzzy, php-format
+#| msgid "Log in with your %s credentials if you are not logged in"
+msgid "Log in with your %s credentials if you are not logged in yet."
+msgstr "如果您未登录，请使用您的 %s 凭据登录"
+
+msgid "Click on the Search bar and search for \"<b>App registrations</b>\"."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Click on the App with App ID: %s"
+msgid "Click on the App with Application (client) ID: <b>%s</b>"
+msgstr "点击应用程序ID为：%s"
+
+#, fuzzy
+#| msgid ""
+#| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#| "b>"
+msgid "Click on the link next to the Redirect URIs label."
+msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy, php-format
+#| msgid "Log in with your %s credentials if you are not logged in"
+msgid ""
+"Log in with your %s credentials if you are not logged in or create a new "
+"account."
+msgstr "如果您未登录，请使用您的 %s 凭据登录"
+
+#, fuzzy
+#| msgid "Click on \"Save\""
+msgid "Click on \"<b>New registration</b>\"."
+msgstr "点击\"保存“"
+
+#, fuzzy
+#| msgid "Fill \"Site URL\" with the url of your homepage, probably: <b>%s</b>"
+msgid "Fill the \"<b>Name</b>\" field with your App Name."
+msgstr "将你网站的首页URL填写到 \"网站URL\"，应该是 <b>%s</b>"
+
+#, php-format
+msgid ""
+"Select an option at Supported account types.<br><strong><u>Important:</u></"
+"strong> On our Settings tab, you will need to select the Audience depending "
+"on the selected value! If you are not sure what to choose, then %1$shere%2$s "
+"you can learn more."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#| "b>"
+msgid ""
+"At the %1$s field, select the %2$s option as platform, and add the following "
+"URL into the input field:"
+msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, php-format
+msgid ""
+"%1$s It seems the suggested %2$s contains query string(s), that %3$s doesn't "
+"allow in the URLs. Please check the structure of your %4$s, as you might use "
+"one with query strings in it!"
+msgstr ""
+
+msgid "Warning:"
+msgstr ""
+
+msgid "Permalinks"
+msgstr ""
+
+#, fuzzy
+#| msgid "Click on the \"Create New App\" button"
+msgid "Create your App with the \"<b>Register</b>\" button."
+msgstr "点击\"创建新应用\"按钮"
+
+#, fuzzy
+#| msgid "Click on the Create button"
+msgid "You land on the \"<b>Overview</b>\" page."
+msgstr "点击创建按钮"
+
+msgid ""
+"Copy the \"<b>Application (client) ID</b>\", this will be the <b>Application "
+"(client) ID</b> in the plugin settings."
+msgstr ""
+
+msgid ""
+"Click on the link named \"<b>Add a certificate or secret</b>\" next to the "
+"Client credentials label."
+msgstr ""
+
+#, fuzzy
+#| msgid "Click on \"Save\""
+msgid "Click on \"<b>New client secret</b>\"."
+msgstr "点击\"保存“"
+
+msgid "Fill the \"<b>Description</b>\" field."
+msgstr ""
+
+#, fuzzy
+#| msgid ""
+#| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#| "b>"
+msgid "Set the expiration date at the \"<b>Expires</b>\" field."
+msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+msgid "Then create your Client Secret with the \"<b>Add</b>\" button."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Here you can see your \"APP ID\" and you can see your \"App secret\" if "
+#| "you click on the \"Show\" button. These will be needed in plugin's "
+#| "settings."
+msgid ""
+"Copy the %s, this will be the <b>Client secret</b> in the plugin settings."
+msgstr ""
+"然后，你可以看见你的 \"APP ID\" 和 \"APP secret\"密匙，你可以看到\"显示\"按"
+"钮，这些都需要填写到插件的设置里。"
+
+msgid "Application (client) ID"
+msgstr ""
+
+#, fuzzy
+#| msgid "Client Secret"
+msgid "Client secret"
+msgstr "客户端密码"
+
+msgid "Audience"
+msgstr ""
+
+msgid ""
+"Accounts in any organizational directory (Any Azure AD directory - "
+"Multitenant)"
+msgstr ""
+
+msgid ""
+"Accounts in any organizational directory (Any Azure AD directory - "
+"Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)"
+msgstr ""
+
+msgid "Personal Microsoft accounts only"
+msgstr ""
+
+msgid ""
+"Only users in an organizational directory from a particular Azure AD tenant:"
+msgstr ""
+
+#, php-format
+msgid ""
+"The selected value will define the supported account types. %1$sLearn more."
+"%2$s"
+msgstr ""
+
+msgid "Display authorization and authentication dialog only when necessary"
+msgstr ""
+
+#, fuzzy
+#| msgid "Continue with <b>Yahoo</b>"
+msgid "Continue with <b>Microsoft</b>"
+msgstr "通过 <b>Yahoo</b>"
+
+#, fuzzy
+msgid "Sign up with <b>Microsoft</b>"
+msgstr "通过 <b>Yahoo</b>"
+
+#, fuzzy
+#| msgid "Link account with <b>Yahoo</b>"
+msgid "Link account with <b>Microsoft</b>"
+msgstr "关联 <b>Yahoo</b> 账号"
+
+#, fuzzy
+#| msgid "Unlink account from <b>Yahoo</b>"
+msgid "Unlink account from <b>Microsoft</b>"
+msgstr "解除关联 <b>Yahoo</b> 账号"
+
+msgid "There is a Sandbox/Live switch. Make sure \"<b>Live</b>\" is selected!"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Click on the name of your %s App, under the REST API apps section."
+msgstr "点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid "Make sure that the \"%1$s\" field contains %2$s"
+msgid ""
+"Scroll down to %1$s section, find the %2$s feature and and click on the %3$s "
+"link."
+msgstr "确保 \"%1$s\" 包含 %2$s"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#| "b>"
+msgid "Add the following URL to the %s field and press %2$s:"
+msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, php-format
+msgid ""
+"Wait for %1$s to approve the %2$s feature ( this might take up to 7 business "
+"days ). The %3$s row will indicate the current status. "
+msgstr ""
+
+#, php-format
+msgid ""
+"Editing Live Apps are only possible with a %s. If you own one, go to the 4. "
+"step, if not click on the link!"
+msgstr ""
+
+msgid "Click on Registration and create a Business account."
+msgstr ""
+
+msgid "If you are done, follow the guide from the 5. step."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Log in with your %s credentials if you are not logged in"
+msgid "Log in with your %s credentials."
+msgstr "如果您未登录，请使用您的 %s 凭据登录"
+
+#, fuzzy
+#| msgid "Click on the \"Create New App\" button"
+msgid "Click the \"<b>Create App</b>\" button under the REST API apps section."
+msgstr "点击\"创建新应用\"按钮"
+
+msgid ""
+"Fill the \"<b>App Name</b>\" field and click \"<b>Create App</b>\" button."
+msgstr ""
+
+#, php-format
+msgid ""
+"Scroll down to %1$s section, and turn off all features. ( If you are trying "
+"to set up social login in an existing App, then create a new App, as this "
+"App should be used only for social login because some of the non used "
+"features might cause scope specific problems. )"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Name your project and then click on the Create button"
+msgid "Find the %1$s feature and check the checkbox."
+msgstr "命名您的项目，然后点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Click on the %1$s link that you can find below the %2$s feature."
+msgstr "点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Scroll down to %1$s section, and tick the %2$s field."
+msgstr "点击创建按钮"
+
+#, php-format
+msgid ""
+"If you want to get the email address as well, then don't forget to tick %1$s "
+"option. In this case you should also enable the %2$s setting in our %3$s "
+"%4$s tab. ( If you enabled extra fields on our Sync data tab, don't forget "
+"to tick the other necessary fields either! )"
+msgstr ""
+
+#, fuzzy
+#| msgid "Email"
+msgid "Email scope"
+msgstr "Email"
+
+#, fuzzy, php-format
+#| msgid "Name your project and then click on the Create button"
+msgid "Fill the %1$s and %2$s fields."
+msgstr "命名您的项目，然后点击创建按钮"
+
+#, php-format
+msgid ""
+"Optional: If you want the unverified %1$s accounts to be able to login with "
+"your App, then check the %2$s field, too."
+msgstr ""
+
+#, php-format
+msgid "When all fields are filled, click %1$s in the modal."
+msgstr ""
+
+#, php-format
+msgid ""
+"Once the %1$s feature is approved, scroll up to the %2$s section and find "
+"the necessary %3$s and %4$s values, you will need these on the %5$s tab of "
+"the plugin!"
+msgstr ""
+
+#, fuzzy
+#| msgid "App Secret"
+msgid "Secret"
+msgstr "App 密匙"
+
+msgid "Disable, when you have no rights for email address."
+msgstr ""
+
+msgid "Continue with <b>PayPal</b>"
+msgstr "通过 <b>PayPal</b>"
+
+#, fuzzy
+#| msgid "Continue with <b>PayPal</b>"
+msgid "Sign up with <b>PayPal</b>"
+msgstr "通过 <b>PayPal</b>"
+
+msgid "Link account with <b>PayPal</b>"
+msgstr "关联 <b>PayPal</b>"
+
+msgid "Unlink account from <b>PayPal</b>"
+msgstr "取消关联 <b>PayPal</b>"
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Click on %1$s in the bottom left corner of your %2$s App."
+msgstr "点击创建按钮"
+
+#, php-format
+msgid "Replace your existing %s with this URL:"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Click on the %s button"
+msgstr "点击创建按钮"
+
+#, php-format
+msgid "Make sure you have the %s radio option selected!"
+msgstr ""
+
+#, php-format
+msgid "Enter a %s for your App."
+msgstr ""
+
+#, php-format
+msgid "Optional: Enter a %1$s and set an %2$s for your App."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Click on the \"Create New App\" button"
+msgid "Complete the Human test and click the %s button."
+msgstr "点击\"创建新应用\"按钮"
+
+#, php-format
+msgid ""
+"Finally find your %1$s, which is the value just below the name and type of "
+"your app, and the %2$s, which is the value next to %3$s. These will be "
+"needed in the plugin's settings."
+msgstr ""
+
+#, fuzzy
+#| msgid "Continue with <b>VK</b>"
+msgid "Continue with <b>Reddit</b>"
+msgstr "通过 <b>VK</b>"
+
+#, fuzzy
+#| msgid "Continue with <b>VK</b>"
+msgid "Sign up with <b>Reddit</b>"
+msgstr "通过 <b>VK</b>"
+
+#, fuzzy
+#| msgid "Link account with <b>VK</b>"
+msgid "Link account with <b>Reddit</b>"
+msgstr "关联 <b>VK</b>"
+
+#, fuzzy
+#| msgid "Unlink account from <b>VK</b>"
+msgid "Unlink account from <b>Reddit</b>"
+msgstr "取消关联 <b>VK</b>"
+
+#, fuzzy, php-format
+#| msgid "Select your app."
+msgid "Select your %s App."
+msgstr "选择你的应用程序."
+
+msgid ""
+"Under the \"<b>Add features and functionality</b>\" panel click on the "
+"\"<b>Permissions</b>\" option."
+msgstr ""
+
+#, fuzzy
+#| msgid "Click on \"Save Changes\""
+msgid "Click on the \"<b>Add</b>\" and \"<b>Save URLs</b>\" button."
+msgstr "点击\"保存设置\""
+
+#, fuzzy, php-format
+#| msgid "Log in with your %s credentials if you are not logged in"
+msgid ""
+"Visit the %1$s page and log in with your %2$s credentials if you are not "
+"logged in, yet."
+msgstr "如果您未登录，请使用您的 %s 凭据登录"
+
+#, fuzzy
+#| msgid "Click on the \"Create New App\" button"
+msgid ""
+"Click the \"<b>Create New App</b>\" button. (If you can not see this button, "
+"you might need to create a workspace first!)"
+msgstr "点击\"创建新应用\"按钮"
+
+#, fuzzy
+#| msgid "Click on the Create button"
+msgid "Choose the \"<b>From scratch</b>\" option."
+msgstr "点击创建按钮"
+
+#, fuzzy
+#| msgid "Name your project and then click on the Create button"
+msgid ""
+"Fill the \"<b>App Name</b>\" field, select your workspace and click the "
+"\"<b>Create App</b>\" button."
+msgstr "命名您的项目，然后点击创建按钮"
+
+#, fuzzy
+#| msgid ""
+#| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#| "b>"
+msgid "Scroll down to the \"<b>Redirect URLs</b>\" section."
+msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy
+#| msgid "Click on \"Save Changes\""
+msgid "Click on the \"<b>Save URLs</b>\" button."
+msgstr "点击\"保存设置\""
+
+#, fuzzy
+#| msgid "Click on the Create button"
+msgid "Scroll down to the \"<b>Scopes</b>\" section."
+msgstr "点击创建按钮"
+
+#, fuzzy
+#| msgid ""
+#| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#| "b>"
+msgid ""
+"Add the following Scopes to the \"<b>User Token Scopes</b>\" field: "
+"\"<b>openid</b>\", \"<b>profile</b>\", \"<b>email</b>\""
+msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy
+#| msgid "Click on the \"Credentials\" in the left hand menu"
+msgid ""
+"On the top left side click on the \"<b>Basic Information</b>\" option in the "
+"\"<b>Settings</b>\"."
+msgstr "点击左侧菜单的\"凭据\""
+
+#, fuzzy
+#| msgid "Name your project and then click on the Create button"
+msgid ""
+"Under the \"<b>Install your app</b>\" panel click on the \"<b>Install to "
+"Workspace</b>\" button."
+msgstr "命名您的项目，然后点击创建按钮"
+
+#, fuzzy
+#| msgid "Click on the Create button"
+msgid "Click on the \"<b>Allow</b>\" button."
+msgstr "点击创建按钮"
+
+#, fuzzy
+#| msgid "Name your project and then click on the Create button"
+msgid ""
+"Under the \"<b>Manage distribution</b>\" panel click on the \"<b>Distribute "
+"App</b>\" button."
+msgstr "命名您的项目，然后点击创建按钮"
+
+msgid "Scroll down to the \"<b>Remove Hard Coded Information</b>\" section."
+msgstr ""
+
+msgid ""
+"Click on the \"<b>I’ve reviewed and removed any hard-coded information.</"
+"b>\". "
+msgstr ""
+
+#, fuzzy
+#| msgid "Click on the \"Create New App\" button"
+msgid "Click on the \"<b>Activate Public Distribution</b>\" button."
+msgstr "点击\"创建新应用\"按钮"
+
+#, fuzzy
+#| msgid "Click on the \"Credentials\" in the left hand menu"
+msgid ""
+"On the top left side click on the \"<b>Basic Information</b>\" option, that "
+"you find under \"<b>Settings</b>\"."
+msgstr "点击左侧菜单的\"凭据\""
+
+#, fuzzy
+#| msgid ""
+#| "Here you can see your \"APP ID\" and you can see your \"App secret\" if "
+#| "you click on the \"Show\" button. These will be needed in plugin's "
+#| "settings."
+msgid ""
+"Scroll down to the \"<b>App Credentials</b>\" section, find the necessary "
+"\"<b>Client ID</b>\" and \"<b>Client Secret</b>\" values and fill these "
+"fields in the plugin settings!"
+msgstr ""
+"然后，你可以看见你的 \"APP ID\" 和 \"APP secret\"密匙，你可以看到\"显示\"按"
+"钮，这些都需要填写到插件的设置里。"
+
+msgid "Slack Team ID"
+msgstr ""
+
+msgid "Optional"
+msgstr ""
+
+#, php-format
+msgid ""
+"The Team ID of a workspace to attempt to restrict to. %1$sLearn more.%2$s"
+msgstr ""
+
+msgid "72x72"
+msgstr ""
+
+msgid "192x192"
+msgstr ""
+
+msgid "512x512"
+msgstr ""
+
+msgid "1024x1024"
+msgstr ""
+
+#, fuzzy
+#| msgid "Continue with <b>Facebook</b>"
+msgid "Sign in with <b>Slack</b>"
+msgstr "通过 <b>Facebook</b>"
+
+#, fuzzy
+#| msgid "Continue with <b>Facebook</b>"
+msgid "Sign up with <b>Slack</b>"
+msgstr "通过 <b>Facebook</b>"
+
+#, fuzzy
+#| msgid "Link account with <b>Facebook</b>"
+msgid "Link account with <b>Slack</b>"
+msgstr "关联 <b>Facebook</b> 账号"
+
+#, fuzzy
+#| msgid "Unlink account from <b>Facebook</b>"
+msgid "Unlink account from <b>Slack</b>"
+msgstr "解除关联 <b>Facebook</b> 账号"
+
+msgid "Green"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Find the necessary Authentication Keys under the Authentication menu"
+msgid ""
+"Find the %1$s button on the top right and scroll down to the %2$s button, "
+"and click on it!"
+msgstr "在认证菜单下找到认证密钥"
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Finally, click on the %s button at the bottom."
+msgstr "点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Click on the purple \"%s\" button!"
+msgstr "点击创建按钮"
+
+#, php-format
+msgid ""
+"Enter an \"%1$s\" and \"%2$s\" of your choice (they will be displayed to the "
+"user on the grant screen)."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Choose the \"%1$s\" option at \"%2$s\"."
+msgstr "点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid "Name your project and then click on the Create button"
+msgid "Read through the \"%1$s\" and put a tick in the checkbox."
+msgstr "命名您的项目，然后点击创建按钮"
+
+#, php-format
+msgid ""
+"Click on \"%1$s\". Your application is now registered, and you'll be "
+"redirected to the app overview page."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Click on the the %1$s button."
+msgstr "点击创建按钮"
+
+#, php-format
+msgid ""
+"Click on \"%1$s\", copy and save the \"%2$s\" value. This is what you will "
+"use later on the Settings tab for the \"%2$s\" field."
+msgstr ""
+
+#, php-format
+msgid ""
+"Currently your app is in %1$s which  means that, up to 25 authenticated %2$s "
+"users can use your app. If you want anybody with a %2$s account to use your "
+"app, then you need to move to %3$s. To request %3$s, use the navigation menu "
+"and go to %4$s, then hit \"%5$s\", and go through the \"%6$s\" process. In "
+"the last step you will need to choose the following OAuth scope: %7$s and "
+"all the other extra scopes connected to the %8$s fields you enabled."
+msgstr ""
+
+#, php-format
+msgid ""
+"Once %1$s reviewed and approved your request ( it can take up to 6 weeks ), "
+"find the \"%2$s\" and \"%3$s\" values you copied earlier. Enter these for "
+"the fields with the same name on the \"%4$s\" tab."
+msgstr ""
+
+#, fuzzy
+#| msgid "Continue with <b>LinkedIn</b>"
+msgid "Continue with <b>Spotify</b>"
+msgstr "通过 <b>LinkedIn</b>"
+
+#, fuzzy
+#| msgid "Continue with <b>Facebook</b>"
+msgid "Sign up with <b>Spotify</b>"
+msgstr "通过 <b>Facebook</b>"
+
+#, fuzzy
+#| msgid "Link account with <b>Facebook</b>"
+msgid "Link account with <b>Spotify</b>"
+msgstr "关联 <b>Facebook</b> 账号"
+
+#, fuzzy
+#| msgid "Unlink account from <b>Facebook</b>"
+msgid "Unlink account from <b>Spotify</b>"
+msgstr "解除关联 <b>Facebook</b> 账号"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "To allow your visitors to log in with their %1$s account, first you must "
+#| "create a %1$s App. The following guide will help you through the %1$s App "
+#| "creation process. After you have created your %1$s App, head over to "
+#| "\"Settings\" and configure the given \"%2$s\" and \"%3$s\" according to "
+#| "your %1$s App."
+msgid ""
+"To allow your visitors to log in with their %1$s account, first you must "
+"create a %1$s %2$s. The following guide will help you through the %1$s %2$s "
+"creation process. After you have created your %1$s %2$s, head over to "
+"\"Settings\" and configure the given \"%2$s\" field according to your %1$s "
+"%2$s."
+msgstr ""
+"要想允许你的访问者使用 %1$s 账号登录，你首先要建立一个 %1$s 应用。下面的导航"
+"将帮助你了解 %1$s 应用建立的过程，然后你可以建立一个你自己的 %1$s App。转到"
+"\"设置“，然后根据你的 %1$s 配置，给予 \"%2$s\" and \"%3$s\"。"
+
+#, php-format
+msgid "To be able to create a %1$s, you need to spend at least $5 in the %2$s."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Check the %1$s option."
+msgstr "点击创建按钮"
+
+#, php-format
+msgid "Press the %1$s button."
+msgstr ""
+
+#, php-format
+msgid ""
+"Copy the necessary %1$s value under the %2$s section, you will need this on "
+"our %3$s tab."
+msgstr ""
+
+#, php-format
+msgid ""
+"<b>WARNING:</b> The %1$s API can not return any email address! %2$sLearn "
+"more%3$s."
+msgstr ""
+
+msgid "Web API Key"
+msgstr ""
+
+#, fuzzy
+#| msgid "Continue with <b>LinkedIn</b>"
+msgid "Continue with <b>Steam</b>"
+msgstr "通过 <b>LinkedIn</b>"
+
+#, fuzzy
+#| msgid "Continue with <b>Facebook</b>"
+msgid "Sign up with <b>Steam</b>"
+msgstr "通过 <b>Facebook</b>"
+
+#, fuzzy
+#| msgid "Link account with <b>Facebook</b>"
+msgid "Link account with <b>Steam</b>"
+msgstr "关联 <b>Facebook</b> 账号"
+
+#, fuzzy
+#| msgid "Unlink account from <b>Facebook</b>"
+msgid "Unlink account from <b>Steam</b>"
+msgstr "解除关联 <b>Facebook</b> 账号"
+
+msgid "Error: The 64-bit SteamID can not be retrieved for this user!"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Log in with your %s credentials if you are not logged in"
+msgid "Log in to your %s developer account, if you are not logged in yet."
+msgstr "如果您未登录，请使用您的 %s 凭据登录"
+
+#, php-format
+msgid ""
+"On the top right corner click on %1$s then click on the name of that App "
+"that you used for the configuration."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Scroll down to the %s section."
+msgstr "点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid "Enter your domain name to the App Domains"
+msgid ""
+"If the URLs don't match, enter the URL of your website into the %1$s field, "
+"probably: %2$s"
+msgstr "填写你的域名到 应用域名"
+
+#, fuzzy, php-format
+#| msgid "Enter your domain name to the App Domains"
+msgid "Add the following URL to the %s field, if it is not added already: "
+msgstr "填写你的域名到 应用域名"
+
+#, php-format
+msgid ""
+"Submit your App for a review, by pressing the %1$s button on the top right "
+"corner and wait until the %2$s field says %3$s. This can take a couple of "
+"days."
+msgstr ""
+
+#, php-format
+msgid ""
+"Log in to your %s developer account or register one if you don't have any!"
+msgstr ""
+
+#, php-format
+msgid "On the top right corner click on %1$s then click on the %2$s option."
+msgstr ""
+
+#, php-format
+msgid ""
+"Find the %1$s section and upload an image as %2$s, then enter an %3$s, a "
+"%4$s and choose a value for %5$s."
+msgstr ""
+
+#, php-format
+msgid ""
+"For %1$s you should enable the %2$s option then enter the URL of your "
+"website into the %3$s field, probably: %4$s"
+msgstr ""
+
+#, php-format
+msgid ""
+"Click on %1$s on the left hand menu then add the %2$s product, and press the "
+"%3$s button."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Name your project and then click on the Create button"
+msgid "At the left hand menu click on the %1$s option under %2$s."
+msgstr "命名您的项目，然后点击创建按钮"
+
+#, php-format
+msgid "Enter your %1$s and %2$s URLs."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Name your project and then click on the Create button"
+msgid "Scroll up and click on the %s button."
+msgstr "命名您的项目，然后点击创建按钮"
+
+#, php-format
+msgid ""
+"Currently your App is in %1$s status, meaning that you don't have access to "
+"the credentials which are necessary for the %2$s integration. In order to "
+"gain access, click on the %3$s on the top right corner."
+msgstr ""
+
+#, php-format
+msgid ""
+"A modal will appear where you should enter a text, that describes what you "
+"are going to do with the App. In this particular case, you will use it to "
+"offer %1$s login option for your visitors."
+msgstr ""
+
+#, php-format
+msgid ""
+"Wait until your App gets approved. This can take a couple of days. If you "
+"scroll up to the top of the page you will be able to inspect the %1$s below "
+"the %2$s section. If you want to learn more about the App review process, "
+"you can find more information in the %3$sofficial documentation%4$s."
+msgstr ""
+
+#, php-format
+msgid ""
+"Once the %1$s says %2$s, you will be able to reveal the %3$s and %4$s by "
+"clicking on the eye icon next to these fields. You will need these "
+"credentials for the provider configuration."
+msgstr ""
+
+#, php-format
+msgid ""
+"<b>WARNING:</b> The %1$s API can not return any email address or phone "
+"number! %2$sLearn more%3$s."
+msgstr ""
+
+#, fuzzy
+#| msgid "Client ID"
+msgid "Client Key"
+msgstr "客户端ID"
+
+#, fuzzy
+#| msgid "Continue with <b>LinkedIn</b>"
+msgid "Continue with <b>TikTok</b>"
+msgstr "通过 <b>LinkedIn</b>"
+
+#, fuzzy
+#| msgid "Continue with <b>LinkedIn</b>"
+msgid "Sign up with <b>TikTok</b>"
+msgstr "通过 <b>LinkedIn</b>"
+
+#, fuzzy
+#| msgid "Link account with <b>LinkedIn</b>"
+msgid "Link account with <b>TikTok</b>"
+msgstr "关联 <b>LinkedIn</b> 账号"
+
+#, fuzzy
+#| msgid "Unlink account from <b>LinkedIn</b>"
+msgid "Unlink account from <b>TikTok</b>"
+msgstr "从<b> LinkedIn </ b>取消关联帐户"
+
+#, php-format
+msgid "On the %1$s tab, find your app and click %2$s."
+msgstr ""
+
+msgid "Complete the human verification test."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Log in with your %s credentials if you are not logged in"
+msgid "Open the %1$s and login with your %2$s account."
+msgstr "如果您未登录，请使用您的 %s 凭据登录"
+
+#, php-format
+msgid "To be able to create a %s your account both needs:"
+msgstr ""
+
+#, php-format
+msgid "to be %s"
+msgstr ""
+
+#, php-format
+msgid ""
+"and to have the %1$s enabled. If it is not enabled already, you can enable "
+"it at your %2$s page on the %3$s tab"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Navigate to %s"
+msgid "Navigate to the %1$s tab."
+msgstr "导航 %s"
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Click on the %s button on the right side."
+msgstr "点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "Select the %1$s option in the %2$s list."
+msgstr "点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid "Name your project and then click on the Create button"
+msgid "To generate a %1$s, click on the %2$s button."
+msgstr "命名您的项目，然后点击创建按钮"
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Here you can see your \"APP ID\" and you can see your \"App secret\" if "
+#| "you click on the \"Show\" button. These will be needed in plugin's "
+#| "settings."
+msgid ""
+"Copy the %1$s and the %2$s values. These will be needed in the plugin's "
+"settings."
+msgstr ""
+"然后，你可以看见你的 \"APP ID\" 和 \"APP secret\"密匙，你可以看到\"显示\"按"
+"钮，这些都需要填写到插件的设置里。"
+
+#, fuzzy
+#| msgid "Continue with <b>Twitter</b>"
+msgid "Continue with <b>Twitch</b>"
+msgstr "保持 <b>Twitter</b>"
+
+#, fuzzy
+#| msgid "Continue with <b>Twitter</b>"
+msgid "Sign up with <b>Twitch</b>"
+msgstr "保持 <b>Twitter</b>"
+
+#, fuzzy
+#| msgid "Link account with <b>Twitter</b>"
+msgid "Link account with <b>Twitch</b>"
+msgstr "关联 <b>Twitter</b> 账号"
+
+#, fuzzy
+#| msgid "Unlink account from <b>Twitter</b>"
+msgid "Unlink account from <b>Twitch</b>"
+msgstr "从 <b>Twitter</b> 取消关联帐户"
+
+#, fuzzy
+#| msgid "Click on the Create button"
+msgid "Click on the \"<b>Manage</b>\" button next to the associated App."
+msgstr "点击创建按钮"
+
+#, fuzzy
+#| msgid "Go to the Settings tab."
+msgid "Go to the \"<b>Settings</b>\" menu"
+msgstr "去设置页."
+
+#, fuzzy
+#| msgid "Hit update to save the changes"
+msgid "Click on \"<b>Update</b>\" to save the changes"
+msgstr "点击更新以保存更改"
+
+#, fuzzy
+#| msgid "Locate the yellow \"Create application\" button and click on it."
+msgid "Locate the blue \"<b>Create app</b>\" button and click on it."
+msgstr "找到黄色的“创建应用程序”按钮并点击它。"
+
+msgid ""
+"Enter the <b>Title</b> for your App and select \"<b>Website</b>\" as "
+"platform."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid "Fill \"Site URL\" with the url of your homepage, probably: <b>%s</b>"
+msgid ""
+"Fill \"<b>Website address</b>\" with the url of your homepage, probably: "
+"<b>%s</b>"
+msgstr "将你网站的首页URL填写到 \"网站URL\"，应该是 <b>%s</b>"
+
+#, fuzzy, php-format
+#| msgid "Fill \"Site URL\" with the url of your homepage, probably: <b>%s</b>"
+msgid ""
+"Fill the \"<b>Base domain</b>\" field with your domain, probably: <b>%s</b>"
+msgstr "将你网站的首页URL填写到 \"网站URL\"，应该是 <b>%s</b>"
+
+msgid "When all fields are filled, click the \"<b>Upload app</b>\" button."
+msgstr ""
+
+msgid ""
+"<b>Fill the information form</b> of your app, <b>upload an app icon</b> then "
+"click <b>Save</b>."
+msgstr ""
+
+#, fuzzy
+#| msgid "Click on the \"Credentials\" in the left hand menu"
+msgid "Pick <b>Settings</b> at the left-hand menu "
+msgstr "点击左侧菜单的\"凭据\""
+
+#, fuzzy
+#| msgid "Select your app."
+msgid "<b>Save</b> your app"
+msgstr "选择你的应用程序."
+
+#, fuzzy
+#| msgid ""
+#| "Here you can see your \"APP ID\" and you can see your \"App secret\" if "
+#| "you click on the \"Show\" button. These will be needed in plugin's "
+#| "settings."
+msgid ""
+"Find the necessary \"<b>App ID</b>\" and \"<b>Secure key</b>\" at the top of "
+"the Settings page where you just hit the save button."
+msgstr ""
+"然后，你可以看见你的 \"APP ID\" 和 \"APP secret\"密匙，你可以看到\"显示\"按"
+"钮，这些都需要填写到插件的设置里。"
+
+msgid "Secure key"
+msgstr ""
+
+msgid "Continue with <b>VK</b>"
+msgstr "通过 <b>VK</b>"
+
+#, fuzzy
+#| msgid "Continue with <b>VK</b>"
+msgid "Sign up with <b>VK</b>"
+msgstr "通过 <b>VK</b>"
+
+msgid "Link account with <b>VK</b>"
+msgstr "关联 <b>VK</b>"
+
+msgid "Unlink account from <b>VK</b>"
+msgstr "取消关联 <b>VK</b>"
+
+msgid "Click \"<b>Manage Settings</b>\" under the Tools section!"
+msgstr ""
+
+#, fuzzy
+#| msgid "Click on the \"Create New App\" button"
+msgid "Click on the \"<b>Create New Application</b>\" button."
+msgstr "点击\"创建新应用\"按钮"
+
+msgid "Enter a \"<b>Name</b>\" and \"<b>Description</b>\" for your App."
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Fill \"Website URL\" with the url of your homepage, probably: <b>%s</b>"
+msgid ""
+"Fill \"<b>Website URL</b>\" with the url of your homepage, probably: <b>%s</"
+"b>"
+msgstr "用你的主页的网址填写“网址”，可能是：<b>%s</b>"
+
+msgid "You can leave the \"Javascript Origins\" field blank!"
+msgstr ""
+
+msgid "At the \"<b>Type</b>\" make sure \"<b>Web</b>\" is selected!"
+msgstr ""
+
+#, fuzzy
+#| msgid "Click on the \"Create New App\" button"
+msgid "Click the \"<b>Create</b>\" button!"
+msgstr "点击\"创建新应用\"按钮"
+
+msgid ""
+"<b>Click the name of your App</b> either in the Breadcrumb navigation or "
+"next to Editing!"
+msgstr ""
+
+#, fuzzy
+#| msgid ""
+#| "Here you can see your \"APP ID\" and you can see your \"App secret\" if "
+#| "you click on the \"Show\" button. These will be needed in plugin's "
+#| "settings."
+msgid ""
+"Here you can see your \"<b>Client ID</b>\" and \"<b>Client Secret</b>\". "
+"These will be needed in the plugin's settings."
+msgstr ""
+"然后，你可以看见你的 \"APP ID\" 和 \"APP secret\"密匙，你可以看到\"显示\"按"
+"钮，这些都需要填写到插件的设置里。"
+
+msgid "Continue with <b>WordPress.com</b>"
+msgstr "通过 <b>WordPress.com</b>"
+
+#, fuzzy
+#| msgid "Continue with <b>WordPress.com</b>"
+msgid "Sign up with <b>WordPress.com</b>"
+msgstr "通过 <b>WordPress.com</b>"
+
+msgid "Link account with <b>WordPress.com</b>"
+msgstr "关联 <b>WordPress.com</b>"
+
+msgid "Unlink account from <b>WordPress.com</b>"
+msgstr "取消关联 <b>WordPress.com</b>"
+
+msgid "Click on the App which has its credentials associated with the plugin."
+msgstr ""
+
+#, fuzzy
+#| msgid "Click on the \"Create New App\" button"
+msgid "Click on the \"<b>Create an App</b>\" button on the top right corner."
+msgstr "点击\"创建新应用\"按钮"
+
+#, fuzzy
+#| msgid "Click on the \"Create New App\" button"
+msgid "Fill the \"<b>Application Name</b>\" field."
+msgstr "点击\"创建新应用\"按钮"
+
+msgid "Enter a \"<b>Description</b>\" for your app!"
+msgstr ""
+
+#, fuzzy, php-format
+#| msgid ""
+#| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#| "b>"
+msgid ""
+"Enter the URL of your site to the \"<b>Home Page URL</b>\" field: <b>%s</b>"
+msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy, php-format
+#| msgid "Click on the Create button"
+msgid "At %1$s choose the %2$s option."
+msgstr "点击创建按钮"
+
+msgid ""
+"Under the \"<b>API Permissions</b>\" you should select \"<b>OpenID Connect "
+"Permissions</b>\" with both \"<b>Email</b>\" and \"<b>Profile</b>\" enabled."
+msgstr ""
+
+#, fuzzy
+#| msgid "Click on the \"Create New App\" button"
+msgid "Click \"<b>Create App</b>\"."
+msgstr "点击\"创建新应用\"按钮"
+
+#, fuzzy
+#| msgid ""
+#| "Here you can see your \"APP ID\" and you can see your \"App secret\" if "
+#| "you click on the \"Show\" button. These will be needed in plugin's "
+#| "settings."
+msgid ""
+"On the top of the page, you will find the necessary \"<b>Client ID</b>\" and "
+"\"<b>Client Secret</b>\"! These will be needed in the plugin's settings."
+msgstr ""
+"然后，你可以看见你的 \"APP ID\" 和 \"APP secret\"密匙，你可以看到\"显示\"按"
+"钮，这些都需要填写到插件的设置里。"
+
+msgid "Continue with <b>Yahoo</b>"
+msgstr "通过 <b>Yahoo</b>"
+
+#, fuzzy
+msgid "Sign up with <b>Yahoo</b>"
+msgstr "通过 <b>Yahoo</b>"
+
+msgid "Link account with <b>Yahoo</b>"
+msgstr "关联 <b>Yahoo</b> 账号"
+
+msgid "Unlink account from <b>Yahoo</b>"
+msgstr "解除关联 <b>Yahoo</b> 账号"
+
+#, fuzzy, php-format
+#| msgid "Required"
+msgid "Required permission: %1$s"
+msgstr "请求"
+
+msgid "OR"
+msgstr "或"
+
+msgid "Social accounts"
+msgstr "社交账号"
+
+msgid "Registration confirmation will be emailed to you."
+msgstr "注册确认将通过电子邮件发送给您。"
+
+msgid "Password"
+msgstr ""
+
+msgid "Hide password"
+msgstr ""
+
+msgid "Strength indicator"
+msgstr ""
+
+msgid "Confirm use of weak password"
+msgstr ""
+
+msgid "Confirm password"
+msgstr ""
+
+msgid "Username"
+msgstr "用户名"
+
+#, fuzzy, php-format
+#~| msgid "Click on the Create button"
+#~ msgid "Hit the %1$s button next to the old URI."
+#~ msgstr "点击创建按钮"
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#~| "b>"
+#~ msgid "Add your web domain or URL to the \"%1$s\" field."
+#~ msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy, php-format
+#~| msgid "Make sure that the \"%1$s\" field contains %2$s"
+#~ msgid "For the \"%1$s\", enter the following URL: "
+#~ msgstr "确保 \"%1$s\" 包含 %2$s"
+
+#, fuzzy
+#~| msgid "No Connect button in register form"
+#~ msgid "No Connect button in \"Checkout for WooCommerce\" form"
+#~ msgstr "不要登录按钮在注册表上"
+
+#~ msgid "Click on \"Save\""
+#~ msgstr "点击\"保存“"
+
+#, fuzzy
+#~| msgid "Please enter an email address."
+#~ msgid "Tick \"<b>Full name</b>\"."
+#~ msgstr "请输入电子邮箱."
+
+#, fuzzy
+#~| msgid "Import"
+#~ msgid "Important note:"
+#~ msgstr "导入"
+
+#, fuzzy
+#~| msgid "Name your project and then click on the Create button"
+#~ msgid ""
+#~ "Read and agree the \"<b>API Terms of Use</b>\" then click the \"<b>Create "
+#~ "App</b>\" button!"
+#~ msgstr "命名您的项目，然后点击创建按钮"
+
+#, fuzzy
+#~| msgid "Click on the Create button"
+#~ msgid "Click on the \"<b>Auth</b>\" tab."
+#~ msgstr "点击创建按钮"
+
+#, fuzzy
+#~| msgid ""
+#~| "Here you can see your \"APP ID\" and you can see your \"App secret\" if "
+#~| "you click on the \"Show\" button. These will be needed in plugin's "
+#~| "settings."
+#~ msgid ""
+#~ "Find the necessary \"<b>Client ID</b>\" and \"<b>Client Secret</b>\" "
+#~ "under the Application credentials section, on the <b>Auth</b> tab."
+#~ msgstr ""
+#~ "然后，你可以看见你的 \"APP ID\" 和 \"APP secret\"密匙，你可以看到\"显示"
+#~ "\"按钮，这些都需要填写到插件的设置里。"
+
+#, fuzzy, php-format
+#~| msgid "Click on the Create button"
+#~ msgid "Pick the %1$s option for the platform."
+#~ msgstr "点击创建按钮"
+
+#~ msgid "Continue with <b>Twitter</b>"
+#~ msgstr "保持 <b>Twitter</b>"
+
+#, fuzzy
+#~| msgid "Continue with <b>Twitter</b>"
+#~ msgid "Sign up with <b>Twitter</b>"
+#~ msgstr "保持 <b>Twitter</b>"
+
+#~ msgid "Link account with <b>Twitter</b>"
+#~ msgstr "关联 <b>Twitter</b> 账号"
+
+#~ msgid "Unlink account from <b>Twitter</b>"
+#~ msgstr "从 <b>Twitter</b> 取消关联帐户"
+
+#, fuzzy
+#~| msgid "In the left sidebar, click on \"Facebook Login/Settings\""
+#~ msgid "In the left sidebar, click on \"<b>Facebook Login > Settings</b>\""
+#~ msgstr "在左侧，点击\"Facebook 登录/设置\""
+
+#, fuzzy
+#~| msgid "Click on \"Save Changes\""
+#~ msgid "Click on \"<b>Save Changes</b>\""
+#~ msgstr "点击\"保存设置\""
+
+#, fuzzy
+#~| msgid "Click on the \"Create New App\" button"
+#~ msgid ""
+#~ "Click on the \"<b>Create App</b>\" button and in the Popup choose the "
+#~ "\"<b>Consumer</b>\" App type!"
+#~ msgstr "点击\"创建新应用\"按钮"
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#~| "b>"
+#~ msgid ""
+#~ "Select \"<b>Web</b>\" and enter the following URL to the \"<b>Site URL</"
+#~ "b>\" field: <b>%s</b>"
+#~ msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy
+#~| msgid "Click on \"Save Changes\""
+#~ msgid "Press “<b>Save</b>”."
+#~ msgstr "点击\"保存设置\""
+
+#, fuzzy
+#~| msgid "Click on \"Save Changes\""
+#~ msgid "Click on “<b>Save Changes</b>”."
+#~ msgstr "点击\"保存设置\""
+
+#, fuzzy, php-format
+#~| msgid "Enter your domain name to the App Domains"
+#~ msgid ""
+#~ "Enter your domain name to the \"<b>App Domains</b>\" field, probably: "
+#~ "<b>%s</b>"
+#~ msgstr "填写你的域名到 应用域名"
+
+#, fuzzy
+#~| msgid ""
+#~| "Your application is currently private, which means that only you can log "
+#~| "in with it. In the left sidebar choose \"App Review\" and make your App "
+#~| "public"
+#~ msgid ""
+#~ "Your application is currently private, which means that only you can log "
+#~ "in with it. In the top bar switch the \"<b>App Mode</b>\" from "
+#~ "\"<b>Development</b>\" to \"<b>Live</b>\"."
+#~ msgstr ""
+#~ "您的应用程序目前是私人的，这意味着只有您可以使用它登录。 在左侧栏中选择“应"
+#~ "用程序审查”，并发布您的应用程序"
+
+#, fuzzy, php-format
+#~| msgid "Click on the Create button"
+#~ msgid "Switch on the %s option."
+#~ msgstr "点击创建按钮"
+
+#, fuzzy, php-format
+#~| msgid "Click on the Create button"
+#~ msgid "For %1$s choose the %2$s option."
+#~ msgstr "点击创建按钮"
+
+#, fuzzy
+#~| msgid ""
+#~| "Add the following URL to the \"Valid OAuth redirect URIs\" field: <b>%s</"
+#~| "b>"
+#~ msgid ""
+#~ "Add the following URL to the \"<b>Valid OAuth redirect URIs</b>\" field:"
+#~ msgstr "请将下面的URL填入\"Valid OAuth redirect URIs\" : <b>%s</b>"
+
+#, fuzzy
+#~| msgid "Name your project and then click on the Create button"
+#~ msgid ""
+#~ "Find your App and click on the <b>App settings</b> icon. (The one that "
+#~ "looks like a gear.)"
+#~ msgstr "命名您的项目，然后点击创建按钮"
+
+#, fuzzy
+#~| msgid "Click on the \"Create New App\" button"
+#~ msgid "Click on the <b>Edit</b> button at <b>Authentication settings</b>."
+#~ msgstr "点击\"创建新应用\"按钮"
+
+#, fuzzy, php-format
+#~| msgid "Click on \"Save\""
+#~ msgid "Click \"<b>%s</b>\"!"
+#~ msgstr "点击\"保存“"
+
+#, fuzzy
+#~| msgid ""
+#~| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#~| "b>"
+#~ msgid "Add the following URL to the \"<b>Allowed Return URLs</b>\" field: "
+#~ msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy
+#~| msgid ""
+#~| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#~| "b>"
+#~ msgid "Add the following URL to the \"<b>Return URLs</b>\" field:"
+#~ msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy
+#~| msgid ""
+#~| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#~| "b>"
+#~ msgid "Add the following URL in the \"<b>Redirects</b>\" field:"
+#~ msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy
+#~| msgid ""
+#~| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#~| "b>"
+#~ msgid "Add the following URL to the \"<b>Redirects</b>\" field:"
+#~ msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy
+#~| msgid "Add the following URL to the \"Callback URL\" field: <b>%s</b>"
+#~ msgid "Add the following URL to the \"<b>Callback URL</b>\" field:"
+#~ msgstr "将以下网址添加到\"Callback URL\"中：<b>%s</b>"
+
+#, fuzzy
+#~| msgid "Add the following URL to the \"Callback URL\" field: <b>%s</b>"
+#~ msgid ""
+#~ "Add the following URL to the <b>Authorization callback URL</b> field:"
+#~ msgstr "将以下网址添加到\"Callback URL\"中：<b>%s</b>"
+
+#, fuzzy
+#~| msgid ""
+#~| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#~| "b>"
+#~ msgid "Add the following URL to the \"<b>Redirect URLs</b>\" field:"
+#~ msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy
+#~| msgid ""
+#~| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#~| "b>"
+#~ msgid "Add the following URL to the \"<b>Redirect URIs</b>\" field:"
+#~ msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy
+#~| msgid ""
+#~| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#~| "b>"
+#~ msgid "Add the following URL to the \"<b>Redirect URI</b>\" field:"
+#~ msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy
+#~| msgid ""
+#~| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#~| "b>"
+#~ msgid "Add the following URL to the \"<b>Live Return URL</b>\" field:"
+#~ msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy
+#~| msgid ""
+#~| "Add the following URL to the \"Authorised redirect URIs\" field: <b>%s</"
+#~| "b>"
+#~ msgid ""
+#~ "Add the following URL to the \"<b>Authorized redirect URI</b>\" field: "
+#~ msgstr "将旁边的URL 填入\"Authorised redirect URIs\" 应该是 <b>%s</b>"
+
+#, fuzzy
+#~| msgid ""
+#~| "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#~| "b>"
+#~ msgid "Add the following URL to the \"<b>Redirect URI(s)</b>\" field:"
+#~ msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "Add the following URL to the \"Authorised redirect URIs\" field: <b>%s</"
+#~| "b>"
+#~ msgid ""
+#~ "Add the following URL to the \"<b>Authorised redirect URIs</b>\" field: "
+#~ "<b>%s</b>"
+#~ msgstr "将旁边的URL 填入\"Authorised redirect URIs\" 应该是 <b>%s</b>"
+
+#, fuzzy, php-format
+#~| msgid "Add the following URL to the \"Callback URL\" field: <b>%s</b>"
+#~ msgid ""
+#~ "Add the following URL to the \"<b>Callback URL</b>\" field <b>%s</b> "
+#~ msgstr "将以下网址添加到\"Callback URL\"中：<b>%s</b>"
+
+#, fuzzy, php-format
+#~| msgid "Add the following URL to the \"Callback URL\" field: <b>%s</b>"
+#~ msgid ""
+#~ "Replace the current URL in the <b>Authorization callback URL</b> field "
+#~ "with: <b>%s</b>"
+#~ msgstr "将以下网址添加到\"Callback URL\"中：<b>%s</b>"
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "Add the following URL to the \"Authorised redirect URIs\" field: <b>%s</"
+#~| "b>"
+#~ msgid ""
+#~ "Add the following URL to the \"<b>Authorized redirect URI</b>\" field "
+#~ "<b>%s</b> "
+#~ msgstr "将旁边的URL 填入\"Authorised redirect URIs\" 应该是 <b>%s</b>"
+
+#~ msgid "ERROR"
+#~ msgstr "错误"
+
+#, fuzzy
+#~| msgid "Click on \"Save\""
+#~ msgid "Click on <b>+ New Project</b>!"
+#~ msgstr "点击\"保存“"
+
+#, fuzzy, php-format
+#~| msgid "Click on \"Save Changes\""
+#~ msgid "Click on the <b>App Settings</b> button at %s."
+#~ msgstr "点击\"保存设置\""
+
+#, fuzzy, php-format
+#~| msgid "Add the following URL to the \"Callback URL\" field: <b>%s</b>"
+#~ msgid "Add the following URL to the <b>Callback URLs</b> field: <b>%s</b>"
+#~ msgstr "将以下网址添加到\"Callback URL\"中：<b>%s</b>"
+
+#, fuzzy
+#~| msgid "Click on \"Save\""
+#~ msgid "Click on <b>Save</b>."
+#~ msgstr "点击\"保存“"
+
+#, fuzzy
+#~| msgid "Register"
+#~ msgctxt "NSL Register Form submit button text"
+#~ msgid "Register"
+#~ msgstr "注册"
+
+#, fuzzy
+#~| msgid "Save your changes."
+#~ msgid "Save your settings!"
+#~ msgstr "保存你的更改."
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "Fill the name and description fields. Then enter your site's URL to the "
+#~| "Website field: <b>%s</b>"
+#~ msgid ""
+#~ "Fill the <b>App name</b>, <b>Application description</b> fields. Then "
+#~ "enter your site's URL to the <b>Website URL</b> field: <b>%s</b>"
+#~ msgstr "填写名称和说明。 然后在网址字段输入您网站的：<b>%s</b>"
+
+#, fuzzy
+#~| msgid "Click on the Create button"
+#~ msgid "Click the <b>Create</b> button."
+#~ msgstr "点击创建按钮"
+
+#, fuzzy
+#~| msgid "Name your project and then click on the Create button"
+#~ msgid "Read the Developer Terms and click the <b>Create</b> button again!"
+#~ msgstr "命名您的项目，然后点击创建按钮"
+
+#, fuzzy
+#~| msgid ""
+#~| "Go to the Keys and Access Tokens tab and find the Consumer Key and Secret"
+#~ msgid ""
+#~ "Go to the <b>Keys and tokens</b> tab and find the <b>API key</b> and "
+#~ "<b>API secret key</b>"
+#~ msgstr "转到密钥和访问密令选项卡，找到使用者密匙和密码"
+
+#, fuzzy
+#~| msgid "Click on the \"Add a New App\" button"
+#~ msgid "Click on the \"<b>Add a New App\" button</b>"
+#~ msgstr "点击\"添加新的应用\"按钮"
+
+#, fuzzy
+#~| msgid "Enter your domain name to the App Domains"
+#~ msgid "Enter your domain name to the \"App Domains\" field."
+#~ msgstr "填写你的域名到 应用域名"
+
+#~ msgid "Click on blue \"Create App ID\" button"
+#~ msgstr "点击蓝色的\"创建应用\"按钮"
+
+#, fuzzy
+#~| msgid "In the top of the left sidebar, click on \"Settings\""
+#~ msgid ""
+#~ "In the top of the left sidebar, click on \"Settings\" and select \"Basic\""
+#~ msgstr "顶部左侧，点击\"设置”"
+
+#, php-format
+#~ msgid "Click on OAuth 2.0 client ID: %s"
+#~ msgstr "点击 OAuth 2.0 client ID: %s"
+
+#~ msgid ""
+#~ "Click on the \"Credentials\" in the left hand menu to create new API "
+#~ "credentials"
+#~ msgstr "点击左侧菜单中的“凭据”以创建新的API凭证"
+
+#, fuzzy
+#~| msgid ""
+#~| "Go back to the Credentials tab and locate the small box at the middle. "
+#~| "Click on the blue \"Create credentials\" button. Chose the \"OAuth "
+#~| "client ID\" from the dropdown list."
+#~ msgid ""
+#~ "Click the Create credentials button and select \"OAuth client ID\" from "
+#~ "the dropdown."
+#~ msgstr ""
+#~ "回到凭据选项卡，找到中间的小方块。 点击蓝色的“创建凭证”按钮。 从下拉列表中"
+#~ "选择“OAuth客户端ID”。"
+
+#~ msgid "Your application type should be \"Web application\""
+#~ msgstr "您的应用程序类型应该是“网页应用程序”"
+
+#~ msgid "Name your application"
+#~ msgstr "命名你的应用程序"
+
+#, fuzzy
+#~| msgid "Click on the \"Create New App\" button"
+#~ msgid "Click the \"Save Changes\" button!"
+#~ msgstr "点击\"创建新应用\"按钮"
+
+#~ msgid "Click on the App"
+#~ msgstr "点击应用"
+
+#, php-format
+#~ msgid ""
+#~ "Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</"
+#~ "b>"
+#~ msgstr "将以下网址添加到“授权重定向网址”字段中：<b>%s</b>"
+
+#, fuzzy
+#~| msgid "Click on the \"Create New App\" button"
+#~ msgid "Click the \"Create App\" button."
+#~ msgstr "点击\"创建新应用\"按钮"
+
+#, fuzzy
+#~| msgid "Locate the yellow \"Create application\" button and click on it."
+#~ msgid "Locate the blue \"Create application\" button and click on it."
+#~ msgstr "找到黄色的“创建应用程序”按钮并点击它。"
+
+#, fuzzy
+#~| msgid "Click on \"Save\""
+#~ msgid "Click on \"Update\""
+#~ msgstr "点击\"保存“"
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "Fill \"Site URL\" with the url of your homepage, probably: <b>%s</b>"
+#~ msgid ""
+#~ "Check if the saved \"Callback Domain\" matches with your domain: <b>%s</b>"
+#~ msgstr "将你网站的首页URL填写到 \"网站URL\"，应该是 <b>%s</b>"
+
+#, fuzzy
+#~| msgid ""
+#~| "Here you can see your \"APP ID\" and you can see your \"App secret\" if "
+#~| "you click on the \"Show\" button. These will be needed in plugin's "
+#~| "settings."
+#~ msgid ""
+#~ "Replace your old \"Client ID\" and \"Client Secret\" with the one of the "
+#~ "new app!"
+#~ msgstr ""
+#~ "然后，你可以看见你的 \"APP ID\" 和 \"APP secret\"密匙，你可以看到\"显示"
+#~ "\"按钮，这些都需要填写到插件的设置里。"
+
+#~ msgid "Fill \"Display Name\" and \"Contact Email\""
+#~ msgstr "填写\"显示名称\" 和 \"联系邮箱\""
+
+#~ msgid "Locate the yellow \"Create application\" button and click on it."
+#~ msgstr "找到黄色的“创建应用程序”按钮并点击它。"
+
+#~ msgid "Fill the fields marked with *"
+#~ msgstr "填写标有*的字段"
+
+#~ msgid "Accept the Terms of use and hit Submit"
+#~ msgstr "接受使用条款并点击提交"
+
+#~ msgid "Find the necessary Authentication Keys under the Authentication menu"
+#~ msgstr "在认证菜单下找到认证密钥"
+
+#~ msgid ""
+#~ "You probably want to enable the \"r_emailaddress\" under the Default "
+#~ "Application Permissions"
+#~ msgstr "您可能想要在默认应用程序权限下启用 \"r_emailaddress\""
+
+#, fuzzy
+#~| msgid "Log in with your %s credentials if you are not logged in"
+#~ msgid "Log in with your credentials if you are not logged in"
+#~ msgstr "如果您未登录，请使用您的 %s 凭据登录"
+
+#~ msgid ""
+#~ "Move your mouse over Facebook Login and click on the appearing \"Set Up\" "
+#~ "button"
+#~ msgstr "移动你的鼠标到 Facebook 登录 然后点击出现的\"设置\"按钮"
+
+#~ msgid "Choose Web"
+#~ msgstr "选择网站"
+
+#~ msgid "In the left sidebar, click on \"Facebook Login\""
+#~ msgstr "点击左边的\"Facebook 登录\""
+
+#~ msgid ""
+#~ "%s took the place of Nextend Google Connect. You can delete Nextend "
+#~ "Google Connect as it is not needed anymore."
+#~ msgstr ""
+#~ "%s 取代了Nextend Google Connect。 您可以删除Nextend Google Connect。"
+
+#~ msgid ""
+#~ "%s took the place of Nextend Twitter Connect. You can delete Nextend "
+#~ "Twitter Connect as it is not needed anymore."
+#~ msgstr ""
+#~ "%s取代了Nextend Twitter Connect.你可以删除 Nextend Twitter Connect 。"
+
+#~ msgid "Import Facebook configuration"
+#~ msgstr "导入Facebook配置"
+
+#~ msgid "Be sure to read the following notices before you proceed."
+#~ msgstr "继续之前，请务必阅读以下注意事项。"
+
+#~ msgid "Important steps before the import"
+#~ msgstr "导入前的重要步骤"
+
+#~ msgid ""
+#~ "Make sure that the redirect URI for your app is correct before proceeding."
+#~ msgstr "在继续之前，请确保您的应用的重定向URI是正确的。"
+
+#~ msgid "Visit %s."
+#~ msgstr "访问 %s."
+
+#~ msgid ""
+#~ "Go to the Settings menu which you can find below the Facebook Login in "
+#~ "the left menu."
+#~ msgstr "转到设置菜单，您可以在左侧菜单中的Facebook登录下找到它。"
+
+#~ msgid "The following settings will be imported:"
+#~ msgstr "以下设置将被导入："
+
+#~ msgid "Your old API configurations"
+#~ msgstr "您的旧API配置"
+
+#~ msgid "The user prefix you set"
+#~ msgstr "您设置的用户前缀"
+
+#~ msgid "Create a backup of the old settings"
+#~ msgstr "创建旧设置的备份"
+
+#~ msgid "Other changes"
+#~ msgstr "其他更改"
+
+#~ msgid ""
+#~ "The custom redirect URI is now handled globally for all providers, so it "
+#~ "won't be imported from the previous version. Visit \"Nextend Social Login "
+#~ "> Global settings\" to set the new redirect URIs."
+#~ msgstr ""
+#~ "自定义重定向URI现在全部为所有提供商处理，因此不会从先前版本导入。 访"
+#~ "问“Nextend Social login>全局设置”来设置新的重定向URI。"
+
+#~ msgid ""
+#~ "The login button's layout will be changed to a new, more modern look. If "
+#~ "you used any custom buttons that won't be imported."
+#~ msgstr ""
+#~ "如果您使用了任何不会导入的自定义按钮。登录按钮布局将更改为新的更现代的外"
+#~ "观。"
+
+#~ msgid ""
+#~ "The old version's PHP functions are not available anymore. This means if "
+#~ "you used any custom codes where you used these old functions, you need to "
+#~ "remove them."
+#~ msgstr ""
+#~ "旧版本的PHP函数不再可用。 这意味着如果您在使用这些旧功能的地方使用了任何自"
+#~ "定义代码，则需要将其删除。"
+
+#~ msgid ""
+#~ "After the importing process finishes, you will need to <b>test</b> your "
+#~ "app and <b>enable</b> the provider. You can do both in the next screen."
+#~ msgstr ""
+#~ "导入过程完成后，您需要<b>测试</b>您的应用和<b>启用</b>提供商。 您可以在下"
+#~ "一个页面中执行这两个操作。"
+
+#~ msgid "Import Configuration"
+#~ msgstr "导入配置"
+
+#~ msgid "Import Google configuration"
+#~ msgstr "导入Google配置"
+
+#~ msgid "If you have more projects, select the one where your app is."
+#~ msgstr "如果您有更多项目，请选择您的应用程序所在的项目。"
+
+#~ msgid "Click on Credentials at the left-hand menu then select your app."
+#~ msgstr "在左侧菜单中点击凭据，然后选择您的应用程序。"
+
+#~ msgid "Import Twitter configuration"
+#~ msgstr "导入Twitter配置"
+
+#~ msgid "Go to the Settings tab."
+#~ msgstr "去设置页."
+
+#~ msgid "Authorize your Pro Addon"
+#~ msgstr "授权你的专业版插件"
+
+#~ msgid "Authorize"
+#~ msgstr "授权"
+
+#~ msgid "Deauthorize Pro Addon"
+#~ msgstr "专业版未授权"
+
+#, fuzzy
+#~| msgid ""
+#~| "Go to the OAuth consent screen tab and enter a product name and provide "
+#~| "the Privacy Policy URL, then click on the save button."
+#~ msgid ""
+#~ "If you're prompted to set a product name, do so. Provide the Privacy "
+#~ "Policy URL as well then click on the save button"
+#~ msgstr "转到OAuth 选项卡输入产品名称并提供隐私策略URL，然后单击保存按钮。"
+
+#~ msgid "Click on the \"Settings\" tab"
+#~ msgstr "点击\"设置\"选项"
+
+#~ msgid "Click on \"Update Settings\""
+#~ msgstr "点击\"更新设置\""
+
+#~ msgid "Accept the Twitter Developer Agreement"
+#~ msgstr "接受Twitter开发者协议"
+
+#~ msgid ""
+#~ "Create your application by clicking on the Create your Twitter "
+#~ "application button"
+#~ msgstr "点击创建Twitter应用程序按钮来创建你的应用程序"
+
+#~ msgid "Consumer Key"
+#~ msgstr "用户密匙"
+
+#~ msgid "BuddyPress register form"
+#~ msgstr "BuddyPress 注册表"
+
+#~ msgid "Comment login button"
+#~ msgstr "评论登录按钮"
+
+#~ msgid "Comment button style"
+#~ msgstr "评论按钮样式"
+
+#~ msgid "WooCommerce login form"
+#~ msgstr "WooCommerce 登录表单"
+
+#~ msgid "Connect button before login form"
+#~ msgstr "登录按钮在登录表单上面"
+
+#~ msgid "Connect button after login form"
+#~ msgstr "登录按钮在登录表单后"
+
+#~ msgid "Connect button before register form"
+#~ msgstr "登录按钮在注册表单前"
+
+#~ msgid "Connect button after register form"
+#~ msgstr "登录按钮在注册表单后"
+
+#~ msgid "WooCommerce billing form"
+#~ msgstr "WooCommerce 结算表单"
+
+#~ msgid "Connect button before billing form"
+#~ msgstr "登录按钮在结算表单前"
+
+#~ msgid "Connect button after billing form"
+#~ msgstr "登录按钮在结算表单后"
+
+#~ msgid "Link buttons before account details"
+#~ msgstr "链接按钮在账户详情前面"
+
+#~ msgid "WooCommerce button style"
+#~ msgstr "WooCommerce 按钮样式"
+
+#~ msgid "Use custom"
+#~ msgstr "使用自定义"
+
+#~ msgid "Fixed redirect url for register"
+#~ msgstr "修改注册后重定向URL"
+
+#~ msgid "Registration form"
+#~ msgstr "注册表单"
+
+#~ msgid "Please save your changes before testing."
+#~ msgstr "测试前请保存您的更改。"

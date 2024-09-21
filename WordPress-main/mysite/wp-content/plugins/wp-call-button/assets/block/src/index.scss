@@ -1,0 +1,53 @@
+.wp-call-button-block-button {
+	margin-top: 0;
+	margin-bottom: 0;
+
+	> .wp-call-button-in-btn {
+		min-width: 135px;
+		display: inline-block;
+		color: #fff;
+		background: #269041;
+		padding: 15px 20px 15px 5px;
+		border-radius: 5px;
+		font-weight: bold;
+		text-decoration: none;
+		box-sizing: border-box;
+	}
+
+	svg {
+		display: inline;
+		vertical-align: middle;
+		border: 0 !important;
+		box-shadow: none !important;
+		width: 3.125em;
+		height: 1.25em;
+	}
+
+	svg > * {
+		fill: currentColor;
+	}
+}
+
+.wp-call-button-block-button-center {
+	text-align: center;
+}
+
+.wp-call-button-block-button-no-phone {
+	> .wp-call-button-in-btn {
+		padding: 15px 20px;
+	}
+}
+
+/*
+ * Backward compatibility for older versions of the block editor.
+ *
+ * These styles are super specific to avoid clashes with other elements within
+ * the block editor. They only have an effect in the editor, no effect on the front
+ * end of the site.
+ */
+// 5.0 - 5.3
+.block-editor-page .wp-call-button-block-button svg + .editor-rich-text,
+// 5.0 - 5.2
+.block-editor-page .wp-call-button-block-button svg + .editor-rich-text div {
+	display: inline;
+}
